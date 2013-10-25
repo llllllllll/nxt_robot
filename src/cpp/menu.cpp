@@ -7,12 +7,13 @@
 #include <stdlib.h>
 #include <iostream>
 
-#include "exceptions.h"
-#include "comms.h"
-#include "usbcomm.h"
-#include "bluecomm.h"
-#include "message.h"
-#include "opcodes.h"
+#include "lestat/exceptions.h"
+#include "lestat/comms.h"
+#include "lestat/usbcomm.h"
+#include "lestat/bluecomm.h"
+#include "lestat/message.h"
+#include "lestat/opcodes.h"
+#include "menu.h"
 
 int mr,mc;
 
@@ -33,33 +34,37 @@ void init_menus(){
     opt = 0;
 }
 
-// Prints the splash and waits for the user to press akey before continuing.
+// Prints the splash and attempts to establish a connection with the NXT.
 void print_splash(Comms &nxt){
+    print_ui_static();
     attron(A_BOLD);
-    mvprintw(mr / 2,mc / 2 - 5,"NXT GROUP 9");
-    mvprintw(mr / 2 + 1,mc / 2 - 14,"Press any key to connect...");
+    mvprintw(mr / 3,mc / 2 - 14,"Press any key to connect...");
     getch();
-    mvprintw(mr / 2 + 1,mc / 2 - 14,"  Attempting to connect...");
     attroff(A_BOLD);
+    print_ui_static();
+    attron(A_BOLD);
+    mvprintw(mr / 3,mc / 2 - 14,"  Attempting to connect...");
+    attroff(A_BOLD);
+    refresh();
     try{
-        nxt.connect("00:16:53:1A:14:6A");
+	nxt.connect("00:16:53:1A:14:6A");
     } catch(NxtEx &ex){
 	clear();
 	attron(A_BOLD);
-	mvprintw(mr / 2,mc / 2 - 13,"ERROR: failed to connect!");
+	mvprintw(mr / 3,mc / 2 - 13,"ERROR: failed to connect!");
 	attroff(A_BOLD);
 	mvprintw(0,mc - 28,"Press any key to continue...");
 	getch();
 	endwin();
-        exit(1);
+	exit(1);
     }
     clear();
+    print_ui_static();
     attron(A_BOLD);
-    mvprintw(mr / 2,mc / 2 - 14,"Connection established");
+    mvprintw(mr / 3,mc / 2 - 14,"Connection established!");
     attroff(A_BOLD);
-    mvprintw(0,mc - 28,"Press any key to continue...");
     refresh();
-    getch();
+    sleep(1);
     clear();
     refresh();
 }
@@ -82,9 +87,8 @@ void print_ui_static(){
     mvprintw(mr / 2 ,0,"Robot Status:");
     mvprintw(mr / 2,c + 1,"Log:");
     attroff(A_UNDERLINE);
-				    
 }
-    
+
 
 int main(){
     BlueComm nxt;

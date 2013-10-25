@@ -15,7 +15,7 @@ if auto_libs:
 	BuildEnv.ParseConfig('pkg-config --cflags --libs ' + auto_libs)
 
 Default(BuildEnv.Library('lestat',
-			 [x for x in glob('*.cpp')
+			 [x for x in glob('lestat/*.cpp')
 			  if not x.startswith('main_')],
 			 LIBS=['usb','bluetooth']))
 
