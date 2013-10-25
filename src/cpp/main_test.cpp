@@ -61,10 +61,10 @@ int main(int argc, char *argv[])
     //USBComm nxt;
     BlueComm nxt;
     try{
-        nxt.connect("00:16:53:09:93:1E");
+        nxt.connect("00:16:53:1A:14:6A");
         //nxt.find();
     }catch(NxtEx &ex){
-        cout<<ex.toString()<<endl;
+        cout << ex.toString() << endl;
         return -1;
     }
 
@@ -81,19 +81,30 @@ int main(int argc, char *argv[])
         sleep(1);
         op.setOutputState(0x02,80,0x01,0x00,50,0x20,980,true,&status);
         //op.setOutputState(0x00,50,0x01,0x00,50,0x20,180,true,&status);
-        /*op.setInputMode(0x00, LIGHT_ACTIVE, RAWMODE);
+        op.setInputMode(0x00, LIGHT_ACTIVE, RAWMODE);
         SensorState ss;
         cout<<"Status: "<<(int)status<<endl;
         sleep(1);
         MotorState ms;
-        for(int i=0;i<10;i++){
+        while(1){
             sleep(1);
             ms = op.getOutputState(0);
-            cout<<"a: "<<int(ms.port)<<" "<<int(ms.power)<<" "<<int(ms.mode)<<" "<<int(ms.regMode)<<" "<<int(ms.turnRatio)<<" "<<int(ms.runState)<<" "<<ms.tachoLimit<<" "<<ms.tachoCount<<" "<<ms.blockTachoCount<<" "<<ms.rotationCount<<endl;
+            //cout<<"a: "<<int(ms.port)<<" "<<int(ms.power)<<" "<<int(ms.mode)<<" "<<int(ms.regMode)<<" "<<int(ms.turnRatio)<<" "<<int(ms.runState)<<" "<<ms.tachoLimit<<" "<<ms.tachoCount<<" "<<ms.blockTachoCount<<" "<<ms.rotationCount<<endl;
             op.resetMotorPosition(0,false);
-            //ss = op.getInputValues(0x00); 
-            //cout<<"a: "<<int(ss.port)<<" "<<ss.valid<<" "<<ss.calibrated<<" "<<ss.type<<" "<<ss.mode<<" "<<ss.rawValue<<" "<<ss.normalizedValue<<" "<<ss.scaledValue<<" "<<ss.calibratedValue<<endl;
-        }*/
+            ss = op.getInputValues(0x00); 
+	    // cout<<"a: "<<int(ss.port)<<" "<<ss.valid<<" "<<ss.calibrated<<" "<<ss.type<<" "<<ss.mode<<" "<<ss.rawValue<<" "<<ss.normalizedValue<<" "<<ss.scaledValue<<" "<<ss.calibratedValue<<endl
+	    cout << "p1: " << ss.port << " " << ss.calibratedValue << '\n';
+        }
+	unsigned char test_char;
+	while (test_char != 'q'){
+	    ss = op.getInputValues(0x00);
+	    cout << op.getBatteryLevel() << endl;
+	  /*cout << "p1: " << op.getInputValues(1) << endl;
+	    cout << "p2: " << op.getInputValues(2) << endl;
+	    cout << "p3: " << op.getInputValues(3) << endl;
+	    cout << "p4: " << op.getInputValues(4) << endl; */
+	    cin >> test_char;
+	}
         nxt.disconnect();
 
     }catch(NxtEx &ex){
