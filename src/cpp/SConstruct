@@ -20,5 +20,5 @@ Default(BuildEnv.Library('lestat',
 			 LIBS=['usb','bluetooth']))
 
 
-Default(BuildEnv.Program('test', 'main_remote.cpp',
-			 LIBS=['usb','bluetooth', 'lestat'], LIBPATH='.'))
+Default(BuildEnv.Program('test', 'menu.cpp',
+			 LIBS=['usb','bluetooth', 'lestat', 'ncurses'], LIBPATH='.'))
