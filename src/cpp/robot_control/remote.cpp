@@ -1,8 +1,11 @@
-
+// Joe Jevnik
+// 28.10.2013
+// Remote control of the robot.
 
 #include <iostream>
 #include <stdio.h>
 #include <stdlib.h>
+#include <ncurses.h>
 
 #include "../lestat/exceptions.h"
 #include "../lestat/comms.h"
@@ -15,73 +18,104 @@
 
 using namespace std;
 
-int r_remote(Screen *screen){
-    try{
-        Opcodes op(&screen->nxt);
-        unsigned char m1_status,m2_status,m3_status,test_char;
-	MotorState m1_state,m2_state,m3_state;
-	SensorState s1,s2,s3,s4;
-	op.setOutputState(0x01,0,0x01,0x00,50,0x20,0,true,&m1_status);
-        op.setOutputState(0x01,0,0x01,0x00,50,0x20,0,true,&m2_status);
-        op.setOutputState(0x02,0,0x01,0x00,50,0x20,0,true,&m3_status);
-	while (1){
-	    cin >> test_char;
-	    switch(test_char){
-	    case 'q':
-		op.resetMotorPosition(0x02,false,true,&m3_status);
-		op.setOutputState(0x02,100,0x02,0x02,0,0x20,300,true,&m3_status);
-		m1_state = op.getOutputState(0x03);
-		while (m1_state.tachoCount < 80){
-		    m1_state = op.getOutputState(0x02);
-		}
-		op.setOutputState(0x02,0,0x02,0x02,0,0x20,0,true,&m3_status);
-		break;
-	    case 'w':
-		s1 = op.getInputValues(0x00);
-		op.setOutputState(0x00,100,0x02,0x02,0,0x20,0,true,&m1_status);
-		op.setOutputState(0x01,100,0x02,0x02,0,0x20,0,true,&m2_status);
-		while (s1.calibratedValue < 400){
-		    cout << "p1: " << s1.calibratedValue << endl;
-		    s1 = op.getInputValues(0x00);
-		}
-		cout << "p1 tripped on corner 1!" << endl;
-		op.setOutputState(0x00,-100,0x02,0x02,0,0x20,0,true,&m1_status);
-		op.setOutputState(0x01,-100,0x02,0x02,0,0x20,0,true,&m2_status);
-		while (s1.calibratedValue > 400){
-		    cout << "p1: " << s1.calibratedValue << endl;
-		    s1 = op.getInputValues(0x00);
-		}
-	        op.setOutputState(0x00,-50,0x04,0x02,0,0x20,0,true,&m1_status);
-		op.setOutputState(0x01,100,0x04,0x02,0,0x20,0,true,&m2_status);
-		break;
-	    case 'a':
-		op.setOutputState(0x00,0,0x04,0x02,0,0x20,0,true,&m1_status);
-		op.setOutputState(0x01,100,0x04,0x02,0,0x20,0,true,&m2_status);
-		break;
-	    case 's':
-	        op.setOutputState(0x00,0,0x00,0x00,50,0x00,720,false,&m1_status);
-		op.setOutputState(0x01,0,0x00,0x00,50,0x00,720,false,&m2_status);
-		op.setOutputState(0x02,0,0x00,0x00,50,0x00,720,false,&m2_status);
-		break;
+void r_remote(Screen *scr){
+    unsigned char st = '0x0D';
+    char b = '0x0D';
+    while(1){
+	switch(getch()){
+	case 3:
+	    return;
+	    break;
+	case 'p':
+	    scr->op->setOutputState(0,0,2,2,0,0,false,NULL);
+	    scr->op->setOutputState(1,0,2,2,0,0,false,NULL);
+	    scr->op->setOutputState(2,0,2,2,0,0,false,NULL);
+	    scr->m0 = 0;
+	    scr->m1 = 0;
+	    scr->m2 = 0;
+	    clear();
+	    scr->writeln("Exiting remote control!");
+	    scr->draw_menu();
+	case ' ':
+	    scr->op->setOutputState(0,0,2,2,0,0,false,NULL);
+	    scr->op->setOutputState(1,0,2,2,0,0,false,NULL);
+	    scr->op->setOutputState(2,0,2,2,0,0,false,NULL);
+	    scr->m0 = 0;
+	    scr->m1 = 0;
+	    scr->m2 = 0;
+	    scr->writeln("Stopping all motors");
+	    scr->draw_stats();
+	    break;
+	case 'w':
+	    if (scr->m0 <= 90){
+		scr->m0 += 10;
+		scr->op->setOutputState(0,scr->m0,2,2,0,0x20,0,true,&st);
+		scr->draw_stats();
 	    }
-	    s1 = op.getInputValues(0x00);
-	    s2 = op.getInputValues(0x01);
-	    s3 = op.getInputValues(0x02);
-	    s4 = op.getInputValues(0x03);
-	    cout << "p1: " << s1.calibratedValue << endl;
-	    cout << "p2: " << s2.calibratedValue << endl;
-	    cout << "p3: " << s3.normalizedValue << endl;
-	    cout << "p4: " << s4.calibratedValue << endl;
+	    if (scr->m1 <= 90){
+		scr->m1 += 10;
+	        scr->op->setOutputState(1,scr->m1,2,2,0,0x20,0,true,&st);
+		scr->draw_stats();
+	    }
+	    scr->writeln("Increasing foward speed");
+	    scr->nxt.sendBuffer(&b,1);
+	    break;
+	case 's':
+	    if (scr->m0 >= -90){
+		scr->m0 -= 10;
+		scr->op->setOutputState(0,scr->m0,2,2,0,0x20,0,true,&st);
+		scr->draw_stats();
+	    }
+	    if (scr->m1 >= -90){
+		scr->m1 -= 10;
+	        scr->op->setOutputState(1,scr->m1,2,2,0,0x20,0,true,&st);
+		scr->draw_stats();
+	    }
+	    scr->writeln("Increasing reverse speed");
+	    scr->nxt.sendBuffer(&b,1);	    
+	    break;
+	case 'q':
+	    if (scr->m0 <= 90){
+		scr->m0 += 10;
+		scr->op->setOutputState(0,scr->m0,2,2,0,0x20,0,true,&st);
+		scr->draw_stats();
+		scr->writeln("Increasing foward left speed");
+	    }
+	    scr->nxt.sendBuffer(&b,1);
+	    break;
+	case 'e':
+	    if (scr->m1 <= 90){
+		scr->m1 += 10;
+	        scr->op->setOutputState(1,scr->m1,2,2,0,0x20,0,true,&st);
+		scr->draw_stats();
+		scr->writeln("Increasing foward right speed");
+	    }
+	    scr->nxt.sendBuffer(&b,1);
+	    break;
+	case 'a':
+	    if (scr->m0 >= -90){
+		scr->m0 -= 10;
+		scr->op->setOutputState(0,scr->m0,2,2,0,0x20,0,true,&st);
+		scr->draw_stats();
+		scr->writeln("Increasing reverse left speed");
+	    }
+	    break;
+	case 'd':
+	    if (scr->m1 >= -90){
+		scr->m1 -= 10;
+	        scr->op->setOutputState(1,scr->m1,2,2,0,0x20,0,true,&st);
+		scr->draw_stats();
+		scr->writeln("Increasing reverse right speed");
+	    }
+	    scr->nxt.sendBuffer(&b,1);
+	    break;
+	case 'r':
+	    scr->s0 = scr->op->getInputValues(0);
+	    scr->s1 = scr->op->getInputValues(1);
+	    scr->s2 = scr->op->getInputValues(2);
+	    scr->s3 = scr->op->getInputValues(3);
+	    scr->draw_stats();
+	    scr->writeln("Requesting new sensor readings");
 	}
-	op.setOutputState(0x00,0,0x00,0x00,50,0x00,720,false,&m1_status);
-
-        screen->nxt.disconnect();
-
-    }catch(NxtEx &ex){
-        cout << ex.toString() << endl;
-        screen->nxt.disconnect();
-        return EXIT_FAILURE;
-
     }
-    return EXIT_SUCCESS;
 }

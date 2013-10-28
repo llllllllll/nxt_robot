@@ -9,8 +9,7 @@ if byteorder == 'big':
 else:
 	endian = '_NXT_LITTLE_ENDIAN'
 
-BuildEnv = Environment(CCFLAGS=['-Wall',
-				'-g', '-ggdb', '-D' + endian])
+BuildEnv = Environment(CCFLAGS=['-g', '-ggdb', '-D' + endian])
 if auto_libs:
 	BuildEnv.ParseConfig('pkg-config --cflags --libs ' + auto_libs)
 

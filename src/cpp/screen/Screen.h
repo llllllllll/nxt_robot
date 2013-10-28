@@ -4,8 +4,10 @@
 
 #ifndef SCREEN_H
 #define SCREEN_H
-#include "../lestat/bluecomm.h"
 #include <stdio.h>
+
+#include "../lestat/bluecomm.h"
+#include "../lestat/opcodes.h"
 
 class Screen{
 public:
@@ -16,6 +18,9 @@ public:
     void draw_menu();
     void draw_splash();
     BlueComm nxt; // public to allow other functions to modify it.
+    int m0,m1,m2;
+    SensorState s0,s1,s2,s3;
+    Opcodes *op;
 private:
     void print_ui_static();
     void handle_opts();
