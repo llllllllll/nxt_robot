@@ -16,9 +16,21 @@ if auto_libs:
 
 Default(BuildEnv.Library('lestat',
 			 [x for x in glob('lestat/*.cpp')
-			  if not x.startswith('main_')],
+			  if not x.startswith('main')],
 			 LIBS=['usb','bluetooth']))
 
+Default(BuildEnv.Library('robot_control',
+			 [x for x in glob('robot_control/*.cpp')
+			  if not x.startswith('main')],
+			 LIBS=['usb','bluetooth','lestat']))
 
-Default(BuildEnv.Program('test', 'menu.cpp',
-			 LIBS=['usb','bluetooth', 'lestat', 'ncurses'], LIBPATH='.'))
+Default(BuildEnv.Library('screen_control',
+			 [x for x in glob('screen/*.cpp')
+			  if not x.startswith('main')],
+			 LIBS=['usb','bluetooth','lestat']))
+
+
+Default(BuildEnv.Program('test','main.cpp',
+			 LIBS=['usb','bluetooth','robot_control'
+			 ,'screen_control','lestat','ncurses'],
+			 LIBPATH='.'))

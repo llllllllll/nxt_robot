@@ -4,43 +4,26 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "exceptions.h"
-#include "comms.h"
-#include "usbcomm.h"
-#include "bluecomm.h"
-#include "message.h"
-#include "opcodes.h"
+#include "../lestat/exceptions.h"
+#include "../lestat/comms.h"
+#include "../lestat/usbcomm.h"
+#include "../lestat/bluecomm.h"
+#include "../lestat/message.h"
+#include "../lestat/opcodes.h"
+
+#include "../screen/Screen.h"
 
 using namespace std;
 
-void printBatteryLevel(Comms &nxt){
-    Opcodes op(&nxt);
-    printf("Battery level: %hu [mv]\n",op.getBatteryLevel());
-}
-
-int main(int argc, char *argv[]){
-    BlueComm nxt;
+int r_remote(Screen *screen){
     try{
-        nxt.connect("00:16:53:1A:14:6A");
-    } catch(NxtEx &ex){
-        cout << ex.toString() << endl;
-        return EXIT_FAILURE;
-    }
-
-    try{
-        Opcodes op(&nxt);
+        Opcodes op(&screen->nxt);
         unsigned char m1_status,m2_status,m3_status,test_char;
 	MotorState m1_state,m2_state,m3_state;
 	SensorState s1,s2,s3,s4;
-        //op.setOutputState(0x01,80,0x01,0x00,50,0x20,980,true,&status);
-        sleep(1);
-        //op.setOutputState(0x02,80,0x01,0x00,50,0x20,980,true,&status);;
-        op.setInputMode(0x00, LIGHT_ACTIVE, RAWMODE);
-
-        cout << "Status: "<< (int) m1_status << endl;
-        sleep(1);
-       
-
+	op.setOutputState(0x01,0,0x01,0x00,50,0x20,0,true,&m1_status);
+        op.setOutputState(0x01,0,0x01,0x00,50,0x20,0,true,&m2_status);
+        op.setOutputState(0x02,0,0x01,0x00,50,0x20,0,true,&m3_status);
 	while (1){
 	    cin >> test_char;
 	    switch(test_char){
@@ -92,11 +75,11 @@ int main(int argc, char *argv[]){
 	}
 	op.setOutputState(0x00,0,0x00,0x00,50,0x00,720,false,&m1_status);
 
-        nxt.disconnect();
+        screen->nxt.disconnect();
 
     }catch(NxtEx &ex){
         cout << ex.toString() << endl;
-        nxt.disconnect();
+        screen->nxt.disconnect();
         return EXIT_FAILURE;
 
     }
