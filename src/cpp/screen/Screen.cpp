@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <iostream>
 #include <string.h>
+#include <time.h>
 
 #include "../lestat/exceptions.h"
 #include "../lestat/comms.h"
@@ -45,13 +46,23 @@ Screen::~Screen(){
     endwin();
 }
 
+// logs the string to the console, and adds it to the console logfile.
 void Screen::writeln(char *str){
+    time_t t;
+    struct tm *ti;
     free(logv[logc - 1]);
     for (int n = logc - 1;n >= 0;n--){
 	logv[n] = logv[n - 1];
     }
-    logv[0] = strdup(str);
-    fwrite(logv[0],sizeof(char),sizeof(logv[0]),logf);
+    time(&t);
+    ti = localtime(&t);
+    char *tstr = strdup(str);
+    char buffer[2 * mc / 3];
+    strftime(buffer,2 * mc / 3,"[%H:%M:%S]:",ti);
+    strcat(buffer,tstr);
+    logv[0] = strdup(buffer);
+    free(tstr);
+    fwrite(logv[0],sizeof(char),strlen(logv[0]),logf);
     fputc('\n',logf);
     for (int n = 0;n < logc;n++){
 	move(mr - (n + 1),mc / 3 + 1);
@@ -61,9 +72,10 @@ void Screen::writeln(char *str){
     refresh();
 }
 
+// Draws the robot stats.
 void Screen::draw_stats(){
     Opcodes op(&nxt);
-     mvprintw(3,9,"%humV",op.getBatteryLevel());
+    mvprintw(3,9,"%humV",op.getBatteryLevel());
 }
     
 
@@ -76,35 +88,22 @@ void Screen::draw_menu(){
 // Draws the splash screen and
 void Screen::draw_splash(){
     print_ui_static();
-    attron(A_BOLD);
     writeln("Press any key to connect...");
     getch();
-    attroff(A_BOLD);
     print_ui_static();
-    attron(A_BOLD);
     writeln("Attempting to connect...");
-    attroff(A_BOLD);
     refresh();
     try{
 	nxt.connect("00:16:53:1A:14:6A");
     } catch(NxtEx &ex){
-	clear();
-	attron(A_BOLD);
         writeln("ERROR: failed to connect!");
-	attroff(A_BOLD);
         writeln("Press any key to continue...");
 	getch();
 	endwin();
 	exit(1);
     }
-    clear();
     print_ui_static();
-    attron(A_BOLD);
     writeln("Connection established!");
-    attroff(A_BOLD);
-    refresh();
-    sleep(1);
-    clear();
     refresh();
 }
 
