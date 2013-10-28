@@ -5,6 +5,7 @@
 #ifndef SCREEN_H
 #define SCREEN_H
 #include "../lestat/bluecomm.h"
+#include <stdio.h>
 
 class Screen{
 public:
@@ -20,6 +21,7 @@ private:
     void handle_opts();
     int mr,mc,opt,logc;
     char **logv;
+    FILE *logf;
 };
 
 #endif /* SCREEN_h */

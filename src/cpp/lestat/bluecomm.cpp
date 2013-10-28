@@ -117,11 +117,11 @@ BlueComm::sendBuffer(const char *buf, unsigned short int len){
     int status = write(remote_sock, len2, 2);
     if (status < 0)
         throw NxtWriteErrorEx();
-    cout<<"Message sent:";
+    /* cout<<"Message sent:";
     for(int i=0;i<len;i++){
         printf(" %hhu",buf2[i]);
-    }
-    cout<<endl;
+	}
+    cout<<endl; */
     status = write(remote_sock, buf2, len);
     if (status < 0)
         throw NxtWriteErrorEx();
