@@ -13,7 +13,8 @@ class Screen{
 public:
     Screen();
     ~Screen();
-    void writeln(char*);
+    void writelnattr(char*,int);
+    inline void writeln(char*);
     void draw_stats();
     void draw_menu();
     void draw_splash();
@@ -24,9 +25,18 @@ public:
 private:
     void print_ui_static();
     void handle_opts();
-    int mr,mc,opt,logc;
+    int mr,mc,opt,logc,*logattr;
     char **logv;
     FILE *logf;
 };
 
 #endif /* SCREEN_h */
+
+/*
+
+chars:
+  ─
+  │
+  ▒
+
+*/

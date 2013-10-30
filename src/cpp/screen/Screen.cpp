@@ -19,7 +19,13 @@
 #include "Screen.h"
 #include "../robot_control/remote.cpp"
 
+
 #define path_to_logfile "console_log"
+#define MAC_ADDRESS "00:16:53:1A:14:6A"
+
+#define GREEN_PAIR COLOR_PAIR(1)
+#define RED_PAIR COLOR_PAIR(2)
+#define YELLOW_PAIR COLOR_PAIR(3)
 
 Screen::Screen(){
     initscr();
@@ -28,6 +34,7 @@ Screen::Screen(){
     use_default_colors();
     init_pair(1,COLOR_GREEN,-1);
     init_pair(2,COLOR_RED,-1);
+    init_pair(3,COLOR_YELLOW,-1);
     raw();
     keypad(stdscr,TRUE);
     curs_set(0);
@@ -36,8 +43,10 @@ Screen::Screen(){
     logf = fopen(path_to_logfile,"a");
     logc = mr - 2;
     logv = (char**) malloc(sizeof(char*) * logc);
+    logattr = (int*) malloc(sizeof(int) * logc); 
     for (int n = 0;n < logc;n++){
 	logv[n] = strdup("");
+	logattr[n] = 0;
     }
     m0 = 0;
     m1 = 0;
@@ -49,18 +58,21 @@ Screen::~Screen(){
 	free(logv[n]);
     }
     free(logv);
+    free(logattr);
     fclose(logf);
     delete op;
     endwin();
 }
 
-// logs the string to the console, and adds it to the console logfile.
-void Screen::writeln(char *str){
+// logs the string to the console with a given attribute,
+// and adds it to the console logfile.
+void Screen::writelnattr(char *str,int attr){
     time_t t;
     struct tm *ti;
     free(logv[logc - 1]);
     for (int n = logc - 1;n >= 0;n--){
 	logv[n] = logv[n - 1];
+	logattr[n] = logattr[n - 1];
     }
     time(&t);
     ti = localtime(&t);
@@ -69,50 +81,56 @@ void Screen::writeln(char *str){
     strftime(buffer,4 * mc / 5,"[%H:%M:%S]:",ti);
     strcat(buffer,tstr);
     logv[0] = strdup(buffer);
+    logattr[0] = attr;
     free(tstr);
     fwrite(logv[0],sizeof(char),strlen(logv[0]),logf);
     fputc('\n',logf);
     for (int n = 0;n < logc;n++){
 	move(mr - (n + 1),mc / 5 + 1);
 	clrtoeol();
+	attron(logattr[n]);
 	mvprintw(mr - (n + 1),mc / 5 + 1,"%s",logv[n]);
+	attroff(logattr[n]);
     }
     refresh();
 }
 
+// logs to the console with no attributes.
+inline void Screen::writeln(char *str){
+    writelnattr(str,0);
+}
+
 // Draws the robot stats.
 void Screen::draw_stats(){
-    // printing the battery level.
     unsigned short int b = op->getBatteryLevel();
-    if (b > 500){ attron(COLOR_PAIR(1)); }
-    else { attron(COLOR_PAIR(2)); }
+    if (b > 500){ attron(GREEN_PAIR); }
+    else { attron(RED_PAIR); }
     mvprintw(3,9,"%humV",op->getBatteryLevel());
-    if (b > 500){ attroff(COLOR_PAIR(1)); }
-    else { attroff(COLOR_PAIR(2)); }
-    // printing the motor speeds.
-    if (m0 >= 0){ attron(COLOR_PAIR(1)); }
-    else { attron(COLOR_PAIR(2)); }
+    if (b > 500){ attroff(GREEN_PAIR); }
+    else { attroff(RED_PAIR); }
+    if (m0 >= 0){ attron(GREEN_PAIR); }
+    else { attron(RED_PAIR); }
     mvprintw(6,11,"%+03d",m0);
-    if (m0 > 0){ attroff(COLOR_PAIR(1)); }
-    else { attroff(COLOR_PAIR(2)); }
-    if (m1 >= 0){ attron(COLOR_PAIR(1)); }
-    else { attron(COLOR_PAIR(2)); }
+    if (m0 > 0){ attroff(GREEN_PAIR); }
+    else { attroff(RED_PAIR); }
+    if (m1 >= 0){ attron(GREEN_PAIR); }
+    else { attron(RED_PAIR); }
     mvprintw(7,11,"%+03d",m1);
-    if (m1 >= 0){ attroff(COLOR_PAIR(1)); }
-    else { attroff(COLOR_PAIR(2)); }
-    if (m2 >= 0){ attron(COLOR_PAIR(1)); }
-    else { attron(COLOR_PAIR(2)); }
+    if (m1 >= 0){ attroff(GREEN_PAIR); }
+    else { attroff(RED_PAIR); }
+    if (m2 >= 0){ attron(GREEN_PAIR); }
+    else { attron(RED_PAIR); }
     mvprintw(8,11,"%+03d",m2);
-    if (m2 >= 0){ attroff(COLOR_PAIR(1)); }
-    else { attroff(COLOR_PAIR(2)); }
-    attron(COLOR_PAIR(2));
-    if (s0.calibratedValue > 500){ attron(COLOR_PAIR(1)); }
+    if (m2 >= 0){ attroff(GREEN_PAIR); }
+    else { attroff(RED_PAIR); }
+    attron(RED_PAIR);
+    if (s0.calibratedValue > 500){ attron(GREEN_PAIR); }
     mvprintw(11,11,"%d",s0.calibratedValue);
-    if (s0.calibratedValue > 500){ attroff(COLOR_PAIR(1)); }
+    if (s0.calibratedValue > 500){ attroff(GREEN_PAIR); }
     mvprintw(12,11,"%d",s1.calibratedValue);
     mvprintw(13,11,"%d",s2.calibratedValue);
     mvprintw(14,11,"%d",s3.calibratedValue);
-    attroff(COLOR_PAIR(2));
+    attroff(RED_PAIR);
 }
 
 // Prints the static ui and then prints the main menu.
@@ -125,45 +143,48 @@ void Screen::draw_menu(){
 void Screen::draw_splash(){
     print_ui_static();
     writeln("Starting session");
-    writeln("Press any key to connect...");
+    writelnattr("Press any key to connect...",A_BOLD);
     getch();
     writeln("Attempting to connect...");
     refresh();
     try{
-	nxt.connect("00:16:53:1A:14:6A");
+	nxt.connect(MAC_ADDRESS);
     } catch(NxtEx &ex){
-        writeln("ERROR: failed to connect!");
-        writeln("Press any key to continue...");
+        writelnattr("ERROR: failed to connect!",RED_PAIR | A_BOLD);
+        writelnattr("Press any key to continue...",A_BOLD);
 	getch();
 	endwin();
 	exit(1);
     }
-    writeln("Connection established!");
+    writelnattr("Connection established!",GREEN_PAIR);
     writeln("Grabbing initial sensor readings...");
     op = new Opcodes(&nxt);
     s0 = op->getInputValues(0);
     s1 = op->getInputValues(1);
     s2 = op->getInputValues(2);
     s3 = op->getInputValues(3);
-    writeln("Ready!");
+    writelnattr("Ready!",GREEN_PAIR | A_BOLD);
     refresh();
 }
 
 // Prints the basic UI features, they will be populated by the poll thread.
 void Screen::print_ui_static(){
-    attron(A_BOLD);
+    attron(YELLOW_PAIR | A_BOLD);
     mvprintw(0,mc - 11,"NXT GROUP 9");
-    attroff(A_BOLD);
     mvprintw(3,0,"Battery:");
     mvprintw(5,0,"Motors:");
+    attroff(A_BOLD);
     mvprintw(6,2,"Motor_1:");
     mvprintw(7,2,"Motor_2:");
     mvprintw(8,2,"Motor_3:");
+    attron(A_BOLD);
     mvprintw(10,0,"Sensors:");
+    attroff(A_BOLD);
     mvprintw(11,2,"Optical:");
     mvprintw(12,2,"Push_1:");
     mvprintw(13,2,"Push_2:");
     mvprintw(14,2,"RGB:");
+    attron(A_BOLD);
     int c = mc / 5;
     for (int n = 2;n < mr;n++){
 	mvprintw(n,c,"|");
@@ -171,10 +192,11 @@ void Screen::print_ui_static(){
     for (int n = 0;n < mc;n++){
 	mvprintw(1,n,"_");
     }
-    attron(A_UNDERLINE);
+    attron(A_UNDERLINE | A_BOLD);
     mvprintw(1 ,0,"Robot Status:");
     mvprintw(1,c + 1,"Log:");
-    attroff(A_UNDERLINE);
+    attroff(A_UNDERLINE | A_BOLD);
+    attroff(YELLOW_PAIR);
 }
 
 // Prints the options and handles user input.
@@ -192,7 +214,7 @@ void Screen::handle_opts(){
     if (opt == 2){ attroff(A_STANDOUT); }
     attroff(A_BOLD);
     refresh();
-    int logc_temp;
+    int logc_temp,*logattr_temp;
     char **logv_temp;
     switch(getch()){
     case 3:
@@ -209,13 +231,18 @@ void Screen::handle_opts(){
 	logc_temp = logc;
 	logc = 4 * mc / 5 - 1;
 	logv_temp = (char**) malloc(sizeof(char*) * logc);
+	logattr_temp = (int*) malloc(sizeof(int) * logc);
 	for (int n = 0;n < logc;n++){
 	    logv_temp[n] = logv[n];
+	    logattr_temp[n] = logattr[n];
 	}
 	free(logv);
+	free(logattr);
 	logv = logv_temp; 
+	logattr = logattr_temp;
 	for (int n = logc_temp;n < logc;n++){
 	    logv[n] = strdup("");
+	    logattr[n] = 0;
 	}
 	clear();
 	refresh();
@@ -246,17 +273,17 @@ void Screen::handle_opts(){
 	    mvprintw(mr - 2,1,"a     d");
 	    mvprintw(mr - 1,4,"s");
 	    attroff(A_BOLD);
-	    writeln("Starting remote control!");
+	    writelnattr("Starting remote control!",GREEN_PAIR);
 	    r_remote(this);
 	    return;
 	    break;
 	case 1:
-	    writeln("Starting right side autonomous control");
+	    writelnattr("Starting right side autonomous control",GREEN_PAIR);
 	    //r_left(this);
 	    //return;
 	    break;
 	case 2:
-	    writeln("Starting left side autonomous control");
+	    writelnattr("Starting left side autonomous control",GREEN_PAIR);
 	    //r_right(this);
 	    //return;
 	    break;
