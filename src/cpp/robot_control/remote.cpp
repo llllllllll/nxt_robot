@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ncurses.h>
+#include <pthread.h>
 
 #include "../lestat/exceptions.h"
 #include "../lestat/comms.h"
@@ -72,7 +73,7 @@ void r_remote(Screen *scr){
 		scr->draw_stats();
 	    }
 	    scr->writeln("Increasing reverse speed");
-	    scr->nxt.sendBuffer(&b,1);	    
+	    scr->nxt.sendBuffer(&b,1);
 	    break;
 	case 'q':
 	    if (scr->m0 <= 90){

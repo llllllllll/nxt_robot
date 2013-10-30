@@ -5,6 +5,7 @@
 #ifndef SCREEN_H
 #define SCREEN_H
 #include <stdio.h>
+#include <pthread.h>
 
 #include "../lestat/bluecomm.h"
 #include "../lestat/opcodes.h"
@@ -28,7 +29,11 @@ private:
     int mr,mc,opt,logc,*logattr;
     char **logv;
     FILE *logf;
+    bool lock;
+    pthread_t stay_alive;
 };
+
+void *stay_alive_sig(void*);
 
 #endif /* SCREEN_h */
 

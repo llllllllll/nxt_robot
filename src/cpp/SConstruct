@@ -26,10 +26,10 @@ Default(BuildEnv.Library('robot_control',
 Default(BuildEnv.Library('screen_control',
 			 [x for x in glob('screen/*.cpp')
 			  if not x.startswith('main')],
-			 LIBS=['usb','bluetooth','lestat']))
+			 LIBS=['usb','bluetooth','lestat','pthread']))
 
 
 Default(BuildEnv.Program('test','main.cpp',
 			 LIBS=['usb','bluetooth','robot_control'
-			 ,'screen_control','lestat','ncurses'],
+			 ,'screen_control','lestat','ncurses','pthread'],
 			 LIBPATH='.'))

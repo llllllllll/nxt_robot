@@ -25,7 +25,7 @@
 #include "exceptions.h"
 #include "message.h"
 
-/** 
+/**
  * Structure returned by Opcodes::getOutputState
  */
 struct MotorState{

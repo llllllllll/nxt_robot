@@ -43,7 +43,7 @@ Screen::Screen(){
     logf = fopen(path_to_logfile,"a");
     logc = mr - 2;
     logv = (char**) malloc(sizeof(char*) * logc);
-    logattr = (int*) malloc(sizeof(int) * logc); 
+    logattr = (int*) malloc(sizeof(int) * logc);
     for (int n = 0;n < logc;n++){
 	logv[n] = strdup("");
 	logattr[n] = 0;
@@ -51,6 +51,7 @@ Screen::Screen(){
     m0 = 0;
     m1 = 0;
     m2 = 0;
+    lock = false;
 }
 
 Screen::~Screen(){
@@ -67,6 +68,8 @@ Screen::~Screen(){
 // logs the string to the console with a given attribute,
 // and adds it to the console logfile.
 void Screen::writelnattr(char *str,int attr){
+    while(lock);
+    lock = true;
     time_t t;
     struct tm *ti;
     free(logv[logc - 1]);
@@ -93,6 +96,7 @@ void Screen::writelnattr(char *str,int attr){
 	attroff(logattr[n]);
     }
     refresh();
+    lock = false;
 }
 
 // logs to the console with no attributes.
@@ -164,6 +168,7 @@ void Screen::draw_splash(){
     s2 = op->getInputValues(2);
     s3 = op->getInputValues(3);
     writelnattr("Ready!",GREEN_PAIR | A_BOLD);
+    pthread_create(&stay_alive,NULL,stay_alive_sig,(void*) this);
     refresh();
 }
 
@@ -238,7 +243,7 @@ void Screen::handle_opts(){
 	}
 	free(logv);
 	free(logattr);
-	logv = logv_temp; 
+	logv = logv_temp;
 	logattr = logattr_temp;
 	for (int n = logc_temp;n < logc;n++){
 	    logv[n] = strdup("");
@@ -291,4 +296,14 @@ void Screen::handle_opts(){
 	break;
     }
     handle_opts();
+}
+
+void *stay_alive_sig(void *scr){
+    char b;
+    while(1){
+        b = '0x0D';
+	((Screen*) scr)->nxt.sendBuffer(&b,1);
+	((Screen*) scr)->writelnattr("Sent stay_alive signal",YELLOW_PAIR);
+	sleep(30);
+    }
 }
