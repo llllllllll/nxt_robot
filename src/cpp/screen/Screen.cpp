@@ -168,6 +168,7 @@ void Screen::draw_splash(){
     s2 = op->getInputValues(2);
     s3 = op->getInputValues(3);
     writelnattr("Ready!",GREEN_PAIR | A_BOLD);
+    op->setInputMode(0,LIGHT_ACTIVE,BOOLEANMODE,false,NULL);
     pthread_create(&stay_alive,NULL,stay_alive_sig,(void*) this);
     refresh();
 }
@@ -301,7 +302,7 @@ void Screen::handle_opts(){
 void *stay_alive_sig(void *scr){
     char b;
     while(1){
-        b = '0x0D';
+        b = 0x0D;
 	((Screen*) scr)->nxt.sendBuffer(&b,1);
 	((Screen*) scr)->writelnattr("Sent stay_alive signal",YELLOW_PAIR);
 	sleep(30);

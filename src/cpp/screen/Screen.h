@@ -36,12 +36,3 @@ private:
 void *stay_alive_sig(void*);
 
 #endif /* SCREEN_h */
-
-/*
-
-chars:
-  ─
-  │
-  ▒
-
-*/

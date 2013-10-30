@@ -91,7 +91,7 @@ int main(int argc, char *argv[])
             ms = op.getOutputState(0);
             //cout<<"a: "<<int(ms.port)<<" "<<int(ms.power)<<" "<<int(ms.mode)<<" "<<int(ms.regMode)<<" "<<int(ms.turnRatio)<<" "<<int(ms.runState)<<" "<<ms.tachoLimit<<" "<<ms.tachoCount<<" "<<ms.blockTachoCount<<" "<<ms.rotationCount<<endl;
             op.resetMotorPosition(0,false);
-            ss = op.getInputValues(0x00); 
+            ss = op.getInputValues(0x00);
 	    // cout<<"a: "<<int(ss.port)<<" "<<ss.valid<<" "<<ss.calibrated<<" "<<ss.type<<" "<<ss.mode<<" "<<ss.rawValue<<" "<<ss.normalizedValue<<" "<<ss.scaledValue<<" "<<ss.calibratedValue<<endl
 	    cout << "p1: " << ss.port << " " << ss.calibratedValue << '\n';
         }

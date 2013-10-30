@@ -20,9 +20,10 @@
 using namespace std;
 
 void r_remote(Screen *scr){
-    unsigned char st = '0x0D';
-    char b = '0x0D';
+    unsigned char st = 0x0D;
+    char b;
     while(1){
+        b = 0x0D;
 	switch(getch()){
 	case 3:
 	    return;
