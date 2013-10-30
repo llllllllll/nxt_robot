@@ -1,6 +1,6 @@
 // Joe Jevnik
 // 25.10.2013
-// Implementation of Screen
+// Implementation of Screen.
 
 #include <ncurses.h>
 #include <stdlib.h>
@@ -18,7 +18,6 @@
 
 #include "Screen.h"
 #include "../robot_control/remote.cpp"
-
 
 #define path_to_logfile "console_log"
 #define MAC_ADDRESS "00:16:53:1A:14:6A"
@@ -62,6 +61,7 @@ Screen::~Screen(){
     free(logattr);
     fclose(logf);
     delete op;
+    pthread_cancel(stay_alive);
     endwin();
 }
 
@@ -114,26 +114,40 @@ void Screen::draw_stats(){
     else { attroff(RED_PAIR); }
     if (m0 >= 0){ attron(GREEN_PAIR); }
     else { attron(RED_PAIR); }
-    mvprintw(6,11,"%+03d",m0);
+    mvprintw(6,11,"%+04d",m0);
     if (m0 > 0){ attroff(GREEN_PAIR); }
     else { attroff(RED_PAIR); }
     if (m1 >= 0){ attron(GREEN_PAIR); }
     else { attron(RED_PAIR); }
-    mvprintw(7,11,"%+03d",m1);
+    mvprintw(7,11,"%+04d",m1);
     if (m1 >= 0){ attroff(GREEN_PAIR); }
     else { attroff(RED_PAIR); }
     if (m2 >= 0){ attron(GREEN_PAIR); }
     else { attron(RED_PAIR); }
-    mvprintw(8,11,"%+03d",m2);
+    mvprintw(8,11,"%+04d",m2);
     if (m2 >= 0){ attroff(GREEN_PAIR); }
     else { attroff(RED_PAIR); }
-    attron(RED_PAIR);
+
     if (s0.calibratedValue > 500){ attron(GREEN_PAIR); }
+    else { attron(RED_PAIR); }
     mvprintw(11,11,"%d",s0.calibratedValue);
     if (s0.calibratedValue > 500){ attroff(GREEN_PAIR); }
+    else { attroff(RED_PAIR); }
+    if (s1.calibratedValue > 500){ attron(GREEN_PAIR); }
+    else { attron(RED_PAIR); }
     mvprintw(12,11,"%d",s1.calibratedValue);
+    if (s1.calibratedValue > 500){ attroff(GREEN_PAIR); }
+    else { attroff(RED_PAIR); }
+    if (s2.calibratedValue > 500){ attron(GREEN_PAIR); }
+    else { attron(RED_PAIR); }
     mvprintw(13,11,"%d",s2.calibratedValue);
+    if (s2.calibratedValue > 500){ attroff(GREEN_PAIR); }
+    else { attroff(RED_PAIR); }
+    if (s3.calibratedValue > 500){ attron(GREEN_PAIR); }
+    else { attron(RED_PAIR); }
     mvprintw(14,11,"%d",s3.calibratedValue);
+    if (s3.calibratedValue > 500){ attroff(GREEN_PAIR); }
+    else { attroff(RED_PAIR); }
     attroff(RED_PAIR);
 }
 
@@ -267,7 +281,7 @@ void Screen::handle_opts(){
     case 10: // ENTER
 	switch(opt){
 	case 0:
-	    attron(A_BOLD);
+	    attron(A_BOLD | YELLOW_PAIR);
 	    mvprintw(mr - 3,0,"      ");
 	    mvprintw(mr - 2,0,"      ");
 	    mvprintw(mr - 1,0,"      ");
@@ -278,7 +292,7 @@ void Screen::handle_opts(){
 	    mvprintw(mr - 3,1,"q     e");
 	    mvprintw(mr - 2,1,"a     d");
 	    mvprintw(mr - 1,4,"s");
-	    attroff(A_BOLD);
+	    attroff(A_BOLD | YELLOW_PAIR);
 	    writelnattr("Starting remote control!",GREEN_PAIR);
 	    r_remote(this);
 	    return;
@@ -299,12 +313,14 @@ void Screen::handle_opts(){
     handle_opts();
 }
 
+// Sends a message to stay alive every minute, does not block the main thread.
+// This was a bitch. uguu~~
 void *stay_alive_sig(void *scr){
-    char b;
+    char str[2] = {0x80,0x0D};
     while(1){
-        b = 0x0D;
-	((Screen*) scr)->nxt.sendBuffer(&b,1);
-	((Screen*) scr)->writelnattr("Sent stay_alive signal",YELLOW_PAIR);
-	sleep(30);
+	((Screen*) scr)->nxt.sendBuffer(str,2);
+	((Screen*) scr)->writelnattr("Sent STAY_ALIVE (0x0D) signal",
+				     GREEN_PAIR);
+	sleep(60);
     }
 }
