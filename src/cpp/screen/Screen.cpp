@@ -17,6 +17,7 @@
 #include "../lestat/opcodes.h"
 
 #include "Screen.h"
+#include "msg_t.h"
 #include "../robot_control/remote.cpp"
 
 #define path_to_logfile "console_log"
@@ -76,7 +77,8 @@ Screen::Screen(){
     s3 = op->getInputValues(3);
     writelnattr("Ready!",GREEN_PAIR | A_BOLD);
     op->setInputMode(0,LIGHT_ACTIVE,BOOLEANMODE,false,NULL);
-    pthread_create(&stay_alive,NULL,stay_alive_sig,(void*) this);
+    pthread_create(&stay_alive_thread,NULL,stay_alive_tf,(void*) this);
+    pthread_create(&log_thread,NULL,log_tf,(void*) this);
     refresh();
 }
 
@@ -88,42 +90,15 @@ Screen::~Screen(){
     free(logattr);
     fclose(logf);
     delete op;
-    pthread_cancel(stay_alive);
+    pthread_cancel(stay_alive_thread);
+    pthread_cancel(log_thread);
     endwin();
 }
 
 // logs the string to the console with a given attribute,
 // and adds it to the console logfile.
 void Screen::writelnattr(char *str,int attr){
-    while(lock);
-    lock = true;
-    time_t t;
-    struct tm *ti;
-    free(logv[logc - 1]);
-    for (int n = logc - 1;n >= 0;n--){
-	logv[n] = logv[n - 1];
-	logattr[n] = logattr[n - 1];
-    }
-    time(&t);
-    ti = localtime(&t);
-    char *tstr = strdup(str);
-    char buffer[4 * mc / 5];
-    strftime(buffer,4 * mc / 5,"[%H:%M:%S]:",ti);
-    strcat(buffer,tstr);
-    logv[0] = strdup(buffer);
-    logattr[0] = attr;
-    free(tstr);
-    fwrite(logv[0],sizeof(char),strlen(logv[0]),logf);
-    fputc('\n',logf);
-    for (int n = 0;n < logc;n++){
-	move(mr - (n + 1),mc / 5 + 1);
-	clrtoeol();
-	attron(logattr[n]);
-	mvprintw(mr - (n + 1),mc / 5 + 1,"%s",logv[n]);
-	attroff(logattr[n]);
-    }
-    refresh();
-    lock = false;
+    log.push(new msg_t(str,attr));
 }
 
 // logs to the console with no attributes.
@@ -185,6 +160,37 @@ void Screen::draw_stats(){
 void Screen::draw_menu(){
     print_ui_static();
     handle_opts();
+}
+
+void Screen::writelnattr_internals(char* str,int attr){
+    while(lock);
+    lock = true;
+    time_t t;
+    struct tm *ti;
+    for (int n = logc - 1;n >= 0;n--){
+	logv[n] = logv[n - 1];
+	logattr[n] = logattr[n - 1];
+    }
+    time(&t);
+    ti = localtime(&t);
+    char *tstr = strdup(str);
+    char buffer[4 * mc / 5];
+    strftime(buffer,4 * mc / 5,"[%H:%M:%S]:",ti);
+    strcat(buffer,tstr);
+    logv[0] = strdup(buffer);
+    logattr[0] = attr;
+    free(tstr);
+    fwrite(logv[0],sizeof(char),strlen(logv[0]),logf);
+    fputc('\n',logf);
+    for (int n = 0;n < logc;n++){
+	move(mr - (n + 1),mc / 5 + 1);
+	clrtoeol();
+	attron(logattr[n]);
+	mvprintw(mr - (n + 1),mc / 5 + 1,"%s",logv[n]);
+	attroff(logattr[n]);
+    }
+    refresh();
+    lock = false;
 }
 
 // Prints the basic UI features, they will be populated by the poll thread.
@@ -322,12 +328,23 @@ void Screen::handle_opts(){
 
 // Sends a message to stay alive every minute, does not block the main thread.
 // This was a bitch. uguu~~
-void *stay_alive_sig(void *scr){
+void *stay_alive_tf(void *scr){
     char str[2] = {0x80,0x0D};
     while(1){
 	((Screen*) scr)->nxt.sendBuffer(str,2);
 	((Screen*) scr)->writelnattr("Sent STAY_ALIVE (0x0D) signal",
 				     YELLOW_PAIR);
 	sleep(60);
+    }
+}
+
+void *log_tf(void *scr){
+    while(1){
+	if (!((Screen*) scr)->log.empty()){
+	    ((Screen*) scr)->writelnattr_internals(
+		((Screen*) scr)->log.front()->txt,
+		((Screen*) scr)->log.front()->attr);
+	    ((Screen*) scr)->log.pop();
+	}
     }
 }
