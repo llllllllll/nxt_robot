@@ -288,7 +288,6 @@ void Screen::handle_opts(){
 	switch(opt){
 	case 0:
 	    while(lock);
-	    lock = true;
 	    attron(A_BOLD | YELLOW_PAIR);
 	    mvprintw(mr - 3,0,"      ");
 	    mvprintw(mr - 2,0,"      ");
@@ -302,7 +301,6 @@ void Screen::handle_opts(){
 	    mvprintw(mr - 1,4,"s");
 	    attroff(A_BOLD | YELLOW_PAIR);
 	    writelnattr("Starting remote control!",GREEN_PAIR);
-	    lock = false;
 	    r_remote(this);
 	    return;
 	    break;
