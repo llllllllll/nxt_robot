@@ -627,3 +627,70 @@
 [19:41:11]:Sent stay_alive (0x0D) signal
 [19:42:11]:Sent stay_alive (0x0D) signal
 [19:43:11]:Sent stay_alive (0x0D) signal
+[19:46:30]:Starting session
+[19:46:30]:Press any key to connect...
+[19:46:32]:Attempting to connect...
+[19:46:36]:Connection established!
+[19:46:36]:Grabbing initial sensor readings...
+[19:46:37]:Ready!
+[19:46:37]:Sent STAY_ALIVE (0x0D) signal
+[19:46:37]:Starting remote control!
+[19:46:39]:Increasing reverse right speed
+[19:46:39]:Increasing reverse right speed
+[19:46:39]:Increasing reverse right speed
+[19:46:39]:Increasing reverse right speed
+[19:46:41]:Stopping all motors
+[19:46:42]:Increasing foward speed
+[19:46:42]:Increasing foward speed
+[19:46:42]:Increasing foward speed
+[19:46:42]:Stopping all motors
+[19:46:43]:Increasing reverse left speed
+[19:46:43]:Increasing reverse right speed
+[19:46:43]:Increasing reverse left speed
+[19:46:43]:Increasing reverse right speed
+[19:46:43]:Increasing reverse left speed
+[19:46:43]:Increasing reverse right speed
+[19:46:44]:Increasing reverse left speed
+[19:46:44]:Increasing reverse right speed
+[19:46:44]:Increasing reverse left speed
+[19:46:44]:Increasing reverse right speed
+[19:46:44]:Increasing reverse left speed
+[19:46:44]:Increasing reverse right speed
+[19:46:44]:Increasing reverse left speed
+[19:46:44]:Increasing reverse right speed
+[19:46:44]:Increasing reverse left speed
+[19:46:45]:Increasing reverse right speed
+[19:46:45]:Increasing reverse left speed
+[19:46:45]:Increasing reverse right speed
+[19:46:45]:Increasing reverse left speed
+[19:46:45]:Increasing reverse right speed
+[19:46:45]:Stopping all motors
+[19:46:45]:Stopping all motors
+[19:59:29]:Starting session
+[19:59:29]:Press any key to connect...
+[19:59:30]:Attempting to connect...
+[19:59:35]:ERROR: failed to connect!
+[19:59:35]:Press any key to continue...
+[20:00:02]:Starting session
+[20:00:02]:Press any key to connect...
+[20:00:02]:Attempting to connect...
+[20:00:04]:Connection established!
+[20:00:04]:Grabbing initial sensor readings...
+[20:00:05]:Ready!
+[20:00:05]:Sent STAY_ALIVE (0x0D) signal
+[20:00:21]:Starting remote control!
+[20:00:22]:Exiting remote control!
+[20:00:25]:Starting session
+[20:00:25]:Press any key to connect...
+[20:00:25]:Attempting to connect...
+[20:00:26]:Connection established!
+[20:00:26]:Grabbing initial sensor readings...
+[20:00:27]:Ready!
+[20:00:27]:Sent STAY_ALIVE (0x0D) signal
+[20:00:41]:Starting session
+[20:00:41]:Press any key to connect...
+[20:00:42]:Attempting to connect...
+[20:00:44]:Connection established!
+[20:00:44]:Grabbing initial sensor readings...
+[20:00:45]:Ready!
+[20:00:45]:Sent STAY_ALIVE (0x0D) signal

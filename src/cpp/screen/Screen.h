@@ -18,8 +18,7 @@ public:
     inline void writeln(char*);
     void draw_stats();
     void draw_menu();
-    void draw_splash();
-    BlueComm nxt; // public to allow other functions to modify it.
+    BlueComm nxt;
     int m0,m1,m2;
     SensorState s0,s1,s2,s3;
     Opcodes *op;

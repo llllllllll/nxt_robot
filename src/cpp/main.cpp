@@ -3,8 +3,6 @@
 
 int main(){
     Screen scr;
-    scr.draw_splash();
     scr.draw_menu();
-
     return 0;
 }

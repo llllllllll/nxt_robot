@@ -51,6 +51,32 @@ Screen::Screen(){
     m1 = 0;
     m2 = 0;
     lock = false;
+    print_ui_static();
+    writeln("Starting session");
+    writelnattr("Press any key to connect...",A_BOLD);
+    getch();
+    writeln("Attempting to connect...");
+    refresh();
+    try{
+	nxt.connect(MAC_ADDRESS);
+    } catch(NxtEx &ex){
+        writelnattr("ERROR: failed to connect!",RED_PAIR | A_BOLD);
+        writelnattr("Press any key to continue...",A_BOLD);
+	getch();
+	endwin();
+	exit(1);
+    }
+    writelnattr("Connection established!",GREEN_PAIR);
+    writeln("Grabbing initial sensor readings...");
+    op = new Opcodes(&nxt);
+    s0 = op->getInputValues(0);
+    s1 = op->getInputValues(1);
+    s2 = op->getInputValues(2);
+    s3 = op->getInputValues(3);
+    writelnattr("Ready!",GREEN_PAIR | A_BOLD);
+    op->setInputMode(0,LIGHT_ACTIVE,BOOLEANMODE,false,NULL);
+    pthread_create(&stay_alive,NULL,stay_alive_sig,(void*) this);
+    refresh();
 }
 
 Screen::~Screen(){
@@ -155,36 +181,6 @@ void Screen::draw_stats(){
 void Screen::draw_menu(){
     print_ui_static();
     handle_opts();
-}
-
-// Draws the splash screen and establishes connection.
-void Screen::draw_splash(){
-    print_ui_static();
-    writeln("Starting session");
-    writelnattr("Press any key to connect...",A_BOLD);
-    getch();
-    writeln("Attempting to connect...");
-    refresh();
-    try{
-	nxt.connect(MAC_ADDRESS);
-    } catch(NxtEx &ex){
-        writelnattr("ERROR: failed to connect!",RED_PAIR | A_BOLD);
-        writelnattr("Press any key to continue...",A_BOLD);
-	getch();
-	endwin();
-	exit(1);
-    }
-    writelnattr("Connection established!",GREEN_PAIR);
-    writeln("Grabbing initial sensor readings...");
-    op = new Opcodes(&nxt);
-    s0 = op->getInputValues(0);
-    s1 = op->getInputValues(1);
-    s2 = op->getInputValues(2);
-    s3 = op->getInputValues(3);
-    writelnattr("Ready!",GREEN_PAIR | A_BOLD);
-    op->setInputMode(0,LIGHT_ACTIVE,BOOLEANMODE,false,NULL);
-    pthread_create(&stay_alive,NULL,stay_alive_sig,(void*) this);
-    refresh();
 }
 
 // Prints the basic UI features, they will be populated by the poll thread.
