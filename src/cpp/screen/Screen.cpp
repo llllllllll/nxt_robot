@@ -133,6 +133,8 @@ inline void Screen::writeln(char *str){
 
 // Draws the robot stats.
 void Screen::draw_stats(){
+    while(lock);
+    lock = true;
     unsigned short int b = op->getBatteryLevel();
     if (b > 500){ attron(GREEN_PAIR); }
     else { attron(RED_PAIR); }
@@ -176,6 +178,7 @@ void Screen::draw_stats(){
     if (s3.calibratedValue > 500){ attroff(GREEN_PAIR); }
     else { attroff(RED_PAIR); }
     attroff(RED_PAIR);
+    lock = false;
 }
 
 // Prints the static ui and then prints the main menu.
@@ -186,6 +189,8 @@ void Screen::draw_menu(){
 
 // Prints the basic UI features, they will be populated by the poll thread.
 void Screen::print_ui_static(){
+    while(lock);
+    lock = true;
     attron(YELLOW_PAIR | A_BOLD);
     mvprintw(0,mc - 11,"NXT GROUP 9");
     mvprintw(3,0,"Battery:");
@@ -214,11 +219,14 @@ void Screen::print_ui_static(){
     mvprintw(1,c + 1,"Log:");
     attroff(A_UNDERLINE | A_BOLD);
     attroff(YELLOW_PAIR);
+    lock = false;
 }
 
 // Prints the options and handles user input.
 void Screen::handle_opts(){
     draw_stats();
+    while(lock);
+    lock = true;
     attron(A_BOLD);
     if (opt == 0){ attron(A_STANDOUT); }
     mvprintw(mr - 3,0,"REMOTE");
@@ -230,6 +238,7 @@ void Screen::handle_opts(){
     mvprintw(mr - 1,0,"LEFT");
     if (opt == 2){ attroff(A_STANDOUT); }
     attroff(A_BOLD);
+    lock = false;
     refresh();
     int logc_temp,*logattr_temp;
     char **logv_temp;
@@ -278,6 +287,8 @@ void Screen::handle_opts(){
     case 10: // ENTER
 	switch(opt){
 	case 0:
+	    while(lock);
+	    lock = true;
 	    attron(A_BOLD | YELLOW_PAIR);
 	    mvprintw(mr - 3,0,"      ");
 	    mvprintw(mr - 2,0,"      ");
@@ -291,6 +302,7 @@ void Screen::handle_opts(){
 	    mvprintw(mr - 1,4,"s");
 	    attroff(A_BOLD | YELLOW_PAIR);
 	    writelnattr("Starting remote control!",GREEN_PAIR);
+	    lock = false;
 	    r_remote(this);
 	    return;
 	    break;
