@@ -22,6 +22,7 @@
 #define path_to_logfile "console_log"
 #define MAC_ADDRESS "00:16:53:1A:14:6A"
 
+#define DEFAULT_PAIR 0
 #define GREEN_PAIR COLOR_PAIR(1)
 #define RED_PAIR COLOR_PAIR(2)
 #define YELLOW_PAIR COLOR_PAIR(3)
@@ -127,7 +128,7 @@ void Screen::writelnattr(char *str,int attr){
 
 // logs to the console with no attributes.
 inline void Screen::writeln(char *str){
-    writelnattr(str,0);
+    writelnattr(str,DEFAULT_PAIR);
 }
 
 // Draws the robot stats.
@@ -316,7 +317,7 @@ void *stay_alive_sig(void *scr){
     while(1){
 	((Screen*) scr)->nxt.sendBuffer(str,2);
 	((Screen*) scr)->writelnattr("Sent STAY_ALIVE (0x0D) signal",
-				     GREEN_PAIR);
+				     YELLOW_PAIR);
 	sleep(60);
     }
 }
