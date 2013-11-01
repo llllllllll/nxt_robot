@@ -6,6 +6,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <time.h>
+#include <assert.h>
 
 #include "../lestat/bluecomm.h"
 #include "../lestat/opcodes.h"
@@ -312,6 +313,10 @@ void Screen::handle_opts(){
 // Sends a message to stay alive every minute, does not block the main thread.
 // This was a bitch. uguu~~
 void *stay_alive_tf(void *scr){
+    cpu_set_t proc;
+    CPU_ZERO(&proc);
+    CPU_SET(1,&proc);
+    assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
     char str[2] = {0x80,0x0D};
     while(1){
 	((Screen*) scr)->nxt->sendBuffer(str,2);
@@ -322,6 +327,10 @@ void *stay_alive_tf(void *scr){
 }
 
 void *log_tf(void *scr){
+    cpu_set_t proc;
+    CPU_ZERO(&proc);
+    CPU_SET(2,&proc);
+    assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
     while(1){
 	if (!((Screen*) scr)->log.empty() && !((Screen*) scr)->lock){
 	    ((Screen*) scr)->writelnattr_internals(

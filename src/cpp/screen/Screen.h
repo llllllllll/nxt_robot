@@ -8,6 +8,9 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include <ncurses.h>
+#include <pthread.h>
+
+
 #include <queue>
 
 #include "../lestat/bluecomm.h"
