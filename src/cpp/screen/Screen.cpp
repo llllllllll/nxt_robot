@@ -144,7 +144,6 @@ void Screen::draw_stats(){
 // Prints the static ui and then prints the main menu.
 void Screen::draw_menu(){
     wclear(ctlw);
-    print_ui_static();
     draw_stats();
     handle_opts();
 }

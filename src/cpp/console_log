@@ -936,3 +936,26 @@
 [11:16:04]:Exiting remote control!
 [11:16:05]:Starting remote control!
 [11:16:07]:Exiting remote control!
+[11:18:57]:Starting session
+[11:18:57]:Press any key to connect...
+[11:18:57]:Attempting to connect...
+[11:18:59]:Connection established!
+[11:18:59]:Grabbing initial sensor readings...
+[11:18:59]:Ready!
+[11:18:59]:Sent STAY_ALIVE (0x0D) signal
+[11:19:01]:Starting remote control!
+[11:19:01]:Exiting remote control!
+[11:20:00]:Starting session
+[11:20:00]:Press any key to connect...
+[11:20:01]:Attempting to connect...
+[11:20:03]:Connection established!
+[11:20:03]:Grabbing initial sensor readings...
+[11:20:04]:Ready!
+[11:20:04]:Sent STAY_ALIVE (0x0D) signal
+[11:20:08]:Starting right side autonomous control
+[11:20:08]:Starting left side autonomous control
+[11:20:09]:Starting remote control!
+[11:20:11]:Stopping all motors
+[11:20:13]:Requesting new sensor readings
+[11:20:14]:Requesting new sensor readings
+[11:20:14]:Exiting remote control!
