@@ -2,32 +2,20 @@
 // 25.10.2013
 // Implementation of Screen.
 
-#include <ncurses.h>
 #include <stdlib.h>
 #include <stdio.h>
-#include <iostream>
 #include <string.h>
 #include <time.h>
+#include <assert.h>
 
-#include "../lestat/exceptions.h"
-#include "../lestat/comms.h"
-#include "../lestat/usbcomm.h"
 #include "../lestat/bluecomm.h"
-#include "../lestat/message.h"
 #include "../lestat/opcodes.h"
 
 #include "Screen.h"
+#include "msg_t.h"
 #include "../robot_control/remote.cpp"
 
-#define path_to_logfile "console_log"
-#define MAC_ADDRESS "00:16:53:1A:14:6A"
-
-#define DEFAULT_PAIR 0
-#define GREEN_PAIR COLOR_PAIR(1)
-#define RED_PAIR COLOR_PAIR(2)
-#define YELLOW_PAIR COLOR_PAIR(3)
-
-Screen::Screen(){
+Screen::Screen(BlueComm *nxt){
     initscr();
     getmaxyx(stdscr,mr,mc);
     start_color();
@@ -39,96 +27,64 @@ Screen::Screen(){
     keypad(stdscr,TRUE);
     curs_set(0);
     noecho();
+    this->nxt = nxt;
     opt = 0;
     logf = fopen(path_to_logfile,"a");
     logc = mr - 2;
-    logv = (char**) malloc(sizeof(char*) * logc);
-    logattr = (int*) malloc(sizeof(int) * logc);
+    logv = (struct msg_t*) malloc(logc * sizeof(struct msg_t));
+    statw = newwin(12,6,3,10);
+    ctlw = newwin(mr - 8,mc / 5,mr - 8,0);
+    logw = newwin(logc,4 * mc / 5,2,mc / 5 + 1);
     for (int n = 0;n < logc;n++){
-	logv[n] = strdup("");
-	logattr[n] = 0;
+	logv[n].txt = strdup("");
+	logv[n].attr = 0;
     }
     m0 = 0;
     m1 = 0;
     m2 = 0;
     lock = false;
     print_ui_static();
-    writeln("Starting session");
-    writelnattr("Press any key to connect...",A_BOLD);
+    writelnattr_internals("Starting session",DEFAULT_PAIR);
+    writelnattr_internals("Press any key to connect...",A_BOLD);
     getch();
-    writeln("Attempting to connect...");
-    refresh();
+    writelnattr_internals("Attempting to connect...",DEFAULT_PAIR);
     try{
-	nxt.connect(MAC_ADDRESS);
+	nxt->connect(MAC_ADDRESS);
     } catch(NxtEx &ex){
-        writelnattr("ERROR: failed to connect!",RED_PAIR | A_BOLD);
-        writelnattr("Press any key to continue...",A_BOLD);
+        writelnattr_internals("ERROR: failed to connect!",RED_PAIR | A_BOLD);
+        writelnattr_internals("Press any key to continue...",A_BOLD);
 	getch();
 	endwin();
 	exit(1);
     }
-    writelnattr("Connection established!",GREEN_PAIR);
-    writeln("Grabbing initial sensor readings...");
-    op = new Opcodes(&nxt);
+    writelnattr_internals("Connection established!",GREEN_PAIR);
+    writelnattr_internals("Grabbing initial sensor readings...",DEFAULT_PAIR);
+    op = new Opcodes(nxt);
     s0 = op->getInputValues(0);
     s1 = op->getInputValues(1);
     s2 = op->getInputValues(2);
     s3 = op->getInputValues(3);
-    writelnattr("Ready!",GREEN_PAIR | A_BOLD);
+    writelnattr_internals("Ready!",GREEN_PAIR | A_BOLD);
     op->setInputMode(0,LIGHT_ACTIVE,BOOLEANMODE,false,NULL);
-    pthread_create(&stay_alive,NULL,stay_alive_sig,(void*) this);
-    refresh();
+    pthread_create(&stay_alive_thread,NULL,stay_alive_tf,(void*) this);
+    pthread_create(&log_thread,NULL,log_tf,(void*) this);
+    scr_refresh();
 }
 
 Screen::~Screen(){
-    for (int n = 0;n < logc;n++){
-	free(logv[n]);
-    }
     free(logv);
-    free(logattr);
     fclose(logf);
     delete op;
-    pthread_cancel(stay_alive);
+    pthread_cancel(stay_alive_thread);
+    pthread_cancel(log_thread);
     endwin();
 }
 
-// logs the string to the console with a given attribute,
-// and adds it to the console logfile.
-void Screen::writelnattr(char *str,int attr){
-    while(lock);
-    lock = true;
-    time_t t;
-    struct tm *ti;
-    free(logv[logc - 1]);
-    for (int n = logc - 1;n >= 0;n--){
-	logv[n] = logv[n - 1];
-	logattr[n] = logattr[n - 1];
-    }
-    time(&t);
-    ti = localtime(&t);
-    char *tstr = strdup(str);
-    char buffer[4 * mc / 5];
-    strftime(buffer,4 * mc / 5,"[%H:%M:%S]:",ti);
-    strcat(buffer,tstr);
-    logv[0] = strdup(buffer);
-    logattr[0] = attr;
-    free(tstr);
-    fwrite(logv[0],sizeof(char),strlen(logv[0]),logf);
-    fputc('\n',logf);
-    for (int n = 0;n < logc;n++){
-	move(mr - (n + 1),mc / 5 + 1);
-	clrtoeol();
-	attron(logattr[n]);
-	mvprintw(mr - (n + 1),mc / 5 + 1,"%s",logv[n]);
-	attroff(logattr[n]);
-    }
+void Screen::scr_refresh(){
+    wrefresh(statw);
+    wrefresh(ctlw);
+    wrefresh(logw);
     refresh();
-    lock = false;
-}
-
-// logs to the console with no attributes.
-inline void Screen::writeln(char *str){
-    writelnattr(str,DEFAULT_PAIR);
 }
 
 // Draws the robot stats.
@@ -136,55 +92,88 @@ void Screen::draw_stats(){
     while(lock);
     lock = true;
     unsigned short int b = op->getBatteryLevel();
-    if (b > 500){ attron(GREEN_PAIR); }
-    else { attron(RED_PAIR); }
-    mvprintw(3,9,"%humV",op->getBatteryLevel());
-    if (b > 500){ attroff(GREEN_PAIR); }
-    else { attroff(RED_PAIR); }
-    if (m0 >= 0){ attron(GREEN_PAIR); }
-    else { attron(RED_PAIR); }
-    mvprintw(6,11,"%+04d",m0);
-    if (m0 > 0){ attroff(GREEN_PAIR); }
-    else { attroff(RED_PAIR); }
-    if (m1 >= 0){ attron(GREEN_PAIR); }
-    else { attron(RED_PAIR); }
-    mvprintw(7,11,"%+04d",m1);
-    if (m1 >= 0){ attroff(GREEN_PAIR); }
-    else { attroff(RED_PAIR); }
-    if (m2 >= 0){ attron(GREEN_PAIR); }
-    else { attron(RED_PAIR); }
-    mvprintw(8,11,"%+04d",m2);
-    if (m2 >= 0){ attroff(GREEN_PAIR); }
-    else { attroff(RED_PAIR); }
+    if (b > 500){ wattron(statw,GREEN_PAIR); }
+    else { wattron(statw,RED_PAIR); }
+    mvwprintw(statw,0,0,"%humV",op->getBatteryLevel());
+    if (b > 500){ wattroff(statw,GREEN_PAIR); }
+    else { wattroff(statw,RED_PAIR); }
 
-    if (s0.calibratedValue > 500){ attron(GREEN_PAIR); }
-    else { attron(RED_PAIR); }
-    mvprintw(11,11,"%d",s0.calibratedValue);
-    if (s0.calibratedValue > 500){ attroff(GREEN_PAIR); }
-    else { attroff(RED_PAIR); }
-    if (s1.calibratedValue > 500){ attron(GREEN_PAIR); }
-    else { attron(RED_PAIR); }
-    mvprintw(12,11,"%d",s1.calibratedValue);
-    if (s1.calibratedValue > 500){ attroff(GREEN_PAIR); }
-    else { attroff(RED_PAIR); }
-    if (s2.calibratedValue > 500){ attron(GREEN_PAIR); }
-    else { attron(RED_PAIR); }
-    mvprintw(13,11,"%d",s2.calibratedValue);
-    if (s2.calibratedValue > 500){ attroff(GREEN_PAIR); }
-    else { attroff(RED_PAIR); }
-    if (s3.calibratedValue > 500){ attron(GREEN_PAIR); }
-    else { attron(RED_PAIR); }
-    mvprintw(14,11,"%d",s3.calibratedValue);
-    if (s3.calibratedValue > 500){ attroff(GREEN_PAIR); }
-    else { attroff(RED_PAIR); }
+    if (m0 >= 0){ wattron(statw,GREEN_PAIR); }
+    else { wattron(statw,RED_PAIR); }
+    mvwprintw(statw,3,1,"%+04d",m0);
+    if (m0 > 0){ wattroff(statw,GREEN_PAIR); }
+    else { wattroff(statw,RED_PAIR); }
+    if (m1 >= 0){ wattron(statw,GREEN_PAIR); }
+    else { wattron(statw,RED_PAIR); }
+    mvwprintw(statw,4,1,"%+04d",m1);
+    if (m1 >= 0){ wattroff(statw,GREEN_PAIR); }
+    else { wattroff(statw,RED_PAIR); }
+    if (m2 >= 0){ wattron(statw,GREEN_PAIR); }
+    else { wattron(statw,RED_PAIR); }
+    mvwprintw(statw,5,1,"%+04d",m2);
+    if (m2 >= 0){ wattroff(statw,GREEN_PAIR); }
+    else { wattroff(statw,RED_PAIR); }
+
+    if (s0.calibratedValue > 500){ wattron(statw,GREEN_PAIR); }
+    else { wattron(statw,RED_PAIR); }
+    mvwprintw(statw,8,1,"%d",s0.calibratedValue);
+    if (s0.calibratedValue > 500){ wattroff(statw,GREEN_PAIR); }
+    else { wattroff(statw,RED_PAIR); }
+    if (s1.calibratedValue > 500){ wattron(statw,GREEN_PAIR); }
+    else { wattron(statw,RED_PAIR); }
+    mvwprintw(statw,9,1,"%d",s1.calibratedValue);
+    if (s1.calibratedValue > 500){ wattroff(statw,GREEN_PAIR); }
+    else { wattroff(statw,RED_PAIR); }
+    if (s2.calibratedValue > 500){ wattron(statw,GREEN_PAIR); }
+    else { wattron(statw,RED_PAIR); }
+    mvwprintw(statw,10,1,"%d",s2.calibratedValue);
+    if (s2.calibratedValue > 500){ wattroff(statw,GREEN_PAIR); }
+    else { wattroff(statw,RED_PAIR); }
+    if (s3.calibratedValue > 500){ wattron(statw,GREEN_PAIR); }
+    else { wattron(statw,RED_PAIR); }
+    mvwprintw(statw,11,1,"%d",s3.calibratedValue);
+    if (s3.calibratedValue > 500){ wattroff(statw,GREEN_PAIR); }
+    else { wattroff(statw,RED_PAIR); }
     attroff(RED_PAIR);
     lock = false;
+    scr_refresh();
 }
 
 // Prints the static ui and then prints the main menu.
 void Screen::draw_menu(){
-    print_ui_static();
+    wclear(ctlw);
+    draw_stats();
     handle_opts();
+}
+
+// Internals for printing to the console.
+void Screen::writelnattr_internals(char *str,int attr){
+    while(lock);
+    lock = true;
+    time_t t;
+    struct tm *ti;
+    free(logv[logc - 1].txt);
+    for (int n = logc - 1;n >= 0;n--){
+	logv[n] = logv[n - 1];
+    }
+    time(&t);
+    ti = localtime(&t);
+    char *buffer = (char*) malloc(4 * mc / 5 * sizeof(char));
+    strftime(buffer,4 * mc / 5,"[%H:%M:%S]:",ti);
+    strcat(buffer,str);
+    logv[0].txt = buffer;
+    logv[0].attr = attr;
+    fwrite(logv[0].txt,sizeof(char),strlen(logv[0].txt),logf);
+    fputc('\n',logf);
+    for (int n = 0;n < logc;n++){
+	wmove(logw,logc - (n + 1),0);
+	wclrtoeol(logw);
+	wattron(logw,logv[n].attr);
+	mvwprintw(logw,logc - (n + 1),0,"%s",logv[n].txt);
+	wattroff(logw,logv[n].attr);
+    }
+    scr_refresh();
+    lock = false;
 }
 
 // Prints the basic UI features, they will be populated by the poll thread.
@@ -227,27 +216,26 @@ void Screen::handle_opts(){
     draw_stats();
     while(lock);
     lock = true;
-    attron(A_BOLD);
-    if (opt == 0){ attron(A_STANDOUT); }
-    mvprintw(mr - 3,0,"REMOTE");
-    if (opt == 0){ attroff(A_STANDOUT); }
-    if (opt == 1){ attron(A_STANDOUT); }
-    mvprintw(mr - 2,0,"RIGHT");
-    if (opt == 1){ attroff(A_STANDOUT); }
-    if (opt == 2){ attron(A_STANDOUT); }
-    mvprintw(mr - 1,0,"LEFT");
-    if (opt == 2){ attroff(A_STANDOUT); }
-    attroff(A_BOLD);
+    wattron(ctlw,A_BOLD);
+    if (opt == 0){ wattron(ctlw,A_STANDOUT); }
+    mvwprintw(ctlw,3,0,"REMOTE");
+    if (opt == 0){ wattroff(ctlw,A_STANDOUT); }
+    if (opt == 1){ wattron(ctlw,A_STANDOUT); }
+    mvwprintw(ctlw,4,0,"RIGHT");
+    if (opt == 1){ wattroff(ctlw,A_STANDOUT); }
+    if (opt == 2){ wattron(ctlw,A_STANDOUT); }
+    mvwprintw(ctlw,5,0,"LEFT");
+    if (opt == 2){ wattroff(ctlw,A_STANDOUT); }
+    wattroff(ctlw,A_BOLD);
     lock = false;
-    refresh();
-    int logc_temp,*logattr_temp;
-    char **logv_temp;
+    scr_refresh();
+    int logc_temp;
+    struct msg_t *logv_temp;
     switch(getch()){
     case 3:
-	for (int n = 0;n < logc;n++){
-	    free(logv[n]);
-	}
 	free(logv);
+	pthread_cancel(log_thread);
+	pthread_cancel(stay_alive_thread);
 	endwin();
 	exit(0);
 	break;
@@ -256,22 +244,19 @@ void Screen::handle_opts(){
 	getmaxyx(stdscr,mr,mc);
 	logc_temp = logc;
 	logc = 4 * mc / 5 - 1;
-	logv_temp = (char**) malloc(sizeof(char*) * logc);
-	logattr_temp = (int*) malloc(sizeof(int) * logc);
+	logv_temp = (struct msg_t*) malloc(logc * sizeof(struct msg_t));
 	for (int n = 0;n < logc;n++){
 	    logv_temp[n] = logv[n];
-	    logattr_temp[n] = logattr[n];
+	    free(logv[n].txt);
 	}
 	free(logv);
-	free(logattr);
 	logv = logv_temp;
-	logattr = logattr_temp;
 	for (int n = logc_temp;n < logc;n++){
-	    logv[n] = strdup("");
-	    logattr[n] = 0;
+	    logv[n].txt = strdup("");
+	    logv[n].attr = 0;
 	}
 	clear();
-	refresh();
+	scr_refresh();
 	draw_menu();
 	break;
     case KEY_UP:
@@ -288,19 +273,24 @@ void Screen::handle_opts(){
 	switch(opt){
 	case 0:
 	    while(lock);
-	    attron(A_BOLD | YELLOW_PAIR);
-	    mvprintw(mr - 3,0,"      ");
-	    mvprintw(mr - 2,0,"      ");
-	    mvprintw(mr - 1,0,"      ");
-	    mvprintw(mr - 8,0,"p - return");
-	    mvprintw(mr - 7,0,"r - read sensors");
-	    mvprintw(mr - 6,0,"SPACE - stop");
-	    mvprintw(mr - 4,4,"w");
-	    mvprintw(mr - 3,1,"q     e");
-	    mvprintw(mr - 2,1,"a     d");
-	    mvprintw(mr - 1,4,"s");
-	    attroff(A_BOLD | YELLOW_PAIR);
+	    lock = true;
+	    wattron(ctlw,A_BOLD);
+	    wmove(ctlw,3,0);
+	    wclrtoeol(ctlw);
+	    wmove(ctlw,4,0);
+	    wclrtoeol(ctlw);
+	    wmove(ctlw,5,0);
+	    wclrtoeol(ctlw);
+	    mvwprintw(ctlw,0,0,"p - return");
+	    mvwprintw(ctlw,1,0,"r - read sensors");
+	    mvwprintw(ctlw,2,0,"SPACE - stop");
+	    mvwprintw(ctlw,4,4,"w");
+	    mvwprintw(ctlw,5,1,"q     e");
+	    mvwprintw(ctlw,6,1,"a     d");
+	    mvwprintw(ctlw,7,4,"s");
+	    wattroff(ctlw,A_BOLD);
 	    writelnattr("Starting remote control!",GREEN_PAIR);
+	    lock = false;
 	    r_remote(this);
 	    return;
 	    break;
@@ -322,12 +312,32 @@ void Screen::handle_opts(){
 
 // Sends a message to stay alive every minute, does not block the main thread.
 // This was a bitch. uguu~~
-void *stay_alive_sig(void *scr){
+void *stay_alive_tf(void *scr){
+    cpu_set_t proc;
+    CPU_ZERO(&proc);
+    CPU_SET(1,&proc);
+    assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
     char str[2] = {0x80,0x0D};
     while(1){
-	((Screen*) scr)->nxt.sendBuffer(str,2);
+	((Screen*) scr)->nxt->sendBuffer(str,2);
 	((Screen*) scr)->writelnattr("Sent STAY_ALIVE (0x0D) signal",
 				     YELLOW_PAIR);
 	sleep(60);
+    }
+}
+
+void *log_tf(void *scr){
+    cpu_set_t proc;
+    CPU_ZERO(&proc);
+    CPU_SET(2,&proc);
+    assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
+    while(1){
+	if (!((Screen*) scr)->log.empty() && !((Screen*) scr)->lock){
+	    ((Screen*) scr)->writelnattr_internals(
+		((Screen*) scr)->log.front()->txt,
+		((Screen*) scr)->log.front()->attr);
+	    ((Screen*) scr)->log.pop();
+	}
+	usleep(5000);
     }
 }
