@@ -4,22 +4,17 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include <iostream>
 #include <string.h>
 #include <time.h>
 
-#include "../lestat/exceptions.h"
-#include "../lestat/comms.h"
-#include "../lestat/usbcomm.h"
 #include "../lestat/bluecomm.h"
-#include "../lestat/message.h"
 #include "../lestat/opcodes.h"
 
 #include "Screen.h"
 #include "msg_t.h"
 #include "../robot_control/remote.cpp"
 
-Screen::Screen(){
+Screen::Screen(BlueComm *nxt){
     initscr();
     getmaxyx(stdscr,mr,mc);
     start_color();
@@ -31,6 +26,7 @@ Screen::Screen(){
     keypad(stdscr,TRUE);
     curs_set(0);
     noecho();
+    this->nxt = nxt;
     opt = 0;
     logf = fopen(path_to_logfile,"a");
     logc = mr - 2;
@@ -52,7 +48,7 @@ Screen::Screen(){
     getch();
     writelnattr_internals("Attempting to connect...",DEFAULT_PAIR);
     try{
-	nxt.connect(MAC_ADDRESS);
+	nxt->connect(MAC_ADDRESS);
     } catch(NxtEx &ex){
         writelnattr_internals("ERROR: failed to connect!",RED_PAIR | A_BOLD);
         writelnattr_internals("Press any key to continue...",A_BOLD);
@@ -62,7 +58,7 @@ Screen::Screen(){
     }
     writelnattr_internals("Connection established!",GREEN_PAIR);
     writelnattr_internals("Grabbing initial sensor readings...",DEFAULT_PAIR);
-    op = new Opcodes(&nxt);
+    op = new Opcodes(nxt);
     s0 = op->getInputValues(0);
     s1 = op->getInputValues(1);
     s2 = op->getInputValues(2);
@@ -100,19 +96,20 @@ void Screen::draw_stats(){
     mvwprintw(statw,0,0,"%humV",op->getBatteryLevel());
     if (b > 500){ wattroff(statw,GREEN_PAIR); }
     else { wattroff(statw,RED_PAIR); }
+
     if (m0 >= 0){ wattron(statw,GREEN_PAIR); }
     else { wattron(statw,RED_PAIR); }
-    mvwprintw(statw,3,0,"%+04d",m0);
+    mvwprintw(statw,3,1,"%+04d",m0);
     if (m0 > 0){ wattroff(statw,GREEN_PAIR); }
     else { wattroff(statw,RED_PAIR); }
     if (m1 >= 0){ wattron(statw,GREEN_PAIR); }
     else { wattron(statw,RED_PAIR); }
-    mvwprintw(statw,4,0,"%+04d",m1);
+    mvwprintw(statw,4,1,"%+04d",m1);
     if (m1 >= 0){ wattroff(statw,GREEN_PAIR); }
     else { wattroff(statw,RED_PAIR); }
     if (m2 >= 0){ wattron(statw,GREEN_PAIR); }
     else { wattron(statw,RED_PAIR); }
-    mvwprintw(statw,5,0,"%+04d",m2);
+    mvwprintw(statw,5,1,"%+04d",m2);
     if (m2 >= 0){ wattroff(statw,GREEN_PAIR); }
     else { wattroff(statw,RED_PAIR); }
 
@@ -216,6 +213,8 @@ void Screen::print_ui_static(){
 // Prints the options and handles user input.
 void Screen::handle_opts(){
     draw_stats();
+    while(lock);
+    lock = true;
     wattron(ctlw,A_BOLD);
     if (opt == 0){ wattron(ctlw,A_STANDOUT); }
     mvwprintw(ctlw,3,0,"REMOTE");
@@ -227,6 +226,7 @@ void Screen::handle_opts(){
     mvwprintw(ctlw,5,0,"LEFT");
     if (opt == 2){ wattroff(ctlw,A_STANDOUT); }
     wattroff(ctlw,A_BOLD);
+    lock = false;
     scr_refresh();
     int logc_temp;
     struct msg_t *logv_temp;
@@ -272,7 +272,8 @@ void Screen::handle_opts(){
 	switch(opt){
 	case 0:
 	    while(lock);
-	    wattron(ctlw,A_BOLD | YELLOW_PAIR);
+	    lock = true;
+	    wattron(ctlw,A_BOLD);
 	    wmove(ctlw,3,0);
 	    wclrtoeol(ctlw);
 	    wmove(ctlw,4,0);
@@ -286,8 +287,9 @@ void Screen::handle_opts(){
 	    mvwprintw(ctlw,5,1,"q     e");
 	    mvwprintw(ctlw,6,1,"a     d");
 	    mvwprintw(ctlw,7,4,"s");
-	    wattroff(ctlw,A_BOLD | YELLOW_PAIR);
+	    wattroff(ctlw,A_BOLD);
 	    writelnattr("Starting remote control!",GREEN_PAIR);
+	    lock = false;
 	    r_remote(this);
 	    return;
 	    break;
@@ -312,7 +314,7 @@ void Screen::handle_opts(){
 void *stay_alive_tf(void *scr){
     char str[2] = {0x80,0x0D};
     while(1){
-	((Screen*) scr)->nxt.sendBuffer(str,2);
+	((Screen*) scr)->nxt->sendBuffer(str,2);
 	((Screen*) scr)->writelnattr("Sent STAY_ALIVE (0x0D) signal",
 				     YELLOW_PAIR);
 	sleep(60);

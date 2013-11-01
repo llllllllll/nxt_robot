@@ -2,7 +2,8 @@
 #include <ncurses.h>
 
 int main(){
-    Screen scr;
+    BlueComm nxt;
+    Screen scr(&nxt);
     scr.draw_menu();
     return 0;
 }

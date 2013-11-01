@@ -5,6 +5,7 @@
 #ifndef SCREEN_H
 #define SCREEN_H
 #include <stdio.h>
+#include <stdlib.h>
 #include <pthread.h>
 #include <ncurses.h>
 #include <queue>
@@ -24,7 +25,7 @@
 
 class Screen{
 public:
-    Screen();
+    Screen(BlueComm*);
     ~Screen();
     void scr_refresh();
     inline void writelnattr(char*,int);
@@ -32,7 +33,7 @@ public:
     inline void prompt(char*);
     void draw_stats();
     void draw_menu();
-    BlueComm nxt;
+    BlueComm *nxt;
     int m0,m1,m2;
     SensorState s0,s1,s2,s3;
     Opcodes *op;
@@ -56,16 +57,26 @@ void *log_tf(void*);
 // Push one message into the message queue that will allow it to be processed
 // outside of the logic thread.
 inline void Screen::writelnattr(char *str,int attr){
-    log.push(new struct msg_t(str,attr));
+    struct msg_t *msg = (struct msg_t*) malloc(sizeof(struct msg_t));
+    msg->txt = str;
+    msg->attr = attr;
+    log.push(msg);
 }
 
 // Push one message with no attributes.
 inline void Screen::writeln(char *str){
-    log.push(new struct msg_t(str,DEFAULT_PAIR));
+    struct msg_t *msg = (struct msg_t*) malloc(sizeof(struct msg_t));
+    msg->txt = str;
+    msg->attr = DEFAULT_PAIR;
+    log.push(msg);
 }
 
+// Push one message and wait for the user to press a key to continue.
 inline void Screen::prompt(char *str){
-    log.push(new struct msg_t(str,A_BOLD));
+    struct msg_t *msg = (struct msg_t*) malloc(sizeof(struct msg_t));
+    msg->txt = str;
+    msg->attr = A_BOLD;
+    log.push(msg);
     getch();
 }
 
