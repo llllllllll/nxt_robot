@@ -26,6 +26,7 @@ class Screen{
 public:
     Screen();
     ~Screen();
+    void scr_refresh();
     inline void writelnattr(char*,int);
     inline void writeln(char*);
     inline void prompt(char*);
@@ -40,6 +41,7 @@ private:
     void writelnattr_internals(char*,int);
     void print_ui_static();
     void handle_opts();
+    WINDOW *logw,*statw,*ctlw;
     std::queue<struct msg_t*> log;
     struct msg_t *logv;
     int mr,mc,opt,logc;

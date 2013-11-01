@@ -32,7 +32,6 @@ void r_remote(Screen *scr){
 	    scr->m0 = 0;
 	    scr->m1 = 0;
 	    scr->m2 = 0;
-	    clear();
 	    scr->writelnattr("Exiting remote control!",COLOR_PAIR(1));
 	    scr->draw_menu();
 	    break;
