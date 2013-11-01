@@ -1,847 +1,421 @@
-[17:56:28]:Starting session
-[17:56:28]:Press any key to connect...
-[17:56:28]:Attempting to connect...
-[17:56:32]:Connection established!
-[17:56:32]:Grabbing initial sensor readings...
-[17:56:33]:Ready!
-[17:56:33]:Sent stay_alive (0x0D) signal
-[17:56:37]:Starting remote control!
-[17:56:37]:Increasing foward speed
-[17:56:38]:Increasing foward speed
-[17:56:38]:Increasing foward speed
-[17:56:38]:Increasing foward speed
-[17:56:39]:Increasing foward speed
-[17:56:39]:Increasing foward speed
-[17:56:39]:Increasing foward speed
-[17:56:39]:Increasing foward speed
-[17:56:39]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing foward speed
-[17:56:40]:Increasing reverse right speed
-[17:56:40]:Increasing reverse right speed
-[17:56:40]:Increasing reverse right speed
-[17:56:40]:Increasing reverse right speed
-[17:56:40]:Increasing reverse right speed
-[17:56:40]:Increasing reverse right speed
-[17:56:40]:Stopping all motors
-[17:56:43]:Increasing reverse right speed
-[17:56:43]:Increasing reverse right speed
-[17:56:43]:Stopping all motors
-[17:56:46]:Max foward speed
-[17:56:46]:Increasing foward speed
-[17:56:46]:Stopping all motors
-[17:56:48]:Max foward speed
-[17:56:48]:Increasing foward speed
-[17:56:48]:Stopping all motors
-[17:56:49]:Max reverse speed
-[17:56:49]:Increasing reverse speed
-[17:56:50]:Stopping all motors
-[17:56:51]:Increasing foward speed
-[17:56:51]:Increasing foward speed
-[17:56:52]:Stopping all motors
-[17:56:55]:Increasing reverse left speed
-[17:56:55]:Increasing reverse left speed
-[17:56:55]:Increasing reverse left speed
-[17:56:56]:Increasing reverse left speed
-[17:56:56]:Increasing reverse left speed
-[17:56:56]:Increasing reverse left speed
-[17:56:57]:Increasing reverse left speed
-[17:56:57]:Increasing reverse left speed
-[17:56:57]:Increasing reverse left speed
-[17:56:57]:Increasing reverse left speed
-[17:56:58]:Stopping all motors
-[17:57:05]:Increasing foward speed
-[17:57:07]:Increasing foward speed
-[17:57:08]:Increasing foward speed
-[17:57:09]:Increasing reverse speed
-[17:57:10]:Increasing reverse speed
-[17:57:11]:Increasing foward speed
-[17:57:13]:Stopping all motors
-[17:57:15]:Increasing foward speed
-[17:57:16]:Increasing reverse right speed
-[17:57:16]:Increasing reverse right speed
-[17:57:16]:Increasing foward speed
-[17:57:17]:Increasing foward speed
-[17:57:17]:Increasing foward speed
-[17:57:17]:Increasing foward speed
-[17:57:19]:Stopping all motors
-[17:57:19]:Increasing reverse left speed
-[17:57:20]:Increasing reverse left speed
-[17:57:20]:Increasing reverse left speed
-[17:57:21]:Increasing foward speed
-[17:57:21]:Increasing foward speed
-[17:57:21]:Increasing foward speed
-[17:57:21]:Increasing foward speed
-[17:57:21]:Stopping all motors
-[17:57:22]:Increasing foward speed
-[17:57:22]:Increasing foward speed
-[17:57:22]:Increasing foward speed
-[17:57:23]:Stopping all motors
-[17:57:27]:Increasing foward left speed
-[17:57:27]:Increasing foward left speed
-[17:57:27]:Increasing foward left speed
-[17:57:27]:Increasing foward left speed
-[17:57:28]:Increasing reverse left speed
-[17:57:28]:Increasing reverse left speed
-[17:57:28]:Stopping all motors
-[17:57:29]:Increasing reverse left speed
-[17:57:29]:Increasing reverse left speed
-[17:57:29]:Increasing reverse left speed
-[17:57:30]:Increasing reverse left speed
-[17:57:30]:Stopping all motors
-[17:57:40]:Starting session
-[17:57:40]:Press any key to connect...
-[17:57:44]:Attempting to connect...
-[17:57:48]:Connection established!
-[17:57:48]:Grabbing initial sensor readings...
-[17:57:49]:Ready!
-[17:57:49]:Sent stay_alive (0x0D) signal
-[17:57:50]:Starting remote control!
-[17:57:51]:Increasing reverse right speed
-[17:57:51]:Increasing reverse right speed
-[17:57:52]:Increasing reverse right speed
-[17:57:52]:Stopping all motors
-[17:57:52]:Increasing foward right speed
-[17:57:53]:Increasing foward right speed
-[17:57:53]:Increasing foward right speed
-[17:57:53]:Increasing foward right speed
-[17:57:53]:Increasing foward right speed
-[17:57:53]:Stopping all motors
-[17:57:54]:Increasing reverse right speed
-[17:57:54]:Increasing reverse right speed
-[17:57:54]:Increasing reverse right speed
-[17:57:55]:Increasing reverse right speed
-[17:57:55]:Stopping all motors
-[17:57:55]:Increasing reverse speed
-[17:57:55]:Increasing reverse speed
-[17:57:56]:Increasing reverse speed
-[17:57:56]:Increasing reverse speed
-[17:57:56]:Increasing reverse speed
-[17:57:56]:Stopping all motors
-[17:57:58]:Max foward speed
-[17:57:58]:Increasing foward speed
-[17:57:59]:Max reverse speed
-[17:57:59]:Increasing reverse speed
-[17:57:59]:Stopping all motors
-[17:58:01]:Max foward speed
-[17:58:01]:Increasing foward speed
-[17:58:02]:Max reverse speed
-[17:58:02]:Increasing reverse speed
-[17:58:02]:Max foward speed
-[17:58:02]:Increasing foward speed
-[17:58:02]:Max reverse speed
-[17:58:02]:Increasing reverse speed
-[17:58:02]:Max foward speed
-[17:58:02]:Increasing foward speed
-[17:58:02]:Max reverse speed
-[17:58:02]:Increasing reverse speed
-[17:58:02]:Max foward speed
-[17:58:02]:Increasing foward speed
-[17:58:03]:Max reverse speed
-[17:58:03]:Increasing reverse speed
-[17:58:03]:Max foward speed
-[17:58:03]:Increasing foward speed
-[17:58:03]:Max foward speed
-[17:58:03]:Increasing foward speed
-[17:58:03]:Max foward speed
-[17:58:03]:Increasing foward speed
-[17:58:03]:Max reverse speed
-[17:58:03]:Increasing reverse speed
-[17:58:04]:Max reverse speed
-[17:58:04]:Increasing reverse speed
-[17:58:04]:Max reverse speed
-[17:58:04]:Increasing reverse speed
-[17:58:04]:Max foward speed
-[17:58:04]:Increasing foward speed
-[17:58:04]:Max reverse speed
-[17:58:04]:Increasing reverse speed
-[17:58:05]:Increasing foward speed
-[17:58:05]:Increasing foward speed
-[17:58:05]:Stopping all motors
-[17:58:06]:Increasing foward speed
-[17:58:06]:Increasing foward speed
-[17:58:06]:Increasing foward speed
-[17:58:06]:Increasing foward speed
-[17:58:06]:Increasing foward speed
-[17:58:07]:Increasing foward speed
-[17:58:07]:Increasing foward speed
-[17:58:07]:Increasing foward speed
-[17:58:07]:Increasing foward speed
-[17:58:07]:Increasing foward speed
-[17:58:07]:Increasing foward speed
-[17:58:07]:Increasing foward speed
-[17:58:07]:Increasing foward speed
-[17:58:07]:Increasing foward speed
-[17:58:07]:Increasing foward speed
-[17:58:08]:Increasing foward speed
-[17:58:08]:Increasing foward speed
-[17:58:08]:Stopping all motors
-[17:58:09]:Max reverse speed
-[17:58:09]:Increasing reverse speed
-[17:58:09]:Stopping all motors
-[17:58:11]:Increasing foward right speed
-[17:58:12]:Requesting new sensor readings
-[17:58:12]:Stopping all motors
-[17:58:13]:Requesting new sensor readings
-[17:58:14]:Requesting new sensor readings
-[17:58:14]:Requesting new sensor readings
-[17:58:15]:Requesting new sensor readings
-[17:58:15]:Requesting new sensor readings
-[17:58:15]:Requesting new sensor readings
-[17:58:15]:Requesting new sensor readings
-[17:58:16]:Requesting new sensor readings
-[17:58:16]:Requesting new sensor readings
-[17:58:16]:Requesting new sensor readings
-[17:58:20]:Requesting new sensor readings
-[17:58:26]:Requesting new sensor readings
-[17:58:32]:Requesting new sensor readings
-[17:58:33]:Requesting new sensor readings
-[17:58:34]:Requesting new sensor readings
-[17:58:35]:Requesting new sensor readings
-[17:58:36]:Requesting new sensor readings
-[17:58:37]:Requesting new sensor readings
-[17:58:39]:Requesting new sensor readings
-[17:58:40]:Requesting new sensor readings
-[17:58:49]:Sent stay_alive (0x0D) signal
-[17:58:50]:Increasing foward right speed
-[17:59:05]:Stopping all motors
-[17:59:49]:Sent stay_alive (0x0D) signal
-[18:00:49]:Sent stay_alive (0x0D) signal
-[18:01:49]:Sent stay_alive (0x0D) signal
-[18:02:33]:Starting session
-[18:02:33]:Press any key to connect...
-[18:02:34]:Attempting to connect...
-[18:02:38]:Connection established!
-[18:02:38]:Grabbing initial sensor readings...
-[18:02:39]:Ready!
-[18:02:39]:Sent stay_alive (0x0D) signal
-[18:03:39]:Sent stay_alive (0x0D) signal
-[18:04:39]:Sent stay_alive (0x0D) signal
-[18:05:39]:Sent stay_alive (0x0D) signal
-[18:06:39]:Sent stay_alive (0x0D) signal
-[18:07:39]:Sent stay_alive (0x0D) signal
-[18:08:03]:Starting session
-[18:08:03]:Press any key to connect...
-[18:08:03]:Attempting to connect...
-[18:08:27]:ERROR: failed to connect!
-[18:08:27]:Press any key to continue...
-[18:08:37]:Starting session
-[18:08:37]:Press any key to connect...
-[18:08:37]:Attempting to connect...
-[18:08:43]:ERROR: failed to connect!
-[18:08:43]:Press any key to continue...
-[18:08:56]:Starting session
-[18:08:56]:Press any key to connect...
-[18:08:56]:Attempting to connect...
-[18:09:01]:Connection established!
-[18:09:01]:Grabbing initial sensor readings...
-[18:09:01]:Ready!
-[18:09:01]:Sent stay_alive (0x0D) signal
-[18:09:34]:Starting remote control!
-[18:09:54]:Starting session
-[18:09:54]:Press any key to connect...
-[18:09:55]:Attempting to connect...
-[18:09:59]:Connection established!
-[18:09:59]:Grabbing initial sensor readings...
-[18:10:00]:Ready!
-[18:10:00]:Sent stay_alive (0x0D) signal
-[18:10:02]:Starting remote control!
-[18:10:03]:Increasing foward speed
-[18:10:03]:Increasing foward speed
-[18:10:03]:Increasing foward speed
-[18:10:04]:Increasing foward speed
-[18:10:04]:Increasing foward speed
-[18:10:04]:Increasing foward speed
-[18:10:23]:Starting session
-[18:10:23]:Press any key to connect...
-[18:10:24]:Attempting to connect...
-[18:10:29]:Connection established!
-[18:10:29]:Grabbing initial sensor readings...
-[18:10:30]:Ready!
-[18:10:30]:Sent stay_alive (0x0D) signal
-[18:10:31]:Starting remote control!
-[18:10:32]:Stopping all motors
-[18:11:30]:Sent stay_alive (0x0D) signal
-[18:12:30]:Sent stay_alive (0x0D) signal
-[18:15:02]:Starting session
-[18:15:02]:Press any key to connect...
-[18:15:03]:Attempting to connect...
-[18:15:07]:Connection established!
-[18:15:07]:Grabbing initial sensor readings...
-[18:15:08]:Ready!
-[18:15:08]:Sent stay_alive (0x0D) signal
-[18:15:11]:Starting remote control!
-[18:15:26]:Starting session
-[18:15:26]:Press any key to connect...
-[18:15:27]:Attempting to connect...
-[18:15:31]:Connection established!
-[18:15:31]:Grabbing initial sensor readings...
-[18:15:32]:Ready!
-[18:15:32]:Sent stay_alive (0x0D) signal
-[18:15:45]:Starting session
-[18:15:45]:Press any key to connect...
-[18:15:46]:Attempting to connect...
-[18:15:50]:Connection established!
-[18:15:50]:Grabbing initial sensor readings...
-[18:15:51]:Ready!
-[18:15:51]:Sent stay_alive (0x0D) signal
-[18:16:51]:Sent stay_alive (0x0D) signal
-[18:17:51]:Sent stay_alive (0x0D) signal
-[18:54:40]:Starting session
-[18:54:40]:Press any key to connect...
-[18:54:41]:Attempting to connect...
-[18:54:45]:Connection established!
-[18:54:45]:Grabbing initial sensor readings...
-[18:54:46]:Ready!
-[18:54:46]:Sent stay_alive (0x0D) signal
-[18:56:58]:Starting session
-[18:56:58]:Press any key to connect...
-[18:56:59]:Attempting to connect...
-[18:57:03]:Connection established!
-[18:57:03]:Grabbing initial sensor readings...
-[18:57:04]:Ready!
-[18:57:04]:Sent stay_alive (0x0D) signal
-[18:57:44]:Starting session
-[18:57:44]:Press any key to connect...
-[18:57:45]:Attempting to connect...
-[18:57:49]:Connection established!
-[18:57:49]:Grabbing initial sensor readings...
-[18:57:50]:Ready!
-[18:57:50]:Sent stay_alive (0x0D) signal
-[18:58:10]:Starting session
-[18:58:10]:Press any key to connect...
-[18:58:11]:Attempting to connect...
-[18:58:15]:Connection established!
-[18:58:15]:Grabbing initial sensor readings...
-[18:58:16]:Ready!
-[18:58:16]:Sent stay_alive (0x0D) signal
-[19:00:09]:Starting session
-[19:00:09]:Press any key to connect...
-[19:00:11]:Attempting to connect...
-[19:00:15]:Connection established!
-[19:00:15]:Grabbing initial sensor readings...
-[19:00:16]:Ready!
-[19:00:16]:Sent stay_alive (0x0D) signal
-[19:00:24]:Starting session
-[19:00:24]:Press any key to connect...
-[19:00:25]:Attempting to connect...
-[19:00:29]:Connection established!
-[19:00:29]:Grabbing initial sensor readings...
-[19:00:30]:Ready!
-[19:00:30]:Sent stay_alive (0x0D) signal
-[19:01:30]:Sent stay_alive (0x0D) signal
-[19:03:04]:Starting session
-[19:03:04]:Press any key to connect...
-[19:03:05]:Attempting to connect...
-[19:03:09]:Connection established!
-[19:03:09]:Grabbing initial sensor readings...
-[19:03:10]:Ready!
-[19:04:39]:Starting session
-[19:04:39]:Press any key to connect...
-[19:04:40]:Attempting to connect...
-[19:04:44]:Connection established!
-[19:04:44]:Grabbing initial sensor readings...
-[19:04:45]:Ready!
-[19:04:57]:Starting session
-[19:04:57]:Press any key to connect...
-[19:04:57]:Attempting to connect...
-[19:05:01]:Connection established!
-[19:05:01]:Grabbing initial sensor readings...
-[19:05:02]:Ready!
-[19:05:31]:Starting session
-[19:05:31]:Press any key to connect...
-[19:05:32]:Attempting to connect...
-[19:05:37]:Connection established!
-[19:05:37]:Grabbing initial sensor readings...
-[19:05:38]:Ready!
-[19:05:51]:Starting session
-[19:05:51]:Press any key to connect...
-[19:05:52]:Attempting to connect...
-[19:05:56]:Connection established!
-[19:05:56]:Grabbing initial sensor readings...
-[19:05:57]:Ready!
-[19:05:57]:Sent stay_alive (0x0D) signal
-[19:06:39]:Starting session
-[19:06:39]:Press any key to connect...
-[19:06:40]:Attempting to connect...
-[19:06:43]:Connection established!
-[19:06:43]:Grabbing initial sensor readings...
-[19:06:44]:Ready!
-[19:06:44]:Sent stay_alive (0x0D) signal
-[19:07:35]:Starting remote control!
-[19:07:37]:Increasing reverse right speed
-[19:07:37]:Increasing reverse right speed
-[19:07:39]:Stopping all motors
-[19:07:39]:Max reverse speed
-[19:07:39]:Increasing reverse speed
-[19:07:41]:Stopping all motors
-[19:07:42]:Increasing reverse right speed
-[19:07:42]:Increasing reverse right speed
-[19:07:42]:Increasing reverse right speed
-[19:07:42]:Increasing reverse right speed
-[19:07:42]:Increasing reverse right speed
-[19:07:44]:Stopping all motors
-[19:07:44]:Sent stay_alive (0x0D) signal
-[19:07:44]:Increasing foward speed
-[19:07:45]:Increasing foward speed
-[19:07:45]:Increasing foward speed
-[19:07:45]:Increasing foward speed
-[19:07:45]:Increasing foward speed
-[19:07:45]:Increasing foward speed
-[19:07:46]:Increasing foward speed
-[19:07:46]:Increasing foward speed
-[19:07:46]:Increasing reverse left speed
-[19:07:46]:Increasing reverse left speed
-[19:07:46]:Increasing reverse left speed
-[19:07:46]:Increasing reverse left speed
-[19:07:47]:Stopping all motors
-[19:07:49]:Max foward speed
-[19:07:49]:Increasing foward speed
-[19:07:50]:Stopping all motors
-[19:07:50]:Max reverse speed
-[19:07:50]:Increasing reverse speed
-[19:07:51]:Stopping all motors
-[19:07:51]:Max foward speed
-[19:07:51]:Increasing foward speed
-[19:07:52]:Stopping all motors
-[19:07:52]:Max reverse speed
-[19:07:52]:Increasing reverse speed
-[19:07:53]:Stopping all motors
-[19:07:53]:Increasing reverse right speed
-[19:07:53]:Increasing reverse right speed
-[19:07:54]:Increasing reverse right speed
-[19:07:54]:Increasing reverse right speed
-[19:07:56]:Stopping all motors
-[19:07:56]:Increasing reverse right speed
-[19:07:57]:Increasing reverse right speed
-[19:07:57]:Increasing reverse right speed
-[19:07:57]:Stopping all motors
-[19:07:58]:Increasing reverse right speed
-[19:07:58]:Increasing foward right speed
-[19:07:58]:Increasing foward right speed
-[19:07:59]:Increasing foward right speed
-[19:07:59]:Increasing foward right speed
-[19:07:59]:Increasing foward right speed
-[19:07:59]:Increasing foward right speed
-[19:07:59]:Increasing foward right speed
-[19:08:00]:Increasing foward left speed
-[19:08:00]:Increasing foward left speed
-[19:08:00]:Increasing foward left speed
-[19:08:00]:Increasing foward left speed
-[19:08:00]:Stopping all motors
-[19:08:44]:Sent stay_alive (0x0D) signal
-[19:10:11]:Starting session
-[19:10:11]:Press any key to connect...
-[19:10:12]:Attempting to connect...
-[19:10:16]:Connection established!
-[19:10:16]:Grabbing initial sensor readings...
-[19:10:17]:Ready!
-[19:10:17]:Sent stay_alive (0x0D) signal
-[19:10:20]:Starting remote control!
-[19:10:20]:Increasing foward speed
-[19:10:20]:Increasing foward speed
-[19:10:20]:Increasing foward speed
-[19:10:21]:Increasing foward speed
-[19:10:21]:Increasing foward speed
-[19:10:21]:Stopping all motors
-[19:10:22]:Increasing reverse left speed
-[19:10:23]:Increasing reverse left speed
-[19:10:23]:Stopping all motors
-[19:10:24]:Increasing foward right speed
-[19:10:24]:Increasing foward right speed
-[19:10:24]:Stopping all motors
-[19:10:26]:Increasing reverse right speed
-[19:10:26]:Increasing foward left speed
-[19:10:26]:Increasing reverse right speed
-[19:10:27]:Increasing foward left speed
-[19:10:27]:Increasing reverse right speed
-[19:10:27]:Increasing foward left speed
-[19:10:27]:Increasing reverse right speed
-[19:10:27]:Increasing foward left speed
-[19:10:44]:Stopping all motors
-[19:10:45]:Stopping all motors
-[19:10:45]:Stopping all motors
-[19:10:45]:Stopping all motors
-[19:10:46]:Stopping all motors
-[19:10:46]:Stopping all motors
-[19:10:46]:Stopping all motors
-[19:10:47]:Requesting new sensor readings
-[19:10:47]:Requesting new sensor readings
-[19:10:47]:Requesting new sensor readings
-[19:11:17]:Sent stay_alive (0x0D) signal
-[19:12:17]:Sent stay_alive (0x0D) signal
-[19:12:54]:Starting session
-[19:12:54]:Press any key to connect...
-[19:12:54]:Attempting to connect...
-[19:12:59]:Connection established!
-[19:12:59]:Grabbing initial sensor readings...
-[19:13:00]:Ready!
-[19:13:11]:Starting session
-[19:13:11]:Press any key to connect...
-[19:13:12]:Attempting to connect...
-[19:13:16]:Connection established!
-[19:13:16]:Grabbing initial sensor readings...
-[19:13:16]:Ready!
-[19:14:18]:Starting session
-[19:14:18]:Press any key to connect...
-[19:14:18]:Attempting to connect...
-[19:14:22]:Connection established!
-[19:14:22]:Grabbing initial sensor readings...
-[19:14:23]:Ready!
-[19:14:23]:Sent stay_alive (0x0D) signal
-[19:14:51]:Starting session
-[19:14:51]:Press any key to connect...
-[19:15:01]:Attempting to connect...
-[19:15:06]:Connection established!
-[19:15:06]:Grabbing initial sensor readings...
-[19:15:06]:Ready!
-[19:16:42]:Starting session
-[19:16:42]:Press any key to connect...
-[19:16:42]:Attempting to connect...
-[19:16:47]:Connection established!
-[19:16:47]:Grabbing initial sensor readings...
-[19:16:48]:Ready!
-[19:16:48]:Sent stay_alive (0x0D) signal
-[19:16:55]:Starting remote control!
-[19:16:55]:Stopping all motors
-[19:17:05]:Starting session
-[19:17:05]:Press any key to connect...
-[19:17:05]:Attempting to connect...
-[19:17:10]:Connection established!
-[19:17:10]:Grabbing initial sensor readings...
-[19:17:11]:Ready!
-[19:17:48]:Starting session
-[19:17:48]:Press any key to connect...
-[19:17:48]:Attempting to connect...
-[19:17:52]:Connection established!
-[19:17:52]:Grabbing initial sensor readings...
-[19:17:53]:Ready!
-[19:18:14]:Starting session
-[19:18:14]:Press any key to connect...
-[19:18:15]:Attempting to connect...
-[19:18:19]:Connection established!
-[19:18:19]:Grabbing initial sensor readings...
-[19:18:20]:Ready!
-[19:18:40]:Starting session
-[19:18:40]:Press any key to connect...
-[19:18:40]:Attempting to connect...
-[19:18:44]:Connection established!
-[19:18:44]:Grabbing initial sensor readings...
-[19:18:45]:Ready!
-[19:18:45]:Sent stay_alive (0x0D) signal
-[19:18:51]:Starting remote control!
-[19:18:52]:Increasing reverse speed
-[19:18:52]:Increasing reverse speed
-[19:18:53]:Increasing reverse speed
-[19:18:53]:Increasing reverse speed
-[19:18:53]:Stopping all motors
-[19:19:02]:Exiting remote control!
-[19:19:08]:Starting session
-[19:19:08]:Press any key to connect...
-[19:19:09]:Attempting to connect...
-[19:19:13]:Connection established!
-[19:19:13]:Grabbing initial sensor readings...
-[19:19:13]:Ready!
-[19:19:13]:Sent stay_alive (0x0D) signal
-[19:20:13]:Sent stay_alive (0x0D) signal
-[19:20:49]:Starting session
-[19:20:49]:Press any key to connect...
-[19:21:06]:Attempting to connect...
-[19:21:10]:Connection established!
-[19:21:10]:Grabbing initial sensor readings...
-[19:21:11]:Ready!
-[19:21:11]:Sent stay_alive (0x0D) signal
-[19:21:33]:Starting remote control!
-[19:21:34]:Increasing reverse speed
-[19:21:35]:Increasing reverse speed
-[19:21:35]:Increasing reverse speed
-[19:21:36]:Stopping all motors
-[19:21:37]:Max reverse speed
-[19:21:37]:Increasing reverse speed
-[19:21:38]:Stopping all motors
-[19:21:39]:Increasing reverse right speed
-[19:21:39]:Increasing reverse right speed
-[19:21:40]:Stopping all motors
-[19:21:41]:Increasing foward left speed
-[19:21:41]:Increasing foward left speed
-[19:21:43]:Stopping all motors
-[19:21:45]:Max foward speed
-[19:21:45]:Increasing foward speed
-[19:21:45]:Stopping all motors
-[19:21:47]:Increasing reverse right speed
-[19:21:47]:Increasing foward left speed
-[19:21:47]:Increasing reverse right speed
-[19:21:47]:Increasing foward left speed
-[19:21:47]:Increasing reverse right speed
-[19:21:48]:Increasing foward left speed
-[19:21:48]:Increasing reverse right speed
-[19:21:48]:Increasing foward left speed
-[19:21:48]:Increasing reverse right speed
-[19:21:48]:Increasing foward left speed
-[19:21:48]:Increasing reverse right speed
-[19:21:49]:Increasing reverse right speed
-[19:21:50]:Increasing foward left speed
-[19:21:50]:Increasing foward left speed
-[19:21:59]:Requesting new sensor readings
-[19:22:11]:Sent stay_alive (0x0D) signal
-[19:22:31]:Stopping all motors
-[19:22:32]:Exiting remote control!
-[19:22:36]:Starting remote control!
-[19:22:38]:Requesting new sensor readings
-[19:22:42]:Requesting new sensor readings
-[19:22:48]:Exiting remote control!
-[19:23:11]:Sent stay_alive (0x0D) signal
-[19:24:11]:Sent stay_alive (0x0D) signal
-[19:25:11]:Sent stay_alive (0x0D) signal
-[19:26:11]:Sent stay_alive (0x0D) signal
-[19:27:11]:Sent stay_alive (0x0D) signal
-[19:28:11]:Sent stay_alive (0x0D) signal
-[19:29:11]:Sent stay_alive (0x0D) signal
-[19:30:11]:Sent stay_alive (0x0D) signal
-[19:31:11]:Sent stay_alive (0x0D) signal
-[19:32:11]:Sent stay_alive (0x0D) signal
-[19:33:11]:Sent stay_alive (0x0D) signal
-[19:34:11]:Sent stay_alive (0x0D) signal
-[19:35:11]:Sent stay_alive (0x0D) signal
-[19:36:11]:Sent stay_alive (0x0D) signal
-[19:37:11]:Sent stay_alive (0x0D) signal
-[19:38:11]:Sent stay_alive (0x0D) signal
-[19:39:11]:Sent stay_alive (0x0D) signal
-[19:40:11]:Sent stay_alive (0x0D) signal
-[19:41:11]:Sent stay_alive (0x0D) signal
-[19:42:11]:Sent stay_alive (0x0D) signal
-[19:43:11]:Sent stay_alive (0x0D) signal
-[19:46:30]:Starting session
-[19:46:30]:Press any key to connect...
-[19:46:32]:Attempting to connect...
-[19:46:36]:Connection established!
-[19:46:36]:Grabbing initial sensor readings...
-[19:46:37]:Ready!
-[19:46:37]:Sent STAY_ALIVE (0x0D) signal
-[19:46:37]:Starting remote control!
-[19:46:39]:Increasing reverse right speed
-[19:46:39]:Increasing reverse right speed
-[19:46:39]:Increasing reverse right speed
-[19:46:39]:Increasing reverse right speed
-[19:46:41]:Stopping all motors
-[19:46:42]:Increasing foward speed
-[19:46:42]:Increasing foward speed
-[19:46:42]:Increasing foward speed
-[19:46:42]:Stopping all motors
-[19:46:43]:Increasing reverse left speed
-[19:46:43]:Increasing reverse right speed
-[19:46:43]:Increasing reverse left speed
-[19:46:43]:Increasing reverse right speed
-[19:46:43]:Increasing reverse left speed
-[19:46:43]:Increasing reverse right speed
-[19:46:44]:Increasing reverse left speed
-[19:46:44]:Increasing reverse right speed
-[19:46:44]:Increasing reverse left speed
-[19:46:44]:Increasing reverse right speed
-[19:46:44]:Increasing reverse left speed
-[19:46:44]:Increasing reverse right speed
-[19:46:44]:Increasing reverse left speed
-[19:46:44]:Increasing reverse right speed
-[19:46:44]:Increasing reverse left speed
-[19:46:45]:Increasing reverse right speed
-[19:46:45]:Increasing reverse left speed
-[19:46:45]:Increasing reverse right speed
-[19:46:45]:Increasing reverse left speed
-[19:46:45]:Increasing reverse right speed
-[19:46:45]:Stopping all motors
-[19:46:45]:Stopping all motors
-[19:59:29]:Starting session
-[19:59:29]:Press any key to connect...
-[19:59:30]:Attempting to connect...
-[19:59:35]:ERROR: failed to connect!
-[19:59:35]:Press any key to continue...
-[20:00:02]:Starting session
-[20:00:02]:Press any key to connect...
-[20:00:02]:Attempting to connect...
-[20:00:04]:Connection established!
-[20:00:04]:Grabbing initial sensor readings...
-[20:00:05]:Ready!
-[20:00:05]:Sent STAY_ALIVE (0x0D) signal
-[20:00:21]:Starting remote control!
-[20:00:22]:Exiting remote control!
-[20:00:25]:Starting session
-[20:00:25]:Press any key to connect...
-[20:00:25]:Attempting to connect...
-[20:00:26]:Connection established!
-[20:00:26]:Grabbing initial sensor readings...
-[20:00:27]:Ready!
-[20:00:27]:Sent STAY_ALIVE (0x0D) signal
-[20:00:41]:Starting session
-[20:00:41]:Press any key to connect...
-[20:00:42]:Attempting to connect...
-[20:00:44]:Connection established!
-[20:00:44]:Grabbing initial sensor readings...
-[20:00:45]:Ready!
-[20:00:45]:Sent STAY_ALIVE (0x0D) signal
-[21:22:34]:Starting session
-[21:22:34]:Press any key to connect...
-[21:22:35]:Attempting to connect...
-[21:22:59]:ERROR: failed to connect!
-[21:22:59]:Press any key to continue...
-[21:23:00]:Starting session
-[21:23:00]:Press any key to connect...
-[21:23:01]:Attempting to connect...
-[21:23:02]:Connection established!
-[21:23:02]:Grabbing initial sensor readings...
-[21:23:03]:Ready!
-[21:23:03]:Sent STAY_ALIVE (0x0D) signal
-[21:23:05]:Starting remote control!
-[21:23:06]:Increasing foward speed
-[21:23:06]:Increasing foward speed
-[21:23:06]:Increasing foward speed
-[21:23:07]:Increasing foward speed
-[21:23:07]:Increasing foward speed
-[21:23:07]:Stopping all motors
-[21:23:07]:Increasing reverse left speed
-[21:23:07]:Increasing reverse left speed
-[21:23:07]:Increasing reverse left speed
-[21:23:07]:Stopping all motors
-[21:23:08]:Increasing reverse right speed
-[21:23:08]:Increasing reverse right speed
-[21:23:08]:Stopping all motors
-[21:23:09]:Increasing reverse left speed
-[21:23:09]:Increasing reverse left speed
-[21:23:09]:Stopping all motors
-[21:23:09]:Increasing reverse right speed
-[21:23:10]:Increasing reverse right speed
-[21:23:10]:Stopping all motors
-[21:23:10]:Increasing reverse left speed
-[21:23:10]:Increasing reverse left speed
-[21:23:11]:Stopping all motors
-[21:24:03]:Sent STAY_ALIVE (0x0D) signal
-[21:24:45]:Starting session
-[21:24:45]:Press any key to connect...
-[21:24:45]:Attempting to connect...
-[21:24:47]:Connection established!
-[21:24:47]:Grabbing initial sensor readings...
-[21:24:48]:Ready!
-[21:24:48]:Sent STAY_ALIVE (0x0D) signal
-[21:29:10]:Starting session
-[21:29:10]:Press any key to connect...
-[21:29:11]:Attempting to connect...
-[21:29:12]:Connection established!
-[21:29:12]:Grabbing initial sensor readings...
-[21:29:13]:Ready!
-[21:29:13]:Sent STAY_ALIVE (0x0D) signal
-[21:29:16]:Starting remote control!
-[21:29:18]:Increasing foward speed
-[21:29:18]:Increasing foward speed
-[21:29:18]:Increasing foward speed
-[21:29:19]:Increasing reverse left speed
-[21:29:19]:Increasing reverse left speed
-[21:29:19]:Increasing reverse left speed
-[21:29:20]:Increasing foward speed
-[21:29:20]:Increasing foward speed
-[21:29:20]:Increasing foward speed
-[21:29:21]:Increasing foward speed
-[21:29:21]:Increasing reverse right speed
-[21:29:21]:Increasing reverse right speed
-[21:29:21]:Increasing reverse right speed
-[21:29:21]:Increasing reverse right speed
-[21:29:22]:Increasing reverse right speed
-[21:29:22]:Increasing reverse right speed
-[21:29:22]:Increasing foward speed
-[21:29:22]:Increasing foward speed
-[21:29:22]:Increasing foward speed
-[21:29:23]:Increasing foward speed
-[21:29:23]:Stopping all motors
-[21:29:24]:Increasing reverse speed
-[21:29:24]:Increasing reverse speed
-[21:29:24]:Increasing reverse speed
-[21:29:24]:Increasing reverse speed
-[21:29:24]:Increasing reverse speed
-[21:29:24]:Stopping all motors
-[21:29:25]:Increasing foward speed
-[21:29:25]:Increasing foward speed
-[21:29:25]:Increasing foward speed
-[21:29:26]:Stopping all motors
-[21:29:26]:Increasing reverse left speed
-[21:29:26]:Increasing reverse left speed
-[21:29:27]:Increasing reverse left speed
-[21:29:27]:Stopping all motors
-[21:29:29]:Exiting remote control!
-[21:29:30]:Starting remote control!
-[21:29:31]:Increasing foward speed
-[21:29:31]:Increasing foward speed
-[21:29:31]:Increasing foward speed
-[21:29:31]:Increasing foward speed
-[21:29:31]:Increasing foward speed
-[21:29:32]:Exiting remote control!
-[21:29:33]:Starting session
-[21:29:33]:Press any key to connect...
-[21:29:34]:Attempting to connect...
-[21:29:34]:Connection established!
-[21:29:34]:Grabbing initial sensor readings...
-[21:29:35]:Ready!
-[21:29:35]:Sent STAY_ALIVE (0x0D) signal
-[21:29:36]:Starting remote control!
-[21:29:36]:Increasing foward speed
-[21:29:36]:Increasing foward speed
-[21:29:37]:Increasing foward speed
-[21:29:37]:Increasing foward speed
-[21:29:37]:Increasing reverse speed
-[21:29:37]:Increasing reverse speed
-[21:29:37]:Stopping all motors
-[21:29:59]:Starting session
-[21:29:59]:Press any key to connect...
-[21:30:00]:Attempting to connect...
-[21:30:01]:Connection established!
-[21:30:01]:Grabbing initial sensor readings...
-[21:30:02]:Ready!
-[21:30:02]:Sent STAY_ALIVE (0x0D) signal
-[21:30:02]:Starting remote control!
-[21:30:03]:Increasing foward speed
-[21:30:03]:Increasing foward speed
-[21:30:03]:Increasing foward speed
-[21:30:04]:Increasing foward speed
-[21:30:05]:Stopping all motors
-[21:31:40]:Starting session
-[21:31:40]:Press any key to connect...
-[21:31:40]:Attempting to connect...
-[21:31:42]:Connection established!
-[21:31:42]:Grabbing initial sensor readings...
-[21:31:43]:Ready!
-[21:31:43]:Sent STAY_ALIVE (0x0D) signal
-[21:31:44]:Starting remote control!
-[21:31:44]:Increasing foward speed
-[21:31:44]:Increasing foward speed
-[21:31:45]:Increasing foward speed
-[21:31:45]:Increasing foward speed
-[21:31:45]:Stopping all motors
-[21:31:46]:Stopping all motors
-[21:31:46]:Stopping all motors
-[21:31:47]:Increasing reverse speed
-[21:31:47]:Increasing reverse speed
-[21:31:47]:Increasing reverse speed
-[21:31:47]:Increasing reverse speed
-[21:31:47]:Increasing reverse speed
-[21:31:47]:Stopping all motors
-[21:31:50]:Increasing reverse right speed
-[21:31:50]:Increasing reverse right speed
-[21:31:50]:Increasing reverse right speed
-[21:31:50]:Stopping all motors
-[21:31:51]:Increasing reverse left speed
-[21:31:51]:Increasing reverse left speed
-[21:31:51]:Increasing reverse left speed
-[21:31:51]:Stopping all motors
+[09:10:36]:Starting session
+[09:10:36]:Press any key to connect...
+[09:10:37]:Attempting to connect...
+[09:10:38]:Connection established!
+[09:10:38]:Grabbing initial sensor readings...
+[09:10:39]:Ready!
+[09:10:39]:Sent STAY_ALIVE (0x0D) signal
+[09:10:41]:Starting remote control!
+[09:10:41]:Increasing foward speed
+[09:10:42]:Increasing reverse speed
+[09:10:42]:Increasing reverse right speed
+[09:10:43]:Increasing reverse left speed
+[09:10:44]:Increasing reverse right speed
+[09:10:44]:Increasing foward left speed
+[09:10:44]:Increasing foward right speed
+[09:10:45]:Increasing foward left speed
+[09:10:45]:Increasing reverse left speed
+[09:10:45]:Increasing reverse right speed
+[09:10:46]:Increasing reverse left speed
+[09:10:47]:Increasing reverse speed
+[09:10:47]:Increasing reverse right speed
+[09:10:47]:Requesting new sensor readings
+[09:10:48]:Exiting remote control!
+[09:10:53]:Starting session
+[09:10:53]:Press any key to connect...
+[09:10:54]:Attempting to connect...
+[09:10:55]:Connection established!
+[09:10:55]:Grabbing initial sensor readings...
+[09:10:56]:Ready!
+[09:10:56]:Sent STAY_ALIVE (0x0D) signal
+[09:10:58]:Starting remote control!
+[09:10:59]:Exiting remote control!
+[09:10:59]:Starting remote control!
+[09:11:00]:Exiting remote control!
+[09:11:00]:Starting remote control!
+[09:11:01]:Exiting remote control!
+[09:11:01]:Starting remote control!
+[09:11:03]:Exiting remote control!
+[09:11:04]:Starting remote control!
+[09:11:45]:Exiting remote control!
+[09:11:57]:Starting session
+[09:11:57]:Press any key to connect...
+[09:12:01]:Attempting to connect...
+[09:12:03]:Connection established!
+[09:12:03]:Grabbing initial sensor readings...
+[09:12:04]:Ready!
+[09:12:04]:Sent STAY_ALIVE (0x0D) signal
+[09:13:01]:Starting session
+[09:13:01]:Press any key to connect...
+[09:13:02]:Attempting to connect...
+[09:13:03]:Connection established!
+[09:13:03]:Grabbing initial sensor readings...
+[09:13:04]:Ready!
+[09:13:04]:Sent STAY_ALIVE (0x0D) signal
+[09:13:27]:Starting session
+[09:13:27]:Press any key to connect...
+[09:13:28]:Attempting to connect...
+[09:13:30]:Connection established!
+[09:13:30]:Grabbing initial sensor readings...
+[09:13:31]:Ready!
+[09:13:31]:Sent STAY_ALIVE (0x0D) signal
+[09:13:32]:Starting session
+[09:13:32]:Press any key to connect...
+[09:13:33]:Attempting to connect...
+[09:13:34]:Connection established!
+[09:13:34]:Grabbing initial sensor readings...
+[09:13:35]:Ready!
+[09:13:35]:Sent STAY_ALIVE (0x0D) signal
+[09:13:36]:Starting remote control!
+[09:13:37]:Exiting remote control!
+[09:13:38]:Starting remote control!
+[09:13:39]:Increasing foward speed
+[09:13:40]:Increasing foward speed
+[09:13:40]:Increasing foward speed
+[09:13:40]:Increasing foward speed
+[09:13:41]:Exiting remote control!
+[09:13:44]:Starting right side autonomous control
+[09:13:45]:Starting left side autonomous control
+[09:13:46]:Starting remote control!
+[09:13:47]:Exiting remote control!
+[09:13:48]:Starting remote control!
+[09:13:48]:Increasing foward speed
+[09:13:49]:Increasing reverse left speed
+[09:13:49]:Increasing reverse speed
+[09:13:49]:Increasing reverse right speed
+[09:13:49]:Increasing reverse left speed
+[09:13:50]:Increasing reverse right speed
+[09:13:51]:Increasing foward speed
+[09:13:51]:Increasing reverse left speed
+[09:13:51]:Increasing reverse speed
+[09:13:51]:Increasing reverse right speed
+[09:13:51]:Increasing reverse left speed
+[09:13:51]:Increasing reverse right speed
+[09:13:51]:Increasing foward speed
+[09:13:51]:Increasing reverse left speed
+[09:13:51]:Increasing reverse right speed
+[09:13:51]:Stopping all motors
+[09:14:01]:Exiting remote control!
+[09:15:33]:Starting session
+[09:15:33]:Press any key to connect...
+[09:15:34]:Attempting to connect...
+[09:15:36]:Connection established!
+[09:15:36]:Grabbing initial sensor readings...
+[09:15:41]:Starting session
+[09:15:41]:Press any key to connect...
+[09:15:43]:Attempting to connect...
+[09:15:45]:Connection established!
+[09:15:45]:Grabbing initial sensor readings...
+[09:15:46]:Ready!
+[09:15:46]:Sent STAY_ALIVE (0x0D) signal
+[09:18:50]:Starting session
+[09:18:50]:Press any key to connect...
+[09:18:50]:Attempting to connect...
+[09:18:52]:Connection established!
+[09:18:52]:Grabbing initial sensor readings...
+[09:18:52]:Ready!
+[09:18:53]:Sent STAY_ALIVE (0x0D) signal
+[09:18:54]:Starting remote control!
+[09:18:55]:Increasing foward speed
+[09:18:55]:Increasing reverse right speed
+[09:18:55]:Increasing reverse left speed
+[09:18:55]:Increasing reverse right speed
+[09:18:55]:Increasing reverse left speed
+[09:18:55]:Increasing reverse right speed
+[09:18:55]:Increasing reverse left speed
+[09:18:55]:Increasing reverse right speed
+[09:18:56]:Increasing foward speed
+[09:18:56]:Increasing reverse speed
+[09:18:56]:Increasing reverse left speed
+[09:18:56]:Increasing reverse right speed
+[09:18:57]:Increasing reverse left speed
+[09:18:57]:Increasing foward speed
+[09:18:57]:Increasing reverse right speed
+[09:18:57]:Increasing reverse left speed
+[09:18:57]:Increasing reverse speed
+[09:19:02]:Starting session
+[09:19:02]:Press any key to connect...
+[09:19:03]:Attempting to connect...
+[09:19:04]:Connection established!
+[09:19:04]:Grabbing initial sensor readings...
+[09:19:05]:Ready!
+[09:19:05]:Sent STAY_ALIVE (0x0D) signal
+[09:19:09]:Starting remote control!
+[09:19:12]:Increasing foward speed
+[09:19:12]:Increasing reverse right speed
+[09:19:12]:Increasing reverse left speed
+[09:19:12]:Increasing reverse right speed
+[09:19:12]:Increasing foward speed
+[09:19:12]:Increasing reverse right speed
+[09:19:12]:Increasing reverse left speed
+[09:19:13]:Increasing foward speed
+[09:19:13]:Increasing reverse right speed
+[09:19:13]:Increasing reverse left speed
+[09:19:13]:Increasing reverse right speed
+[09:19:13]:Increasing reverse speed
+[09:19:13]:Increasing reverse right speed
+[09:19:13]:Increasing reverse left speed
+[09:19:13]:Increasing reverse speed
+[09:19:13]:Increasing reverse right speed
+[09:19:13]:Increasing reverse right speed
+[09:19:13]:Increasing foward speed
+[09:19:13]:Increasing foward speed
+[09:19:13]:Increasing reverse left speed
+[09:19:13]:Increasing reverse right speed
+[09:19:13]:Increasing foward speed
+[09:19:13]:Increasing reverse left speed
+[09:19:13]:Increasing reverse right speed
+[09:19:13]:Increasing foward speed
+[09:19:13]:Increasing reverse left speed
+[09:19:13]:Increasing reverse right speed
+[09:19:16]:Increasing reverse speed
+[09:19:17]:Exiting remote control!
+[09:19:33]:Starting session
+[09:19:33]:Press any key to connect...
+[09:19:34]:Attempting to connect...
+[09:19:36]:Connection established!
+[09:19:36]:Grabbing initial sensor readings...
+[09:19:37]:Ready!
+[09:19:37]:Sent STAY_ALIVE (0x0D) signal
+[09:19:38]:Starting remote control!
+[09:19:40]:Increasing foward speed
+[09:19:40]:Increasing reverse right speed
+[09:19:41]:Increasing reverse left speed
+[09:19:41]:Increasing reverse speed
+[09:19:42]:Increasing foward speed
+[09:19:42]:Increasing reverse right speed
+[09:19:42]:Increasing reverse left speed
+[09:19:42]:Increasing foward speed
+[09:19:42]:Increasing reverse right speed
+[09:19:43]:Increasing reverse left speed
+[09:19:43]:Increasing reverse speed
+[09:19:43]:Increasing reverse right speed
+[09:19:44]:Increasing foward speed
+[09:19:52]:Exiting remote control!
+[09:19:56]:Starting session
+[09:19:56]:Press any key to connect...
+[09:19:57]:Attempting to connect...
+[09:19:58]:Connection established!
+[09:19:58]:Grabbing initial sensor readings...
+[09:19:59]:Ready!
+[09:19:59]:Sent STAY_ALIVE (0x0D) signal
+[09:20:00]:Starting remote control!
+[09:20:00]:Increasing foward speed
+[09:20:01]:Increasing reverse right speed
+[09:20:01]:Increasing reverse left speed
+[09:20:01]:Increasing reverse right speed
+[09:20:01]:Increasing reverse left speed
+[09:20:02]:Increasing reverse right speed
+[09:20:02]:Increasing foward speed
+[09:20:02]:Increasing reverse right speed
+[09:20:02]:Increasing reverse speed
+[09:20:03]:Increasing reverse right speed
+[09:20:03]:Increasing reverse left speed
+[09:20:03]:Increasing foward speed
+[09:20:03]:Increasing reverse right speed
+[09:20:03]:Increasing reverse left speed
+[09:20:03]:Increasing reverse speed
+[09:20:03]:Increasing reverse right speed
+[09:20:04]:Exiting remote control!
+[09:20:07]:Starting session
+[09:20:07]:Press any key to connect...
+[09:20:08]:Attempting to connect...
+[09:20:10]:Connection established!
+[09:20:10]:Grabbing initial sensor readings...
+[09:20:11]:Ready!
+[09:20:11]:Sent STAY_ALIVE (0x0D) signal
+[09:20:21]:Starting session
+[09:20:21]:Press any key to connect...
+[09:20:21]:Attempting to connect...
+[09:20:22]:Connection established!
+[09:20:22]:Grabbing initial sensor readings...
+[09:20:23]:Ready!
+[09:20:23]:Sent STAY_ALIVE (0x0D) signal
+[09:20:25]:Starting remote control!
+[09:20:26]:Increasing foward speed
+[09:20:27]:Increasing reverse right speed
+[09:20:28]:Increasing foward speed
+[09:20:28]:Increasing reverse right speed
+[09:20:28]:Increasing reverse left speed
+[09:20:28]:Increasing reverse right speed
+[09:20:28]:Increasing reverse left speed
+[09:20:29]:Increasing foward speed
+[09:20:30]:Requesting new sensor readings
+[09:20:31]:Increasing foward speed
+[09:20:33]:Max foward speed
+[09:20:33]:Increasing foward speed
+[09:20:34]:Increasing foward speed
+[09:20:35]:Max foward speed
+[09:20:35]:Increasing foward speed
+[09:20:35]:Increasing foward speed
+[09:20:35]:Max foward speed
+[09:20:35]:Increasing foward speed
+[09:20:36]:Increasing foward speed
+[09:20:36]:Increasing foward speed
+[09:20:37]:Increasing reverse right speed
+[09:20:37]:Increasing reverse left speed
+[09:20:38]:Increasing foward speed
+[09:20:38]:Increasing reverse right speed
+[09:20:38]:Increasing reverse left speed
+[09:20:38]:Increasing reverse speed
+[09:20:38]:Increasing reverse right speed
+[09:20:38]:Increasing reverse left speed
+[09:20:38]:Increasing foward speed
+[09:20:38]:Increasing reverse right speed
+[09:24:39]:Starting session
+[09:24:39]:Press any key to connect...
+[09:24:39]:Attempting to connect...
+[09:24:41]:Connection established!
+[09:24:41]:Grabbing initial sensor readings...
+[09:24:42]:Ready!
+[09:24:42]:Sent STAY_ALIVE (0x0D) signal
+[09:24:43]:Starting remote control!
+[09:24:44]:Increasing foward speed
+[09:24:44]:Increasing reverse right speed
+[09:24:44]:Increasing reverse left speed
+[09:24:46]:Increasing reverse speed
+[09:24:47]:Increasing foward speed
+[09:24:48]:Increasing reverse right speed
+[09:24:48]:Increasing reverse left speed
+[09:24:48]:Increasing reverse speed
+[09:24:48]:Increasing reverse right speed
+[09:24:48]:Increasing foward speed
+[09:24:49]:Increasing reverse left speed
+[09:24:49]:Increasing foward speed
+[09:24:49]:Increasing reverse right speed
+[09:24:50]:Increasing reverse speed
+[09:24:50]:Increasing reverse left speed
+[09:24:50]:Increasing foward speed
+[09:24:50]:Increasing reverse right speed
+[09:24:50]:Increasing reverse left speed
+[09:24:51]:Increasing reverse speed
+[09:24:51]:Increasing reverse right speed
+[09:24:51]:Increasing reverse left speed
+[09:24:51]:Increasing foward speed
+[09:24:51]:Increasing reverse right speed
+[09:24:51]:Increasing reverse left speed
+[09:24:51]:Increasing reverse speed
+[09:24:51]:Increasing reverse right speed
+[09:24:51]:Increasing reverse left speed
+[09:24:51]:Increasing foward speed
+[09:24:51]:Increasing reverse right speed
+[09:24:56]:Stopping all motors
+[09:24:57]:Exiting remote control!
+[09:31:47]:Starting session
+[09:31:47]:Press any key to connect...
+[09:31:48]:Attempting to connect...
+[09:31:50]:Connection established!
+[09:31:50]:Grabbing initial sensor readings...
+[09:31:51]:Ready!
+[09:31:51]:Sent STAY_ALIVE (0x0D) signal
+[09:31:52]:Starting remote control!
+[09:31:54]:Exiting remote control!
+[09:31:54]:Starting remote control!
+[09:32:02]:Increasing foward speed
+[09:32:03]:Increasing foward speed
+[09:32:03]:Increasing foward speed
+[09:32:51]:Sent STAY_ALIVE (0x0D) signal
+[09:33:34]:Increasing foward left speed
+[09:34:11]:Starting session
+[09:34:11]:Press any key to connect...
+[09:34:12]:Attempting to connect...
+[09:34:13]:Connection established!
+[09:34:13]:Grabbing initial sensor readings...
+[09:34:14]:Ready!
+[09:34:14]:Sent STAY_ALIVE (0x0D) signal
+[09:34:46]:Starting session
+[09:34:46]:Press any key to connect...
+[09:34:47]:Attempting to connect...
+[09:34:48]:Connection established!
+[09:34:48]:Grabbing initial sensor readings...
+[09:34:49]:Ready!
+[09:34:49]:Sent STAY_ALIVE (0x0D) signal
+[09:35:49]:Sent STAY_ALIVE (0x0D) signal
+[09:36:49]:Sent STAY_ALIVE (0x0D) signal
+[09:37:59]:Starting session
+[09:37:59]:Press any key to connect...
+[09:37:59]:Attempting to connect...
+[09:38:01]:Connection established!
+[09:38:01]:Grabbing initial sensor readings...
+[09:38:02]:Ready!
+[09:38:02]:Sent STAY_ALIVE (0x0D) signal
+[09:38:28]:Press any key to connect...
+[09:38:28]:Attempting to connect...
+[09:38:29]:Connection established!
+[09:38:29]:Grabbing initial sensor readings...
+[09:38:30]:Ready!
+[09:38:30]:Starting session
+[09:38:30]:Sent STAY_ALIVE (0x0D) signal
+[09:38:50]:Press any key to connect...
+[09:38:50]:Starting session
+[09:38:52]:Attempting to connect...
+[09:38:53]:Connection established!
+[09:38:53]:Grabbing initial sensor readings...
+[09:38:54]:Ready!
+[09:38:54]:Sent STAY_ALIVE (0x0D) signal
+[09:39:19]:Starting session
+[09:39:19]:Press any key to connect...
+[09:39:20]:Connection established!
+[09:39:20]:Grabbing initial sensor readings...
+[09:39:21]:Ready!
+[09:39:21]:Sent STAY_ALIVE (0x0D) signal
+[09:40:14]:Starting session
+[09:40:14]:Press any key to connect...
+[09:40:15]:Attempting to connect...
+[09:40:17]:Connection established!
+[09:40:17]:Grabbing initial sensor readings...
+[09:40:18]:Ready!
+[09:40:18]:Sent STAY_ALIVE (0x0D) signal
+[09:40:35]:Starting remote control!
+[09:41:29]:Starting session
+[09:41:29]:Press any key to connect...
+[09:41:29]:Attempting to connect...
+[09:41:31]:Connection established!
+[09:41:31]:Grabbing initial sensor readings...
+[09:41:32]:Ready!
+[09:41:32]:Sent STAY_ALIVE (0x0D) signal
+[09:41:33]:Starting remote control!
+[09:41:33]:Increasing foward speed
+[09:41:34]:Increasing reverse right speed
+[09:41:34]:Increasing reverse left speed
+[09:41:35]:Increasing reverse speed
+[09:41:35]:Increasing reverse right speed
+[09:41:36]:Increasing foward speed
+[09:41:37]:Increasing reverse left speed
+[09:41:37]:Increasing reverse speed
+[09:41:38]:Increasing reverse right speed
+[09:41:38]:Increasing foward speed
+[09:41:45]:Increasing foward speed
+[09:41:47]:Increasing foward speed
+[09:41:49]:Increasing foward speed
+[09:41:50]:Increasing foward speed
+[09:41:52]:Increasing foward speed
+[09:41:53]:Increasing foward speed
+[09:41:54]:Increasing foward speed
+[09:41:54]:Increasing reverse left speed
+[09:41:54]:Increasing foward speed
+[09:41:54]:Increasing reverse right speed
+[09:41:55]:Increasing reverse left speed
+[09:41:55]:Increasing foward speed
+[09:41:55]:Increasing reverse right speed
+[09:41:55]:Increasing reverse left speed
+[09:41:55]:Increasing foward speed
+[09:41:55]:Increasing reverse right speed
+[09:41:55]:Increasing reverse left speed
+[09:41:55]:Increasing reverse right speed
+[09:42:12]:Starting session
+[09:42:12]:Press any key to connect...
+[09:42:13]:Attempting to connect...
+[09:42:14]:Connection established!
+[09:42:14]:Grabbing initial sensor readings...
+[09:42:15]:Ready!
+[09:42:40]:Starting session
+[09:42:40]:Press any key to connect...
+[09:42:40]:Attempting to connect...
+[09:42:41]:Connection established!
+[09:42:41]:Grabbing initial sensor readings...
+[09:42:42]:Ready!
+[09:42:42]:Sent STAY_ALIVE (0x0D) signal
+[09:42:43]:Starting remote control!
+[09:42:44]:Increasing foward speed
+[09:42:44]:Increasing reverse right speed

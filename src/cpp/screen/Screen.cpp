@@ -2,7 +2,6 @@
 // 25.10.2013
 // Implementation of Screen.
 
-#include <ncurses.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include <iostream>
@@ -20,14 +19,6 @@
 #include "msg_t.h"
 #include "../robot_control/remote.cpp"
 
-#define path_to_logfile "console_log"
-#define MAC_ADDRESS "00:16:53:1A:14:6A"
-
-#define DEFAULT_PAIR 0
-#define GREEN_PAIR COLOR_PAIR(1)
-#define RED_PAIR COLOR_PAIR(2)
-#define YELLOW_PAIR COLOR_PAIR(3)
-
 Screen::Screen(){
     initscr();
     getmaxyx(stdscr,mr,mc);
@@ -43,39 +34,37 @@ Screen::Screen(){
     opt = 0;
     logf = fopen(path_to_logfile,"a");
     logc = mr - 2;
-    logv = (char**) malloc(sizeof(char*) * logc);
-    logattr = (int*) malloc(sizeof(int) * logc);
+    logv = (struct msg_t*) malloc(logc * sizeof(struct msg_t));
     for (int n = 0;n < logc;n++){
-	logv[n] = strdup("");
-	logattr[n] = 0;
+	logv[n].txt = strdup("");
+	logv[n].attr = 0;
     }
     m0 = 0;
     m1 = 0;
     m2 = 0;
     lock = false;
     print_ui_static();
-    writeln("Starting session");
-    writelnattr("Press any key to connect...",A_BOLD);
+    writelnattr_internals("Starting session",DEFAULT_PAIR);
+    writelnattr_internals("Press any key to connect...",A_BOLD);
     getch();
-    writeln("Attempting to connect...");
-    refresh();
+    writelnattr_internals("Attempting to connect...",DEFAULT_PAIR);
     try{
 	nxt.connect(MAC_ADDRESS);
     } catch(NxtEx &ex){
-        writelnattr("ERROR: failed to connect!",RED_PAIR | A_BOLD);
-        writelnattr("Press any key to continue...",A_BOLD);
+        writelnattr_internals("ERROR: failed to connect!",RED_PAIR | A_BOLD);
+        writelnattr_internals("Press any key to continue...",A_BOLD);
 	getch();
 	endwin();
 	exit(1);
     }
-    writelnattr("Connection established!",GREEN_PAIR);
-    writeln("Grabbing initial sensor readings...");
+    writelnattr_internals("Connection established!",GREEN_PAIR);
+    writelnattr_internals("Grabbing initial sensor readings...",DEFAULT_PAIR);
     op = new Opcodes(&nxt);
     s0 = op->getInputValues(0);
     s1 = op->getInputValues(1);
     s2 = op->getInputValues(2);
     s3 = op->getInputValues(3);
-    writelnattr("Ready!",GREEN_PAIR | A_BOLD);
+    writelnattr_internals("Ready!",GREEN_PAIR | A_BOLD);
     op->setInputMode(0,LIGHT_ACTIVE,BOOLEANMODE,false,NULL);
     pthread_create(&stay_alive_thread,NULL,stay_alive_tf,(void*) this);
     pthread_create(&log_thread,NULL,log_tf,(void*) this);
@@ -83,27 +72,12 @@ Screen::Screen(){
 }
 
 Screen::~Screen(){
-    for (int n = 0;n < logc;n++){
-	free(logv[n]);
-    }
     free(logv);
-    free(logattr);
     fclose(logf);
     delete op;
     pthread_cancel(stay_alive_thread);
     pthread_cancel(log_thread);
     endwin();
-}
-
-// logs the string to the console with a given attribute,
-// and adds it to the console logfile.
-void Screen::writelnattr(char *str,int attr){
-    log.push(new msg_t(str,attr));
-}
-
-// logs to the console with no attributes.
-inline void Screen::writeln(char *str){
-    writelnattr(str,DEFAULT_PAIR);
 }
 
 // Draws the robot stats.
@@ -162,32 +136,33 @@ void Screen::draw_menu(){
     handle_opts();
 }
 
-void Screen::writelnattr_internals(char* str,int attr){
+// Internals for printing to the console.
+void Screen::writelnattr_internals(char *str,int attr){
     while(lock);
     lock = true;
     time_t t;
     struct tm *ti;
+    free(logv[logc - 1].txt);
     for (int n = logc - 1;n >= 0;n--){
 	logv[n] = logv[n - 1];
-	logattr[n] = logattr[n - 1];
     }
     time(&t);
     ti = localtime(&t);
-    char *tstr = strdup(str);
-    char buffer[4 * mc / 5];
+    //char *tstr = strdup(str),
+    char *buffer = (char*) malloc(4 * mc / 5 * sizeof(char));
     strftime(buffer,4 * mc / 5,"[%H:%M:%S]:",ti);
-    strcat(buffer,tstr);
-    logv[0] = strdup(buffer);
-    logattr[0] = attr;
-    free(tstr);
-    fwrite(logv[0],sizeof(char),strlen(logv[0]),logf);
+    strcat(buffer,str);
+    logv[0].txt = buffer;
+    logv[0].attr = attr;
+    //free(tstr);
+    fwrite(logv[0].txt,sizeof(char),strlen(logv[0].txt),logf);
     fputc('\n',logf);
     for (int n = 0;n < logc;n++){
 	move(mr - (n + 1),mc / 5 + 1);
 	clrtoeol();
-	attron(logattr[n]);
-	mvprintw(mr - (n + 1),mc / 5 + 1,"%s",logv[n]);
-	attroff(logattr[n]);
+	attron(logv[n].attr);
+	mvprintw(mr - (n + 1),mc / 5 + 1,"%s",logv[n].txt);
+	attroff(logv[n].attr);
     }
     refresh();
     lock = false;
@@ -246,14 +221,13 @@ void Screen::handle_opts(){
     attroff(A_BOLD);
     lock = false;
     refresh();
-    int logc_temp,*logattr_temp;
-    char **logv_temp;
+    int logc_temp;
+    struct msg_t *logv_temp;
     switch(getch()){
     case 3:
-	for (int n = 0;n < logc;n++){
-	    free(logv[n]);
-	}
 	free(logv);
+	pthread_cancel(log_thread);
+	pthread_cancel(stay_alive_thread);
 	endwin();
 	exit(0);
 	break;
@@ -262,19 +236,16 @@ void Screen::handle_opts(){
 	getmaxyx(stdscr,mr,mc);
 	logc_temp = logc;
 	logc = 4 * mc / 5 - 1;
-	logv_temp = (char**) malloc(sizeof(char*) * logc);
-	logattr_temp = (int*) malloc(sizeof(int) * logc);
+	logv_temp = (struct msg_t*) malloc(logc * sizeof(struct msg_t));
 	for (int n = 0;n < logc;n++){
 	    logv_temp[n] = logv[n];
-	    logattr_temp[n] = logattr[n];
+	    free(logv[n].txt);
 	}
 	free(logv);
-	free(logattr);
 	logv = logv_temp;
-	logattr = logattr_temp;
 	for (int n = logc_temp;n < logc;n++){
-	    logv[n] = strdup("");
-	    logattr[n] = 0;
+	    logv[n].txt = strdup("");
+	    logv[n].attr = 0;
 	}
 	clear();
 	refresh();
@@ -340,11 +311,12 @@ void *stay_alive_tf(void *scr){
 
 void *log_tf(void *scr){
     while(1){
-	if (!((Screen*) scr)->log.empty()){
+	if (!((Screen*) scr)->log.empty() && !((Screen*) scr)->lock){
 	    ((Screen*) scr)->writelnattr_internals(
 		((Screen*) scr)->log.front()->txt,
 		((Screen*) scr)->log.front()->attr);
 	    ((Screen*) scr)->log.pop();
 	}
+	usleep(5000);
     }
 }

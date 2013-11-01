@@ -20,9 +20,7 @@
 using namespace std;
 
 void r_remote(Screen *scr){
-    unsigned char st = 0x0D;
     while(1){
-	st = 0x0D;
 	switch(getch()){
 	case 3:
 	    return;
@@ -115,7 +113,7 @@ void r_remote(Screen *scr){
 	case 'd':
 	    if (scr->m1 >= -90){
 		scr->m1 -= 10;
-	        scr->op->setOutputState(1,scr->m1,2,2,0,0x20,0,true,&st);
+	        scr->op->setOutputState(1,scr->m1,2,2,0,0x20,0,false,NULL);
 		scr->draw_stats();
 		scr->writeln("Increasing reverse right speed");
 	    }
