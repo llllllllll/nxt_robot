@@ -1333,3 +1333,20 @@
 [19:19:48]:Increasing foward speed
 [19:19:48]:Increasing foward speed
 [19:19:48]:Increasing foward speed
+[19:25:40]:Starting session
+[19:25:40]:Press any key to connect...
+[19:25:40]:Attempting to connect...
+[19:25:44]:Connection established!
+[19:25:44]:Grabbing initial sensor readings...
+[19:25:45]:Ready!
+[19:25:45]:log_thread affinity set to proc 2
+[19:25:45]:stay_alive_thread affinity set to proc 1
+[19:25:45]:Sent STAY_ALIVE (0x0D) signal
+[19:25:47]:Starting remote control!
+[19:25:47]:Increasing foward speed
+[19:25:48]:Increasing reverse speed
+[19:25:49]:Increasing reverse left speed
+[19:25:49]:Increasing reverse right speed
+[19:25:50]:Increasing foward speed
+[19:25:50]:Increasing reverse speed
+[19:26:37]:Exiting remote control!

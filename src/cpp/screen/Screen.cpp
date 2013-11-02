@@ -92,6 +92,15 @@ void Screen::scr_refresh(){
     refresh();
 }
 
+// Push one message into the message queue that will allow it to be processed
+// outside of the logic thread.
+void Screen::writelnattr(char *str,int attr){
+    msg_t *msg = (msg_t*) malloc(sizeof(msg_t));
+    msg->txt = str;
+    msg->attr = attr;
+    logq.push(msg);
+}
+
 // Draws the robot stats.
 void Screen::draw_stats(){
     while(lock);
