@@ -1234,3 +1234,102 @@
 [18:49:56]:Exiting remote control!
 [18:50:00]:Starting right side autonomous control
 [18:50:00]:Starting left side autonomous control
+[19:06:19]:Starting session
+[19:06:19]:Press any key to connect...
+[19:06:20]:Attempting to connect...
+[19:06:24]:Connection established!
+[19:06:24]:Grabbing initial sensor readings...
+[19:06:26]:Ready!
+[19:06:26]:log_thread affinity set to proc 2
+[19:06:26]:stay_alive_thread affinity set to proc 1
+[19:06:26]:Sent STAY_ALIVE (0x0D) signal
+[19:06:30]:Starting remote control!
+[19:06:31]:Exiting remote control!
+[19:11:42]:Starting session
+[19:11:42]:Press any key to connect...
+[19:11:42]:Attempting to connect...
+[19:11:46]:Connection established!
+[19:11:46]:Grabbing initial sensor readings...
+[19:11:47]:Ready!
+[19:11:47]:log_thread affinity set to proc 2
+[19:11:47]:stay_alive_thread affinity set to proc 1
+[19:11:47]:Sent STAY_ALIVE (0x0D) signal
+[19:11:49]:Starting remote control!
+[19:11:52]:Increasing foward speed
+[19:11:52]:Increasing reverse right speed
+[19:11:53]:Exiting remote control!
+[19:12:22]:Starting session
+[19:12:22]:Press any key to connect...
+[19:12:23]:Attempting to connect...
+[19:12:27]:Connection established!
+[19:12:27]:Grabbing initial sensor readings...
+[19:12:28]:Ready!
+[19:12:28]:log_thread affinity set to proc 2
+[19:12:28]:stay_alive_thread affinity set to proc 1
+[19:12:28]:Sent STAY_ALIVE (0x0D) signal
+[19:12:30]:Starting remote control!
+[19:12:33]:Exiting remote control!
+[19:12:41]:Starting right side autonomous control
+[19:12:42]:Starting left side autonomous control
+[19:12:43]:Starting remote control!
+[19:12:44]:Exiting remote control!
+[19:15:08]:Starting session
+[19:15:08]:Press any key to connect...
+[19:15:09]:Attempting to connect...
+[19:15:13]:Connection established!
+[19:15:13]:Grabbing initial sensor readings...
+[19:15:14]:Ready!
+[19:15:14]:log_thread affinity set to proc 2
+[19:15:14]:stay_alive_thread affinity set to proc 1
+[19:15:14]:Sent STAY_ALIVE (0x0D) signal
+[19:15:23]:Starting session
+[19:15:23]:Press any key to connect...
+[19:15:33]:Attempting to connect...
+[19:15:36]:Connection established!
+[19:15:36]:Grabbing initial sensor readings...
+[19:15:37]:Ready!
+[19:15:37]:log_thread affinity set to proc 2
+[19:15:37]:stay_alive_thread affinity set to proc 1
+[19:15:37]:Sent STAY_ALIVE (0x0D) signal
+[19:16:00]:Starting session
+[19:16:00]:Press any key to connect...
+[19:16:01]:Attempting to connect...
+[19:16:01]:Connection established!
+[19:16:01]:Grabbing initial sensor readings...
+[19:16:02]:Ready!
+[19:16:02]:log_thread affinity set to proc 2
+[19:16:02]:stay_alive_thread affinity set to proc 1
+[19:16:02]:Sent STAY_ALIVE (0x0D) signal
+[19:16:06]:Starting session
+[19:16:06]:Press any key to connect...
+[19:16:07]:Attempting to connect...
+[19:16:11]:Connection established!
+[19:16:11]:Grabbing initial sensor readings...
+[19:16:12]:Ready!
+[19:16:12]:log_thread affinity set to proc 2
+[19:16:12]:stay_alive_thread affinity set to proc 1
+[19:16:12]:Sent STAY_ALIVE (0x0D) signal
+[19:16:42]:Starting session
+[19:16:42]:Press any key to connect...
+[19:16:43]:Attempting to connect...
+[19:16:47]:Connection established!
+[19:16:47]:Grabbing initial sensor readings...
+[19:16:48]:Ready!
+[19:16:48]:log_thread affinity set to proc 2
+[19:16:48]:stay_alive_thread affinity set to proc 1
+[19:16:48]:Sent STAY_ALIVE (0x0D) signal
+[19:19:37]:Starting session
+[19:19:37]:Press any key to connect...
+[19:19:37]:Attempting to connect...
+[19:19:43]:Connection established!
+[19:19:43]:Grabbing initial sensor readings...
+[19:19:44]:Ready!
+[19:19:44]:log_thread affinity set to proc 2
+[19:19:44]:stay_alive_thread affinity set to proc 1
+[19:19:44]:Sent STAY_ALIVE (0x0D) signal
+[19:19:45]:Starting remote control!
+[19:19:47]:Increasing foward speed
+[19:19:48]:Increasing foward speed
+[19:19:48]:Increasing foward speed
+[19:19:48]:Increasing foward speed
+[19:19:48]:Increasing foward speed

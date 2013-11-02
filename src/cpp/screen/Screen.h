@@ -36,6 +36,7 @@ public:
     inline void prompt(char*);
     void draw_stats();
     void draw_menu();
+    void handle_resize();
     BlueComm *nxt;
     int m0,m1,m2;
     SensorState s0,s1,s2,s3;

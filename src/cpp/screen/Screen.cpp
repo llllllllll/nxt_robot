@@ -216,6 +216,33 @@ void Screen::print_ui_static(){
     lock = false;
 }
 
+// Resizes the screen to fit a newly resized window.
+// TODO. FIX resizing.
+void Screen::handle_resize(){
+    int logc_temp;
+    msg_t *logv_temp;
+    endwin();
+    getmaxyx(stdscr,mr,mc);
+    logc_temp = logc;
+    logc = mr - 2;
+    logv_temp = (msg_t*) realloc(logv,logc * sizeof(msg_t));
+    logv = logv_temp;
+    wclear(ctlw);
+    wclear(logw);
+    delwin(ctlw);
+    delwin(logw);
+    ctlw = newwin(mr - 8,mc / 5,mr - 8,0);
+    logw = newwin(logc,4 * mc / 5,2,mc / 5 + 1);
+    for (int n = logc_temp;n < logc;n++){
+	logv[n].txt = strdup("");
+	logv[n].attr = 0;
+    }
+    scr_refresh();
+    clear();
+    draw_menu();
+    scr_refresh();
+}
+
 // Prints the options and handles user input.
 void Screen::handle_opts(){
     draw_stats();
@@ -234,8 +261,6 @@ void Screen::handle_opts(){
     wattroff(ctlw,A_BOLD);
     lock = false;
     scr_refresh();
-    int logc_temp;
-    msg_t *logv_temp;
     switch(getch()){
     case 3:
 	free(logv);
@@ -245,24 +270,8 @@ void Screen::handle_opts(){
 	exit(0);
 	break;
     case KEY_RESIZE:
-	endwin();
-	getmaxyx(stdscr,mr,mc);
-	logc_temp = logc;
-	logc = 4 * mc / 5 - 1;
-	logv_temp = (msg_t*) malloc(logc * sizeof(msg_t));
-	for (int n = 0;n < logc;n++){
-	    logv_temp[n] = logv[n];
-	    free(logv[n].txt);
-	}
-	free(logv);
-	logv = logv_temp;
-	for (int n = logc_temp;n < logc;n++){
-	    logv[n].txt = strdup("");
-	    logv[n].attr = 0;
-	}
-	clear();
-	scr_refresh();
-	draw_menu();
+	handle_resize();
+	return;
 	break;
     case KEY_UP:
 	if (opt > 0){
