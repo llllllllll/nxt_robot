@@ -10,7 +10,11 @@ else:
 	endian = '_NXT_LITTLE_ENDIAN'
 
 BuildEnv = Environment(CCFLAGS=['-g','-Wno-write-strings','-ggdb'
+<<<<<<< HEAD
                                 ,'-D' + endian])
+=======
+                                ,'-D' + endian, '-DDEBUG_MODE="debug_log"'])
+>>>>>>> debug_mode
 if auto_libs:
 	BuildEnv.ParseConfig('pkg-config --cflags --libs ' + auto_libs)
 

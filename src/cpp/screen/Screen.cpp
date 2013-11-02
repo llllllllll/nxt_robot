@@ -14,7 +14,18 @@
 #include "Screen.h"
 #include "../robot_control/remote.cpp"
 
+#ifdef DEBUG_MODE
+#define STRING(str) #str
+#endif /* DEBUG_MODE */
+
 Screen::Screen(BlueComm *nxt){
+<<<<<<< HEAD
+=======
+#ifdef DEBUG_MODE
+    debug_file = fopen(STRING(DEBUG_MODE),"a");
+    assert(debug_file);
+#endif /*DEBUG_MODE */
+>>>>>>> debug_mode
     cpu_set_t proc;
     CPU_ZERO(&proc);
     CPU_SET(0,&proc);
@@ -36,6 +47,13 @@ Screen::Screen(BlueComm *nxt){
     assert(logf);
     logc = mr - 2;
     logv = (msg_t*) malloc(logc * sizeof(msg_t));
+<<<<<<< HEAD
+=======
+#ifdef DEBUG_MODE
+    fprintf(debug_file,"starting (mr,mc): (%d,%d)\n",mr,mc);
+    fprintf(debug_file,"logc starting at: %d",logc);
+#endif /* DEBUG_MODE */
+>>>>>>> debug_mode
     statw = newwin(12,6,3,10);
     ctlw = newwin(mr - 8,mc / 5,mr - 8,0);
     logw = newwin(logc,4 * mc / 5,2,mc / 5 + 1);
@@ -48,7 +66,12 @@ Screen::Screen(BlueComm *nxt){
     m2 = 0;
     lock = false;
     print_ui_static();
+#ifdef DEBUG_MODE
+    fputs("Starting DEBUG_MODE session\n",debug_file);
+    writelnattr_internals("Starting debugging session",RED_PAIR);
+#else
     writelnattr_internals("Starting session",DEFAULT_PAIR);
+#endif /* DEBUG_MODE */
     writelnattr_internals("Press any key to connect...",A_BOLD);
     getch();
     writelnattr_internals("Attempting to connect...",DEFAULT_PAIR);
@@ -68,7 +91,11 @@ Screen::Screen(BlueComm *nxt){
     s1 = op->getInputValues(1);
     s2 = op->getInputValues(2);
     s3 = op->getInputValues(3);
+#ifdef DEBUG_MODE
+    writelnattr_internals("DEBUG_MODE ready!",RED_PAIR | A_BOLD);
+#else
     writelnattr_internals("Ready!",GREEN_PAIR | A_BOLD);
+#endif /* DEBUG_MODE */
     op->setInputMode(0,LIGHT_ACTIVE,BOOLEANMODE,false,NULL);
     pthread_create(&stay_alive_thread,NULL,stay_alive_tf,(void*) this);
     pthread_create(&log_thread,NULL,log_tf,(void*) this);
@@ -78,6 +105,9 @@ Screen::Screen(BlueComm *nxt){
 Screen::~Screen(){
     free(logv);
     fclose(logf);
+#ifdef DEBUG_MODE
+    fclose(debug_file);
+#endif /* DEBUG_MODE */
     delete op;
     pthread_cancel(stay_alive_thread);
     pthread_cancel(log_thread);
@@ -259,6 +289,10 @@ void Screen::handle_opts(){
 	    logv[n].txt = strdup("");
 	    logv[n].attr = 0;
 	}
+#ifdef DEBUG_MODE
+	fprintf(debug_file,"KEY_RESIZE hit!\nnew (mr,mc): (%d,%d)\n",mr,mc);
+	fprintf(debug_file,"logc changed to: %d",logc);
+#endif /* DEBUG_MODE */
 	clear();
 	scr_refresh();
 	draw_menu();
@@ -320,11 +354,25 @@ void *stay_alive_tf(void *scr){
     cpu_set_t proc;
     CPU_ZERO(&proc);
     if (proc_count == 1){
+<<<<<<< HEAD
+=======
+#ifdef DEBUG_MODE
+	fprintf(((Screen*) scr)->debug_file,"setting affinity of "
+		"stay_alive_thread to: 0\n",proc_count);
+#endif /*DEBUG_MODE */
+>>>>>>> debug_mode
 	CPU_SET(0,&proc);
 	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
 	((Screen*) scr)->writelnattr("stay_alive_thread affinity set to proc 0",
 				     GREEN_PAIR);
     } else {
+<<<<<<< HEAD
+=======
+#ifdef DEBUG_MODE
+	fprintf(((Screen*) scr)->debug_file,"setting affinity of "
+		"stay_alive_thread to: 1\n",proc_count);
+#endif /*DEBUG_MODE */
+>>>>>>> debug_mode
 	CPU_SET(1,&proc);
 	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
 	((Screen*) scr)->writelnattr("stay_alive_thread affinity set to "
@@ -346,18 +394,39 @@ void *log_tf(void *scr){
     CPU_ZERO(&proc);
     switch(proc_count){
     case 1:
+<<<<<<< HEAD
+=======
+#ifdef DEBUG_MODE
+	fprintf(((Screen*) scr)->debug_file,"proc_cout: %d\nsetting affinity of"
+		" log_thread to: 0\n",proc_count);
+#endif /*DEBUG_MODE */
+>>>>>>> debug_mode
 	CPU_SET(0,&proc);
 	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
 	((Screen*) scr)->writelnattr("log_thread affinity set to proc 0",
 				     GREEN_PAIR);
 	break;
     case 2:
+<<<<<<< HEAD
+=======
+#ifdef DEBUG_MODE
+	fprintf(((Screen*) scr)->debug_file,"proc_cout: %d\nsetting affinity of"
+		" log_thread to: 1\n",proc_count);
+#endif /*DEBUG_MODE */
+>>>>>>> debug_mode
 	CPU_SET(1,&proc);
 	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
 	((Screen*) scr)->writelnattr("log_thread affinity set to proc 1",
 				     GREEN_PAIR);
 	break;
     default:
+<<<<<<< HEAD
+=======
+#ifdef DEBUG_MODE
+	fprintf(((Screen*) scr)->debug_file,"proc_cout: %d\nsetting affinity of"
+		" log_thread to: 2\n",proc_count);
+#endif /*DEBUG_MODE */
+>>>>>>> debug_mode
 	CPU_SET(2,&proc);
 	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
 	((Screen*) scr)->writelnattr("log_thread affinity set to proc 2",

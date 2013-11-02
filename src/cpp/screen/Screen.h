@@ -52,6 +52,9 @@ private:
     FILE *logf;
     bool lock;
     pthread_t stay_alive_thread,log_thread;
+#ifdef DEBUG_MODE
+    FILE *debug_file;
+#endif /* DEBUG_MODE */
 };
 
 void *stay_alive_tf(void*);

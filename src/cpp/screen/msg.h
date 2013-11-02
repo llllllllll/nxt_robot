@@ -5,10 +5,11 @@
 #ifndef MSG_H
 #define MSG_H
 
-struct msg_t{
-    msg_t(char*,int);
+struct msg{
     char *txt;
     int attr;
 };
+
+typedef struct msg msg_t;
 
 #endif /* MSG_H */
