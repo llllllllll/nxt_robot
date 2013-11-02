@@ -15,12 +15,12 @@
 #include "../robot_control/remote.cpp"
 
 #ifdef DEBUG_MODE
-#define STRING(str) #str
-#endif /* DEBUG_MODE */
+#define PATH_TO_DEBUG_LOG "debug_log"
+#endif /*DEBUG_MODE */
 
 Screen::Screen(BlueComm *nxt){
 #ifdef DEBUG_MODE
-    debug_file = fopen(STRING(DEBUG_MODE),"a");
+    debug_file = fopen(PATH_TO_DEBUG_LOG,"a");
     assert(debug_file);
 #endif /*DEBUG_MODE */
     cpu_set_t proc;
@@ -34,6 +34,7 @@ Screen::Screen(BlueComm *nxt){
     init_pair(1,COLOR_GREEN,-1);
     init_pair(2,COLOR_RED,-1);
     init_pair(3,COLOR_YELLOW,-1);
+    init_pair(4,COLOR_MAGENTA,-1);
     raw();
     keypad(stdscr,TRUE);
     curs_set(0);
@@ -46,7 +47,7 @@ Screen::Screen(BlueComm *nxt){
     logv = (msg_t*) malloc(logc * sizeof(msg_t));
 #ifdef DEBUG_MODE
     fprintf(debug_file,"starting (mr,mc): (%d,%d)\n",mr,mc);
-    fprintf(debug_file,"logc starting at: %d",logc);
+    fprintf(debug_file,"logc starting at: %d\n",logc);
 #endif /* DEBUG_MODE */
     statw = newwin(12,6,3,10);
     ctlw = newwin(mr - 8,mc / 5,mr - 8,0);
@@ -355,7 +356,7 @@ void *stay_alive_tf(void *scr){
 	CPU_SET(0,&proc);
 	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
 	((Screen*) scr)->writelnattr("stay_alive_thread affinity set to proc 0",
-				     GREEN_PAIR);
+				     YELLOW_PAIR);
     } else {
 #ifdef DEBUG_MODE
 	fprintf(((Screen*) scr)->debug_file,"setting affinity of "
@@ -364,7 +365,7 @@ void *stay_alive_tf(void *scr){
 	CPU_SET(1,&proc);
 	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
 	((Screen*) scr)->writelnattr("stay_alive_thread affinity set to "
-				     "proc 1",GREEN_PAIR);
+				     "proc 1",YELLOW_PAIR);
     }
     char str[2] = {0x80,0x0D};
     while(1){
@@ -389,7 +390,7 @@ void *log_tf(void *scr){
 	CPU_SET(0,&proc);
 	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
 	((Screen*) scr)->writelnattr("log_thread affinity set to proc 0",
-				     GREEN_PAIR);
+				     MAGENTA_PAIR);
 	break;
     case 2:
 #ifdef DEBUG_MODE
@@ -399,7 +400,7 @@ void *log_tf(void *scr){
 	CPU_SET(1,&proc);
 	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
 	((Screen*) scr)->writelnattr("log_thread affinity set to proc 1",
-				     GREEN_PAIR);
+				     MAGENTA_PAIR);
 	break;
     default:
 #ifdef DEBUG_MODE
@@ -409,7 +410,7 @@ void *log_tf(void *scr){
 	CPU_SET(2,&proc);
 	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
 	((Screen*) scr)->writelnattr("log_thread affinity set to proc 2",
-				     GREEN_PAIR);
+				     MAGENTA_PAIR);
 	break;
     }
     while(1){
