@@ -9,10 +9,6 @@
 
 
 int main(){
-    cpu_set_t proc;
-    CPU_ZERO(&proc);
-    CPU_SET(0,&proc);
-    assert(!pthread_setaffinity_np(pthread_self(),sizeof(cpu_set_t),&proc));
     BlueComm nxt;
     Screen scr(&nxt);
     scr.draw_menu();

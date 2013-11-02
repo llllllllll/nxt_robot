@@ -12,10 +12,21 @@
 #include "../lestat/opcodes.h"
 
 #include "Screen.h"
-#include "msg_t.h"
 #include "../robot_control/remote.cpp"
 
+#ifdef DEBUG_MODE
+#define STRING(str) #str
+#endif /* DEBUG_MODE */
+
 Screen::Screen(BlueComm *nxt){
+#ifdef DEBUG_MODE
+    debug_file = fopen(STRING(DEBUG_MODE),"a");
+    assert(debug_file);
+#endif /*DEBUG_MODE */
+    cpu_set_t proc;
+    CPU_ZERO(&proc);
+    CPU_SET(0,&proc);
+    assert(!pthread_setaffinity_np(pthread_self(),sizeof(cpu_set_t),&proc));
     initscr();
     getmaxyx(stdscr,mr,mc);
     start_color();
@@ -30,8 +41,13 @@ Screen::Screen(BlueComm *nxt){
     this->nxt = nxt;
     opt = 0;
     logf = fopen(path_to_logfile,"a");
+    assert(logf);
     logc = mr - 2;
-    logv = (struct msg_t*) malloc(logc * sizeof(struct msg_t));
+    logv = (msg_t*) malloc(logc * sizeof(msg_t));
+#ifdef DEBUG_MODE
+    fprintf(debug_file,"starting (mr,mc): (%d,%d)\n",mr,mc);
+    fprintf(debug_file,"logc starting at: %d",logc);
+#endif /* DEBUG_MODE */
     statw = newwin(12,6,3,10);
     ctlw = newwin(mr - 8,mc / 5,mr - 8,0);
     logw = newwin(logc,4 * mc / 5,2,mc / 5 + 1);
@@ -44,7 +60,12 @@ Screen::Screen(BlueComm *nxt){
     m2 = 0;
     lock = false;
     print_ui_static();
+#ifdef DEBUG_MODE
+    fputs("Starting DEBUG_MODE session\n",debug_file);
+    writelnattr_internals("Starting debugging session",RED_PAIR);
+#else
     writelnattr_internals("Starting session",DEFAULT_PAIR);
+#endif /* DEBUG_MODE */
     writelnattr_internals("Press any key to connect...",A_BOLD);
     getch();
     writelnattr_internals("Attempting to connect...",DEFAULT_PAIR);
@@ -64,7 +85,11 @@ Screen::Screen(BlueComm *nxt){
     s1 = op->getInputValues(1);
     s2 = op->getInputValues(2);
     s3 = op->getInputValues(3);
+#ifdef DEBUG_MODE
+    writelnattr_internals("DEBUG_MODE ready!",RED_PAIR | A_BOLD);
+#else
     writelnattr_internals("Ready!",GREEN_PAIR | A_BOLD);
+#endif /* DEBUG_MODE */
     op->setInputMode(0,LIGHT_ACTIVE,BOOLEANMODE,false,NULL);
     pthread_create(&stay_alive_thread,NULL,stay_alive_tf,(void*) this);
     pthread_create(&log_thread,NULL,log_tf,(void*) this);
@@ -74,6 +99,9 @@ Screen::Screen(BlueComm *nxt){
 Screen::~Screen(){
     free(logv);
     fclose(logf);
+#ifdef DEBUG_MODE
+    fclose(debug_file);
+#endif /* DEBUG_MODE */
     delete op;
     pthread_cancel(stay_alive_thread);
     pthread_cancel(log_thread);
@@ -230,7 +258,7 @@ void Screen::handle_opts(){
     lock = false;
     scr_refresh();
     int logc_temp;
-    struct msg_t *logv_temp;
+    msg_t *logv_temp;
     switch(getch()){
     case 3:
 	free(logv);
@@ -244,7 +272,7 @@ void Screen::handle_opts(){
 	getmaxyx(stdscr,mr,mc);
 	logc_temp = logc;
 	logc = 4 * mc / 5 - 1;
-	logv_temp = (struct msg_t*) malloc(logc * sizeof(struct msg_t));
+	logv_temp = (msg_t*) malloc(logc * sizeof(msg_t));
 	for (int n = 0;n < logc;n++){
 	    logv_temp[n] = logv[n];
 	    free(logv[n].txt);
@@ -255,13 +283,17 @@ void Screen::handle_opts(){
 	    logv[n].txt = strdup("");
 	    logv[n].attr = 0;
 	}
+#ifdef DEBUG_MODE
+	fprintf(debug_file,"KEY_RESIZE hit!\nnew (mr,mc): (%d,%d)\n",mr,mc);
+	fprintf(debug_file,"logc changed to: %d",logc);
+#endif /* DEBUG_MODE */
 	clear();
 	scr_refresh();
 	draw_menu();
 	break;
     case KEY_UP:
 	if (opt > 0){
-	--opt;
+	    --opt;
 	}
 	break;
     case KEY_DOWN:
@@ -311,12 +343,29 @@ void Screen::handle_opts(){
 }
 
 // Sends a message to stay alive every minute, does not block the main thread.
-// This was a bitch. uguu~~
 void *stay_alive_tf(void *scr){
+    long proc_count = sysconf(_SC_NPROCESSORS_ONLN);
     cpu_set_t proc;
     CPU_ZERO(&proc);
-    CPU_SET(1,&proc);
-    assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
+    if (proc_count == 1){
+#ifdef DEBUG_MODE
+	fprintf(((Screen*) scr)->debug_file,"setting affinity of "
+		"stay_alive_thread to: 0\n",proc_count);
+#endif /*DEBUG_MODE */
+	CPU_SET(0,&proc);
+	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
+	((Screen*) scr)->writelnattr("stay_alive_thread affinity set to proc 0",
+				     GREEN_PAIR);
+    } else {
+#ifdef DEBUG_MODE
+	fprintf(((Screen*) scr)->debug_file,"setting affinity of "
+		"stay_alive_thread to: 1\n",proc_count);
+#endif /*DEBUG_MODE */
+	CPU_SET(1,&proc);
+	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
+	((Screen*) scr)->writelnattr("stay_alive_thread affinity set to "
+				     "proc 1",GREEN_PAIR);
+    }
     char str[2] = {0x80,0x0D};
     while(1){
 	((Screen*) scr)->nxt->sendBuffer(str,2);
@@ -326,17 +375,49 @@ void *stay_alive_tf(void *scr){
     }
 }
 
+// Polls the log queue for a new message and then prints it and pops it.
 void *log_tf(void *scr){
+    long proc_count = sysconf(_SC_NPROCESSORS_ONLN);
     cpu_set_t proc;
     CPU_ZERO(&proc);
-    CPU_SET(2,&proc);
-    assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
+    switch(proc_count){
+    case 1:
+#ifdef DEBUG_MODE
+	fprintf(((Screen*) scr)->debug_file,"proc_cout: %d\nsetting affinity of"
+		" log_thread to: 0\n",proc_count);
+#endif /*DEBUG_MODE */
+	CPU_SET(0,&proc);
+	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
+	((Screen*) scr)->writelnattr("log_thread affinity set to proc 0",
+				     GREEN_PAIR);
+	break;
+    case 2:
+#ifdef DEBUG_MODE
+	fprintf(((Screen*) scr)->debug_file,"proc_cout: %d\nsetting affinity of"
+		" log_thread to: 1\n",proc_count);
+#endif /*DEBUG_MODE */
+	CPU_SET(1,&proc);
+	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
+	((Screen*) scr)->writelnattr("log_thread affinity set to proc 1",
+				     GREEN_PAIR);
+	break;
+    default:
+#ifdef DEBUG_MODE
+	fprintf(((Screen*) scr)->debug_file,"proc_cout: %d\nsetting affinity of"
+		" log_thread to: 2\n",proc_count);
+#endif /*DEBUG_MODE */
+	CPU_SET(2,&proc);
+	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
+	((Screen*) scr)->writelnattr("log_thread affinity set to proc 2",
+				     GREEN_PAIR);
+	break;
+    }
     while(1){
-	if (!((Screen*) scr)->log.empty() && !((Screen*) scr)->lock){
+	if (!((Screen*) scr)->logq.empty() && !((Screen*) scr)->lock){
 	    ((Screen*) scr)->writelnattr_internals(
-		((Screen*) scr)->log.front()->txt,
-		((Screen*) scr)->log.front()->attr);
-	    ((Screen*) scr)->log.pop();
+		((Screen*) scr)->logq.front()->txt,
+		((Screen*) scr)->logq.front()->attr);
+	    ((Screen*) scr)->logq.pop();
 	}
 	usleep(5000);
     }
