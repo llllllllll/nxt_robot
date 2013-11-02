@@ -24,6 +24,7 @@
 #define GREEN_PAIR COLOR_PAIR(1)
 #define RED_PAIR COLOR_PAIR(2)
 #define YELLOW_PAIR COLOR_PAIR(3)
+#define MAGENTA_PAIR COLOR_PAIR(4)
 
 class Screen{
 public:

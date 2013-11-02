@@ -26,6 +26,7 @@ Screen::Screen(BlueComm *nxt){
     init_pair(1,COLOR_GREEN,-1);
     init_pair(2,COLOR_RED,-1);
     init_pair(3,COLOR_YELLOW,-1);
+    init_pair(4,COLOR_MAGENTA,-1);
     raw();
     keypad(stdscr,TRUE);
     curs_set(0);
@@ -68,10 +69,10 @@ Screen::Screen(BlueComm *nxt){
     s1 = op->getInputValues(1);
     s2 = op->getInputValues(2);
     s3 = op->getInputValues(3);
-    writelnattr_internals("Ready!",GREEN_PAIR | A_BOLD);
     op->setInputMode(0,LIGHT_ACTIVE,BOOLEANMODE,false,NULL);
     pthread_create(&stay_alive_thread,NULL,stay_alive_tf,(void*) this);
     pthread_create(&log_thread,NULL,log_tf,(void*) this);
+    writelnattr("Ready!",GREEN_PAIR | A_BOLD);
     scr_refresh();
 }
 
@@ -323,12 +324,12 @@ void *stay_alive_tf(void *scr){
 	CPU_SET(0,&proc);
 	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
 	((Screen*) scr)->writelnattr("stay_alive_thread affinity set to proc 0",
-				     GREEN_PAIR);
+				     YELLOW_PAIR);
     } else {
 	CPU_SET(1,&proc);
 	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
 	((Screen*) scr)->writelnattr("stay_alive_thread affinity set to "
-				     "proc 1",GREEN_PAIR);
+				     "proc 1",YELLOW_PAIR);
     }
     char str[2] = {0x80,0x0D};
     while(1){
@@ -349,19 +350,19 @@ void *log_tf(void *scr){
 	CPU_SET(0,&proc);
 	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
 	((Screen*) scr)->writelnattr("log_thread affinity set to proc 0",
-				     GREEN_PAIR);
+				     MAGENTA_PAIR);
 	break;
     case 2:
 	CPU_SET(1,&proc);
 	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
 	((Screen*) scr)->writelnattr("log_thread affinity set to proc 1",
-				     GREEN_PAIR);
+				     MAGENTA_PAIR);
 	break;
     default:
 	CPU_SET(2,&proc);
 	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
 	((Screen*) scr)->writelnattr("log_thread affinity set to proc 2",
-				     GREEN_PAIR);
+				     MAGENTA_PAIR);
 	break;
     }
     while(1){

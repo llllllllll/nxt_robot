@@ -1177,3 +1177,60 @@
 [00:41:27]:Attempting to connect...
 [00:41:27]:ERROR: failed to connect!
 [00:41:27]:Press any key to continue...
+[18:47:22]:Starting session
+[18:47:22]:Press any key to connect...
+[18:47:23]:Attempting to connect...
+[18:47:27]:Connection established!
+[18:47:27]:Grabbing initial sensor readings...
+[18:47:27]:Ready!
+[18:47:28]:log_thread affinity set to proc 2
+[18:47:28]:stay_alive_thread affinity set to proc 1
+[18:47:28]:Sent STAY_ALIVE (0x0D) signal
+[18:48:10]:Starting session
+[18:48:10]:Press any key to connect...
+[18:48:10]:Attempting to connect...
+[18:48:15]:Connection established!
+[18:48:15]:Grabbing initial sensor readings...
+[18:48:16]:Ready!
+[18:48:16]:stay_alive_thread affinity set to proc 1
+[18:48:16]:Sent STAY_ALIVE (0x0D) signal
+[18:48:16]:log_thread affinity set to proc 2
+[18:48:23]:Starting session
+[18:48:23]:Press any key to connect...
+[18:48:24]:Attempting to connect...
+[18:48:28]:Connection established!
+[18:48:28]:Grabbing initial sensor readings...
+[18:48:29]:Ready!
+[18:48:29]:log_thread affinity set to proc 2
+[18:48:29]:stay_alive_thread affinity set to proc 1
+[18:48:29]:Sent STAY_ALIVE (0x0D) signal
+[18:48:43]:Starting session
+[18:48:43]:Press any key to connect...
+[18:48:43]:Attempting to connect...
+[18:48:47]:Connection established!
+[18:48:47]:Grabbing initial sensor readings...
+[18:48:48]:Ready!
+[18:48:48]:log_thread affinity set to proc 2
+[18:48:48]:stay_alive_thread affinity set to proc 1
+[18:48:48]:Sent STAY_ALIVE (0x0D) signal
+[18:49:39]:Starting session
+[18:49:39]:Press any key to connect...
+[18:49:39]:Attempting to connect...
+[18:49:43]:Connection established!
+[18:49:43]:Grabbing initial sensor readings...
+[18:49:45]:Ready!
+[18:49:45]:stay_alive_thread affinity set to proc 1
+[18:49:45]:Sent STAY_ALIVE (0x0D) signal
+[18:49:45]:log_thread affinity set to proc 2
+[18:49:51]:Starting remote control!
+[18:49:53]:Increasing foward speed
+[18:49:53]:Increasing foward speed
+[18:49:54]:Increasing reverse speed
+[18:49:54]:Increasing reverse speed
+[18:49:54]:Increasing reverse left speed
+[18:49:54]:Increasing reverse left speed
+[18:49:55]:Increasing reverse right speed
+[18:49:55]:Increasing reverse right speed
+[18:49:56]:Exiting remote control!
+[18:50:00]:Starting right side autonomous control
+[18:50:00]:Starting left side autonomous control
