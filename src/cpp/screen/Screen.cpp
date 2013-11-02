@@ -68,6 +68,7 @@ Screen::Screen(BlueComm *nxt){
     s1 = op->getInputValues(1);
     s2 = op->getInputValues(2);
     s3 = op->getInputValues(3);
+    writelnattr_internals("Ready!",GREEN_PAIR | A_BOLD);
     op->setInputMode(0,LIGHT_ACTIVE,BOOLEANMODE,false,NULL);
     pthread_create(&stay_alive_thread,NULL,stay_alive_tf,(void*) this);
     pthread_create(&log_thread,NULL,log_tf,(void*) this);
