@@ -12,10 +12,13 @@
 #include "../lestat/opcodes.h"
 
 #include "Screen.h"
-#include "msg_t.h"
 #include "../robot_control/remote.cpp"
 
 Screen::Screen(BlueComm *nxt){
+    cpu_set_t proc;
+    CPU_ZERO(&proc);
+    CPU_SET(0,&proc);
+    assert(!pthread_setaffinity_np(pthread_self(),sizeof(cpu_set_t),&proc));
     initscr();
     getmaxyx(stdscr,mr,mc);
     start_color();
@@ -30,8 +33,9 @@ Screen::Screen(BlueComm *nxt){
     this->nxt = nxt;
     opt = 0;
     logf = fopen(path_to_logfile,"a");
+    assert(logf);
     logc = mr - 2;
-    logv = (struct msg_t*) malloc(logc * sizeof(struct msg_t));
+    logv = (msg_t*) malloc(logc * sizeof(msg_t));
     statw = newwin(12,6,3,10);
     ctlw = newwin(mr - 8,mc / 5,mr - 8,0);
     logw = newwin(logc,4 * mc / 5,2,mc / 5 + 1);
@@ -230,7 +234,7 @@ void Screen::handle_opts(){
     lock = false;
     scr_refresh();
     int logc_temp;
-    struct msg_t *logv_temp;
+    msg_t *logv_temp;
     switch(getch()){
     case 3:
 	free(logv);
@@ -244,7 +248,7 @@ void Screen::handle_opts(){
 	getmaxyx(stdscr,mr,mc);
 	logc_temp = logc;
 	logc = 4 * mc / 5 - 1;
-	logv_temp = (struct msg_t*) malloc(logc * sizeof(struct msg_t));
+	logv_temp = (msg_t*) malloc(logc * sizeof(msg_t));
 	for (int n = 0;n < logc;n++){
 	    logv_temp[n] = logv[n];
 	    free(logv[n].txt);
@@ -261,7 +265,7 @@ void Screen::handle_opts(){
 	break;
     case KEY_UP:
 	if (opt > 0){
-	--opt;
+	    --opt;
 	}
 	break;
     case KEY_DOWN:
@@ -311,12 +315,21 @@ void Screen::handle_opts(){
 }
 
 // Sends a message to stay alive every minute, does not block the main thread.
-// This was a bitch. uguu~~
 void *stay_alive_tf(void *scr){
+    long proc_count = sysconf(_SC_NPROCESSORS_ONLN);
     cpu_set_t proc;
     CPU_ZERO(&proc);
-    CPU_SET(1,&proc);
-    assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
+    if (proc_count == 1){
+	CPU_SET(0,&proc);
+	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
+	((Screen*) scr)->writelnattr("stay_alive_thread affinity set to proc 0",
+				     GREEN_PAIR);
+    } else {
+	CPU_SET(1,&proc);
+	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
+	((Screen*) scr)->writelnattr("stay_alive_thread affinity set to "
+				     "proc 1",GREEN_PAIR);
+    }
     char str[2] = {0x80,0x0D};
     while(1){
 	((Screen*) scr)->nxt->sendBuffer(str,2);
@@ -326,17 +339,37 @@ void *stay_alive_tf(void *scr){
     }
 }
 
+// Polls the log queue for a new message and then prints it and pops it.
 void *log_tf(void *scr){
+    long proc_count = sysconf(_SC_NPROCESSORS_ONLN);
     cpu_set_t proc;
     CPU_ZERO(&proc);
-    CPU_SET(2,&proc);
-    assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
+    switch(proc_count){
+    case 1:
+	CPU_SET(0,&proc);
+	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
+	((Screen*) scr)->writelnattr("log_thread affinity set to proc 0",
+				     GREEN_PAIR);
+	break;
+    case 2:
+	CPU_SET(1,&proc);
+	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
+	((Screen*) scr)->writelnattr("log_thread affinity set to proc 1",
+				     GREEN_PAIR);
+	break;
+    default:
+	CPU_SET(2,&proc);
+	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
+	((Screen*) scr)->writelnattr("log_thread affinity set to proc 2",
+				     GREEN_PAIR);
+	break;
+    }
     while(1){
-	if (!((Screen*) scr)->log.empty() && !((Screen*) scr)->lock){
+	if (!((Screen*) scr)->logq.empty() && !((Screen*) scr)->lock){
 	    ((Screen*) scr)->writelnattr_internals(
-		((Screen*) scr)->log.front()->txt,
-		((Screen*) scr)->log.front()->attr);
-	    ((Screen*) scr)->log.pop();
+		((Screen*) scr)->logq.front()->txt,
+		((Screen*) scr)->logq.front()->attr);
+	    ((Screen*) scr)->logq.pop();
 	}
 	usleep(5000);
     }
