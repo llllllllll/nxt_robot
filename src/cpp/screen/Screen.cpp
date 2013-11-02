@@ -48,6 +48,7 @@ Screen::Screen(BlueComm *nxt){
     m2 = 0;
     lock = false;
     print_ui_static();
+    writelnattr_internals("Starting session",DEFAULT_PAIR);
     writelnattr_internals("Press any key to connect...",A_BOLD);
     getch();
     writelnattr_internals("Attempting to connect...",DEFAULT_PAIR);
