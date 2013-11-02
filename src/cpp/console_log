@@ -25,3 +25,30 @@
 [18:57:50]:log_thread affinity set to proc 2
 [18:57:50]:stay_alive_thread affinity set to proc 1
 [18:57:50]:Sent STAY_ALIVE (0x0D) signal
+[19:29:28]:Starting debugging session
+[19:29:28]:Press any key to connect...
+[19:29:29]:Attempting to connect...
+[19:29:33]:Connection established!
+[19:29:33]:Grabbing initial sensor readings...
+[19:29:34]:DEBUG_MODE ready!
+[19:29:34]:stay_alive_thread affinity set to proc 1
+[19:29:34]:Sent STAY_ALIVE (0x0D) signal
+[19:29:34]:log_thread affinity set to proc 2
+[19:32:23]:Starting debugging session
+[19:32:23]:Press any key to connect...
+[19:32:23]:Attempting to connect...
+[19:32:27]:Connection established!
+[19:32:27]:Grabbing initial sensor readings...
+[19:32:28]:DEBUG_MODE ready!
+[19:32:28]:log_thread affinity set to proc 2
+[19:32:28]:stay_alive_thread affinity set to proc 1
+[19:32:28]:Sent STAY_ALIVE (0x0D) signal
+[19:33:27]:Starting debugging session
+[19:33:27]:Press any key to connect...
+[19:33:28]:Attempting to connect...
+[19:33:31]:Connection established!
+[19:33:31]:Grabbing initial sensor readings...
+[19:33:32]:DEBUG_MODE ready!
+[19:33:32]:log_thread affinity set to proc 2
+[19:33:32]:stay_alive_thread affinity set to proc 1
+[19:33:32]:Sent STAY_ALIVE (0x0D) signal

@@ -31,11 +31,12 @@ public:
     Screen(BlueComm*);
     ~Screen();
     void scr_refresh();
-    inline void writelnattr(char*,int);
+    void writelnattr(char*,int);
     inline void writeln(char*);
     inline void prompt(char*);
     void draw_stats();
     void draw_menu();
+    void handle_resize();
     BlueComm *nxt;
     int m0,m1,m2;
     SensorState s0,s1,s2,s3;
@@ -61,29 +62,14 @@ private:
 void *stay_alive_tf(void*);
 void *log_tf(void*);
 
-// Push one message into the message queue that will allow it to be processed
-// outside of the logic thread.
-inline void Screen::writelnattr(char *str,int attr){
-    msg_t *msg = (msg_t*) malloc(sizeof(msg_t));
-    msg->txt = str;
-    msg->attr = attr;
-    logq.push(msg);
-}
-
 // Push one message with no attributes.
 inline void Screen::writeln(char *str){
-    msg_t *msg = (msg_t*) malloc(sizeof(msg_t));
-    msg->txt = str;
-    msg->attr = DEFAULT_PAIR;
-    logq.push(msg);
+    writelnattr(str,DEFAULT_PAIR);
 }
 
 // Push one message and wait for the user to press a key to continue.
 inline void Screen::prompt(char *str){
-    msg_t *msg = (msg_t*) malloc(sizeof(msg_t));
-    msg->txt = str;
-    msg->attr = A_BOLD;
-    logq.push(msg);
+    writelnattr(str,A_BOLD);
     getch();
 }
 
