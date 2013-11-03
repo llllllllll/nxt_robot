@@ -75,7 +75,6 @@ SCR *alloc_SCR(NXT *nxt){
     pthread_create(&scr->log_thread,NULL,log_tf,(void*) scr);
     scr->logq = malloc(sizeof(log_queue));
     scr->logq->head = NULL;
-    scr->logq->last = NULL;
     SCR_writelnattr(scr,"Ready!",GREEN_PAIR | A_BOLD);
     SCR_refresh(scr);
     return scr;
@@ -226,7 +225,7 @@ void SCR_printui_static(SCR *scr){
     mvprintw(1,c + 1,"Log:");
     attroff(A_UNDERLINE | A_BOLD);
     attroff(YELLOW_PAIR);
-    scr->lock = 1;
+    scr->lock = 0;
 }
 
 // Resizes the screen to fit a newly resized window.
@@ -276,11 +275,7 @@ void SCR_handle_opts(SCR *scr){
     SCR_refresh(scr);
     switch(getch()){
     case 3:
-	free(scr->logv);
-	pthread_cancel(scr->log_thread);
-	pthread_cancel(scr->stay_alive_thread);
-	endwin();
-	exit(0);
+	free_SCR(scr);
 	break;
     case KEY_RESIZE:
 	SCR_handle_resize(scr);
