@@ -41,28 +41,26 @@ SCR *alloc_SCR(NXT *nxt){
 	scr->logv[n].txt = strdup("");
 	scr->logv[n].attr = 0;
     }
-    scr->logq = malloc(sizeof(log_queue));
     scr->lock = 0;
     SCR_printui_static(scr);
-    SCR_writelnattr_internals(scr,"Starting session",DEFAULT_PAIR);
-    SCR_writelnattr_internals(scr,"Press any key to connect...",A_BOLD);
+    SCR_writelnattr(scr,"Starting session",DEFAULT_PAIR);
+    SCR_writelnattr(scr,"Press any key to connect...",A_BOLD);
     getch();
-    SCR_writelnattr_internals(scr,"Attempting to connect...",DEFAULT_PAIR);
+    SCR_writelnattr(scr,"Attempting to connect...",DEFAULT_PAIR);
     if(NXT_connect(nxt,MAC_ADDRESS)){
-        SCR_writelnattr_internals(scr,"ERROR: failed to connect!",
+        SCR_writelnattr(scr,"ERROR: failed to connect!",
 				  RED_PAIR | A_BOLD);
-        SCR_writelnattr_internals(scr,"Press any key to continue...",A_BOLD);
+        SCR_writelnattr(scr,"Press any key to continue...",A_BOLD);
 	getch();
 	endwin();
 	free(scr);
 	return NULL;
     }
-    scr->logq->head = NULL;
     scr->m0 = NXT_get_motorstate(nxt,0);
     scr->m1 = NXT_get_motorstate(nxt,1);
     scr->m2 = NXT_get_motorstate(nxt,2);
-    SCR_writelnattr_internals(scr,"Connection established!",GREEN_PAIR);
-    SCR_writelnattr_internals(scr,"Grabbing initial sensor readings...",
+    SCR_writelnattr(scr,"Connection established!",GREEN_PAIR);
+    SCR_writelnattr(scr,"Grabbing initial sensor readings...",
 			      DEFAULT_PAIR);
     scr->s0 = *NXT_get_sensorstate(nxt,0);
     scr->s1 = *NXT_get_sensorstate(nxt,1);
@@ -70,13 +68,13 @@ SCR *alloc_SCR(NXT *nxt){
     scr->s3 = *NXT_get_sensorstate(nxt,3);
     NXT_set_input_mode(nxt,0,LIGHT_ACTIVE,BOOLEANMODE,0,NULL);
     SCR_writelnattr(scr,"Ready!",GREEN_PAIR | A_BOLD);
+    pthread_create(&scr->stay_alive_thread,NULL,stay_alive_tf,scr);
     SCR_refresh(scr);
     return scr;
 }
 
 void free_SCR(SCR *scr){
     free(scr->logv);
-    free(scr->logq);
     fclose(scr->logf);
     echo();
     endwin();
@@ -89,24 +87,13 @@ void SCR_refresh(SCR *scr){
     refresh();
 }
 
-// Push one message into the message queue that will allow it to be processed
-// outside of the logic thread.
-void SCR_writelnattr(SCR *scr,char *str,int attr){
-    logmsg_t *msg = malloc(sizeof(logmsg_t));
-    msg->txt = str;
-    msg->attr = attr;
-    qpush(scr->logq,msg);
-}
-
 // Draws the robot stats.
 void SCR_draw_stats(SCR *scr){
-    while(scr->lock);
-    scr->lock = 1;
     unsigned short int b = NXT_battery_level(scr->nxt);
-    if (b > 500){ wattron(scr->statw,GREEN_PAIR); }
+    if (b > 6000){ wattron(scr->statw,GREEN_PAIR); }
     else { wattron(scr->statw,RED_PAIR); }
     mvwprintw(scr->statw,0,0,"%humV",NXT_battery_level(scr->nxt));
-    if (b > 500){ wattroff(scr->statw,GREEN_PAIR); }
+    if (b > 6000){ wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
 
     if (scr->m0 >= 0){ wattron(scr->statw,GREEN_PAIR); }
@@ -145,7 +132,6 @@ void SCR_draw_stats(SCR *scr){
     mvwprintw(scr->statw,11,1,"%d",scr->s3.calibrated_value);
     if (scr->s3.calibrated_value > 500){ wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
-    scr->lock = 0;
     SCR_refresh(scr);
 }
 
@@ -157,7 +143,7 @@ void SCR_draw_menu(SCR *scr){
 }
 
 // Internals for printing to the console.
-void SCR_writelnattr_internals(SCR *scr,char *str,int attr){
+void SCR_writelnattr(SCR *scr,char *str,int attr){
     while(scr->lock);
     scr->lock = 1;
     time_t t;
@@ -188,8 +174,6 @@ void SCR_writelnattr_internals(SCR *scr,char *str,int attr){
 
 // Prints the basic UI features, they will be populated by the poll thread.
 void SCR_printui_static(SCR *scr){
-    while(scr->lock);
-    scr->lock = 1;
     attron(YELLOW_PAIR | A_BOLD);
     mvprintw(0,scr->mc - 11,"NXT GROUP 9");
     mvprintw(3,0,"Battery:");
@@ -218,7 +202,6 @@ void SCR_printui_static(SCR *scr){
     mvprintw(1,c + 1,"Log:");
     attroff(A_UNDERLINE | A_BOLD);
     attroff(YELLOW_PAIR);
-    scr->lock = 0;
 }
 
 // Resizes the screen to fit a newly resized window.
@@ -251,8 +234,6 @@ void SCR_handle_resize(SCR *scr){
 // Prints the options and handles user input.
 void SCR_handle_opts(SCR *scr){
     SCR_draw_stats(scr);
-    while(scr->lock);
-    scr->lock = 1;
     wattron(scr->ctlw,A_BOLD);
     if (scr->opt == 0){ wattron(scr->ctlw,A_STANDOUT); }
     mvwprintw(scr->ctlw,3,0,"REMOTE");
@@ -264,7 +245,6 @@ void SCR_handle_opts(SCR *scr){
     mvwprintw(scr->ctlw,5,0,"LEFT");
     if (scr->opt == 2){ wattroff(scr->ctlw,A_STANDOUT); }
     wattroff(scr->ctlw,A_BOLD);
-    scr->lock = 0;
     SCR_refresh(scr);
     switch(getch()){
     case 3:
@@ -288,8 +268,6 @@ void SCR_handle_opts(SCR *scr){
     case 10: // ENTER
 	switch(scr->opt){
 	case 0:
-	  //while(scr->lock);
-	  // scr->lock = 1;
 	    wattron(scr->ctlw,A_BOLD);
 	    wmove(scr->ctlw,3,0);
 	    wclrtoeol(scr->ctlw);
@@ -306,7 +284,6 @@ void SCR_handle_opts(SCR *scr){
 	    mvwprintw(scr->ctlw,7,4,"s");
 	    wattroff(scr->ctlw,A_BOLD);
 	    SCR_writelnattr(scr,"Starting remote control!",GREEN_PAIR);
-	    // scr->lock = 0;
 	    r_remote(scr,scr->nxt);
 	    return;
 	    break;
@@ -334,17 +311,5 @@ void *stay_alive_tf(void *scr){
 	NXT_stay_alive(((SCR*) scr)->nxt);
 	SCR_writelnattr((SCR*) scr,"Sent STAY_ALIVE (0x0D) message",YELLOW_PAIR);
 	sleep(60);
-    }
-}
-
-// Polls the log queue for a new message and then prints it and pops it.
-void *log_tf(void *scr){
-    logmsg_t *msg;
-    while(1){
-	if (qempty(((SCR*) scr)->logq) && !((SCR*) scr)->lock){
-	    msg = qpop(((SCR*) scr)->logq);
-	    SCR_writelnattr_internals((SCR*) scr,msg->txt,msg->attr);
-	}
-	usleep(5000);
     }
 }

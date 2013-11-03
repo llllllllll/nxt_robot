@@ -5,7 +5,7 @@
 #ifndef LOGMSG_H
 #define LOGMSG_H
 
-typedef  struct{
+typedef struct {
     char *txt;
     int attr;
 } logmsg_t;

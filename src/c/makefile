@@ -4,7 +4,7 @@
 CC=gcc
 CFLAGS=-c -std=gnu99 -O2
 LDFLAGS=
-SOURCES=main.c screen/scr.c screen/log_queue.c robot_control/remote.c
+SOURCES=main.c screen/scr.c robot_control/remote.c
 OBJECTS=$(SOURCES:.c=.o)
 EXECUTABLE=test
 
