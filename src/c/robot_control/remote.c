@@ -12,110 +12,71 @@
 #include "../screen/scr.h"
 
 void r_remote(SCR *scr,NXT *nxt){
+    motorstate_t *tmp0 = malloc(sizeof(motorstate_t));
+    motorstate_t *tmp1 = malloc(sizeof(motorstate_t));
     while(1){
-	switch(getch()){
-	case 3:
-	    return;
-	    break;
-	case 'p':
-	    scr->op->setOutputState(0,0,2,2,0,0,false,NULL);
-	    scr->op->setOutputState(1,0,2,2,0,0,false,NULL);
-	    scr->op->setOutputState(2,0,2,2,0,0,false,NULL);
-	    scr->m0 = 0;
-	    scr->m1 = 0;
-	    scr->m2 = 0;
-	    scr->writelnattr("Exiting remote control!",COLOR_PAIR(1));
-	    scr->draw_menu();
-	    break;
-	case ' ':
-	    scr->op->setOutputState(0,0,2,2,0,0,false,NULL);
-	    scr->op->setOutputState(1,0,2,2,0,0,false,NULL);
-	    scr->op->setOutputState(2,0,2,2,0,0,false,NULL);
-	    scr->m0 = 0;
-	    scr->m1 = 0;
-	    scr->m2 = 0;
-	    scr->writeln("Stopping all motors");
-	    scr->draw_stats();
-	    break;
-	case 'W':
-		scr->m0 = 100;
-		scr->op->setOutputState(0,scr->m0,2,2,0,0x20,0,false,NULL);
-		scr->m1 = 100;
-	        scr->op->setOutputState(1,scr->m1,2,2,0,0x20,0,false,NULL);
-		scr->draw_stats();
-		scr->writeln("Max foward speed");
+        switch(getch()){
 	case 'w':
-	    if (scr->m0 <= 90){
-		scr->m0 += 10;
-		scr->op->setOutputState(0,scr->m0,2,2,0,0x20,0,false,NULL);
-		scr->draw_stats();
-	    }
-	    if (scr->m1 <= 90){
-		scr->m1 += 10;
-	        scr->op->setOutputState(1,scr->m1,2,2,0,0x20,0,false,NULL);
-		scr->draw_stats();
-	    }
-	    scr->writeln("Increasing foward speed");
+	    tmp0->port = 0;
+	    tmp0->power = 100;
+	    tmp0->mode = 0x02;
+	    tmp0->run_state = 2;
+	    tmp0->reg_mode = 2;
+	    tmp0->run_state = 0x20;
+	    tmp0->turn_ratio = 0;
+	    tmp0->tacho_limit = 0;
+
+	    tmp1->port = 1;
+	    tmp1->power = 100;
+	    tmp1->mode = 0x02;
+	    tmp1->run_state = 2;
+	    tmp1->reg_mode = 2;
+	    tmp1->run_state = 0x20;
+	    tmp1->turn_ratio = 0;
+	    tmp1->tacho_limit = 0;
+	    NXT_set_motorstate(nxt,tmp0,0,NULL);
+	    NXT_set_motorstate(nxt,tmp1,0,NULL);
+	    SCR_writeln(scr,"move foward!!");
 	    break;
-	case 'S':
-	    scr->m0 = -100;
-	    scr->op->setOutputState(0,scr->m0,2,2,0,0x20,0,false,NULL);
-	    scr->m1 = -100;
-	    scr->op->setOutputState(1,scr->m1,2,2,0,0x20,0,false,NULL);
-	    scr->draw_stats();
-	    scr->writeln("Max reverse speed");
 	case 's':
-	    if (scr->m0 >= -90){
-		scr->m0 -= 10;
-		scr->op->setOutputState(0,scr->m0,2,2,0,0x20,0,false,NULL);
-		scr->draw_stats();
-	    }
-	    if (scr->m1 >= -90){
-		scr->m1 -= 10;
-	        scr->op->setOutputState(1,scr->m1,2,2,0,0x20,0,false,NULL);
-		scr->draw_stats();
-	    }
-	    scr->writeln("Increasing reverse speed");
+	    tmp0->power = 0;
+	    tmp1->power = 0;
+	    NXT_set_motorstate(nxt,tmp0,0,NULL);
+	    NXT_set_motorstate(nxt,tmp1,0,NULL);
 	    break;
-	case 'q':
-	    if (scr->m0 <= 90){
-		scr->m0 += 10;
-		scr->op->setOutputState(0,scr->m0,2,2,0,0x20,0,false,NULL);
-		scr->draw_stats();
-		scr->writeln("Increasing foward left speed");
-	    }
-	    break;
-	case 'e':
-	    if (scr->m1 <= 90){
-		scr->m1 += 10;
-	        scr->op->setOutputState(1,scr->m1,2,2,0,0x20,0,false,NULL);
-		scr->draw_stats();
-		scr->writeln("Increasing foward right speed");
-	    }	    
-	    break;
-	case 'a':
-	    if (scr->m0 >= -90){
-		scr->m0 -= 10;
-		scr->op->setOutputState(0,scr->m0,2,2,0,0x20,0,false,NULL);
-		scr->draw_stats();
-		scr->writeln("Increasing reverse left speed");
-	    }
-	    break;
-	case 'd':
-	    if (scr->m1 >= -90){
-		scr->m1 -= 10;
-	        scr->op->setOutputState(1,scr->m1,2,2,0,0x20,0,false,NULL);
-		scr->draw_stats();
-		scr->writeln("Increasing reverse right speed");
-	    }
-	    break;
-	case 'r':
-	    scr->s0 = scr->op->getInputValues(0);
-	    scr->s1 = scr->op->getInputValues(1);
-	    scr->s2 = scr->op->getInputValues(2);
-	    scr->s3 = scr->op->getInputValues(3);
-	    scr->draw_stats();
-	    scr->writeln("Requesting new sensor readings");
+	case 3:
+	    tmp0->power = 0;
+	    tmp1->power = 0;
+	    NXT_set_motorstate(nxt,tmp0,0,NULL);
+	    NXT_set_motorstate(nxt,tmp1,0,NULL);
+	    free(tmp0);
+	    free(tmp1);
+	    free_SCR(scr);
+	    exit(0);
+	    return;
 	}
     }
 }
+
+/*
+    0,
+    scr->m0,
+    2,
+    2,
+    0,
+    0x20,
+    0,
+    false,
+    NULL
+
+    unsigned char port;
+    char power;
+    unsigned char mode;
+    unsigned char reg_mode;
+    char turn_ratio;
+    unsigned char run_state;
+    unsigned int tacho_limit;
+    int tacho_count;
+    int block_tacho_count;
+    int rotation_count;
+*/

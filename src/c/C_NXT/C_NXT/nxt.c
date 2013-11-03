@@ -160,7 +160,7 @@ unsigned short int NXT_battery_level(NXT* nxt){
 
 // sets the output state on the nxt.
 void NXT_set_motorstate(NXT *nxt,motorstate_t *st,int ans,
-			unsigned char *status){
+			  unsigned char *status){
     msg_t *msg;
     if(ans){
         msg = alloc_msg(0x0,0x4);
@@ -175,15 +175,17 @@ void NXT_set_motorstate(NXT *nxt,motorstate_t *st,int ans,
     msg_addU8(msg,st->run_state);
     msg_addU32(msg,st->tacho_limit);
     NXT_send_msg(nxt,msg);
-    free_msg(msg);
+
     if(ans){
 	char buf[3];
 	NXT_recv_buffer(nxt,buf,3);
 	if(buf[0] != 0x02 || buf[1] != 0x04){
+	    free_msg(msg);
 	    return;
 	}
 	*status=buf[2];
     }
+    free_msg(msg);
 }
 
 // returns the motorstate_t of the nxt on the given port.

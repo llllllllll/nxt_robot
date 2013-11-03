@@ -16,10 +16,6 @@
 
 SCR *alloc_SCR(NXT *nxt){
     SCR *scr = malloc(sizeof(SCR));
-    cpu_set_t proc;
-    CPU_ZERO(&proc);
-    CPU_SET(0,&proc);
-    assert(!pthread_setaffinity_np(pthread_self(),sizeof(cpu_set_t),&proc));
     initscr();
     getmaxyx(stdscr,scr->mr,scr->mc);
     start_color();
@@ -45,9 +41,7 @@ SCR *alloc_SCR(NXT *nxt){
 	scr->logv[n].txt = strdup("");
 	scr->logv[n].attr = 0;
     }
-    scr->m0 = 0;
-    scr->m1 = 0;
-    scr->m2 = 0;
+    scr->logq = malloc(sizeof(log_queue));
     scr->lock = 0;
     SCR_printui_static(scr);
     SCR_writelnattr_internals(scr,"Starting session",DEFAULT_PAIR);
@@ -63,6 +57,10 @@ SCR *alloc_SCR(NXT *nxt){
 	free(scr);
 	return NULL;
     }
+    scr->logq->head = NULL;
+    scr->m0 = NXT_get_motorstate(nxt,0);
+    scr->m1 = NXT_get_motorstate(nxt,1);
+    scr->m2 = NXT_get_motorstate(nxt,2);
     SCR_writelnattr_internals(scr,"Connection established!",GREEN_PAIR);
     SCR_writelnattr_internals(scr,"Grabbing initial sensor readings...",
 			      DEFAULT_PAIR);
@@ -71,10 +69,6 @@ SCR *alloc_SCR(NXT *nxt){
     scr->s2 = *NXT_get_sensorstate(nxt,2);
     scr->s3 = *NXT_get_sensorstate(nxt,3);
     NXT_set_input_mode(nxt,0,LIGHT_ACTIVE,BOOLEANMODE,0,NULL);
-    pthread_create(&scr->stay_alive_thread,NULL,stay_alive_tf,(void*) scr);
-    pthread_create(&scr->log_thread,NULL,log_tf,(void*) scr);
-    scr->logq = malloc(sizeof(log_queue));
-    scr->logq->head = NULL;
     SCR_writelnattr(scr,"Ready!",GREEN_PAIR | A_BOLD);
     SCR_refresh(scr);
     return scr;
@@ -82,9 +76,9 @@ SCR *alloc_SCR(NXT *nxt){
 
 void free_SCR(SCR *scr){
     free(scr->logv);
+    free(scr->logq);
     fclose(scr->logf);
-    pthread_cancel(scr->stay_alive_thread);
-    pthread_cancel(scr->log_thread);
+    echo();
     endwin();
 }
 
@@ -94,7 +88,6 @@ void SCR_refresh(SCR *scr){
     wrefresh(scr->logw);
     refresh();
 }
-
 
 // Push one message into the message queue that will allow it to be processed
 // outside of the logic thread.
@@ -118,17 +111,17 @@ void SCR_draw_stats(SCR *scr){
 
     if (scr->m0 >= 0){ wattron(scr->statw,GREEN_PAIR); }
     else { wattron(scr->statw,RED_PAIR); }
-    mvwprintw(scr->statw,3,1,"%+04d",scr->m0);
+    mvwprintw(scr->statw,3,1,"%+04d",scr->m0->power);
     if (scr->m0 > 0){ wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
     if (scr->m1 >= 0){ wattron(scr->statw,GREEN_PAIR); }
     else { wattron(scr->statw,RED_PAIR); }
-    mvwprintw(scr->statw,4,1,"%+04d",scr->m1);
+    mvwprintw(scr->statw,4,1,"%+04d",scr->m1->power);
     if (scr->m1 >= 0){ wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
     if (scr->m2 >= 0){ wattron(scr->statw,GREEN_PAIR); }
     else { wattron(scr->statw,RED_PAIR); }
-    mvwprintw(scr->statw,5,1,"%+04d",scr->m2);
+    mvwprintw(scr->statw,5,1,"%+04d",scr->m2->power);
     if (scr->m2 >= 0){ wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
 
@@ -276,6 +269,7 @@ void SCR_handle_opts(SCR *scr){
     switch(getch()){
     case 3:
 	free_SCR(scr);
+	return;
 	break;
     case KEY_RESIZE:
 	SCR_handle_resize(scr);
@@ -294,8 +288,8 @@ void SCR_handle_opts(SCR *scr){
     case 10: // ENTER
 	switch(scr->opt){
 	case 0:
-	    while(scr->lock);
-	    scr->lock = 1;
+	  //while(scr->lock);
+	  // scr->lock = 1;
 	    wattron(scr->ctlw,A_BOLD);
 	    wmove(scr->ctlw,3,0);
 	    wclrtoeol(scr->ctlw);
@@ -312,8 +306,8 @@ void SCR_handle_opts(SCR *scr){
 	    mvwprintw(scr->ctlw,7,4,"s");
 	    wattroff(scr->ctlw,A_BOLD);
 	    SCR_writelnattr(scr,"Starting remote control!",GREEN_PAIR);
-	    scr->lock = 0;
-	    //r_remote(scr);
+	    // scr->lock = 0;
+	    r_remote(scr,scr->nxt);
 	    return;
 	    break;
 	case 1:
@@ -336,57 +330,20 @@ void SCR_handle_opts(SCR *scr){
 
 // Sends a message to stay alive every minute, does not block the main thread.
 void *stay_alive_tf(void *scr){
-    long proc_count = sysconf(_SC_NPROCESSORS_ONLN);
-    cpu_set_t proc;
-    CPU_ZERO(&proc);
-    if (proc_count == 1){
-	CPU_SET(0,&proc);
-	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
-	SCR_writelnattr((SCR*) scr,"stay_alive_thread affinity set to proc 0",
-			YELLOW_PAIR);
-    } else {
-	CPU_SET(1,&proc);
-	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
-        SCR_writelnattr((SCR*) scr,"stay_alive_thread affinity set to "
-			"proc 1",YELLOW_PAIR);
-    }
     while(1){
 	NXT_stay_alive(((SCR*) scr)->nxt);
+	SCR_writelnattr((SCR*) scr,"Sent STAY_ALIVE (0x0D) message",YELLOW_PAIR);
 	sleep(60);
     }
 }
 
 // Polls the log queue for a new message and then prints it and pops it.
 void *log_tf(void *scr){
-    long proc_count = sysconf(_SC_NPROCESSORS_ONLN);
-    cpu_set_t proc;
     logmsg_t *msg;
-    CPU_ZERO(&proc);
-    switch(proc_count){
-    case 1:
-	CPU_SET(0,&proc);
-	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
-        SCR_writelnattr((SCR*) scr,"log_thread affinity set to proc 0",
-			MAGENTA_PAIR);
-	break;
-    case 2:
-	CPU_SET(1,&proc);
-	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
-        SCR_writelnattr((SCR*) scr,"log_thread affinity set to proc 1",
-			MAGENTA_PAIR);
-	break;
-    default:
-	CPU_SET(2,&proc);
-	assert(!pthread_setaffinity_np(pthread_self(),sizeof(proc),&proc));
-        SCR_writelnattr((SCR*) scr,"log_thread affinity set to proc 2",
-			MAGENTA_PAIR);
-	break;
-    }
     while(1){
 	if (qempty(((SCR*) scr)->logq) && !((SCR*) scr)->lock){
 	    msg = qpop(((SCR*) scr)->logq);
 	    SCR_writelnattr_internals((SCR*) scr,msg->txt,msg->attr);
-	    free(msg);
 	}
 	usleep(5000);
     }

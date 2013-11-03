@@ -25,7 +25,7 @@
 #define MAGENTA_PAIR COLOR_PAIR(4)
 
 typedef struct {
-    int m0,m1,m2;
+    motorstate_t *m0,*m1,*m2;
     int mr,mc;
     int opt;
     int logc;
@@ -36,7 +36,7 @@ typedef struct {
     WINDOW *logw,*statw,*ctlw;
     logmsg_t *logv;
     FILE *logf;
-    pthread_t stay_alive_thread,log_thread;
+    //pthread_t *stay_alive_thread,*log_thread;
 } SCR;
 
 SCR *alloc_SCR(NXT*);

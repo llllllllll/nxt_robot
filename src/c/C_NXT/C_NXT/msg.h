@@ -10,7 +10,6 @@
 typedef struct {
   unsigned char* txt;
   size_t len;
-  size_t cap;
 } msg_t;
 
 

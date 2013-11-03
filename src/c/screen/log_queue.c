@@ -26,8 +26,8 @@ logmsg_t *qpop(log_queue *q){
     if (qempty(q)){
 	return NULL;
     }
-    struct logmsg_list *tmp = q->head->tail;
     logmsg_t *msg = q->head->data;
+    struct logmsg_list *tmp = q->head->tail;
     free(q->head);
     q->head = tmp;
     return msg;
