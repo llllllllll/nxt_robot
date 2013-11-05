@@ -28,9 +28,8 @@ typedef struct {
     int mr,mc;
     int opt;
     int logc;
-    int lock;
     NXT* nxt;
-    sensorstate_t s0,s1,s2,s3;
+    sensorstate_t *s0,*s1,*s2,*s3;
     WINDOW *logw,*statw,*ctlw;
     logmsg_t *logv;
     FILE *logf;

@@ -52,6 +52,7 @@ void r_remote(Screen *scr){
 	        scr->op->setOutputState(1,scr->m1,2,2,0,0x20,0,false,NULL);
 		scr->draw_stats();
 		scr->writeln("Max foward speed");
+		break;
 	case 'w':
 	    if (scr->m0 <= 90){
 		scr->m0 += 10;
@@ -72,6 +73,7 @@ void r_remote(Screen *scr){
 	    scr->op->setOutputState(1,scr->m1,2,2,0,0x20,0,false,NULL);
 	    scr->draw_stats();
 	    scr->writeln("Max reverse speed");
+	    break;
 	case 's':
 	    if (scr->m0 >= -90){
 		scr->m0 -= 10;
@@ -124,6 +126,7 @@ void r_remote(Screen *scr){
 	    scr->s3 = scr->op->getInputValues(3);
 	    scr->draw_stats();
 	    scr->writeln("Requesting new sensor readings");
+	    break;
 	}
     }
 }

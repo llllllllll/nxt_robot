@@ -41,7 +41,6 @@ SCR *alloc_SCR(NXT *nxt){
 	scr->logv[n].txt = strdup("");
 	scr->logv[n].attr = 0;
     }
-    scr->lock = 0;
     SCR_printui_static(scr);
     SCR_writelnattr(scr,"Starting session",DEFAULT_PAIR);
     SCR_writelnattr(scr,"Press any key to connect...",A_BOLD);
@@ -56,17 +55,17 @@ SCR *alloc_SCR(NXT *nxt){
 	free(scr);
 	return NULL;
     }
-    scr->m0 = NXT_get_motorstate(nxt,0);
-    scr->m1 = NXT_get_motorstate(nxt,1);
-    scr->m2 = NXT_get_motorstate(nxt,2);
+    scr->m0 = NXT_get_motorstate(nxt,MOTOR_A);
+    scr->m1 = NXT_get_motorstate(nxt,MOTOR_B);
+    scr->m2 = NXT_get_motorstate(nxt,MOTOR_C);
     SCR_writelnattr(scr,"Connection established!",GREEN_PAIR);
     SCR_writelnattr(scr,"Grabbing initial sensor readings...",
 			      DEFAULT_PAIR);
-    scr->s0 = *NXT_get_sensorstate(nxt,0);
-    scr->s1 = *NXT_get_sensorstate(nxt,1);
-    scr->s2 = *NXT_get_sensorstate(nxt,2);
-    scr->s3 = *NXT_get_sensorstate(nxt,3);
-    NXT_set_input_mode(nxt,0,LIGHT_ACTIVE,BOOLEANMODE,0,NULL);
+    scr->s0 = NXT_get_sensorstate(nxt,SENSOR_1);
+    scr->s1 = NXT_get_sensorstate(nxt,SENSOR_2);
+    scr->s2 = NXT_get_sensorstate(nxt,SENSOR_3);
+    scr->s3 = NXT_get_sensorstate(nxt,SENSOR_4);
+    NXT_set_input_mode(nxt,0,LIGHT_ACTIVE,BOOLEAN_MODE,0,NULL);
     SCR_writelnattr(scr,"Ready!",GREEN_PAIR | A_BOLD);
     pthread_create(&scr->stay_alive_thread,NULL,stay_alive_tf,scr);
     SCR_refresh(scr);
@@ -76,6 +75,9 @@ SCR *alloc_SCR(NXT *nxt){
 void free_SCR(SCR *scr){
     free(scr->logv);
     fclose(scr->logf);
+    free(scr->m0);
+    free(scr->m1);
+    free(scr->m2);
     echo();
     endwin();
 }
@@ -96,41 +98,41 @@ void SCR_draw_stats(SCR *scr){
     if (b > 6000){ wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
 
-    if (scr->m0 >= 0){ wattron(scr->statw,GREEN_PAIR); }
+    if (scr->m0->power >= 0){ wattron(scr->statw,GREEN_PAIR); }
     else { wattron(scr->statw,RED_PAIR); }
     mvwprintw(scr->statw,3,1,"%+04d",scr->m0->power);
-    if (scr->m0 > 0){ wattroff(scr->statw,GREEN_PAIR); }
+    if (scr->m0->power > 0){ wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
-    if (scr->m1 >= 0){ wattron(scr->statw,GREEN_PAIR); }
+    if (scr->m1->power >= 0){ wattron(scr->statw,GREEN_PAIR); }
     else { wattron(scr->statw,RED_PAIR); }
     mvwprintw(scr->statw,4,1,"%+04d",scr->m1->power);
-    if (scr->m1 >= 0){ wattroff(scr->statw,GREEN_PAIR); }
+    if (scr->m1->power >= 0){ wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
-    if (scr->m2 >= 0){ wattron(scr->statw,GREEN_PAIR); }
+    if (scr->m2->power >= 0){ wattron(scr->statw,GREEN_PAIR); }
     else { wattron(scr->statw,RED_PAIR); }
     mvwprintw(scr->statw,5,1,"%+04d",scr->m2->power);
-    if (scr->m2 >= 0){ wattroff(scr->statw,GREEN_PAIR); }
+    if (scr->m2->power >= 0){ wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
 
-    if (scr->s0.calibrated_value > 500){ wattron(scr->statw,GREEN_PAIR); }
+    if (scr->s0->calibrated_value > 500){ wattron(scr->statw,GREEN_PAIR); }
     else { wattron(scr->statw,RED_PAIR); }
-    mvwprintw(scr->statw,8,1,"%d",scr->s0.calibrated_value);
-    if (scr->s0.calibrated_value > 500){ wattroff(scr->statw,GREEN_PAIR); }
+    mvwprintw(scr->statw,8,1,"%d",scr->s0->calibrated_value);
+    if (scr->s0->calibrated_value > 500){ wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
-    if (scr->s1.calibrated_value > 500){ wattron(scr->statw,GREEN_PAIR); }
+    if (scr->s1->calibrated_value > 500){ wattron(scr->statw,GREEN_PAIR); }
     else { wattron(scr->statw,RED_PAIR); }
-    mvwprintw(scr->statw,9,1,"%d",scr->s1.calibrated_value);
-    if (scr->s1.calibrated_value > 500){ wattroff(scr->statw,GREEN_PAIR); }
+    mvwprintw(scr->statw,9,1,"%d",scr->s1->calibrated_value);
+    if (scr->s1->calibrated_value > 500){ wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
-    if (scr->s2.calibrated_value > 500){ wattron(scr->statw,GREEN_PAIR); }
+    if (scr->s2->calibrated_value > 500){ wattron(scr->statw,GREEN_PAIR); }
     else { wattron(scr->statw,RED_PAIR); }
-    mvwprintw(scr->statw,10,1,"%d",scr->s2.calibrated_value);
-    if (scr->s2.calibrated_value > 500){ wattroff(scr->statw,GREEN_PAIR); }
+    mvwprintw(scr->statw,10,1,"%d",scr->s2->calibrated_value);
+    if (scr->s2->calibrated_value > 500){ wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
-    if (scr->s3.calibrated_value > 500){ wattron(scr->statw,GREEN_PAIR); }
+    if (scr->s3->calibrated_value > 500){ wattron(scr->statw,GREEN_PAIR); }
     else { wattron(scr->statw,RED_PAIR); }
-    mvwprintw(scr->statw,11,1,"%d",scr->s3.calibrated_value);
-    if (scr->s3.calibrated_value > 500){ wattroff(scr->statw,GREEN_PAIR); }
+    mvwprintw(scr->statw,11,1,"%d",scr->s3->calibrated_value);
+    if (scr->s3->calibrated_value > 500) { wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
     SCR_refresh(scr);
 }
@@ -144,8 +146,6 @@ void SCR_draw_menu(SCR *scr){
 
 // Internals for printing to the console.
 void SCR_writelnattr(SCR *scr,char *str,int attr){
-    while(scr->lock);
-    scr->lock = 1;
     time_t t;
     struct tm *ti;
     free(scr->logv[scr->logc - 1].txt);
@@ -169,7 +169,6 @@ void SCR_writelnattr(SCR *scr,char *str,int attr){
 	wattroff(scr->logw,scr->logv[n].attr);
     }
     SCR_refresh(scr);
-    scr->lock = 0;
 }
 
 // Prints the basic UI features, they will be populated by the poll thread.

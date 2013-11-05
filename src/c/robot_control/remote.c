@@ -12,45 +12,114 @@
 #include "../screen/scr.h"
 
 void r_remote(SCR *scr,NXT *nxt){
-    motorstate_t *tmp0 = malloc(sizeof(motorstate_t));
-    motorstate_t *tmp1 = malloc(sizeof(motorstate_t));
+    scr->m0->port = MOTOR_A;
+    scr->m0->power = 0;
+    scr->m0->mode = RUN_BRAKE;
+    scr->m0->run_state = RUNNING;
+    scr->m0->reg_mode = SYNCHRONIZATION;
+    scr->m0->turn_ratio = 0;
+    scr->m0->tacho_limit = 0;
+
+    scr->m1->port = MOTOR_B;
+    scr->m1->power = 0;
+    scr->m1->mode = RUN_BRAKE;
+    scr->m1->run_state = RUNNING;
+    scr->m1->reg_mode = SYNCHRONIZATION;
+    scr->m1->turn_ratio = 0;
+    scr->m1->tacho_limit = 0;
     while(1){
         switch(getch()){
+	case ' ':
+	    scr->m0->power = 0;
+	    scr->m1->power = 0;
+	    NXT_set_motorstate(nxt,scr->m0,0,NULL);
+	    NXT_set_motorstate(nxt,scr->m1,0,NULL);
+	    SCR_draw_stats(scr);
+	    SCR_writeln(scr,"Stopping all motors");
+	    break;
+	case 'W':
+	    scr->m0->power = 100;
+	    scr->m1->power = 100;
+	    NXT_set_motorstate(nxt,scr->m0,0,NULL);
+	    NXT_set_motorstate(nxt,scr->m1,0,NULL);
+	    SCR_writeln(scr,"Max foward speed");
 	case 'w':
-	    tmp0->port = 0;
-	    tmp0->power = 100;
-	    tmp0->mode = 0x02;
-	    tmp0->run_state = 2;
-	    tmp0->reg_mode = 2;
-	    tmp0->run_state = 0x20;
-	    tmp0->turn_ratio = 0;
-	    tmp0->tacho_limit = 0;
-
-	    tmp1->port = 1;
-	    tmp1->power = 100;
-	    tmp1->mode = 0x02;
-	    tmp1->run_state = 2;
-	    tmp1->reg_mode = 2;
-	    tmp1->run_state = 0x20;
-	    tmp1->turn_ratio = 0;
-	    tmp1->tacho_limit = 0;
-	    NXT_set_motorstate(nxt,tmp0,0,NULL);
-	    NXT_set_motorstate(nxt,tmp1,0,NULL);
-	    SCR_writeln(scr,"move foward!!");
+	    if (scr->m0->power <= 90){
+		scr->m0->power += 10;
+		NXT_set_motorstate(nxt,scr->m0,0,NULL);
+	    }
+	    if (scr->m1->power <= 90){
+		scr->m1->power += 10;
+		NXT_set_motorstate(nxt,scr->m1,0,NULL);
+	    }
+	    SCR_draw_stats(scr);
+	    SCR_writeln(scr,"Increasing foward speed");
+	    break;
+	case 'S':
+	    scr->m0->power = -100;
+	    scr->m1->power = -100;
+	    NXT_set_motorstate(nxt,scr->m0,0,NULL);
+	    NXT_set_motorstate(nxt,scr->m1,0,NULL);
+	    SCR_writeln(scr,"Max reverse speed");
 	    break;
 	case 's':
-	    tmp0->power = 0;
-	    tmp1->power = 0;
-	    NXT_set_motorstate(nxt,tmp0,0,NULL);
-	    NXT_set_motorstate(nxt,tmp1,0,NULL);
+	    if (scr->m0->power >= -90){
+		scr->m0->power -= 10;
+		NXT_set_motorstate(nxt,scr->m0,0,NULL);
+	    }
+	    if (scr->m1->power >= -90){
+		scr->m1->power -= 10;
+		NXT_set_motorstate(nxt,scr->m1,0,NULL);	    
+		SCR_draw_stats(scr);
+	    }
+	    SCR_writeln(scr,"Increasing reverse speed");
+	    break;
+	case 'q':
+	    if (scr->m0->power <= 90){
+		scr->m0->power += 10;
+		NXT_set_motorstate(nxt,scr->m0,0,NULL);
+		SCR_draw_stats(scr);
+		SCR_writeln(scr,"Increasing foward left speed");
+	    }
+	    break;
+	case 'a':
+	    if (scr->m0->power >= -90){
+		scr->m0->power -= 10;
+		NXT_set_motorstate(nxt,scr->m0,0,NULL);
+		SCR_draw_stats(scr);
+		SCR_writeln(scr,"Decreasing foward left speed");
+	  }
+	    break;
+	case 'e':
+	    if (scr->m1->power <= 90){
+		scr->m1->power += 10;
+		NXT_set_motorstate(nxt,scr->m1,0,NULL);
+		SCR_draw_stats(scr);
+		SCR_writeln(scr,"Increasing foward right speed");
+	    }
+	    break;
+	case 'd':
+	    if (scr->m1->power >= -90){
+		scr->m1->power -= 10;
+		NXT_set_motorstate(nxt,scr->m1,0,NULL);
+		SCR_draw_stats(scr);
+		SCR_writeln(scr,"Increasing reverse right speed");
+	    }
+	    break;
+	case 'r':
+	    scr->s0 = NXT_get_sensorstate(nxt,SENSOR_1);
+	    scr->s1 = NXT_get_sensorstate(nxt,SENSOR_2);
+	    scr->s2 = NXT_get_sensorstate(nxt,SENSOR_3);
+	    scr->s3 = NXT_get_sensorstate(nxt,SENSOR_4);
+	    SCR_draw_stats(scr);
+	    SCR_writeln(scr,"Requesting new sensor readings");
 	    break;
 	case 3:
-	    tmp0->power = 0;
-	    tmp1->power = 0;
-	    NXT_set_motorstate(nxt,tmp0,0,NULL);
-	    NXT_set_motorstate(nxt,tmp1,0,NULL);
-	    free(tmp0);
-	    free(tmp1);
+	    scr->m0->power = 0;
+	    scr->m1->power = 0;
+	    NXT_set_motorstate(nxt,scr->m0,0,NULL);
+	    NXT_set_motorstate(nxt,scr->m1,0,NULL);
+	    SCR_writelnattr(scr,"Exiting remote control!",COLOR_PAIR(1));
 	    free_SCR(scr);
 	    exit(0);
 	    return;
@@ -59,24 +128,24 @@ void r_remote(SCR *scr,NXT *nxt){
 }
 
 /*
-    0,
-    scr->m0,
-    2,
-    2,
-    0,
-    0x20,
-    0,
-    false,
-    NULL
+  0,
+  scr->m0,
+  2,
+  2,
+  0,
+  0x20,
+  0,
+  false,
+  NULL
 
-    unsigned char port;
-    char power;
-    unsigned char mode;
-    unsigned char reg_mode;
-    char turn_ratio;
-    unsigned char run_state;
-    unsigned int tacho_limit;
-    int tacho_count;
-    int block_tacho_count;
-    int rotation_count;
+  unsigned char port;
+  char power;
+  unsigned char mode;
+  unsigned char reg_mode;
+  char turn_ratio;
+  unsigned char run_state;
+  unsigned int tacho_limit;
+  int tacho_count;
+  int block_tacho_count;
+  int rotation_count;
 */
