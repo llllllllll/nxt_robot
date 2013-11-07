@@ -3049,3 +3049,2250 @@
 [21:32:04]:Stopping all motors
 [21:32:34]:Sent STAY_ALIVE (0x0D) message
 [21:32:40]:Exiting remote control!
+[18:55:39]:Starting session
+[18:55:39]:Press any key to connect...
+[18:55:39]:Attempting to connect...
+[18:55:42]:Connection established!
+[18:55:42]:Grabbing initial sensor readings...
+[18:55:43]:Ready!
+[18:55:43]:Sent STAY_ALIVE (0x0D) message
+[18:55:44]:Starting remote control!
+[18:55:45]:Exiting remote control.
+[18:55:50]:Starting remote control!
+[18:55:50]:Exiting remote control.
+[18:55:51]:Starting remote control!
+[18:55:52]:Exiting remote control.
+[18:56:28]:Starting session
+[18:56:28]:Press any key to connect...
+[18:56:29]:Attempting to connect...
+[18:56:31]:Connection established!
+[18:56:31]:Grabbing initial sensor readings...
+[18:56:31]:Ready!
+[18:56:31]:Sent STAY_ALIVE (0x0D) message
+[18:56:32]:Starting remote control!
+[18:56:33]:Exiting remote control.
+[18:56:33]:Starting remote control!
+[18:56:33]:Exiting remote control.
+[18:56:34]:Starting remote control!
+[18:56:34]:Exiting remote control.
+[18:56:34]:Starting remote control!
+[18:56:34]:Exiting remote control.
+[18:56:34]:Starting remote control!
+[18:56:34]:Exiting remote control.
+[18:56:35]:Starting remote control!
+[18:56:35]:Exiting remote control.
+[18:56:35]:Starting remote control!
+[18:56:35]:Exiting remote control.
+[18:56:35]:Starting remote control!
+[18:56:35]:Exiting remote control.
+[18:56:35]:Starting remote control!
+[18:56:35]:Exiting remote control.
+[18:56:36]:Starting remote control!
+[18:56:36]:Exiting remote control.
+[18:56:36]:Starting remote control!
+[18:56:36]:Exiting remote control.
+[18:56:36]:Starting remote control!
+[18:56:36]:Exiting remote control.
+[18:57:57]:Starting session
+[18:57:57]:Press any key to connect...
+[18:57:58]:Attempting to connect...
+[18:58:01]:Connection established!
+[18:58:01]:Grabbing initial sensor readings...
+[18:58:01]:Ready!
+[18:58:01]:Sent STAY_ALIVE (0x0D) message
+[18:58:02]:Starting remote control!
+[18:58:03]:Exiting remote control!
+[18:58:04]:Starting session
+[18:58:04]:Press any key to connect...
+[18:58:05]:Attempting to connect...
+[18:58:05]:ERROR: failed to connect!
+[18:58:05]:Press any key to continue...
+[18:58:08]:Starting session
+[18:58:08]:Press any key to connect...
+[18:58:09]:Attempting to connect...
+[18:58:11]:Connection established!
+[18:58:11]:Grabbing initial sensor readings...
+[18:58:11]:Ready!
+[18:58:11]:Sent STAY_ALIVE (0x0D) message
+[18:58:13]:Starting remote control!
+[18:58:14]:Exiting remote control!
+[18:58:15]:Starting session
+[18:58:15]:Press any key to connect...
+[18:58:16]:Attempting to connect...
+[18:58:19]:Connection established!
+[18:58:19]:Grabbing initial sensor readings...
+[18:58:19]:Ready!
+[18:58:19]:Sent STAY_ALIVE (0x0D) message
+[18:58:24]:Starting remote control!
+[18:58:25]:Requesting new sensor readings
+[18:58:26]:Requesting new sensor readings
+[18:58:27]:Requesting new sensor readings
+[18:58:27]:Requesting new sensor readings
+[18:58:28]:Requesting new sensor readings
+[18:58:30]:Requesting new sensor readings
+[18:58:31]:Requesting new sensor readings
+[18:58:32]:Requesting new sensor readings
+[18:58:32]:Requesting new sensor readings
+[18:58:33]:Requesting new sensor readings
+[18:59:19]:Sent STAY_ALIVE (0x0D) message
+[19:00:05]:Exiting remote control!
+[19:10:39]:Starting session
+[19:10:39]:Press any key to connect...
+[19:10:39]:Attempting to connect...
+[19:10:44]:ERROR: failed to connect!
+[19:10:44]:Press any key to continue...
+[19:10:48]:Starting session
+[19:10:48]:Press any key to connect...
+[19:10:49]:Attempting to connect...
+[19:10:54]:ERROR: failed to connect!
+[19:10:54]:Press any key to continue...
+[19:11:06]:Starting session
+[19:11:06]:Press any key to connect...
+[19:11:07]:Attempting to connect...
+[19:11:11]:Connection established!
+[19:11:11]:Grabbing initial sensor readings...
+[19:11:11]:Ready!
+[19:11:11]:Sent STAY_ALIVE (0x0D) message
+[19:11:24]:Starting remote control!
+[19:11:25]:Requesting new sensor readings
+[19:11:26]:Requesting new sensor readings
+[19:11:26]:Requesting new sensor readings
+[19:11:27]:Requesting new sensor readings
+[19:11:27]:Requesting new sensor readings
+[19:11:28]:Requesting new sensor readings
+[19:11:28]:Requesting new sensor readings
+[19:11:29]:Requesting new sensor readings
+[19:11:29]:Requesting new sensor readings
+[19:11:30]:Requesting new sensor readings
+[19:11:30]:Requesting new sensor readings
+[19:11:31]:Requesting new sensor readings
+[19:11:32]:Requesting new sensor readings
+[19:11:33]:Requesting new sensor readings
+[19:11:33]:Requesting new sensor readings
+[19:11:34]:Requesting new sensor readings
+[19:11:35]:Requesting new sensor readings
+[19:11:35]:Requesting new sensor readings
+[19:11:35]:Requesting new sensor readings
+[19:11:35]:Requesting new sensor readings
+[19:11:36]:Requesting new sensor readings
+[19:11:36]:Requesting new sensor readings
+[19:11:36]:Requesting new sensor readings
+[19:11:37]:Requesting new sensor readings
+[19:11:37]:Requesting new sensor readings
+[19:11:37]:Requesting new sensor readings
+[19:11:37]:Requesting new sensor readings
+[19:11:38]:Requesting new sensor readings
+[19:11:38]:Requesting new sensor readings
+[19:11:38]:Requesting new sensor readings
+[19:11:39]:Requesting new sensor readings
+[19:11:39]:Requesting new sensor readings
+[19:11:39]:Requesting new sensor readings
+[19:11:39]:Requesting new sensor readings
+[19:11:40]:Requesting new sensor readings
+[19:11:40]:Requesting new sensor readings
+[19:11:40]:Requesting new sensor readings
+[19:11:41]:Requesting new sensor readings
+[19:11:41]:Requesting new sensor readings
+[19:11:41]:Requesting new sensor readings
+[19:11:41]:Requesting new sensor readings
+[19:11:42]:Requesting new sensor readings
+[19:11:45]:Requesting new sensor readings
+[19:11:46]:Requesting new sensor readings
+[19:11:46]:Requesting new sensor readings
+[19:11:47]:Requesting new sensor readings
+[19:11:48]:Requesting new sensor readings
+[19:11:48]:Requesting new sensor readings
+[19:11:49]:Requesting new sensor readings
+[19:11:53]:Requesting new sensor readings
+[19:11:54]:Requesting new sensor readings
+[19:11:55]:Requesting new sensor readings
+[19:11:55]:Requesting new sensor readings
+[19:11:56]:Requesting new sensor readings
+[19:11:57]:Requesting new sensor readings
+[19:11:59]:Requesting new sensor readings
+[19:11:59]:Requesting new sensor readings
+[19:12:00]:Requesting new sensor readings
+[19:12:00]:Requesting new sensor readings
+[19:12:11]:Sent STAY_ALIVE (0x0D) message
+[19:12:40]:Exiting remote control!
+[19:12:44]:Starting session
+[19:12:44]:Press any key to connect...
+[19:12:44]:Attempting to connect...
+[19:12:48]:Connection established!
+[19:12:48]:Grabbing initial sensor readings...
+[19:12:48]:Ready!
+[19:12:48]:Sent STAY_ALIVE (0x0D) message
+[19:13:18]:Starting session
+[19:13:18]:Press any key to connect...
+[19:13:18]:Attempting to connect...
+[19:13:23]:Connection established!
+[19:13:23]:Grabbing initial sensor readings...
+[19:13:23]:Ready!
+[19:13:23]:Sent STAY_ALIVE (0x0D) message
+[19:13:42]:Starting remote control!
+[19:13:45]:Requesting new sensor readings
+[19:13:46]:Requesting new sensor readings
+[19:13:47]:Requesting new sensor readings
+[19:13:47]:Requesting new sensor readings
+[19:13:48]:Requesting new sensor readings
+[19:13:48]:Requesting new sensor readings
+[19:13:48]:Requesting new sensor readings
+[19:13:48]:Requesting new sensor readings
+[19:13:49]:Requesting new sensor readings
+[19:13:50]:Requesting new sensor readings
+[19:13:52]:Requesting new sensor readings
+[19:13:53]:Requesting new sensor readings
+[19:13:54]:Requesting new sensor readings
+[19:13:55]:Requesting new sensor readings
+[19:14:23]:Sent STAY_ALIVE (0x0D) message
+[19:15:16]:Exiting remote control!
+[19:15:18]:Starting session
+[19:15:18]:Press any key to connect...
+[19:15:18]:Attempting to connect...
+[19:15:20]:Connection established!
+[19:15:20]:Grabbing initial sensor readings...
+[19:15:20]:Ready!
+[19:15:20]:Sent STAY_ALIVE (0x0D) message
+[19:15:26]:Starting remote control!
+[19:15:26]:Requesting new sensor readings
+[19:15:27]:Requesting new sensor readings
+[19:15:28]:Requesting new sensor readings
+[19:15:28]:Requesting new sensor readings
+[19:15:28]:Requesting new sensor readings
+[19:15:29]:Requesting new sensor readings
+[19:16:20]:Sent STAY_ALIVE (0x0D) message
+[19:17:20]:Sent STAY_ALIVE (0x0D) message
+[19:18:07]:Exiting remote control!
+[19:18:11]:Starting session
+[19:18:11]:Press any key to connect...
+[19:18:11]:Attempting to connect...
+[19:18:16]:Connection established!
+[19:18:16]:Grabbing initial sensor readings...
+[19:18:16]:Ready!
+[19:18:16]:Sent STAY_ALIVE (0x0D) message
+[19:18:20]:Starting remote control!
+[19:18:21]:Requesting new sensor readings
+[19:18:22]:Requesting new sensor readings
+[19:18:23]:Requesting new sensor readings
+[19:18:24]:Requesting new sensor readings
+[19:18:25]:Requesting new sensor readings
+[19:18:25]:Requesting new sensor readings
+[19:18:26]:Requesting new sensor readings
+[19:18:26]:Requesting new sensor readings
+[19:18:26]:Requesting new sensor readings
+[19:18:27]:Requesting new sensor readings
+[19:18:28]:Requesting new sensor readings
+[19:18:29]:Requesting new sensor readings
+[19:18:30]:Requesting new sensor readings
+[19:18:32]:Requesting new sensor readings
+[19:19:16]:Sent STAY_ALIVE (0x0D) message
+[19:19:45]:Exiting remote control!
+[19:19:48]:Starting session
+[19:19:48]:Press any key to connect...
+[19:19:48]:Attempting to connect...
+[19:19:53]:Connection established!
+[19:19:53]:Grabbing initial sensor readings...
+[19:19:53]:Ready!
+[19:19:53]:Sent STAY_ALIVE (0x0D) message
+[19:19:56]:Starting remote control!
+[19:19:57]:Requesting new sensor readings
+[19:19:58]:Requesting new sensor readings
+[19:19:59]:Requesting new sensor readings
+[19:20:01]:Requesting new sensor readings
+[19:20:01]:Requesting new sensor readings
+[19:20:03]:Requesting new sensor readings
+[19:20:04]:Requesting new sensor readings
+[19:20:05]:Requesting new sensor readings
+[19:20:06]:Requesting new sensor readings
+[19:20:06]:Requesting new sensor readings
+[19:20:07]:Requesting new sensor readings
+[19:20:08]:Requesting new sensor readings
+[19:20:53]:Sent STAY_ALIVE (0x0D) message
+[19:21:53]:Sent STAY_ALIVE (0x0D) message
+[19:22:53]:Sent STAY_ALIVE (0x0D) message
+[19:23:53]:Sent STAY_ALIVE (0x0D) message
+[19:24:53]:Sent STAY_ALIVE (0x0D) message
+[19:25:53]:Sent STAY_ALIVE (0x0D) message
+[19:26:53]:Sent STAY_ALIVE (0x0D) message
+[19:27:53]:Sent STAY_ALIVE (0x0D) message
+[19:28:53]:Sent STAY_ALIVE (0x0D) message
+[19:29:53]:Sent STAY_ALIVE (0x0D) message
+[19:30:53]:Sent STAY_ALIVE (0x0D) message
+[19:31:53]:Sent STAY_ALIVE (0x0D) message
+[19:32:39]:Exiting remote control!
+[19:32:44]:Starting session
+[19:32:44]:Press any key to connect...
+[19:32:44]:Attempting to connect...
+[19:32:49]:Connection established!
+[19:32:49]:Grabbing initial sensor readings...
+[19:32:49]:Ready!
+[19:32:49]:Sent STAY_ALIVE (0x0D) message
+[19:32:50]:Starting remote control!
+[19:33:07]:Requesting new sensor readings
+[19:33:09]:Requesting new sensor readings
+[19:33:09]:Requesting new sensor readings
+[19:33:10]:Requesting new sensor readings
+[19:33:10]:Requesting new sensor readings
+[19:33:11]:Requesting new sensor readings
+[19:33:11]:Requesting new sensor readings
+[19:33:12]:Requesting new sensor readings
+[19:33:12]:Requesting new sensor readings
+[19:33:12]:Requesting new sensor readings
+[19:33:13]:Requesting new sensor readings
+[19:33:13]:Requesting new sensor readings
+[19:33:13]:Requesting new sensor readings
+[19:33:13]:Requesting new sensor readings
+[19:33:14]:Requesting new sensor readings
+[19:33:14]:Requesting new sensor readings
+[19:33:14]:Requesting new sensor readings
+[19:33:15]:Requesting new sensor readings
+[19:33:15]:Requesting new sensor readings
+[19:33:15]:Requesting new sensor readings
+[19:33:15]:Requesting new sensor readings
+[19:33:17]:Requesting new sensor readings
+[19:33:18]:Requesting new sensor readings
+[19:33:18]:Requesting new sensor readings
+[19:33:18]:Requesting new sensor readings
+[19:33:21]:Requesting new sensor readings
+[19:33:27]:Requesting new sensor readings
+[19:33:28]:Requesting new sensor readings
+[19:33:29]:Requesting new sensor readings
+[19:33:29]:Requesting new sensor readings
+[19:33:30]:Requesting new sensor readings
+[19:33:30]:Requesting new sensor readings
+[19:33:30]:Requesting new sensor readings
+[19:33:31]:Requesting new sensor readings
+[19:33:31]:Requesting new sensor readings
+[19:33:31]:Requesting new sensor readings
+[19:33:32]:Requesting new sensor readings
+[19:33:33]:Requesting new sensor readings
+[19:33:33]:Requesting new sensor readings
+[19:33:33]:Requesting new sensor readings
+[19:33:34]:Requesting new sensor readings
+[19:33:34]:Requesting new sensor readings
+[19:33:35]:Requesting new sensor readings
+[19:33:35]:Requesting new sensor readings
+[19:33:35]:Requesting new sensor readings
+[19:33:36]:Requesting new sensor readings
+[19:33:36]:Requesting new sensor readings
+[19:33:36]:Requesting new sensor readings
+[19:33:36]:Requesting new sensor readings
+[19:33:37]:Requesting new sensor readings
+[19:33:37]:Requesting new sensor readings
+[19:33:37]:Requesting new sensor readings
+[19:33:38]:Requesting new sensor readings
+[19:33:38]:Requesting new sensor readings
+[19:33:38]:Requesting new sensor readings
+[19:33:38]:Requesting new sensor readings
+[19:33:39]:Requesting new sensor readings
+[19:33:39]:Requesting new sensor readings
+[19:33:39]:Requesting new sensor readings
+[19:33:39]:Requesting new sensor readings
+[19:33:40]:Requesting new sensor readings
+[19:33:41]:Requesting new sensor readings
+[19:33:41]:Requesting new sensor readings
+[19:33:41]:Requesting new sensor readings
+[19:33:42]:Requesting new sensor readings
+[19:33:42]:Requesting new sensor readings
+[19:33:42]:Requesting new sensor readings
+[19:33:42]:Requesting new sensor readings
+[19:33:43]:Requesting new sensor readings
+[19:33:43]:Requesting new sensor readings
+[19:33:43]:Requesting new sensor readings
+[19:33:44]:Requesting new sensor readings
+[19:33:44]:Requesting new sensor readings
+[19:33:44]:Requesting new sensor readings
+[19:33:44]:Requesting new sensor readings
+[19:33:45]:Requesting new sensor readings
+[19:33:45]:Requesting new sensor readings
+[19:33:49]:Sent STAY_ALIVE (0x0D) message
+[19:33:49]:Requesting new sensor readings
+[19:33:50]:Requesting new sensor readings
+[19:33:51]:Requesting new sensor readings
+[19:33:51]:Requesting new sensor readings
+[19:33:51]:Requesting new sensor readings
+[19:33:51]:Requesting new sensor readings
+[19:33:52]:Requesting new sensor readings
+[19:33:52]:Requesting new sensor readings
+[19:33:52]:Requesting new sensor readings
+[19:33:53]:Requesting new sensor readings
+[19:33:53]:Requesting new sensor readings
+[19:33:53]:Requesting new sensor readings
+[19:33:53]:Requesting new sensor readings
+[19:33:54]:Requesting new sensor readings
+[19:33:54]:Requesting new sensor readings
+[19:33:54]:Requesting new sensor readings
+[19:33:54]:Requesting new sensor readings
+[19:33:55]:Requesting new sensor readings
+[19:33:55]:Requesting new sensor readings
+[19:33:55]:Requesting new sensor readings
+[19:33:57]:Requesting new sensor readings
+[19:33:57]:Requesting new sensor readings
+[19:34:10]:Requesting new sensor readings
+[19:34:11]:Requesting new sensor readings
+[19:34:12]:Requesting new sensor readings
+[19:34:12]:Requesting new sensor readings
+[19:34:12]:Requesting new sensor readings
+[19:34:13]:Requesting new sensor readings
+[19:34:13]:Requesting new sensor readings
+[19:34:13]:Requesting new sensor readings
+[19:34:14]:Requesting new sensor readings
+[19:34:14]:Requesting new sensor readings
+[19:34:14]:Requesting new sensor readings
+[19:34:14]:Requesting new sensor readings
+[19:34:15]:Requesting new sensor readings
+[19:34:15]:Requesting new sensor readings
+[19:34:15]:Requesting new sensor readings
+[19:34:16]:Requesting new sensor readings
+[19:34:23]:Requesting new sensor readings
+[19:34:25]:Requesting new sensor readings
+[19:34:25]:Requesting new sensor readings
+[19:34:25]:Requesting new sensor readings
+[19:34:26]:Requesting new sensor readings
+[19:34:26]:Requesting new sensor readings
+[19:34:26]:Requesting new sensor readings
+[19:34:26]:Requesting new sensor readings
+[19:34:27]:Requesting new sensor readings
+[19:34:27]:Requesting new sensor readings
+[19:34:27]:Requesting new sensor readings
+[19:34:28]:Requesting new sensor readings
+[19:34:28]:Requesting new sensor readings
+[19:34:41]:Requesting new sensor readings
+[19:34:42]:Requesting new sensor readings
+[19:34:42]:Requesting new sensor readings
+[19:34:43]:Requesting new sensor readings
+[19:34:43]:Requesting new sensor readings
+[19:34:43]:Requesting new sensor readings
+[19:34:44]:Requesting new sensor readings
+[19:34:45]:Requesting new sensor readings
+[19:34:45]:Requesting new sensor readings
+[19:34:46]:Requesting new sensor readings
+[19:34:47]:Requesting new sensor readings
+[19:34:49]:Sent STAY_ALIVE (0x0D) message
+[19:34:49]:Exiting remote control!
+[19:34:51]:Starting session
+[19:34:51]:Press any key to connect...
+[19:34:51]:Attempting to connect...
+[19:34:52]:Connection established!
+[19:34:52]:Grabbing initial sensor readings...
+[19:34:53]:Ready!
+[19:34:53]:Sent STAY_ALIVE (0x0D) message
+[19:34:56]:Starting remote control!
+[19:34:57]:Requesting new sensor readings
+[19:34:58]:Requesting new sensor readings
+[19:34:59]:Requesting new sensor readings
+[19:35:00]:Requesting new sensor readings
+[19:35:01]:Requesting new sensor readings
+[19:35:02]:Requesting new sensor readings
+[19:35:03]:Requesting new sensor readings
+[19:35:03]:Requesting new sensor readings
+[19:35:04]:Requesting new sensor readings
+[19:35:05]:Requesting new sensor readings
+[19:35:05]:Requesting new sensor readings
+[19:35:08]:Requesting new sensor readings
+[19:35:12]:Requesting new sensor readings
+[19:35:12]:Requesting new sensor readings
+[19:35:15]:Requesting new sensor readings
+[19:35:53]:Sent STAY_ALIVE (0x0D) message
+[19:35:55]:Exiting remote control!
+[19:35:58]:Starting session
+[19:35:58]:Press any key to connect...
+[19:35:59]:Attempting to connect...
+[19:36:03]:Connection established!
+[19:36:03]:Grabbing initial sensor readings...
+[19:36:04]:Ready!
+[19:36:04]:Sent STAY_ALIVE (0x0D) message
+[19:36:05]:Starting remote control!
+[19:36:06]:Requesting new sensor readings
+[19:36:07]:Requesting new sensor readings
+[19:36:07]:Requesting new sensor readings
+[19:36:07]:Requesting new sensor readings
+[19:36:07]:Requesting new sensor readings
+[19:36:08]:Requesting new sensor readings
+[19:36:08]:Requesting new sensor readings
+[19:36:08]:Requesting new sensor readings
+[19:36:09]:Requesting new sensor readings
+[19:36:09]:Requesting new sensor readings
+[19:36:14]:Increasing foward right speed
+[19:36:15]:Increasing foward right speed
+[19:36:15]:Increasing foward right speed
+[19:36:15]:Increasing foward right speed
+[19:36:16]:Increasing foward right speed
+[19:36:16]:Increasing foward right speed
+[19:36:19]:Stopping all motors
+[19:36:20]:Requesting new sensor readings
+[19:36:20]:Requesting new sensor readings
+[19:36:21]:Requesting new sensor readings
+[19:36:22]:Requesting new sensor readings
+[19:36:22]:Requesting new sensor readings
+[19:36:23]:Requesting new sensor readings
+[19:36:23]:Requesting new sensor readings
+[19:36:24]:Requesting new sensor readings
+[19:36:25]:Requesting new sensor readings
+[19:36:25]:Requesting new sensor readings
+[19:37:04]:Sent STAY_ALIVE (0x0D) message
+[19:37:59]:Exiting remote control!
+[19:38:11]:Starting session
+[19:38:11]:Press any key to connect...
+[19:38:11]:Attempting to connect...
+[19:38:15]:Connection established!
+[19:38:15]:Grabbing initial sensor readings...
+[19:38:15]:Ready!
+[19:38:15]:Sent STAY_ALIVE (0x0D) message
+[19:38:17]:Starting remote control!
+[19:38:19]:Requesting new sensor readings
+[19:38:19]:Requesting new sensor readings
+[19:38:21]:Requesting new sensor readings
+[19:38:21]:Requesting new sensor readings
+[19:38:22]:Requesting new sensor readings
+[19:38:22]:Requesting new sensor readings
+[19:38:23]:Requesting new sensor readings
+[19:38:24]:Requesting new sensor readings
+[19:38:24]:Requesting new sensor readings
+[19:38:24]:Requesting new sensor readings
+[19:38:25]:Requesting new sensor readings
+[19:38:25]:Requesting new sensor readings
+[19:38:25]:Requesting new sensor readings
+[19:38:26]:Requesting new sensor readings
+[19:38:26]:Requesting new sensor readings
+[19:38:26]:Requesting new sensor readings
+[19:38:26]:Requesting new sensor readings
+[19:38:27]:Requesting new sensor readings
+[19:38:27]:Requesting new sensor readings
+[19:38:27]:Requesting new sensor readings
+[19:38:28]:Requesting new sensor readings
+[19:38:28]:Requesting new sensor readings
+[19:38:28]:Requesting new sensor readings
+[19:38:39]:Increasing foward right speed
+[19:38:40]:Increasing foward right speed
+[19:38:42]:Increasing foward speed
+[19:38:43]:Increasing foward speed
+[19:38:46]:Increasing reverse speed
+[19:38:46]:Stopping all motors
+[19:39:15]:Sent STAY_ALIVE (0x0D) message
+[19:40:15]:Sent STAY_ALIVE (0x0D) message
+[19:41:15]:Sent STAY_ALIVE (0x0D) message
+[19:42:15]:Sent STAY_ALIVE (0x0D) message
+[19:43:15]:Sent STAY_ALIVE (0x0D) message
+[19:43:35]:Exiting remote control!
+[19:43:38]:Starting session
+[19:43:38]:Press any key to connect...
+[19:43:38]:Attempting to connect...
+[19:43:43]:Connection established!
+[19:43:43]:Grabbing initial sensor readings...
+[19:43:43]:Ready!
+[19:43:43]:Sent STAY_ALIVE (0x0D) message
+[19:43:44]:Starting remote control!
+[19:43:45]:Requesting new sensor readings
+[19:43:46]:Requesting new sensor readings
+[19:43:46]:Requesting new sensor readings
+[19:43:47]:Requesting new sensor readings
+[19:43:48]:Requesting new sensor readings
+[19:43:48]:Requesting new sensor readings
+[19:43:49]:Requesting new sensor readings
+[19:43:50]:Requesting new sensor readings
+[19:43:51]:Requesting new sensor readings
+[19:43:51]:Requesting new sensor readings
+[19:43:51]:Requesting new sensor readings
+[19:43:54]:Increasing foward right speed
+[19:43:55]:Increasing foward right speed
+[19:43:57]:Increasing reverse right speed
+[19:43:58]:Stopping all motors
+[19:43:59]:Requesting new sensor readings
+[19:44:00]:Requesting new sensor readings
+[19:44:00]:Requesting new sensor readings
+[19:44:02]:Requesting new sensor readings
+[19:44:03]:Requesting new sensor readings
+[19:44:04]:Requesting new sensor readings
+[19:44:04]:Requesting new sensor readings
+[19:44:06]:Requesting new sensor readings
+[19:44:07]:Requesting new sensor readings
+[19:44:08]:Requesting new sensor readings
+[19:44:08]:Requesting new sensor readings
+[19:44:09]:Requesting new sensor readings
+[19:44:16]:Requesting new sensor readings
+[19:44:17]:Requesting new sensor readings
+[19:44:17]:Requesting new sensor readings
+[19:44:20]:Requesting new sensor readings
+[19:44:21]:Requesting new sensor readings
+[19:44:21]:Requesting new sensor readings
+[19:44:22]:Requesting new sensor readings
+[19:44:23]:Requesting new sensor readings
+[19:44:23]:Requesting new sensor readings
+[19:44:24]:Requesting new sensor readings
+[19:44:24]:Requesting new sensor readings
+[19:44:43]:Sent STAY_ALIVE (0x0D) message
+[19:44:49]:Exiting remote control!
+[19:46:43]:Starting session
+[19:46:43]:Press any key to connect...
+[19:46:44]:Attempting to connect...
+[19:46:49]:Connection established!
+[19:46:49]:Grabbing initial sensor readings...
+[19:46:49]:Ready!
+[19:46:49]:Sent STAY_ALIVE (0x0D) message
+[19:47:05]:Starting remote control!
+[19:47:06]:Requesting new sensor readings
+[19:47:07]:Requesting new sensor readings
+[19:47:07]:Requesting new sensor readings
+[19:47:08]:Requesting new sensor readings
+[19:47:09]:Requesting new sensor readings
+[19:47:09]:Requesting new sensor readings
+[19:47:10]:Requesting new sensor readings
+[19:47:10]:Requesting new sensor readings
+[19:47:11]:Requesting new sensor readings
+[19:47:12]:Requesting new sensor readings
+[19:47:49]:Sent STAY_ALIVE (0x0D) message
+[19:48:49]:Sent STAY_ALIVE (0x0D) message
+[19:48:58]:Exiting remote control!
+[19:56:37]:Starting session
+[19:56:37]:Press any key to connect...
+[19:56:37]:Attempting to connect...
+[19:56:41]:Connection established!
+[19:56:41]:Grabbing initial sensor readings...
+[19:56:41]:Ready!
+[19:56:41]:Sent STAY_ALIVE (0x0D) message
+[19:56:43]:Starting remote control!
+[19:56:43]:Stopping all motors
+[19:56:46]:Stopping all motors
+[19:56:47]:Stopping all motors
+[19:56:47]:Stopping all motors
+[19:56:47]:Stopping all motors
+[19:56:47]:Stopping all motors
+[19:57:19]:Exiting remote control!
+[19:57:22]:Starting session
+[19:57:22]:Press any key to connect...
+[19:57:22]:Attempting to connect...
+[19:57:27]:Connection established!
+[19:57:27]:Grabbing initial sensor readings...
+[19:57:28]:Ready!
+[19:57:28]:Sent STAY_ALIVE (0x0D) message
+[19:57:28]:Starting remote control!
+[19:57:29]:Stopping all motors
+[19:58:08]:Stopping all motors
+[19:58:13]:Stopping all motors
+[19:58:13]:Stopping all motors
+[19:58:25]:Exiting remote control!
+[19:59:07]:Starting session
+[19:59:07]:Press any key to connect...
+[19:59:07]:Attempting to connect...
+[19:59:12]:Connection established!
+[19:59:12]:Grabbing initial sensor readings...
+[19:59:12]:Ready!
+[19:59:12]:Sent STAY_ALIVE (0x0D) message
+[19:59:14]:Starting remote control!
+[19:59:15]:Dispensing
+[19:59:16]:Dispensing
+[19:59:18]:Dispensing
+[19:59:19]:Dispensing
+[19:59:20]:Dispensing
+[19:59:21]:Dispensing
+[19:59:30]:Exiting remote control!
+[19:59:32]:Starting session
+[19:59:32]:Press any key to connect...
+[19:59:32]:Attempting to connect...
+[19:59:34]:Connection established!
+[19:59:34]:Grabbing initial sensor readings...
+[19:59:34]:Ready!
+[19:59:34]:Sent STAY_ALIVE (0x0D) message
+[19:59:35]:Starting remote control!
+[19:59:35]:Dispensing
+[19:59:36]:Dispensing
+[19:59:37]:Dispensing
+[19:59:37]:Dispensing
+[20:00:05]:Exiting remote control!
+[20:00:07]:Starting session
+[20:00:07]:Press any key to connect...
+[20:00:07]:Attempting to connect...
+[20:00:08]:Connection established!
+[20:00:08]:Grabbing initial sensor readings...
+[20:00:08]:Ready!
+[20:00:08]:Sent STAY_ALIVE (0x0D) message
+[20:00:09]:Starting remote control!
+[20:00:10]:Dispensing
+[20:00:11]:Dispensing
+[20:00:13]:Dispensing
+[20:00:36]:Exiting remote control!
+[20:00:39]:Starting session
+[20:00:39]:Press any key to connect...
+[20:00:39]:Attempting to connect...
+[20:00:44]:Connection established!
+[20:00:44]:Grabbing initial sensor readings...
+[20:00:45]:Ready!
+[20:00:45]:Sent STAY_ALIVE (0x0D) message
+[20:00:45]:Starting remote control!
+[20:00:46]:Dispensing
+[20:00:46]:Dispensing
+[20:00:49]:Dispensing
+[20:00:51]:Dispensing
+[20:00:51]:Dispensing
+[20:00:54]:Stopping all motors
+[20:00:57]:Dispensing
+[20:00:58]:Dispensing
+[20:01:02]:Stopping all motors
+[20:01:12]:Dispensing
+[20:01:14]:Dispensing
+[20:01:27]:Dispensing
+[20:01:28]:Dispensing
+[20:01:30]:Stopping all motors
+[20:01:39]:Dispensing
+[20:01:44]:Stopping all motors
+[20:01:45]:Sent STAY_ALIVE (0x0D) message
+[20:02:04]:Exiting remote control!
+[20:02:06]:Starting session
+[20:02:06]:Press any key to connect...
+[20:02:06]:Attempting to connect...
+[20:02:06]:ERROR: failed to connect!
+[20:02:06]:Press any key to continue...
+[20:02:09]:Starting session
+[20:02:09]:Press any key to connect...
+[20:02:09]:Attempting to connect...
+[20:02:14]:Connection established!
+[20:02:14]:Grabbing initial sensor readings...
+[20:02:14]:Ready!
+[20:02:14]:Sent STAY_ALIVE (0x0D) message
+[20:02:15]:Starting remote control!
+[20:02:23]:Dispensing
+[20:02:24]:Dispensing
+[20:02:25]:Dispensing
+[20:02:26]:Stopping all motors
+[20:02:26]:Dispensing
+[20:02:27]:Dispensing
+[20:02:28]:Stopping all motors
+[20:02:33]:Exiting remote control!
+[20:02:36]:Starting session
+[20:02:36]:Press any key to connect...
+[20:02:36]:Attempting to connect...
+[20:02:41]:Connection established!
+[20:02:41]:Grabbing initial sensor readings...
+[20:02:41]:Ready!
+[20:02:41]:Sent STAY_ALIVE (0x0D) message
+[20:02:42]:Starting remote control!
+[20:02:42]:Dispensing
+[20:02:44]:Dispensing
+[20:03:20]:Exiting remote control!
+[20:03:25]:Starting session
+[20:03:25]:Press any key to connect...
+[20:03:26]:Attempting to connect...
+[20:03:31]:Connection established!
+[20:03:31]:Grabbing initial sensor readings...
+[20:03:31]:Ready!
+[20:03:31]:Sent STAY_ALIVE (0x0D) message
+[20:03:34]:Starting remote control!
+[20:03:35]:Dispensing
+[20:03:37]:Dispensing
+[20:03:37]:Dispensing
+[20:03:39]:Dispensing
+[20:03:57]:Exiting remote control!
+[20:03:59]:Starting session
+[20:03:59]:Press any key to connect...
+[20:04:05]:Attempting to connect...
+[20:04:09]:Connection established!
+[20:04:09]:Grabbing initial sensor readings...
+[20:04:09]:Ready!
+[20:04:09]:Sent STAY_ALIVE (0x0D) message
+[20:04:10]:Starting remote control!
+[20:04:10]:Dispensing
+[20:04:12]:Dispensing
+[20:04:12]:Dispensing
+[20:04:13]:Stopping all motors
+[20:04:14]:Dispensing
+[20:04:15]:Dispensing
+[20:05:00]:Exiting remote control!
+[20:05:41]:Starting session
+[20:05:41]:Press any key to connect...
+[20:05:42]:Attempting to connect...
+[20:05:48]:Connection established!
+[20:05:48]:Grabbing initial sensor readings...
+[20:05:48]:Ready!
+[20:05:48]:Sent STAY_ALIVE (0x0D) message
+[20:05:49]:Starting remote control!
+[20:05:51]:Dispensing
+[20:05:53]:Stopping all motors
+[20:06:27]:Dispensing
+[20:06:31]:Dispensing
+[20:06:33]:Dispensing
+[20:06:34]:Dispensing
+[20:06:35]:Dispensing
+[20:06:36]:Dispensing
+[20:06:40]:Dispensing
+[20:06:41]:Dispensing
+[20:06:42]:Dispensing
+[20:06:43]:Dispensing
+[20:06:44]:Dispensing
+[20:06:48]:Sent STAY_ALIVE (0x0D) message
+[20:07:48]:Sent STAY_ALIVE (0x0D) message
+[20:08:42]:Dispensing
+[20:08:45]:Dispensing
+[20:08:45]:Exiting remote control!
+[20:08:48]:Starting session
+[20:08:48]:Press any key to connect...
+[20:08:49]:Attempting to connect...
+[20:08:53]:Connection established!
+[20:08:53]:Grabbing initial sensor readings...
+[20:08:54]:Ready!
+[20:08:54]:Sent STAY_ALIVE (0x0D) message
+[20:08:54]:Starting remote control!
+[20:08:56]:Dispensing
+[20:08:57]:Dispensing
+[20:08:58]:Dispensing
+[20:09:54]:Sent STAY_ALIVE (0x0D) message
+[20:10:54]:Sent STAY_ALIVE (0x0D) message
+[20:11:54]:Sent STAY_ALIVE (0x0D) message
+[20:12:54]:Sent STAY_ALIVE (0x0D) message
+[20:13:54]:Sent STAY_ALIVE (0x0D) message
+[20:14:50]:Exiting remote control!
+[20:15:07]:Starting session
+[20:15:07]:Press any key to connect...
+[20:15:07]:Attempting to connect...
+[20:15:12]:Connection established!
+[20:15:12]:Grabbing initial sensor readings...
+[20:15:12]:Ready!
+[20:15:12]:Sent STAY_ALIVE (0x0D) message
+[20:15:13]:Starting remote control!
+[20:15:15]:Dispensing
+[20:15:17]:Stopping all motors
+[20:16:07]:Exiting remote control!
+[20:16:12]:Starting session
+[20:16:12]:Press any key to connect...
+[20:16:13]:Attempting to connect...
+[20:16:18]:Connection established!
+[20:16:18]:Grabbing initial sensor readings...
+[20:16:18]:Ready!
+[20:16:18]:Sent STAY_ALIVE (0x0D) message
+[20:16:21]:Starting remote control!
+[20:16:22]:Stopping all motors
+[20:16:40]:Dispensing
+[20:16:41]:Dispensing
+[20:16:42]:Dispensing
+[20:16:43]:Dispensing
+[20:16:43]:Dispensing
+[20:16:44]:Dispensing
+[20:16:45]:Dispensing
+[20:16:46]:Dispensing
+[20:16:46]:Dispensing
+[20:16:47]:Dispensing
+[20:16:48]:Dispensing
+[20:16:48]:Dispensing
+[20:16:49]:Dispensing
+[20:16:50]:Dispensing
+[20:16:50]:Dispensing
+[20:16:51]:Dispensing
+[20:16:51]:Dispensing
+[20:16:59]:Dispensing
+[20:17:00]:Dispensing
+[20:17:18]:Sent STAY_ALIVE (0x0D) message
+[20:17:34]:Exiting remote control!
+[20:17:38]:Starting session
+[20:17:38]:Press any key to connect...
+[20:17:38]:Attempting to connect...
+[20:17:43]:Connection established!
+[20:17:43]:Grabbing initial sensor readings...
+[20:17:44]:Ready!
+[20:17:44]:Sent STAY_ALIVE (0x0D) message
+[20:17:46]:Starting remote control!
+[20:17:48]:Dispensing
+[20:17:49]:Stopping all motors
+[20:18:35]:Exiting remote control!
+[20:18:54]:Starting session
+[20:18:54]:Press any key to connect...
+[20:18:54]:Attempting to connect...
+[20:18:59]:Connection established!
+[20:18:59]:Grabbing initial sensor readings...
+[20:18:59]:Ready!
+[20:18:59]:Sent STAY_ALIVE (0x0D) message
+[20:19:00]:Starting remote control!
+[20:19:01]:Dispensing
+[20:19:15]:Dispensing
+[20:19:27]:Exiting remote control!
+[20:19:54]:Starting session
+[20:19:54]:Press any key to connect...
+[20:19:54]:Attempting to connect...
+[20:19:59]:Connection established!
+[20:19:59]:Grabbing initial sensor readings...
+[20:19:59]:Ready!
+[20:19:59]:Sent STAY_ALIVE (0x0D) message
+[20:20:00]:Starting remote control!
+[20:20:02]:Dispensing
+[20:20:51]:Exiting remote control!
+[20:23:28]:Starting session
+[20:23:28]:Press any key to connect...
+[20:23:28]:Attempting to connect...
+[20:23:33]:Connection established!
+[20:23:33]:Grabbing initial sensor readings...
+[20:23:33]:Ready!
+[20:23:33]:Sent STAY_ALIVE (0x0D) message
+[20:23:34]:Starting remote control!
+[20:23:35]:Dispensing
+[20:23:43]:Dispensing
+[20:23:47]:Dispensing
+[20:23:52]:Exiting remote control!
+[20:24:16]:Starting session
+[20:24:16]:Press any key to connect...
+[20:24:16]:Attempting to connect...
+[20:24:21]:Connection established!
+[20:24:21]:Grabbing initial sensor readings...
+[20:24:22]:Ready!
+[20:24:22]:Sent STAY_ALIVE (0x0D) message
+[20:24:23]:Starting remote control!
+[20:24:24]:Dispensing
+[20:24:28]:Dispensing
+[20:24:31]:Dispensing
+[20:25:22]:Sent STAY_ALIVE (0x0D) message
+[20:25:39]:Increasing foward speed
+[20:25:39]:Increasing foward speed
+[20:25:39]:Increasing foward speed
+[20:25:40]:Increasing foward speed
+[20:25:41]:Increasing foward speed
+[20:25:41]:Increasing foward speed
+[20:25:41]:Increasing foward speed
+[20:25:41]:Increasing foward speed
+[20:25:42]:Increasing foward speed
+[20:25:44]:Stopping all motors
+[20:25:45]:Decreasing foward left speed
+[20:25:45]:Increasing foward right speed
+[20:25:45]:Decreasing foward left speed
+[20:25:45]:Increasing foward right speed
+[20:25:45]:Decreasing foward left speed
+[20:25:45]:Increasing foward right speed
+[20:25:45]:Decreasing foward left speed
+[20:25:45]:Increasing foward right speed
+[20:25:45]:Decreasing foward left speed
+[20:25:46]:Stopping all motors
+[20:25:46]:Increasing foward left speed
+[20:25:46]:Increasing reverse right speed
+[20:25:47]:Increasing foward left speed
+[20:25:47]:Increasing reverse right speed
+[20:25:47]:Increasing foward left speed
+[20:25:47]:Increasing reverse right speed
+[20:25:47]:Increasing foward left speed
+[20:25:47]:Increasing reverse right speed
+[20:25:47]:Increasing foward left speed
+[20:25:47]:Increasing reverse right speed
+[20:25:47]:Increasing foward left speed
+[20:25:47]:Increasing reverse right speed
+[20:25:47]:Increasing foward left speed
+[20:25:48]:Increasing reverse right speed
+[20:25:48]:Increasing foward left speed
+[20:25:48]:Increasing reverse right speed
+[20:25:48]:Stopping all motors
+[20:25:49]:Increasing foward speed
+[20:25:49]:Increasing foward speed
+[20:25:49]:Increasing foward speed
+[20:25:49]:Increasing foward speed
+[20:25:50]:Increasing foward speed
+[20:25:50]:Stopping all motors
+[20:25:50]:Increasing foward left speed
+[20:25:50]:Increasing foward left speed
+[20:25:51]:Increasing foward left speed
+[20:25:51]:Increasing foward left speed
+[20:25:51]:Increasing foward left speed
+[20:25:51]:Increasing foward left speed
+[20:25:52]:Increasing foward left speed
+[20:25:52]:Stopping all motors
+[20:25:53]:Stopping all motors
+[20:25:53]:Increasing foward left speed
+[20:25:53]:Increasing foward left speed
+[20:25:53]:Increasing foward left speed
+[20:25:54]:Increasing foward left speed
+[20:25:55]:Stopping all motors
+[20:25:56]:Max foward speed
+[20:25:56]:Increasing foward speed
+[20:25:58]:Stopping all motors
+[20:25:58]:Increasing foward left speed
+[20:25:58]:Increasing reverse right speed
+[20:25:58]:Increasing foward left speed
+[20:25:58]:Increasing reverse right speed
+[20:25:58]:Increasing foward left speed
+[20:25:59]:Increasing reverse right speed
+[20:25:59]:Increasing foward left speed
+[20:25:59]:Increasing reverse right speed
+[20:25:59]:Increasing foward left speed
+[20:25:59]:Increasing reverse right speed
+[20:25:59]:Increasing foward left speed
+[20:25:59]:Increasing reverse right speed
+[20:25:59]:Increasing foward left speed
+[20:25:59]:Increasing reverse right speed
+[20:26:00]:Stopping all motors
+[20:26:00]:Increasing foward speed
+[20:26:00]:Increasing foward speed
+[20:26:00]:Increasing foward speed
+[20:26:00]:Increasing foward speed
+[20:26:01]:Increasing foward speed
+[20:26:01]:Increasing foward speed
+[20:26:02]:Increasing reverse right speed
+[20:26:02]:Increasing reverse right speed
+[20:26:02]:Increasing reverse right speed
+[20:26:03]:Increasing foward speed
+[20:26:03]:Increasing foward speed
+[20:26:03]:Increasing foward speed
+[20:26:03]:Stopping all motors
+[20:26:04]:Increasing foward left speed
+[20:26:04]:Increasing foward left speed
+[20:26:05]:Increasing foward right speed
+[20:26:05]:Increasing foward right speed
+[20:26:05]:Increasing foward right speed
+[20:26:06]:Stopping all motors
+[20:26:06]:Increasing foward speed
+[20:26:06]:Increasing foward speed
+[20:26:06]:Increasing foward speed
+[20:26:06]:Increasing foward speed
+[20:26:07]:Increasing foward speed
+[20:26:07]:Increasing foward speed
+[20:26:07]:Increasing foward speed
+[20:26:08]:Stopping all motors
+[20:26:09]:Dispensing
+[20:26:11]:Increasing reverse speed
+[20:26:12]:Increasing reverse speed
+[20:26:12]:Increasing reverse speed
+[20:26:12]:Increasing reverse speed
+[20:26:12]:Increasing reverse speed
+[20:26:12]:Increasing reverse speed
+[20:26:12]:Increasing reverse speed
+[20:26:14]:Increasing reverse speed
+[20:26:15]:Increasing reverse speed
+[20:26:15]:Stopping all motors
+[20:26:16]:Decreasing foward left speed
+[20:26:16]:Increasing foward right speed
+[20:26:16]:Decreasing foward left speed
+[20:26:17]:Increasing foward right speed
+[20:26:17]:Decreasing foward left speed
+[20:26:17]:Increasing foward right speed
+[20:26:17]:Decreasing foward left speed
+[20:26:17]:Increasing foward right speed
+[20:26:17]:Decreasing foward left speed
+[20:26:17]:Increasing foward right speed
+[20:26:17]:Decreasing foward left speed
+[20:26:17]:Increasing foward right speed
+[20:26:17]:Decreasing foward left speed
+[20:26:18]:Stopping all motors
+[20:26:19]:Decreasing foward left speed
+[20:26:19]:Increasing foward right speed
+[20:26:19]:Decreasing foward left speed
+[20:26:19]:Increasing foward right speed
+[20:26:19]:Decreasing foward left speed
+[20:26:19]:Increasing foward right speed
+[20:26:19]:Decreasing foward left speed
+[20:26:20]:Increasing foward right speed
+[20:26:20]:Decreasing foward left speed
+[20:26:20]:Increasing foward right speed
+[20:26:20]:Decreasing foward left speed
+[20:26:20]:Increasing foward right speed
+[20:26:20]:Decreasing foward left speed
+[20:26:20]:Increasing foward right speed
+[20:26:20]:Decreasing foward left speed
+[20:26:21]:Stopping all motors
+[20:26:21]:Increasing foward speed
+[20:26:21]:Increasing foward speed
+[20:26:21]:Increasing foward speed
+[20:26:22]:Increasing foward speed
+[20:26:22]:Sent STAY_ALIVE (0x0D) message
+[20:26:22]:Increasing foward speed
+[20:26:23]:Stopping all motors
+[20:26:23]:Increasing reverse right speed
+[20:26:24]:Increasing reverse right speed
+[20:26:24]:Increasing foward left speed
+[20:26:24]:Increasing reverse right speed
+[20:26:24]:Increasing foward left speed
+[20:26:24]:Increasing reverse right speed
+[20:26:24]:Increasing foward left speed
+[20:26:24]:Stopping all motors
+[20:26:25]:Decreasing foward left speed
+[20:26:25]:Increasing foward right speed
+[20:26:25]:Decreasing foward left speed
+[20:26:25]:Increasing foward right speed
+[20:26:25]:Decreasing foward left speed
+[20:26:25]:Increasing foward right speed
+[20:26:25]:Decreasing foward left speed
+[20:26:25]:Increasing foward right speed
+[20:26:25]:Decreasing foward left speed
+[20:26:26]:Increasing foward right speed
+[20:26:26]:Decreasing foward left speed
+[20:26:26]:Increasing foward right speed
+[20:26:26]:Stopping all motors
+[20:26:27]:Increasing foward speed
+[20:26:27]:Increasing foward speed
+[20:26:27]:Increasing foward speed
+[20:26:27]:Increasing foward speed
+[20:26:27]:Increasing foward speed
+[20:26:28]:Increasing foward speed
+[20:26:28]:Increasing foward speed
+[20:26:28]:Increasing foward speed
+[20:26:28]:Increasing foward speed
+[20:26:28]:Increasing foward speed
+[20:26:29]:Stopping all motors
+[20:26:29]:Increasing foward right speed
+[20:26:30]:Increasing foward left speed
+[20:26:30]:Increasing foward right speed
+[20:26:30]:Increasing foward left speed
+[20:26:30]:Increasing foward right speed
+[20:26:30]:Increasing foward left speed
+[20:26:30]:Increasing foward right speed
+[20:26:30]:Increasing foward left speed
+[20:26:30]:Increasing foward right speed
+[20:26:30]:Increasing foward left speed
+[20:26:31]:Increasing foward right speed
+[20:26:31]:Stopping all motors
+[20:26:31]:Increasing foward right speed
+[20:26:31]:Decreasing foward left speed
+[20:26:31]:Increasing foward right speed
+[20:26:31]:Decreasing foward left speed
+[20:26:31]:Increasing foward right speed
+[20:26:32]:Decreasing foward left speed
+[20:26:32]:Increasing foward right speed
+[20:26:32]:Decreasing foward left speed
+[20:26:32]:Increasing foward right speed
+[20:26:32]:Decreasing foward left speed
+[20:26:32]:Increasing foward right speed
+[20:26:32]:Decreasing foward left speed
+[20:26:32]:Increasing foward right speed
+[20:26:32]:Decreasing foward left speed
+[20:26:32]:Increasing foward right speed
+[20:26:32]:Decreasing foward left speed
+[20:26:33]:Increasing foward right speed
+[20:26:33]:Stopping all motors
+[20:26:33]:Increasing foward speed
+[20:26:33]:Increasing foward speed
+[20:26:33]:Increasing foward speed
+[20:26:34]:Increasing foward speed
+[20:26:34]:Increasing foward speed
+[20:26:34]:Increasing foward speed
+[20:26:34]:Increasing foward speed
+[20:26:34]:Max foward speed
+[20:26:34]:Increasing foward speed
+[20:26:35]:Stopping all motors
+[20:26:35]:Increasing reverse right speed
+[20:26:36]:Increasing foward left speed
+[20:26:36]:Increasing foward left speed
+[20:26:36]:Increasing reverse right speed
+[20:26:36]:Increasing foward left speed
+[20:26:36]:Increasing reverse right speed
+[20:26:36]:Increasing foward left speed
+[20:26:36]:Increasing reverse right speed
+[20:26:37]:Stopping all motors
+[20:26:37]:Increasing foward speed
+[20:26:37]:Increasing foward speed
+[20:26:37]:Increasing foward speed
+[20:26:37]:Increasing foward speed
+[20:26:38]:Increasing foward speed
+[20:26:38]:Increasing foward speed
+[20:26:38]:Increasing foward speed
+[20:26:40]:Stopping all motors
+[20:26:46]:Increasing reverse right speed
+[20:26:46]:Increasing foward left speed
+[20:26:46]:Increasing reverse right speed
+[20:26:46]:Increasing foward left speed
+[20:26:46]:Increasing reverse right speed
+[20:26:47]:Increasing reverse right speed
+[20:26:47]:Stopping all motors
+[20:26:47]:Decreasing foward left speed
+[20:26:47]:Increasing foward right speed
+[20:26:48]:Decreasing foward left speed
+[20:26:48]:Increasing foward right speed
+[20:26:48]:Decreasing foward left speed
+[20:26:48]:Increasing foward right speed
+[20:26:48]:Decreasing foward left speed
+[20:26:48]:Increasing foward right speed
+[20:26:48]:Stopping all motors
+[20:26:49]:Max foward speed
+[20:26:49]:Increasing foward speed
+[20:26:49]:Stopping all motors
+[20:27:22]:Sent STAY_ALIVE (0x0D) message
+[20:28:08]:Requesting new sensor readings
+[20:28:09]:Requesting new sensor readings
+[20:28:10]:Requesting new sensor readings
+[20:28:11]:Requesting new sensor readings
+[20:28:11]:Requesting new sensor readings
+[20:28:11]:Requesting new sensor readings
+[20:28:13]:Requesting new sensor readings
+[20:28:13]:Requesting new sensor readings
+[20:28:13]:Requesting new sensor readings
+[20:28:13]:Requesting new sensor readings
+[20:28:14]:Requesting new sensor readings
+[20:28:14]:Requesting new sensor readings
+[20:28:14]:Requesting new sensor readings
+[20:28:15]:Requesting new sensor readings
+[20:28:15]:Requesting new sensor readings
+[20:28:15]:Requesting new sensor readings
+[20:28:18]:Requesting new sensor readings
+[20:28:18]:Requesting new sensor readings
+[20:28:18]:Requesting new sensor readings
+[20:28:18]:Requesting new sensor readings
+[20:28:19]:Requesting new sensor readings
+[20:28:20]:Requesting new sensor readings
+[20:28:22]:Sent STAY_ALIVE (0x0D) message
+[20:28:22]:Requesting new sensor readings
+[20:28:23]:Requesting new sensor readings
+[20:28:23]:Requesting new sensor readings
+[20:28:45]:Increasing foward left speed
+[20:28:48]:Stopping all motors
+[20:28:49]:Increasing foward right speed
+[20:28:49]:Increasing foward right speed
+[20:28:50]:Increasing foward right speed
+[20:28:50]:Stopping all motors
+[20:28:55]:Requesting new sensor readings
+[20:28:56]:Requesting new sensor readings
+[20:28:56]:Requesting new sensor readings
+[20:28:56]:Requesting new sensor readings
+[20:28:57]:Requesting new sensor readings
+[20:28:57]:Requesting new sensor readings
+[20:28:57]:Requesting new sensor readings
+[20:28:58]:Requesting new sensor readings
+[20:28:58]:Requesting new sensor readings
+[20:28:58]:Requesting new sensor readings
+[20:28:58]:Requesting new sensor readings
+[20:28:59]:Requesting new sensor readings
+[20:28:59]:Requesting new sensor readings
+[20:28:59]:Requesting new sensor readings
+[20:29:00]:Requesting new sensor readings
+[20:29:00]:Requesting new sensor readings
+[20:29:00]:Requesting new sensor readings
+[20:29:00]:Requesting new sensor readings
+[20:29:01]:Requesting new sensor readings
+[20:29:01]:Requesting new sensor readings
+[20:29:02]:Requesting new sensor readings
+[20:29:02]:Requesting new sensor readings
+[20:29:02]:Requesting new sensor readings
+[20:29:02]:Requesting new sensor readings
+[20:29:03]:Requesting new sensor readings
+[20:29:03]:Requesting new sensor readings
+[20:29:03]:Requesting new sensor readings
+[20:29:03]:Requesting new sensor readings
+[20:29:04]:Requesting new sensor readings
+[20:29:04]:Requesting new sensor readings
+[20:29:04]:Requesting new sensor readings
+[20:29:06]:Requesting new sensor readings
+[20:29:06]:Requesting new sensor readings
+[20:29:06]:Requesting new sensor readings
+[20:29:06]:Requesting new sensor readings
+[20:29:07]:Requesting new sensor readings
+[20:29:07]:Requesting new sensor readings
+[20:29:07]:Requesting new sensor readings
+[20:29:07]:Requesting new sensor readings
+[20:29:08]:Requesting new sensor readings
+[20:29:08]:Requesting new sensor readings
+[20:29:08]:Requesting new sensor readings
+[20:29:08]:Requesting new sensor readings
+[20:29:09]:Requesting new sensor readings
+[20:29:22]:Sent STAY_ALIVE (0x0D) message
+[20:30:22]:Sent STAY_ALIVE (0x0D) message
+[20:31:22]:Sent STAY_ALIVE (0x0D) message
+[20:32:22]:Sent STAY_ALIVE (0x0D) message
+[20:33:13]:Requesting new sensor readings
+[20:33:14]:Requesting new sensor readings
+[20:33:15]:Requesting new sensor readings
+[20:33:16]:Requesting new sensor readings
+[20:33:17]:Requesting new sensor readings
+[20:33:17]:Requesting new sensor readings
+[20:33:22]:Sent STAY_ALIVE (0x0D) message
+[20:33:35]:Requesting new sensor readings
+[20:33:35]:Requesting new sensor readings
+[20:33:36]:Requesting new sensor readings
+[20:33:37]:Requesting new sensor readings
+[20:33:38]:Requesting new sensor readings
+[20:33:38]:Requesting new sensor readings
+[20:33:39]:Requesting new sensor readings
+[20:33:39]:Requesting new sensor readings
+[20:33:40]:Requesting new sensor readings
+[20:33:40]:Requesting new sensor readings
+[20:33:40]:Requesting new sensor readings
+[20:33:41]:Requesting new sensor readings
+[20:33:42]:Requesting new sensor readings
+[20:33:43]:Requesting new sensor readings
+[20:33:46]:Requesting new sensor readings
+[20:33:48]:Requesting new sensor readings
+[20:33:50]:Requesting new sensor readings
+[20:33:51]:Requesting new sensor readings
+[20:33:51]:Requesting new sensor readings
+[20:33:52]:Requesting new sensor readings
+[20:33:52]:Requesting new sensor readings
+[20:33:53]:Requesting new sensor readings
+[20:33:55]:Requesting new sensor readings
+[20:33:56]:Requesting new sensor readings
+[20:33:56]:Requesting new sensor readings
+[20:33:57]:Requesting new sensor readings
+[20:33:57]:Requesting new sensor readings
+[20:33:58]:Requesting new sensor readings
+[20:33:58]:Requesting new sensor readings
+[20:33:59]:Requesting new sensor readings
+[20:34:00]:Requesting new sensor readings
+[20:34:01]:Requesting new sensor readings
+[20:34:02]:Requesting new sensor readings
+[20:34:05]:Requesting new sensor readings
+[20:34:06]:Requesting new sensor readings
+[20:34:06]:Requesting new sensor readings
+[20:34:07]:Requesting new sensor readings
+[20:34:07]:Requesting new sensor readings
+[20:34:15]:Requesting new sensor readings
+[20:34:15]:Requesting new sensor readings
+[20:34:19]:Requesting new sensor readings
+[20:34:22]:Sent STAY_ALIVE (0x0D) message
+[20:34:25]:Increasing foward left speed
+[20:34:25]:Increasing reverse right speed
+[20:34:25]:Increasing foward left speed
+[20:34:25]:Increasing reverse right speed
+[20:34:25]:Increasing foward left speed
+[20:34:26]:Increasing reverse right speed
+[20:34:26]:Increasing foward left speed
+[20:34:26]:Increasing reverse right speed
+[20:34:26]:Increasing foward left speed
+[20:34:26]:Increasing reverse right speed
+[20:34:26]:Increasing foward left speed
+[20:34:26]:Increasing reverse right speed
+[20:34:26]:Increasing foward left speed
+[20:34:26]:Increasing reverse right speed
+[20:34:26]:Increasing foward left speed
+[20:34:27]:Increasing foward left speed
+[20:34:27]:Increasing reverse right speed
+[20:34:27]:Stopping all motors
+[20:35:22]:Sent STAY_ALIVE (0x0D) message
+[20:35:34]:Requesting new sensor readings
+[20:35:35]:Requesting new sensor readings
+[20:35:36]:Requesting new sensor readings
+[20:35:37]:Requesting new sensor readings
+[20:35:48]:Requesting new sensor readings
+[20:35:49]:Requesting new sensor readings
+[20:35:56]:Requesting new sensor readings
+[20:36:03]:Requesting new sensor readings
+[20:36:22]:Sent STAY_ALIVE (0x0D) message
+[20:37:22]:Sent STAY_ALIVE (0x0D) message
+[20:38:22]:Sent STAY_ALIVE (0x0D) message
+[20:39:22]:Sent STAY_ALIVE (0x0D) message
+[20:40:22]:Sent STAY_ALIVE (0x0D) message
+[20:41:22]:Sent STAY_ALIVE (0x0D) message
+[20:42:22]:Sent STAY_ALIVE (0x0D) message
+[20:43:22]:Sent STAY_ALIVE (0x0D) message
+[20:44:22]:Sent STAY_ALIVE (0x0D) message
+[20:45:22]:Sent STAY_ALIVE (0x0D) message
+[20:46:22]:Sent STAY_ALIVE (0x0D) message
+[20:47:22]:Sent STAY_ALIVE (0x0D) message
+[20:48:22]:Sent STAY_ALIVE (0x0D) message
+[20:49:22]:Sent STAY_ALIVE (0x0D) message
+[20:50:22]:Sent STAY_ALIVE (0x0D) message
+[20:51:22]:Sent STAY_ALIVE (0x0D) message
+[20:52:22]:Sent STAY_ALIVE (0x0D) message
+[20:53:22]:Sent STAY_ALIVE (0x0D) message
+[20:54:22]:Sent STAY_ALIVE (0x0D) message
+[20:54:39]:Exiting remote control!
+[21:00:00]:Starting session
+[21:00:00]:Press any key to connect...
+[21:00:00]:Attempting to connect...
+[21:00:05]:Connection established!
+[21:00:05]:Grabbing initial sensor readings...
+[21:00:06]:Ready!
+[21:00:06]:Sent STAY_ALIVE (0x0D) message
+[21:00:07]:Starting remote control!
+[21:00:07]:Stopping all motors
+[21:01:06]:Sent STAY_ALIVE (0x0D) message
+[21:01:20]:Exiting remote control!
+[21:01:22]:Starting session
+[21:01:22]:Press any key to connect...
+[21:01:22]:Attempting to connect...
+[21:01:23]:Connection established!
+[21:01:23]:Grabbing initial sensor readings...
+[21:01:24]:Ready!
+[21:01:24]:Sent STAY_ALIVE (0x0D) message
+[21:01:25]:Starting right side autonomous control
+[21:01:31]:Starting session
+[21:01:31]:Press any key to connect...
+[21:01:32]:Attempting to connect...
+[21:01:36]:Connection established!
+[21:01:36]:Grabbing initial sensor readings...
+[21:01:37]:Ready!
+[21:01:37]:Sent STAY_ALIVE (0x0D) message
+[21:01:39]:Starting remote control!
+[21:01:40]:Stopping all motors
+[21:02:37]:Starting session
+[21:02:37]:Press any key to connect...
+[21:02:38]:Attempting to connect...
+[21:02:43]:Connection established!
+[21:02:43]:Grabbing initial sensor readings...
+[21:02:43]:Ready!
+[21:02:43]:Sent STAY_ALIVE (0x0D) message
+[21:02:46]:Starting session
+[21:02:46]:Press any key to connect...
+[21:02:47]:Attempting to connect...
+[21:02:48]:Connection established!
+[21:02:48]:Grabbing initial sensor readings...
+[21:02:48]:Ready!
+[21:02:48]:Sent STAY_ALIVE (0x0D) message
+[21:02:52]:Starting right side autonomous control
+[21:03:04]:Starting session
+[21:03:04]:Press any key to connect...
+[21:03:05]:Attempting to connect...
+[21:03:06]:Connection established!
+[21:03:06]:Grabbing initial sensor readings...
+[21:03:06]:Ready!
+[21:03:06]:Sent STAY_ALIVE (0x0D) message
+[21:03:11]:Starting remote control!
+[21:03:11]:Stopping all motors
+[21:03:45]:Exiting remote control.
+[21:03:49]:Starting right side autonomous control
+[21:03:55]:Starting session
+[21:03:55]:Press any key to connect...
+[21:03:56]:Attempting to connect...
+[21:04:02]:Connection established!
+[21:04:02]:Grabbing initial sensor readings...
+[21:04:03]:Ready!
+[21:04:03]:Sent STAY_ALIVE (0x0D) message
+[21:04:09]:Starting remote control!
+[21:04:09]:Stopping all motors
+[21:05:03]:Sent STAY_ALIVE (0x0D) message
+[21:05:31]:Starting session
+[21:05:31]:Press any key to connect...
+[21:05:31]:Attempting to connect...
+[21:05:31]:ERROR: failed to connect!
+[21:05:31]:Press any key to continue...
+[21:05:34]:Starting session
+[21:05:34]:Press any key to connect...
+[21:05:34]:Attempting to connect...
+[21:05:40]:Connection established!
+[21:05:40]:Grabbing initial sensor readings...
+[21:05:40]:Ready!
+[21:05:40]:Sent STAY_ALIVE (0x0D) message
+[21:05:42]:Starting session
+[21:05:42]:Press any key to connect...
+[21:05:42]:Attempting to connect...
+[21:05:43]:Connection established!
+[21:05:43]:Grabbing initial sensor readings...
+[21:05:44]:Ready!
+[21:05:44]:Sent STAY_ALIVE (0x0D) message
+[21:05:52]:Starting session
+[21:05:52]:Press any key to connect...
+[21:05:52]:Attempting to connect...
+[21:05:54]:Connection established!
+[21:05:54]:Grabbing initial sensor readings...
+[21:05:54]:Ready!
+[21:05:54]:Sent STAY_ALIVE (0x0D) message
+[21:06:00]:Starting session
+[21:06:00]:Press any key to connect...
+[21:06:00]:Attempting to connect...
+[21:06:02]:Connection established!
+[21:06:02]:Grabbing initial sensor readings...
+[21:06:02]:Ready!
+[21:06:02]:Sent STAY_ALIVE (0x0D) message
+[21:06:04]:Starting right side autonomous control
+[21:07:02]:Sent STAY_ALIVE (0x0D) message
+[21:07:20]:Starting right side autonomous control
+[21:07:44]:Starting right side autonomous control
+[21:07:57]:Starting right side autonomous control
+[21:08:02]:Sent STAY_ALIVE (0x0D) message
+[21:08:09]:Starting right side autonomous control
+[21:08:52]:Starting session
+[21:08:52]:Press any key to connect...
+[21:08:52]:Attempting to connect...
+[21:08:53]:Connection established!
+[21:08:53]:Grabbing initial sensor readings...
+[21:08:53]:Ready!
+[21:08:53]:Sent STAY_ALIVE (0x0D) message
+[21:08:55]:Starting session
+[21:08:55]:Press any key to connect...
+[21:08:56]:Attempting to connect...
+[21:08:57]:Connection established!
+[21:08:57]:Grabbing initial sensor readings...
+[21:08:57]:Ready!
+[21:08:57]:Sent STAY_ALIVE (0x0D) message
+[21:08:58]:Starting right side autonomous control
+[21:09:12]:Starting remote control!
+[21:09:13]:Stopping all motors
+[21:09:48]:Starting session
+[21:09:48]:Press any key to connect...
+[21:09:48]:Attempting to connect...
+[21:09:49]:Connection established!
+[21:09:49]:Grabbing initial sensor readings...
+[21:09:49]:Ready!
+[21:09:49]:Sent STAY_ALIVE (0x0D) message
+[21:09:50]:Starting remote control!
+[21:09:52]:Exiting remote control.
+[21:09:52]:Starting right side autonomous control
+[21:09:59]:Starting session
+[21:09:59]:Press any key to connect...
+[21:10:07]:Attempting to connect...
+[21:10:12]:Connection established!
+[21:10:12]:Grabbing initial sensor readings...
+[21:10:12]:Ready!
+[21:10:12]:Sent STAY_ALIVE (0x0D) message
+[21:10:14]:Starting session
+[21:10:14]:Press any key to connect...
+[21:10:17]:Attempting to connect...
+[21:10:22]:Connection established!
+[21:10:22]:Grabbing initial sensor readings...
+[21:10:23]:Ready!
+[21:10:23]:Sent STAY_ALIVE (0x0D) message
+[21:10:24]:Starting session
+[21:10:24]:Press any key to connect...
+[21:10:24]:Attempting to connect...
+[21:10:26]:Connection established!
+[21:10:26]:Grabbing initial sensor readings...
+[21:10:26]:Ready!
+[21:10:26]:Sent STAY_ALIVE (0x0D) message
+[21:10:28]:Starting session
+[21:10:28]:Press any key to connect...
+[21:10:29]:Attempting to connect...
+[21:10:30]:Connection established!
+[21:10:30]:Grabbing initial sensor readings...
+[21:10:31]:Ready!
+[21:10:31]:Sent STAY_ALIVE (0x0D) message
+[21:10:31]:Starting remote control!
+[21:10:33]:Stopping all motors
+[21:10:36]:Exiting remote control.
+[21:11:15]:Starting session
+[21:11:15]:Press any key to connect...
+[21:11:16]:Attempting to connect...
+[21:11:17]:Connection established!
+[21:11:17]:Grabbing initial sensor readings...
+[21:11:17]:Ready!
+[21:11:17]:Sent STAY_ALIVE (0x0D) message
+[21:11:21]:Starting right side autonomous control
+[21:11:55]:Starting session
+[21:11:55]:Press any key to connect...
+[21:11:55]:Attempting to connect...
+[21:11:57]:Connection established!
+[21:11:57]:Grabbing initial sensor readings...
+[21:11:57]:Ready!
+[21:11:57]:Sent STAY_ALIVE (0x0D) message
+[21:12:00]:Starting session
+[21:12:00]:Press any key to connect...
+[21:12:01]:Attempting to connect...
+[21:12:02]:Connection established!
+[21:12:02]:Grabbing initial sensor readings...
+[21:12:03]:Ready!
+[21:12:03]:Sent STAY_ALIVE (0x0D) message
+[21:12:04]:Starting session
+[21:12:04]:Press any key to connect...
+[21:12:04]:Attempting to connect...
+[21:12:06]:Connection established!
+[21:12:06]:Grabbing initial sensor readings...
+[21:12:06]:Ready!
+[21:12:06]:Sent STAY_ALIVE (0x0D) message
+[21:12:07]:Starting right side autonomous control
+[21:12:53]:Starting session
+[21:12:53]:Press any key to connect...
+[21:12:53]:Attempting to connect...
+[21:12:55]:Connection established!
+[21:12:55]:Grabbing initial sensor readings...
+[21:12:55]:Ready!
+[21:12:55]:Sent STAY_ALIVE (0x0D) message
+[21:12:56]:Starting right side autonomous control
+[21:13:16]:Starting session
+[21:13:16]:Press any key to connect...
+[21:13:16]:Attempting to connect...
+[21:13:22]:Connection established!
+[21:13:22]:Grabbing initial sensor readings...
+[21:13:22]:Ready!
+[21:13:22]:Sent STAY_ALIVE (0x0D) message
+[21:13:23]:Starting remote control!
+[21:13:23]:Stopping all motors
+[21:13:34]:Starting session
+[21:13:34]:Press any key to connect...
+[21:13:40]:Attempting to connect...
+[21:13:45]:Connection established!
+[21:13:45]:Grabbing initial sensor readings...
+[21:13:45]:Ready!
+[21:13:45]:Sent STAY_ALIVE (0x0D) message
+[21:13:46]:Starting right side autonomous control
+[21:14:08]:Starting session
+[21:14:08]:Press any key to connect...
+[21:14:09]:Attempting to connect...
+[21:14:14]:Connection established!
+[21:14:14]:Grabbing initial sensor readings...
+[21:14:14]:Ready!
+[21:14:14]:Sent STAY_ALIVE (0x0D) message
+[21:14:16]:Starting remote control!
+[21:14:16]:Stopping all motors
+[21:14:24]:Starting session
+[21:14:24]:Press any key to connect...
+[21:14:25]:Attempting to connect...
+[21:14:25]:ERROR: failed to connect!
+[21:14:25]:Press any key to continue...
+[21:14:26]:Starting session
+[21:14:26]:Press any key to connect...
+[21:14:32]:Attempting to connect...
+[21:14:37]:Connection established!
+[21:14:37]:Grabbing initial sensor readings...
+[21:14:37]:Ready!
+[21:14:37]:Sent STAY_ALIVE (0x0D) message
+[21:14:39]:Starting session
+[21:14:39]:Press any key to connect...
+[21:14:39]:Attempting to connect...
+[21:14:41]:Connection established!
+[21:14:41]:Grabbing initial sensor readings...
+[21:14:41]:Ready!
+[21:14:41]:Sent STAY_ALIVE (0x0D) message
+[21:14:43]:Starting session
+[21:14:43]:Press any key to connect...
+[21:14:43]:Attempting to connect...
+[21:14:45]:Connection established!
+[21:14:45]:Grabbing initial sensor readings...
+[21:14:45]:Ready!
+[21:14:45]:Sent STAY_ALIVE (0x0D) message
+[21:14:47]:Starting session
+[21:14:47]:Press any key to connect...
+[21:14:48]:Attempting to connect...
+[21:14:49]:Connection established!
+[21:14:49]:Grabbing initial sensor readings...
+[21:14:50]:Ready!
+[21:14:50]:Sent STAY_ALIVE (0x0D) message
+[21:14:51]:Starting session
+[21:14:51]:Press any key to connect...
+[21:14:52]:Attempting to connect...
+[21:14:53]:Connection established!
+[21:14:53]:Grabbing initial sensor readings...
+[21:14:53]:Ready!
+[21:14:53]:Sent STAY_ALIVE (0x0D) message
+[21:14:55]:Starting session
+[21:14:55]:Press any key to connect...
+[21:14:56]:Attempting to connect...
+[21:14:58]:Connection established!
+[21:14:58]:Grabbing initial sensor readings...
+[21:14:58]:Ready!
+[21:14:58]:Sent STAY_ALIVE (0x0D) message
+[21:14:59]:Starting right side autonomous control
+[21:15:08]:Starting session
+[21:15:08]:Press any key to connect...
+[21:15:09]:Attempting to connect...
+[21:15:14]:Connection established!
+[21:15:14]:Grabbing initial sensor readings...
+[21:15:14]:Ready!
+[21:15:14]:Sent STAY_ALIVE (0x0D) message
+[21:15:15]:Starting remote control!
+[21:15:16]:Stopping all motors
+[21:15:22]:Exiting remote control.
+[21:15:23]:Starting right side autonomous control
+[21:15:33]:Starting session
+[21:15:33]:Press any key to connect...
+[21:15:34]:Attempting to connect...
+[21:15:35]:Connection established!
+[21:15:35]:Grabbing initial sensor readings...
+[21:15:35]:Ready!
+[21:15:35]:Sent STAY_ALIVE (0x0D) message
+[21:15:39]:Starting remote control!
+[21:15:40]:Stopping all motors
+[21:16:13]:Starting session
+[21:16:13]:Press any key to connect...
+[21:16:13]:Attempting to connect...
+[21:16:18]:Connection established!
+[21:16:18]:Grabbing initial sensor readings...
+[21:16:18]:Ready!
+[21:16:18]:Sent STAY_ALIVE (0x0D) message
+[21:16:19]:Starting right side autonomous control
+[21:16:33]:Starting session
+[21:16:33]:Press any key to connect...
+[21:16:34]:Attempting to connect...
+[21:16:39]:Connection established!
+[21:16:39]:Grabbing initial sensor readings...
+[21:16:39]:Ready!
+[21:16:39]:Sent STAY_ALIVE (0x0D) message
+[21:16:41]:Starting remote control!
+[21:16:41]:Stopping all motors
+[21:16:50]:Exiting remote control.
+[21:16:52]:Starting right side autonomous control
+[21:17:18]:Starting session
+[21:17:18]:Press any key to connect...
+[21:17:19]:Attempting to connect...
+[21:17:24]:Connection established!
+[21:17:24]:Grabbing initial sensor readings...
+[21:17:24]:Ready!
+[21:17:24]:Sent STAY_ALIVE (0x0D) message
+[21:17:28]:Starting session
+[21:17:28]:Press any key to connect...
+[21:17:29]:Attempting to connect...
+[21:17:30]:Connection established!
+[21:17:30]:Grabbing initial sensor readings...
+[21:17:30]:Ready!
+[21:17:30]:Sent STAY_ALIVE (0x0D) message
+[21:17:36]:Starting remote control!
+[21:17:36]:Stopping all motors
+[21:17:48]:Exiting remote control.
+[21:17:49]:Starting right side autonomous control
+[21:18:14]:Starting session
+[21:18:14]:Press any key to connect...
+[21:18:15]:Attempting to connect...
+[21:18:16]:Connection established!
+[21:18:16]:Grabbing initial sensor readings...
+[21:18:16]:Ready!
+[21:18:16]:Sent STAY_ALIVE (0x0D) message
+[21:18:20]:Starting remote control!
+[21:18:20]:Stopping all motors
+[21:18:33]:Exiting remote control.
+[21:18:34]:Starting right side autonomous control
+[21:18:50]:Starting session
+[21:18:50]:Press any key to connect...
+[21:18:51]:Attempting to connect...
+[21:18:56]:Connection established!
+[21:18:56]:Grabbing initial sensor readings...
+[21:18:56]:Ready!
+[21:18:56]:Sent STAY_ALIVE (0x0D) message
+[21:18:58]:Starting session
+[21:18:58]:Press any key to connect...
+[21:18:58]:Attempting to connect...
+[21:19:00]:Connection established!
+[21:19:00]:Grabbing initial sensor readings...
+[21:19:00]:Ready!
+[21:19:00]:Sent STAY_ALIVE (0x0D) message
+[21:19:03]:Starting remote control!
+[21:19:04]:Stopping all motors
+[21:20:00]:Sent STAY_ALIVE (0x0D) message
+[21:21:00]:Sent STAY_ALIVE (0x0D) message
+[21:22:00]:Sent STAY_ALIVE (0x0D) message
+[21:22:08]:Exiting remote control.
+[21:22:15]:Starting right side autonomous control
+[21:22:42]:Starting session
+[21:22:42]:Press any key to connect...
+[21:22:43]:Attempting to connect...
+[21:22:44]:Connection established!
+[21:22:44]:Grabbing initial sensor readings...
+[21:22:44]:Ready!
+[21:22:44]:Sent STAY_ALIVE (0x0D) message
+[21:22:46]:Starting remote control!
+[21:22:46]:Stopping all motors
+[21:23:44]:Sent STAY_ALIVE (0x0D) message
+[21:24:44]:Sent STAY_ALIVE (0x0D) message
+[21:25:44]:Sent STAY_ALIVE (0x0D) message
+[21:26:44]:Sent STAY_ALIVE (0x0D) message
+[21:27:44]:Sent STAY_ALIVE (0x0D) message
+[21:28:52]:Starting session
+[21:28:52]:Press any key to connect...
+[21:28:53]:Attempting to connect...
+[21:28:57]:Connection established!
+[21:28:57]:Grabbing initial sensor readings...
+[21:28:58]:Ready!
+[21:28:58]:Sent STAY_ALIVE (0x0D) message
+[21:29:06]:Starting right side autonomous control
+[21:29:30]:Starting session
+[21:29:30]:Press any key to connect...
+[21:29:30]:Attempting to connect...
+[21:29:32]:Connection established!
+[21:29:32]:Grabbing initial sensor readings...
+[21:29:32]:Ready!
+[21:29:32]:Sent STAY_ALIVE (0x0D) message
+[21:29:38]:Starting session
+[21:29:38]:Press any key to connect...
+[21:29:39]:Attempting to connect...
+[21:29:40]:Connection established!
+[21:29:40]:Grabbing initial sensor readings...
+[21:29:41]:Ready!
+[21:29:41]:Sent STAY_ALIVE (0x0D) message
+[21:29:42]:Starting remote control!
+[21:29:42]:Stopping all motors
+[21:29:46]:Requesting new sensor readings
+[21:29:46]:Requesting new sensor readings
+[21:29:47]:Requesting new sensor readings
+[21:29:47]:Requesting new sensor readings
+[21:29:48]:Requesting new sensor readings
+[21:29:48]:Requesting new sensor readings
+[21:29:48]:Requesting new sensor readings
+[21:29:49]:Requesting new sensor readings
+[21:29:49]:Requesting new sensor readings
+[21:29:50]:Requesting new sensor readings
+[21:29:50]:Requesting new sensor readings
+[21:29:51]:Requesting new sensor readings
+[21:29:58]:Requesting new sensor readings
+[21:30:00]:Requesting new sensor readings
+[21:30:38]:Starting session
+[21:30:38]:Press any key to connect...
+[21:30:38]:Attempting to connect...
+[21:30:44]:Connection established!
+[21:30:44]:Grabbing initial sensor readings...
+[21:30:44]:Ready!
+[21:30:44]:Sent STAY_ALIVE (0x0D) message
+[21:30:51]:Starting right side autonomous control
+[21:31:30]:Starting session
+[21:31:30]:Press any key to connect...
+[21:31:31]:Attempting to connect...
+[21:31:36]:Connection established!
+[21:31:36]:Grabbing initial sensor readings...
+[21:31:36]:Ready!
+[21:31:36]:Sent STAY_ALIVE (0x0D) message
+[21:31:37]:Starting remote control!
+[21:31:38]:Stopping all motors
+[21:31:39]:Exiting remote control.
+[21:31:45]:Starting right side autonomous control
+[21:31:51]:Starting session
+[21:31:51]:Press any key to connect...
+[21:31:51]:Attempting to connect...
+[21:31:57]:Connection established!
+[21:31:57]:Grabbing initial sensor readings...
+[21:31:57]:Ready!
+[21:31:57]:Sent STAY_ALIVE (0x0D) message
+[21:31:58]:Starting remote control!
+[21:31:58]:Stopping all motors
+[21:32:57]:Sent STAY_ALIVE (0x0D) message
+[21:33:23]:Starting session
+[21:33:23]:Press any key to connect...
+[21:33:23]:Attempting to connect...
+[21:33:25]:Connection established!
+[21:33:25]:Grabbing initial sensor readings...
+[21:33:25]:Ready!
+[21:33:25]:Sent STAY_ALIVE (0x0D) message
+[21:33:27]:Starting session
+[21:33:27]:Press any key to connect...
+[21:33:28]:Attempting to connect...
+[21:33:29]:Connection established!
+[21:33:29]:Grabbing initial sensor readings...
+[21:33:30]:Ready!
+[21:33:30]:Sent STAY_ALIVE (0x0D) message
+[21:33:31]:Starting right side autonomous control
+[21:33:36]:Starting session
+[21:33:36]:Press any key to connect...
+[21:33:36]:Attempting to connect...
+[21:33:42]:Connection established!
+[21:33:42]:Grabbing initial sensor readings...
+[21:33:42]:Ready!
+[21:33:42]:Sent STAY_ALIVE (0x0D) message
+[21:33:43]:Starting remote control!
+[21:33:43]:Stopping all motors
+[21:33:51]:Starting session
+[21:33:51]:Press any key to connect...
+[21:33:52]:Attempting to connect...
+[21:33:57]:Connection established!
+[21:33:57]:Grabbing initial sensor readings...
+[21:33:57]:Ready!
+[21:33:57]:Sent STAY_ALIVE (0x0D) message
+[21:33:58]:Starting right side autonomous control
+[21:34:13]:Starting session
+[21:34:13]:Press any key to connect...
+[21:34:13]:Attempting to connect...
+[21:34:14]:Connection established!
+[21:34:14]:Grabbing initial sensor readings...
+[21:34:14]:Ready!
+[21:34:14]:Sent STAY_ALIVE (0x0D) message
+[21:34:18]:Starting remote control!
+[21:34:19]:Stopping all motors
+[21:35:14]:Sent STAY_ALIVE (0x0D) message
+[21:35:20]:Starting session
+[21:35:20]:Press any key to connect...
+[21:35:20]:Attempting to connect...
+[21:35:25]:Connection established!
+[21:35:25]:Grabbing initial sensor readings...
+[21:35:25]:Ready!
+[21:35:25]:Sent STAY_ALIVE (0x0D) message
+[21:35:34]:Starting right side autonomous control
+[21:36:26]:Sent STAY_ALIVE (0x0D) message
+[21:36:37]:Starting session
+[21:36:37]:Press any key to connect...
+[21:36:37]:Attempting to connect...
+[21:36:38]:Connection established!
+[21:36:38]:Grabbing initial sensor readings...
+[21:36:38]:Ready!
+[21:36:38]:Sent STAY_ALIVE (0x0D) message
+[21:36:43]:Starting session
+[21:36:43]:Press any key to connect...
+[21:36:43]:Attempting to connect...
+[21:36:45]:Connection established!
+[21:36:45]:Grabbing initial sensor readings...
+[21:36:45]:Ready!
+[21:36:45]:Sent STAY_ALIVE (0x0D) message
+[21:36:46]:Starting remote control!
+[21:36:46]:Stopping all motors
+[21:36:47]:Exiting remote control.
+[21:36:59]:Starting right side autonomous control
+[21:37:29]:Starting right side autonomous control
+[21:37:45]:Sent STAY_ALIVE (0x0D) message
+[21:38:51]:Starting session
+[21:38:51]:Press any key to connect...
+[21:38:51]:Attempting to connect...
+[21:38:56]:Connection established!
+[21:38:56]:Grabbing initial sensor readings...
+[21:38:57]:Ready!
+[21:38:57]:Sent STAY_ALIVE (0x0D) message
+[21:39:01]:Starting right side autonomous control
+[21:39:20]:Dispensing
+[21:39:39]:Starting session
+[21:39:39]:Press any key to connect...
+[21:39:39]:Attempting to connect...
+[21:39:41]:Connection established!
+[21:39:41]:Grabbing initial sensor readings...
+[21:39:41]:Ready!
+[21:39:41]:Sent STAY_ALIVE (0x0D) message
+[21:39:56]:Starting right side autonomous control
+[21:40:30]:Dispensing
+[21:40:32]:Starting remote control!
+[21:40:43]:Starting session
+[21:40:43]:Press any key to connect...
+[21:40:44]:Attempting to connect...
+[21:40:49]:Connection established!
+[21:40:49]:Grabbing initial sensor readings...
+[21:40:49]:Ready!
+[21:40:49]:Sent STAY_ALIVE (0x0D) message
+[21:40:57]:Starting right side autonomous control
+[21:41:32]:Dispensing
+[21:41:33]:Starting remote control!
+[21:41:49]:Sent STAY_ALIVE (0x0D) message
+[21:42:00]:Increasing foward left speed
+[21:42:00]:Increasing foward left speed
+[21:42:00]:Increasing foward left speed
+[21:42:01]:Increasing foward left speed
+[21:42:01]:Increasing foward left speed
+[21:42:01]:Increasing foward left speed
+[21:42:02]:Stopping all motors
+[21:42:03]:Increasing foward right speed
+[21:42:03]:Increasing foward right speed
+[21:42:03]:Increasing foward right speed
+[21:42:03]:Increasing foward right speed
+[21:42:03]:Increasing foward right speed
+[21:42:03]:Increasing foward right speed
+[21:42:04]:Increasing foward right speed
+[21:42:04]:Increasing foward right speed
+[21:42:04]:Stopping all motors
+[21:42:04]:Increasing foward left speed
+[21:42:05]:Increasing foward left speed
+[21:42:05]:Increasing foward left speed
+[21:42:05]:Increasing foward left speed
+[21:42:05]:Increasing foward left speed
+[21:42:05]:Increasing foward left speed
+[21:42:05]:Increasing foward left speed
+[21:42:06]:Stopping all motors
+[21:42:06]:Increasing foward right speed
+[21:42:06]:Increasing foward right speed
+[21:42:07]:Increasing foward right speed
+[21:42:08]:Stopping all motors
+[21:42:08]:Increasing foward left speed
+[21:42:08]:Increasing foward left speed
+[21:42:08]:Increasing foward left speed
+[21:42:09]:Increasing foward left speed
+[21:42:09]:Stopping all motors
+[21:42:09]:Increasing foward right speed
+[21:42:09]:Increasing foward right speed
+[21:42:10]:Increasing foward right speed
+[21:42:10]:Increasing foward right speed
+[21:42:10]:Increasing foward right speed
+[21:42:10]:Increasing foward right speed
+[21:42:10]:Increasing foward left speed
+[21:42:11]:Stopping all motors
+[21:42:11]:Increasing foward left speed
+[21:42:11]:Increasing foward left speed
+[21:42:11]:Increasing foward left speed
+[21:42:11]:Increasing foward left speed
+[21:42:12]:Increasing foward left speed
+[21:42:12]:Increasing foward left speed
+[21:42:12]:Increasing foward left speed
+[21:42:12]:Increasing foward left speed
+[21:42:12]:Stopping all motors
+[21:42:13]:Increasing foward right speed
+[21:42:13]:Increasing foward right speed
+[21:42:13]:Increasing foward right speed
+[21:42:13]:Increasing foward right speed
+[21:42:14]:Increasing foward right speed
+[21:42:14]:Stopping all motors
+[21:42:14]:Increasing foward left speed
+[21:42:14]:Increasing foward left speed
+[21:42:15]:Increasing foward left speed
+[21:42:15]:Increasing foward left speed
+[21:42:15]:Increasing foward left speed
+[21:42:15]:Increasing foward left speed
+[21:42:15]:Increasing foward left speed
+[21:42:16]:Stopping all motors
+[21:42:16]:Increasing foward right speed
+[21:42:16]:Increasing foward right speed
+[21:42:16]:Increasing foward right speed
+[21:42:16]:Increasing foward right speed
+[21:42:16]:Increasing foward right speed
+[21:42:17]:Increasing foward right speed
+[21:42:17]:Stopping all motors
+[21:42:17]:Increasing foward left speed
+[21:42:17]:Increasing foward left speed
+[21:42:18]:Increasing foward left speed
+[21:42:18]:Increasing foward left speed
+[21:42:18]:Increasing foward left speed
+[21:42:18]:Increasing foward left speed
+[21:42:19]:Stopping all motors
+[21:42:49]:Sent STAY_ALIVE (0x0D) message
+[21:43:49]:Sent STAY_ALIVE (0x0D) message
+[21:44:49]:Sent STAY_ALIVE (0x0D) message
+[21:45:40]:Starting session
+[21:45:40]:Press any key to connect...
+[21:45:41]:Attempting to connect...
+[21:45:46]:Connection established!
+[21:45:46]:Grabbing initial sensor readings...
+[21:45:46]:Ready!
+[21:45:46]:Sent STAY_ALIVE (0x0D) message
+[21:45:47]:Starting right side autonomous control
+[21:45:53]:Starting session
+[21:45:53]:Press any key to connect...
+[21:45:53]:Attempting to connect...
+[21:45:54]:Connection established!
+[21:45:54]:Grabbing initial sensor readings...
+[21:45:55]:Ready!
+[21:45:55]:Sent STAY_ALIVE (0x0D) message
+[21:45:56]:Starting session
+[21:45:56]:Press any key to connect...
+[21:45:57]:Attempting to connect...
+[21:45:58]:Connection established!
+[21:45:58]:Grabbing initial sensor readings...
+[21:45:58]:Ready!
+[21:45:58]:Sent STAY_ALIVE (0x0D) message
+[21:46:00]:Starting remote control!
+[21:46:00]:Stopping all motors
+[21:46:01]:Exiting remote control.
+[21:46:09]:Starting right side autonomous control
+[21:46:14]:Starting session
+[21:46:14]:Press any key to connect...
+[21:46:19]:Attempting to connect...
+[21:46:23]:Connection established!
+[21:46:23]:Grabbing initial sensor readings...
+[21:46:23]:Ready!
+[21:46:23]:Sent STAY_ALIVE (0x0D) message
+[21:46:23]:Starting remote control!
+[21:46:25]:Stopping all motors
+[21:47:23]:Sent STAY_ALIVE (0x0D) message
+[21:47:37]:Exiting remote control.
+[21:47:38]:Starting right side autonomous control
+[21:48:15]:Dispensing
+[21:48:23]:Sent STAY_ALIVE (0x0D) message
+[21:48:39]:Starting remote control!
+[21:48:40]:Exiting remote control.
+[21:49:23]:Sent STAY_ALIVE (0x0D) message
+[21:49:48]:Starting session
+[21:49:48]:Press any key to connect...
+[21:49:48]:Attempting to connect...
+[21:49:53]:Connection established!
+[21:49:53]:Grabbing initial sensor readings...
+[21:49:53]:Ready!
+[21:49:53]:Sent STAY_ALIVE (0x0D) message
+[21:49:57]:Starting session
+[21:49:57]:Press any key to connect...
+[21:49:57]:Attempting to connect...
+[21:49:58]:Connection established!
+[21:49:58]:Grabbing initial sensor readings...
+[21:49:59]:Ready!
+[21:49:59]:Sent STAY_ALIVE (0x0D) message
+[21:50:01]:Starting right side autonomous control
+[21:50:31]:Dispensing
+[21:50:59]:Sent STAY_ALIVE (0x0D) message
+[21:51:08]:Starting right side autonomous control
+[21:51:56]:Dispensing
+[21:51:59]:Sent STAY_ALIVE (0x0D) message
+[21:52:39]:Starting right side autonomous control
+[21:52:59]:Sent STAY_ALIVE (0x0D) message
+[21:53:26]:Starting session
+[21:53:26]:Press any key to connect...
+[21:53:33]:Attempting to connect...
+[21:53:38]:Connection established!
+[21:53:38]:Grabbing initial sensor readings...
+[21:53:39]:Ready!
+[21:53:39]:Sent STAY_ALIVE (0x0D) message
+[21:53:39]:Starting remote control!
+[21:53:40]:Stopping all motors
+[21:53:40]:Exiting remote control.
+[21:53:48]:Starting right side autonomous control
+[21:54:33]:Starting session
+[21:54:33]:Press any key to connect...
+[21:54:33]:Attempting to connect...
+[21:54:39]:Connection established!
+[21:54:39]:Grabbing initial sensor readings...
+[21:54:39]:Ready!
+[21:54:39]:Sent STAY_ALIVE (0x0D) message
+[21:54:40]:Starting session
+[21:54:40]:Press any key to connect...
+[21:54:41]:Attempting to connect...
+[21:54:42]:Connection established!
+[21:54:42]:Grabbing initial sensor readings...
+[21:54:42]:Ready!
+[21:54:42]:Sent STAY_ALIVE (0x0D) message
+[21:54:44]:Starting session
+[21:54:44]:Press any key to connect...
+[21:54:44]:Attempting to connect...
+[21:54:46]:Connection established!
+[21:54:46]:Grabbing initial sensor readings...
+[21:54:46]:Ready!
+[21:54:46]:Sent STAY_ALIVE (0x0D) message
+[21:54:47]:Starting remote control!
+[21:54:47]:Stopping all motors
+[21:54:48]:Exiting remote control.
+[21:54:53]:Starting right side autonomous control
+[21:55:38]:Dispensing
+[21:55:46]:Sent STAY_ALIVE (0x0D) message
+[21:55:47]:Starting remote control!
+[21:55:50]:Requesting new sensor readings
+[21:55:51]:Requesting new sensor readings
+[21:55:52]:Requesting new sensor readings
+[21:55:53]:Requesting new sensor readings
+[21:55:54]:Requesting new sensor readings
+[21:55:55]:Requesting new sensor readings
+[21:55:58]:Requesting new sensor readings
+[21:55:58]:Requesting new sensor readings
+[21:55:58]:Requesting new sensor readings
+[21:55:58]:Requesting new sensor readings
+[21:55:59]:Requesting new sensor readings
+[21:55:59]:Requesting new sensor readings
+[21:55:59]:Requesting new sensor readings
+[21:56:00]:Requesting new sensor readings
+[21:56:46]:Sent STAY_ALIVE (0x0D) message
+[21:57:25]:Exiting remote control.
+[21:57:26]:Starting right side autonomous control
+[21:57:46]:Sent STAY_ALIVE (0x0D) message
+[21:58:00]:Starting session
+[21:58:00]:Press any key to connect...
+[21:58:05]:Attempting to connect...
+[21:58:10]:Connection established!
+[21:58:10]:Grabbing initial sensor readings...
+[21:58:10]:Ready!
+[21:58:10]:Sent STAY_ALIVE (0x0D) message
+[21:58:17]:Starting remote control!
+[21:58:18]:Stopping all motors
+[21:58:20]:Exiting remote control.
+[21:58:42]:Starting right side autonomous control
+[21:59:10]:Sent STAY_ALIVE (0x0D) message
+[21:59:19]:Dispensing
+[22:00:10]:Sent STAY_ALIVE (0x0D) message
+[22:00:29]:Starting right side autonomous control
+[22:01:10]:Sent STAY_ALIVE (0x0D) message
+[22:01:14]:Dispensing
+[22:02:10]:Sent STAY_ALIVE (0x0D) message
+[22:03:10]:Sent STAY_ALIVE (0x0D) message
+[22:04:10]:Sent STAY_ALIVE (0x0D) message
+[22:05:10]:Sent STAY_ALIVE (0x0D) message
+[22:05:30]:Starting right side autonomous control
+[22:06:04]:Dispensing
+[22:06:10]:Sent STAY_ALIVE (0x0D) message
+[22:07:10]:Sent STAY_ALIVE (0x0D) message
+[22:08:10]:Sent STAY_ALIVE (0x0D) message
+[22:08:56]:Starting session
+[22:08:56]:Press any key to connect...
+[22:08:57]:Attempting to connect...
+[22:08:58]:Connection established!
+[22:08:58]:Grabbing initial sensor readings...
+[22:08:58]:Ready!
+[22:08:58]:Sent STAY_ALIVE (0x0D) message
+[22:09:00]:Starting right side autonomous control
+[22:09:58]:Dispensing
+[22:09:58]:Sent STAY_ALIVE (0x0D) message
+[22:10:58]:Sent STAY_ALIVE (0x0D) message
+[22:11:23]:Starting session
+[22:11:23]:Press any key to connect...
+[22:11:24]:Attempting to connect...
+[22:11:28]:Connection established!
+[22:11:28]:Grabbing initial sensor readings...
+[22:11:29]:Ready!
+[22:11:29]:Sent STAY_ALIVE (0x0D) message
+[22:11:31]:Starting right side autonomous control
+[22:11:48]:Starting session
+[22:11:48]:Press any key to connect...
+[22:12:04]:Starting session
+[22:12:04]:Press any key to connect...
+[22:12:04]:Attempting to connect...
+[22:12:09]:Connection established!
+[22:12:09]:Grabbing initial sensor readings...
+[22:12:10]:Ready!
+[22:12:10]:Sent STAY_ALIVE (0x0D) message
+[22:12:11]:Starting remote control!
+[22:12:11]:Stopping all motors
+[22:12:15]:Exiting remote control.
+[22:12:26]:Starting right side autonomous control
+[22:12:52]:Starting session
+[22:12:52]:Press any key to connect...
+[22:12:53]:Attempting to connect...
+[22:12:58]:Connection established!
+[22:12:58]:Grabbing initial sensor readings...
+[22:12:58]:Ready!
+[22:12:58]:Sent STAY_ALIVE (0x0D) message
+[22:12:59]:Starting remote control!
+[22:12:59]:Stopping all motors
+[22:13:00]:Exiting remote control.
+[22:13:12]:Starting right side autonomous control
+[22:13:41]:Starting session
+[22:13:41]:Press any key to connect...
+[22:13:41]:Attempting to connect...
+[22:13:47]:Connection established!
+[22:13:47]:Grabbing initial sensor readings...
+[22:13:47]:Ready!
+[22:13:47]:Sent STAY_ALIVE (0x0D) message
+[22:13:50]:Starting remote control!
+[22:13:50]:Stopping all motors
+[22:14:07]:Starting session
+[22:14:07]:Press any key to connect...
+[22:14:07]:Attempting to connect...
+[22:14:12]:Connection established!
+[22:14:12]:Grabbing initial sensor readings...
+[22:14:12]:Ready!
+[22:14:12]:Sent STAY_ALIVE (0x0D) message
+[22:14:14]:Starting right side autonomous control
+[22:15:13]:Sent STAY_ALIVE (0x0D) message
+[22:15:31]:Starting session
+[22:15:31]:Press any key to connect...
+[22:15:31]:Attempting to connect...
+[22:15:33]:Connection established!
+[22:15:33]:Grabbing initial sensor readings...
+[22:15:33]:Ready!
+[22:15:33]:Sent STAY_ALIVE (0x0D) message
+[22:15:35]:Starting session
+[22:15:35]:Press any key to connect...
+[22:15:36]:Attempting to connect...
+[22:15:37]:Connection established!
+[22:15:37]:Grabbing initial sensor readings...
+[22:15:37]:Ready!
+[22:15:37]:Sent STAY_ALIVE (0x0D) message
+[22:15:38]:Starting remote control!
+[22:15:39]:Stopping all motors
+[22:16:20]:Starting session
+[22:16:20]:Press any key to connect...
+[22:16:20]:Attempting to connect...
+[22:16:25]:Connection established!
+[22:16:25]:Grabbing initial sensor readings...
+[22:16:26]:Ready!
+[22:16:26]:Sent STAY_ALIVE (0x0D) message
+[22:16:27]:Starting session
+[22:16:27]:Press any key to connect...
+[22:16:28]:Attempting to connect...
+[22:16:29]:Connection established!
+[22:16:29]:Grabbing initial sensor readings...
+[22:16:29]:Ready!
+[22:16:29]:Sent STAY_ALIVE (0x0D) message
+[22:16:31]:Starting right side autonomous control
+[22:16:31]:Switching sides
+[22:16:34]:Switching sides
+[22:16:36]:Switching sides
+[22:16:39]:Switching sides
+[22:16:42]:Switching sides
+[22:16:44]:Switching sides
+[22:16:47]:Switching sides
+[22:17:05]:Switching sides
+[22:17:07]:Switching sides
+[22:17:09]:Switching sides
+[22:17:11]:Switching sides
+[22:17:13]:Switching sides
+[22:17:21]:Switching sides
+[22:17:24]:Switching sides
+[22:17:26]:Switching sides
+[22:17:29]:Switching sides
+[22:17:29]:Sent STAY_ALIVE (0x0D) message
+[22:17:31]:Switching sides
+[22:17:33]:Switching sides
+[22:17:41]:Dispensing
+[22:18:29]:Sent STAY_ALIVE (0x0D) message
+[22:18:53]:Starting session
+[22:18:53]:Press any key to connect...
+[22:18:53]:Attempting to connect...
+[22:18:58]:Connection established!
+[22:18:58]:Grabbing initial sensor readings...
+[22:18:58]:Ready!
+[22:18:58]:Sent STAY_ALIVE (0x0D) message
+[22:19:01]:Starting right side autonomous control
+[22:19:02]:Switching to WHITE
+[22:19:04]:Switching to BLACK!
+[22:19:05]:Switching to WHITE
+[22:19:07]:Switching to BLACK!
+[22:19:08]:Switching to WHITE
+[22:19:10]:Switching to BLACK!
+[22:19:12]:Switching to WHITE
+[22:19:13]:Switching to BLACK!
+[22:19:15]:Switching to WHITE
+[22:19:24]:Switching to BLACK!
+[22:19:26]:Switching to WHITE
+[22:19:27]:Switching to BLACK!
+[22:19:29]:Switching to WHITE
+[22:19:30]:Switching to BLACK!
+[22:19:31]:Switching to WHITE
+[22:19:37]:Switching to BLACK!
+[22:19:39]:Switching to WHITE
+[22:19:40]:Switching to BLACK!
+[22:19:42]:Switching to WHITE
+[22:19:43]:Switching to BLACK!
+[22:19:45]:Switching to WHITE
+[22:19:46]:Switching to BLACK!
+[22:19:48]:Switching to WHITE
+[22:19:51]:Switching to BLACK!
+[22:19:53]:Switching to WHITE
+[22:19:54]:Dispensing
+[22:19:54]:Switching to BLACK!
+[22:19:58]:Sent STAY_ALIVE (0x0D) message

@@ -9,5 +9,6 @@
 #include "../C_NXT/nxt.h"
 
 void r_remote(SCR*,NXT*);
+void r_left(SCR*,NXT*);
 
 #endif /* R_LOGIC_H */

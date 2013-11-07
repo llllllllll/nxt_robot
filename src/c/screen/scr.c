@@ -24,7 +24,7 @@ SCR *alloc_SCR(NXT *nxt){
     init_pair(2,COLOR_RED,-1);
     init_pair(3,COLOR_YELLOW,-1);
     init_pair(4,COLOR_MAGENTA,-1);
-    raw();
+    cbreak();
     keypad(stdscr,TRUE);
     curs_set(0);
     noecho();
@@ -65,7 +65,8 @@ SCR *alloc_SCR(NXT *nxt){
     scr->s1 = NXT_get_sensorstate(nxt,SENSOR_2);
     scr->s2 = NXT_get_sensorstate(nxt,SENSOR_3);
     scr->s3 = NXT_get_sensorstate(nxt,SENSOR_4);
-    NXT_set_input_mode(nxt,0,LIGHT_ACTIVE,BOOLEAN_MODE,0,NULL);
+    //NXT_set_input_mode(nxt,SENSOR_1,LIGHT_ACTIVE,BOOLEAN_MODE,0,NULL);
+    //NXT_set_input_mode(nxt,SENSOR_4,REFLECTION,RAW_MODE,0,NULL);
     SCR_writelnattr(scr,"Ready!",GREEN_PAIR | A_BOLD);
     pthread_create(&scr->stay_alive_thread,NULL,stay_alive_tf,scr);
     SCR_refresh(scr);
@@ -116,22 +117,22 @@ void SCR_draw_stats(SCR *scr){
 
     if (scr->s0->calibrated_value > 500){ wattron(scr->statw,GREEN_PAIR); }
     else { wattron(scr->statw,RED_PAIR); }
-    mvwprintw(scr->statw,8,1,"%d",scr->s0->calibrated_value);
+    mvwprintw(scr->statw,8,1,"%04d",scr->s0->normalized_value);
     if (scr->s0->calibrated_value > 500){ wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
     if (scr->s1->calibrated_value > 500){ wattron(scr->statw,GREEN_PAIR); }
     else { wattron(scr->statw,RED_PAIR); }
-    mvwprintw(scr->statw,9,1,"%d",scr->s1->calibrated_value);
+    mvwprintw(scr->statw,9,1,"%04d",scr->s1->calibrated_value);
     if (scr->s1->calibrated_value > 500){ wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
     if (scr->s2->calibrated_value > 500){ wattron(scr->statw,GREEN_PAIR); }
     else { wattron(scr->statw,RED_PAIR); }
-    mvwprintw(scr->statw,10,1,"%d",scr->s2->calibrated_value);
+    mvwprintw(scr->statw,10,1,"%04d",scr->s2->scaled_value);
     if (scr->s2->calibrated_value > 500){ wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
     if (scr->s3->calibrated_value > 500){ wattron(scr->statw,GREEN_PAIR); }
     else { wattron(scr->statw,RED_PAIR); }
-    mvwprintw(scr->statw,11,1,"%d",scr->s3->calibrated_value);
+    mvwprintw(scr->statw,11,1,"%04d",scr->s3->calibrated_value);
     if (scr->s3->calibrated_value > 500) { wattroff(scr->statw,GREEN_PAIR); }
     else { wattroff(scr->statw,RED_PAIR); }
     SCR_refresh(scr);
@@ -289,7 +290,7 @@ void SCR_handle_opts(SCR *scr){
 	case 1:
 	    SCR_writelnattr(scr,"Starting right side autonomous control",
 			    GREEN_PAIR);
-	    //r_left(scr);
+	    r_left(scr,scr->nxt);
 	    //return;
 	    break;
 	case 2:
