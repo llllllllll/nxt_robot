@@ -5296,3 +5296,5393 @@
 [22:19:54]:Dispensing
 [22:19:54]:Switching to BLACK!
 [22:19:58]:Sent STAY_ALIVE (0x0D) message
+[18:27:29]:Starting session
+[18:27:29]:Press any key to connect...
+[18:27:30]:Attempting to connect...
+[18:27:35]:Connection established!
+[18:27:35]:Grabbing initial sensor readings...
+[18:27:36]:Ready!
+[18:27:36]:Sent STAY_ALIVE (0x0D) message
+[18:27:48]:Starting remote control!
+[18:27:50]:Increasing foward speed
+[18:27:50]:Increasing foward speed
+[18:27:50]:Increasing foward speed
+[18:27:51]:Increasing foward speed
+[18:27:51]:Increasing foward speed
+[18:27:51]:Increasing foward speed
+[18:27:51]:Increasing foward speed
+[18:27:51]:Increasing reverse speed
+[18:27:51]:Increasing reverse speed
+[18:27:52]:Stopping all motors
+[18:27:52]:Decreasing foward left speed
+[18:27:52]:Decreasing foward left speed
+[18:27:52]:Decreasing foward left speed
+[18:27:52]:Decreasing foward left speed
+[18:27:53]:Stopping all motors
+[18:27:55]:Exiting remote control.
+[18:28:16]:Starting right side autonomous control
+[18:28:16]:Switching to WHITE
+[18:28:16]:Dispensing
+[18:28:16]:Switching to BLACK!
+[18:28:29]:Starting session
+[18:28:29]:Press any key to connect...
+[18:28:29]:Attempting to connect...
+[18:28:31]:Connection established!
+[18:28:31]:Grabbing initial sensor readings...
+[18:28:31]:Ready!
+[18:28:31]:Sent STAY_ALIVE (0x0D) message
+[18:28:31]:Starting remote control!
+[18:28:42]:Exiting remote control.
+[18:28:43]:Starting right side autonomous control
+[18:28:43]:Switching to WHITE
+[18:28:44]:Dispensing
+[18:28:44]:Switching to BLACK!
+[18:29:26]:Starting session
+[18:29:26]:Press any key to connect...
+[18:29:26]:Attempting to connect...
+[18:29:31]:Connection established!
+[18:29:31]:Grabbing initial sensor readings...
+[18:29:31]:Ready!
+[18:29:31]:Sent STAY_ALIVE (0x0D) message
+[18:29:32]:Starting remote control!
+[18:29:33]:Requesting new sensor readings
+[18:29:34]:Requesting new sensor readings
+[18:29:34]:Requesting new sensor readings
+[18:29:35]:Requesting new sensor readings
+[18:29:36]:Requesting new sensor readings
+[18:29:37]:Requesting new sensor readings
+[18:29:37]:Requesting new sensor readings
+[18:29:38]:Requesting new sensor readings
+[18:29:38]:Requesting new sensor readings
+[18:29:39]:Requesting new sensor readings
+[18:29:39]:Requesting new sensor readings
+[18:29:40]:Requesting new sensor readings
+[18:29:40]:Requesting new sensor readings
+[18:29:41]:Requesting new sensor readings
+[18:30:03]:Starting session
+[18:30:03]:Press any key to connect...
+[18:30:03]:Attempting to connect...
+[18:30:08]:Connection established!
+[18:30:08]:Grabbing initial sensor readings...
+[18:30:08]:Ready!
+[18:30:08]:Sent STAY_ALIVE (0x0D) message
+[18:30:17]:Starting right side autonomous control
+[18:30:17]:Switching to WHITE
+[18:30:21]:Starting session
+[18:30:21]:Press any key to connect...
+[18:30:21]:Attempting to connect...
+[18:30:27]:Connection established!
+[18:30:27]:Grabbing initial sensor readings...
+[18:30:27]:Ready!
+[18:30:27]:Sent STAY_ALIVE (0x0D) message
+[18:30:28]:Starting remote control!
+[18:30:29]:Stopping all motors
+[18:30:59]:Starting session
+[18:30:59]:Press any key to connect...
+[18:31:00]:Attempting to connect...
+[18:31:05]:Connection established!
+[18:31:05]:Grabbing initial sensor readings...
+[18:31:06]:Ready!
+[18:31:06]:Sent STAY_ALIVE (0x0D) message
+[18:31:12]:Starting remote control!
+[18:31:13]:Requesting new sensor readings
+[18:31:14]:Requesting new sensor readings
+[18:31:14]:Requesting new sensor readings
+[18:31:15]:Requesting new sensor readings
+[18:31:15]:Requesting new sensor readings
+[18:31:15]:Requesting new sensor readings
+[18:31:15]:Requesting new sensor readings
+[18:31:16]:Requesting new sensor readings
+[18:31:16]:Requesting new sensor readings
+[18:31:16]:Requesting new sensor readings
+[18:31:17]:Requesting new sensor readings
+[18:31:17]:Requesting new sensor readings
+[18:31:17]:Requesting new sensor readings
+[18:31:17]:Requesting new sensor readings
+[18:31:18]:Requesting new sensor readings
+[18:31:18]:Requesting new sensor readings
+[18:31:18]:Requesting new sensor readings
+[18:31:19]:Requesting new sensor readings
+[18:31:19]:Requesting new sensor readings
+[18:31:24]:Requesting new sensor readings
+[18:31:25]:Requesting new sensor readings
+[18:31:25]:Requesting new sensor readings
+[18:31:26]:Requesting new sensor readings
+[18:31:28]:Exiting remote control.
+[18:31:29]:Starting right side autonomous control
+[18:31:29]:Switching to WHITE
+[18:31:31]:Switching to BLACK!
+[18:31:32]:Switching to WHITE
+[18:31:33]:Switching to BLACK!
+[18:31:35]:Switching to WHITE
+[18:31:36]:Switching to BLACK!
+[18:31:37]:Switching to WHITE
+[18:31:38]:Switching to BLACK!
+[18:31:40]:Switching to WHITE
+[18:31:43]:Switching to BLACK!
+[18:31:45]:Switching to WHITE
+[18:31:47]:Switching to BLACK!
+[18:31:49]:Switching to WHITE
+[18:31:50]:Switching to BLACK!
+[18:31:52]:Switching to WHITE
+[18:32:01]:Switching to BLACK!
+[18:32:03]:Dispensing
+[18:32:03]:Switching to WHITE
+[18:32:03]:Switching to BLACK!
+[18:32:06]:Sent STAY_ALIVE (0x0D) message
+[18:32:23]:Starting right side autonomous control
+[18:32:24]:Switching to WHITE
+[18:32:25]:Switching to BLACK!
+[18:32:26]:Switching to WHITE
+[18:32:27]:Switching to BLACK!
+[18:32:28]:Switching to WHITE
+[18:32:30]:Switching to BLACK!
+[18:32:31]:Switching to WHITE
+[18:32:33]:Switching to BLACK!
+[18:32:34]:Switching to WHITE
+[18:32:40]:Switching to BLACK!
+[18:32:42]:Switching to WHITE
+[18:32:43]:Switching to BLACK!
+[18:32:44]:Switching to WHITE
+[18:32:45]:Switching to BLACK!
+[18:32:49]:Switching to WHITE
+[18:32:50]:Switching to BLACK!
+[18:32:54]:Switching to WHITE
+[18:32:55]:Switching to BLACK!
+[18:32:55]:Switching to WHITE
+[18:32:59]:Switching to BLACK!
+[18:33:00]:Switching to WHITE
+[18:33:00]:Switching to BLACK!
+[18:33:05]:Switching to WHITE
+[18:33:05]:Switching to BLACK!
+[18:33:06]:Sent STAY_ALIVE (0x0D) message
+[18:33:07]:Switching to WHITE
+[18:33:07]:Switching to BLACK!
+[18:33:08]:Switching to WHITE
+[18:33:08]:Switching to BLACK!
+[18:33:08]:Switching to WHITE
+[18:33:09]:Switching to BLACK!
+[18:33:09]:Switching to WHITE
+[18:33:09]:Switching to BLACK!
+[18:33:10]:Dispensing
+[18:33:10]:Switching to WHITE
+[18:33:10]:Switching to BLACK!
+[18:34:06]:Sent STAY_ALIVE (0x0D) message
+[18:35:06]:Sent STAY_ALIVE (0x0D) message
+[18:36:06]:Sent STAY_ALIVE (0x0D) message
+[18:37:06]:Sent STAY_ALIVE (0x0D) message
+[18:38:06]:Sent STAY_ALIVE (0x0D) message
+[18:59:27]:Starting session
+[18:59:27]:Press any key to connect...
+[18:59:28]:Attempting to connect...
+[18:59:31]:Connection established!
+[18:59:31]:Grabbing initial sensor readings...
+[18:59:31]:Ready!
+[18:59:31]:Sent STAY_ALIVE (0x0D) message
+[18:59:33]:Starting left side autonomous control
+[18:59:33]:Switching to WHITE
+[18:59:33]:Switching to BLACK!
+[18:59:34]:Switching to WHITE
+[18:59:36]:Switching to BLACK!
+[18:59:38]:Switching to WHITE
+[18:59:39]:Switching to BLACK!
+[18:59:40]:Switching to WHITE
+[18:59:42]:Switching to BLACK!
+[18:59:43]:Switching to WHITE
+[18:59:46]:Switching to BLACK!
+[18:59:48]:Switching to WHITE
+[18:59:50]:Switching to BLACK!
+[18:59:51]:Switching to WHITE
+[18:59:52]:Switching to BLACK!
+[18:59:53]:Switching to WHITE
+[18:59:54]:Switching to BLACK!
+[18:59:56]:Switching to WHITE
+[18:59:57]:Switching to BLACK!
+[18:59:59]:Switching to WHITE
+[19:00:07]:Switching to BLACK!
+[19:00:09]:Switching to WHITE
+[19:00:10]:Switching to BLACK!
+[19:00:12]:Switching to WHITE
+[19:00:14]:Switching to BLACK!
+[19:00:15]:Switching to WHITE
+[19:00:18]:Switching to BLACK!
+[19:00:20]:Switching to WHITE
+[19:00:21]:Switching to BLACK!
+[19:00:22]:Dispensing
+[19:00:22]:Switching to WHITE
+[19:00:22]:Switching to BLACK!
+[19:00:31]:Sent STAY_ALIVE (0x0D) message
+[19:01:31]:Sent STAY_ALIVE (0x0D) message
+[19:02:31]:Sent STAY_ALIVE (0x0D) message
+[19:03:31]:Sent STAY_ALIVE (0x0D) message
+[19:04:31]:Sent STAY_ALIVE (0x0D) message
+[19:05:31]:Sent STAY_ALIVE (0x0D) message
+[19:06:31]:Sent STAY_ALIVE (0x0D) message
+[19:07:31]:Sent STAY_ALIVE (0x0D) message
+[19:08:31]:Sent STAY_ALIVE (0x0D) message
+[19:09:31]:Sent STAY_ALIVE (0x0D) message
+[19:10:31]:Sent STAY_ALIVE (0x0D) message
+[19:11:31]:Sent STAY_ALIVE (0x0D) message
+[19:12:31]:Sent STAY_ALIVE (0x0D) message
+[19:13:31]:Sent STAY_ALIVE (0x0D) message
+[19:14:25]:Starting left side autonomous control
+[19:14:26]:Switching to WHITE
+[19:14:31]:Sent STAY_ALIVE (0x0D) message
+[19:14:35]:Switching to BLACK!
+[19:14:40]:Dispensing
+[19:14:40]:Switching to WHITE
+[19:14:40]:Switching to BLACK!
+[19:15:31]:Sent STAY_ALIVE (0x0D) message
+[19:16:31]:Sent STAY_ALIVE (0x0D) message
+[19:17:31]:Sent STAY_ALIVE (0x0D) message
+[19:18:31]:Sent STAY_ALIVE (0x0D) message
+[19:19:31]:Sent STAY_ALIVE (0x0D) message
+[19:19:50]:Starting left side autonomous control
+[19:19:50]:Switching to WHITE
+[19:19:52]:Switching to BLACK!
+[19:19:53]:Switching to WHITE
+[19:19:55]:Switching to BLACK!
+[19:20:00]:Switching to WHITE
+[19:20:01]:Switching to BLACK!
+[19:20:03]:Switching to WHITE
+[19:20:04]:Switching to BLACK!
+[19:20:04]:Switching to WHITE
+[19:20:05]:Switching to BLACK!
+[19:20:06]:Switching to WHITE
+[19:20:08]:Switching to BLACK!
+[19:20:13]:Switching to WHITE
+[19:20:14]:Switching to BLACK!
+[19:20:15]:Switching to WHITE
+[19:20:27]:Dispensing
+[19:20:27]:Switching to BLACK!
+[19:20:31]:Sent STAY_ALIVE (0x0D) message
+[19:21:14]:Starting left side autonomous control
+[19:21:14]:Switching to WHITE
+[19:21:14]:Switching to BLACK!
+[19:21:15]:Switching to WHITE
+[19:21:16]:Switching to BLACK!
+[19:21:17]:Switching to WHITE
+[19:21:19]:Switching to BLACK!
+[19:21:25]:Switching to WHITE
+[19:21:26]:Switching to BLACK!
+[19:21:27]:Switching to WHITE
+[19:21:28]:Switching to BLACK!
+[19:21:30]:Switching to WHITE
+[19:21:31]:Sent STAY_ALIVE (0x0D) message
+[19:21:37]:Switching to BLACK!
+[19:21:50]:Switching to WHITE
+[19:21:53]:Switching to BLACK!
+[19:21:55]:Switching to WHITE
+[19:21:57]:Switching to BLACK!
+[19:21:58]:Switching to WHITE
+[19:21:59]:Switching to BLACK!
+[19:22:00]:Switching to WHITE
+[19:22:02]:Switching to BLACK!
+[19:22:05]:Switching to WHITE
+[19:22:06]:Switching to BLACK!
+[19:22:07]:Switching to WHITE
+[19:22:08]:Switching to BLACK!
+[19:22:10]:Switching to WHITE
+[19:22:11]:Switching to BLACK!
+[19:22:13]:Switching to WHITE
+[19:22:14]:Switching to BLACK!
+[19:22:16]:Dispensing
+[19:22:16]:Switching to WHITE
+[19:22:16]:Switching to BLACK!
+[19:32:56]:Starting session
+[19:32:56]:Press any key to connect...
+[19:32:57]:Attempting to connect...
+[19:33:02]:Connection established!
+[19:33:02]:Grabbing initial sensor readings...
+[19:33:02]:Ready!
+[19:33:02]:Sent STAY_ALIVE (0x0D) message
+[19:33:12]:Starting left side autonomous control
+[19:33:12]:Switching to WHITE
+[19:33:12]:Switching to BLACK!
+[19:33:13]:Switching to WHITE
+[19:33:14]:Switching to BLACK!
+[19:33:15]:Switching to WHITE
+[19:33:16]:Switching to BLACK!
+[19:33:18]:Switching to WHITE
+[19:33:19]:Switching to BLACK!
+[19:33:21]:Switching to WHITE
+[19:33:23]:Switching to BLACK!
+[19:33:25]:Switching to WHITE
+[19:33:27]:Switching to BLACK!
+[19:33:27]:Switching to WHITE
+[19:33:29]:Switching to BLACK!
+[19:33:31]:Switching to WHITE
+[19:33:32]:Switching to BLACK!
+[19:33:34]:Switching to WHITE
+[19:33:36]:Switching to BLACK!
+[19:33:38]:Switching to WHITE
+[19:33:41]:Switching to BLACK!
+[19:33:42]:Switching to WHITE
+[19:33:43]:Switching to BLACK!
+[19:33:45]:Switching to WHITE
+[19:33:46]:Switching to BLACK!
+[19:33:48]:Switching to WHITE
+[19:33:50]:Switching to BLACK!
+[19:33:52]:Switching to WHITE
+[19:33:53]:Switching to BLACK!
+[19:33:55]:Switching to WHITE
+[19:33:56]:Dispensing
+[19:33:56]:Switching to BLACK!
+[19:34:02]:Sent STAY_ALIVE (0x0D) message
+[19:35:02]:Sent STAY_ALIVE (0x0D) message
+[19:36:02]:Sent STAY_ALIVE (0x0D) message
+[19:37:02]:Sent STAY_ALIVE (0x0D) message
+[19:38:02]:Sent STAY_ALIVE (0x0D) message
+[19:38:14]:Starting left side autonomous control
+[19:38:14]:Switching to WHITE
+[19:38:15]:Switching to BLACK!
+[19:38:15]:Switching to WHITE
+[19:38:17]:Switching to BLACK!
+[19:38:18]:Switching to WHITE
+[19:38:20]:Switching to BLACK!
+[19:38:22]:Switching to WHITE
+[19:38:24]:Switching to BLACK!
+[19:38:26]:Switching to WHITE
+[19:38:28]:Switching to BLACK!
+[19:38:30]:Switching to WHITE
+[19:38:32]:Switching to BLACK!
+[19:38:33]:Switching to WHITE
+[19:38:34]:Switching to BLACK!
+[19:38:36]:Switching to WHITE
+[19:38:37]:Switching to BLACK!
+[19:38:38]:Switching to WHITE
+[19:38:40]:Switching to BLACK!
+[19:38:42]:Switching to WHITE
+[19:38:44]:Switching to BLACK!
+[19:38:46]:Switching to WHITE
+[19:38:47]:Switching to BLACK!
+[19:38:49]:Switching to WHITE
+[19:38:50]:Switching to BLACK!
+[19:38:52]:Switching to WHITE
+[19:38:54]:Switching to BLACK!
+[19:38:56]:Switching to WHITE
+[19:38:58]:Switching to BLACK!
+[19:39:01]:Switching to WHITE
+[19:39:02]:Sent STAY_ALIVE (0x0D) message
+[19:39:14]:Dispensing
+[19:39:14]:Switching to BLACK!
+[19:39:33]:Starting left side autonomous control
+[19:39:33]:Switching to WHITE
+[19:39:46]:Dispensing
+[19:39:46]:Switching to BLACK!
+[19:40:02]:Sent STAY_ALIVE (0x0D) message
+[19:41:02]:Sent STAY_ALIVE (0x0D) message
+[19:42:02]:Sent STAY_ALIVE (0x0D) message
+[19:43:02]:Sent STAY_ALIVE (0x0D) message
+[19:43:15]:Starting session
+[19:43:15]:Press any key to connect...
+[19:43:15]:Attempting to connect...
+[19:43:20]:Connection established!
+[19:43:20]:Grabbing initial sensor readings...
+[19:43:20]:Ready!
+[19:43:20]:Sent STAY_ALIVE (0x0D) message
+[19:43:22]:Starting left side autonomous control
+[19:43:23]:Switching to WHITE
+[19:43:25]:Switching to BLACK!
+[19:43:27]:Switching to WHITE
+[19:43:29]:Switching to BLACK!
+[19:43:31]:Switching to WHITE
+[19:43:32]:Switching to BLACK!
+[19:43:33]:Switching to WHITE
+[19:43:34]:Switching to BLACK!
+[19:43:36]:Switching to WHITE
+[19:43:36]:Switching to BLACK!
+[19:43:37]:Switching to WHITE
+[19:43:37]:Switching to BLACK!
+[19:43:38]:Switching to WHITE
+[19:43:40]:Switching to BLACK!
+[19:43:42]:Switching to WHITE
+[19:43:43]:Switching to BLACK!
+[19:43:44]:Switching to WHITE
+[19:43:45]:Switching to BLACK!
+[19:43:47]:Switching to WHITE
+[19:43:48]:Switching to BLACK!
+[19:43:49]:Switching to WHITE
+[19:43:51]:Switching to BLACK!
+[19:43:51]:Switching to WHITE
+[19:43:52]:Switching to BLACK!
+[19:43:53]:Switching to WHITE
+[19:43:55]:Switching to BLACK!
+[19:43:56]:Switching to WHITE
+[19:43:58]:Switching to BLACK!
+[19:43:59]:Switching to WHITE
+[19:44:00]:Switching to BLACK!
+[19:44:00]:Switching to WHITE
+[19:44:01]:Switching to BLACK!
+[19:44:03]:Switching to WHITE
+[19:44:04]:Switching to BLACK!
+[19:44:04]:Switching to WHITE
+[19:44:04]:Switching to BLACK!
+[19:44:07]:Switching to WHITE
+[19:44:09]:Dispensing
+[19:44:09]:Switching to BLACK!
+[19:44:20]:Sent STAY_ALIVE (0x0D) message
+[19:45:20]:Sent STAY_ALIVE (0x0D) message
+[19:45:22]:Starting left side autonomous control
+[19:45:22]:Switching to WHITE
+[19:45:22]:Switching to BLACK!
+[19:45:23]:Dispensing
+[19:45:23]:Switching to WHITE
+[19:45:23]:Switching to BLACK!
+[19:45:27]:Starting left side autonomous control
+[19:45:28]:Dispensing
+[19:45:28]:Switching to WHITE
+[19:45:28]:Switching to BLACK!
+[19:45:55]:Starting session
+[19:45:55]:Press any key to connect...
+[19:45:55]:Attempting to connect...
+[19:46:00]:Connection established!
+[19:46:00]:Grabbing initial sensor readings...
+[19:46:00]:Ready!
+[19:46:00]:Sent STAY_ALIVE (0x0D) message
+[19:46:02]:Starting left side autonomous control
+[19:46:02]:Switching to WHITE
+[19:46:03]:Dispensing
+[19:46:03]:Switching to BLACK!
+[19:46:06]:Starting left side autonomous control
+[19:46:06]:Switching to WHITE
+[19:46:08]:Dispensing
+[19:46:08]:Switching to BLACK!
+[19:46:27]:Starting session
+[19:46:27]:Press any key to connect...
+[19:46:27]:Attempting to connect...
+[19:46:32]:Connection established!
+[19:46:32]:Grabbing initial sensor readings...
+[19:46:32]:Ready!
+[19:46:32]:Sent STAY_ALIVE (0x0D) message
+[19:46:33]:Starting left side autonomous control
+[19:46:34]:Switching to WHITE
+[19:46:37]:Dispensing
+[19:46:37]:Switching to BLACK!
+[19:46:42]:Starting left side autonomous control
+[19:46:42]:Switching to WHITE
+[19:46:43]:Dispensing
+[19:46:43]:Switching to BLACK!
+[19:46:48]:Starting left side autonomous control
+[19:46:48]:Switching to WHITE
+[19:46:50]:Dispensing
+[19:46:50]:Switching to BLACK!
+[19:47:23]:Starting session
+[19:47:23]:Press any key to connect...
+[19:47:23]:Attempting to connect...
+[19:47:24]:Connection established!
+[19:47:24]:Grabbing initial sensor readings...
+[19:47:24]:Ready!
+[19:47:24]:Sent STAY_ALIVE (0x0D) message
+[19:47:28]:Starting left side autonomous control
+[19:47:29]:Switching to BLACK
+[19:47:30]:Switching to WHITE!
+[19:47:31]:Switching to BLACK
+[19:47:33]:Switching to WHITE!
+[19:47:34]:Switching to BLACK
+[19:47:36]:Switching to WHITE!
+[19:47:37]:Switching to BLACK
+[19:47:38]:Switching to WHITE!
+[19:47:40]:Switching to BLACK
+[19:47:41]:Switching to WHITE!
+[19:47:42]:Switching to BLACK
+[19:47:44]:Switching to WHITE!
+[19:47:46]:Switching to BLACK
+[19:47:48]:Switching to WHITE!
+[19:47:50]:Switching to BLACK
+[19:47:52]:Switching to WHITE!
+[19:47:53]:Switching to BLACK
+[19:47:55]:Switching to WHITE!
+[19:47:55]:Switching to BLACK
+[19:47:57]:Switching to WHITE!
+[19:47:58]:Switching to BLACK
+[19:48:00]:Switching to WHITE!
+[19:48:02]:Switching to BLACK
+[19:48:04]:Switching to WHITE!
+[19:48:06]:Switching to BLACK
+[19:48:08]:Switching to WHITE!
+[19:48:09]:Switching to BLACK
+[19:48:10]:Switching to WHITE!
+[19:48:11]:Dispensing
+[19:48:11]:Switching to BLACK
+[19:48:11]:Switching to WHITE!
+[19:48:24]:Sent STAY_ALIVE (0x0D) message
+[19:48:51]:Starting left side autonomous control
+[19:48:52]:Switching to BLACK
+[19:48:53]:Switching to WHITE!
+[19:48:55]:Switching to BLACK
+[19:48:56]:Switching to WHITE!
+[19:48:58]:Switching to BLACK
+[19:49:00]:Switching to WHITE!
+[19:49:02]:Switching to BLACK
+[19:49:03]:Switching to WHITE!
+[19:49:05]:Switching to BLACK
+[19:49:07]:Switching to WHITE!
+[19:49:07]:Switching to BLACK
+[19:49:08]:Switching to WHITE!
+[19:49:09]:Switching to BLACK
+[19:49:10]:Switching to WHITE!
+[19:49:12]:Switching to BLACK
+[19:49:13]:Switching to WHITE!
+[19:49:15]:Switching to BLACK
+[19:49:16]:Switching to WHITE!
+[19:49:18]:Switching to BLACK
+[19:49:20]:Switching to WHITE!
+[19:49:23]:Switching to BLACK
+[19:49:24]:Sent STAY_ALIVE (0x0D) message
+[19:49:25]:Switching to WHITE!
+[19:49:27]:Switching to BLACK
+[19:49:29]:Switching to WHITE!
+[19:49:31]:Switching to BLACK
+[19:49:33]:Switching to WHITE!
+[19:49:35]:Switching to BLACK
+[19:49:36]:Switching to WHITE!
+[19:49:38]:Switching to BLACK
+[19:49:39]:Dispensing
+[19:49:39]:Switching to WHITE!
+[19:50:09]:Starting session
+[19:50:09]:Press any key to connect...
+[19:50:17]:Attempting to connect...
+[19:50:21]:Connection established!
+[19:50:21]:Grabbing initial sensor readings...
+[19:50:21]:Ready!
+[19:50:21]:Sent STAY_ALIVE (0x0D) message
+[19:50:24]:Starting session
+[19:50:24]:Press any key to connect...
+[19:50:24]:Attempting to connect...
+[19:50:26]:Connection established!
+[19:50:26]:Grabbing initial sensor readings...
+[19:50:26]:Ready!
+[19:50:26]:Sent STAY_ALIVE (0x0D) message
+[19:50:28]:Starting left side autonomous control
+[19:50:29]:Switching to BLACK
+[19:50:30]:Switching to WHITE!
+[19:50:33]:Switching to BLACK
+[19:50:36]:Switching to WHITE!
+[19:50:38]:Switching to BLACK
+[19:50:40]:Switching to WHITE!
+[19:50:42]:Switching to BLACK
+[19:50:45]:Switching to WHITE!
+[19:50:46]:Switching to BLACK
+[19:50:48]:Switching to WHITE!
+[19:50:51]:Switching to BLACK
+[19:50:54]:Starting session
+[19:50:54]:Press any key to connect...
+[19:50:55]:Attempting to connect...
+[19:51:00]:Connection established!
+[19:51:00]:Grabbing initial sensor readings...
+[19:51:00]:Ready!
+[19:51:00]:Sent STAY_ALIVE (0x0D) message
+[19:51:00]:Starting remote control!
+[19:51:01]:Stopping all motors
+[19:51:15]:Starting session
+[19:51:15]:Press any key to connect...
+[19:51:16]:Attempting to connect...
+[19:51:21]:Connection established!
+[19:51:21]:Grabbing initial sensor readings...
+[19:51:22]:Ready!
+[19:51:22]:Sent STAY_ALIVE (0x0D) message
+[19:51:32]:Starting session
+[19:51:32]:Press any key to connect...
+[19:51:32]:Attempting to connect...
+[19:51:37]:Connection established!
+[19:51:37]:Grabbing initial sensor readings...
+[19:51:37]:Ready!
+[19:51:37]:Sent STAY_ALIVE (0x0D) message
+[19:51:40]:Starting session
+[19:51:40]:Press any key to connect...
+[19:51:40]:Attempting to connect...
+[19:51:42]:Connection established!
+[19:51:42]:Grabbing initial sensor readings...
+[19:51:42]:Ready!
+[19:51:42]:Sent STAY_ALIVE (0x0D) message
+[19:51:44]:Starting session
+[19:51:44]:Press any key to connect...
+[19:51:44]:Attempting to connect...
+[19:51:45]:Connection established!
+[19:51:45]:Grabbing initial sensor readings...
+[19:51:46]:Ready!
+[19:51:46]:Sent STAY_ALIVE (0x0D) message
+[19:51:47]:Starting left side autonomous control
+[19:51:48]:Switching to BLACK
+[19:51:49]:Switching to WHITE!
+[19:51:51]:Switching to BLACK
+[19:51:52]:Switching to WHITE!
+[19:51:54]:Switching to BLACK
+[19:51:56]:Switching to WHITE!
+[19:51:58]:Switching to BLACK
+[19:52:01]:Switching to WHITE!
+[19:52:02]:Switching to BLACK
+[19:52:04]:Switching to WHITE!
+[19:52:06]:Switching to BLACK
+[19:52:08]:Switching to WHITE!
+[19:52:10]:Switching to BLACK
+[19:52:14]:Switching to WHITE!
+[19:52:17]:Switching to BLACK
+[19:52:20]:Switching to WHITE!
+[19:52:23]:Switching to BLACK
+[19:52:26]:Switching to WHITE!
+[19:52:29]:Switching to BLACK
+[19:52:31]:Switching to WHITE!
+[19:52:33]:Switching to BLACK
+[19:52:34]:Dispensing
+[19:52:34]:Switching to WHITE!
+[19:52:46]:Sent STAY_ALIVE (0x0D) message
+[19:53:46]:Sent STAY_ALIVE (0x0D) message
+[19:54:24]:Starting session
+[19:54:24]:Press any key to connect...
+[19:54:24]:Attempting to connect...
+[19:54:30]:Connection established!
+[19:54:30]:Grabbing initial sensor readings...
+[19:54:30]:Ready!
+[19:54:30]:Sent STAY_ALIVE (0x0D) message
+[19:54:30]:Starting remote control!
+[19:54:31]:Exiting remote control.
+[19:54:32]:Starting left side autonomous control
+[19:54:37]:Switching to BLACK
+[19:54:39]:Switching to WHITE!
+[19:54:41]:Switching to BLACK
+[19:54:43]:Switching to WHITE!
+[19:54:46]:Switching to BLACK
+[19:54:47]:Switching to WHITE!
+[19:54:49]:Switching to BLACK
+[19:54:52]:Switching to WHITE!
+[19:54:53]:Switching to BLACK
+[19:54:55]:Switching to WHITE!
+[19:54:57]:Switching to BLACK
+[19:54:59]:Switching to WHITE!
+[19:55:00]:Switching to BLACK
+[19:55:02]:Switching to WHITE!
+[19:55:03]:Switching to BLACK
+[19:55:05]:Switching to WHITE!
+[19:55:06]:Switching to BLACK
+[19:55:07]:Dispensing
+[19:55:07]:Switching to WHITE!
+[19:55:30]:Sent STAY_ALIVE (0x0D) message
+[19:55:55]:Starting session
+[19:55:55]:Press any key to connect...
+[19:55:55]:Attempting to connect...
+[19:55:56]:Connection established!
+[19:55:56]:Grabbing initial sensor readings...
+[19:55:57]:Ready!
+[19:55:57]:Sent STAY_ALIVE (0x0D) message
+[19:56:00]:Starting session
+[19:56:00]:Press any key to connect...
+[19:56:00]:Attempting to connect...
+[19:56:02]:Connection established!
+[19:56:02]:Grabbing initial sensor readings...
+[19:56:02]:Ready!
+[19:56:02]:Sent STAY_ALIVE (0x0D) message
+[19:56:04]:Starting left side autonomous control
+[19:56:05]:Switching to BLACK
+[19:56:06]:Switching to WHITE!
+[19:56:07]:Switching to BLACK
+[19:56:09]:Switching to WHITE!
+[19:56:11]:Switching to BLACK
+[19:56:12]:Switching to WHITE!
+[19:56:14]:Switching to BLACK
+[19:56:16]:Switching to WHITE!
+[19:56:18]:Switching to BLACK
+[19:56:19]:Switching to WHITE!
+[19:56:20]:Switching to BLACK
+[19:56:22]:Switching to WHITE!
+[19:56:23]:Switching to BLACK
+[19:56:25]:Switching to WHITE!
+[19:56:27]:Switching to BLACK
+[19:56:30]:Switching to WHITE!
+[19:56:31]:Switching to BLACK
+[19:56:33]:Switching to WHITE!
+[19:56:35]:Switching to BLACK
+[19:56:37]:Switching to WHITE!
+[19:56:39]:Switching to BLACK
+[19:56:41]:Switching to WHITE!
+[19:56:43]:Switching to BLACK
+[19:56:45]:Switching to WHITE!
+[19:56:48]:Switching to BLACK
+[19:56:49]:Dispensing
+[19:56:49]:Switching to WHITE!
+[19:57:02]:Sent STAY_ALIVE (0x0D) message
+[19:58:02]:Sent STAY_ALIVE (0x0D) message
+[19:59:02]:Sent STAY_ALIVE (0x0D) message
+[19:59:20]:Starting session
+[19:59:20]:Press any key to connect...
+[19:59:20]:Attempting to connect...
+[19:59:22]:Connection established!
+[19:59:22]:Grabbing initial sensor readings...
+[19:59:22]:Ready!
+[19:59:22]:Sent STAY_ALIVE (0x0D) message
+[19:59:24]:Starting left side autonomous control
+[19:59:26]:Switching to BLACK
+[19:59:26]:Switching to WHITE!
+[19:59:27]:Switching to BLACK
+[19:59:28]:Switching to WHITE!
+[19:59:29]:Switching to BLACK
+[19:59:31]:Switching to WHITE!
+[19:59:32]:Switching to BLACK
+[19:59:33]:Switching to WHITE!
+[19:59:34]:Switching to BLACK
+[19:59:35]:Switching to WHITE!
+[19:59:36]:Switching to BLACK
+[19:59:38]:Switching to WHITE!
+[19:59:39]:Switching to BLACK
+[19:59:40]:Switching to WHITE!
+[19:59:41]:Switching to BLACK
+[19:59:43]:Switching to WHITE!
+[19:59:45]:Switching to BLACK
+[19:59:46]:Switching to WHITE!
+[19:59:48]:Switching to BLACK
+[19:59:50]:Switching to WHITE!
+[19:59:52]:Switching to BLACK
+[19:59:54]:Switching to WHITE!
+[19:59:55]:Switching to BLACK
+[19:59:57]:Switching to WHITE!
+[19:59:59]:Dispensing
+[19:59:59]:Switching to BLACK
+[19:59:59]:Switching to WHITE!
+[20:00:02]:Switching to BLACK
+[20:00:13]:Starting session
+[20:00:13]:Press any key to connect...
+[20:00:16]:Attempting to connect...
+[20:00:22]:Connection established!
+[20:00:22]:Grabbing initial sensor readings...
+[20:00:22]:Ready!
+[20:00:22]:Sent STAY_ALIVE (0x0D) message
+[20:00:23]:Starting remote control!
+[20:00:24]:Stopping all motors
+[20:01:22]:Sent STAY_ALIVE (0x0D) message
+[20:02:11]:Exiting remote control.
+[20:02:14]:Starting session
+[20:02:14]:Press any key to connect...
+[20:02:14]:Attempting to connect...
+[20:02:19]:Connection established!
+[20:02:19]:Grabbing initial sensor readings...
+[20:02:20]:Ready!
+[20:02:20]:Sent STAY_ALIVE (0x0D) message
+[20:02:21]:Starting left side autonomous control
+[20:02:24]:Switching to BLACK
+[20:02:24]:Switching to WHITE!
+[20:02:25]:Switching to BLACK
+[20:02:26]:Switching to WHITE!
+[20:02:27]:Switching to BLACK
+[20:02:27]:Switching to WHITE!
+[20:02:41]:Starting session
+[20:02:41]:Press any key to connect...
+[20:02:45]:Attempting to connect...
+[20:02:49]:Connection established!
+[20:02:49]:Grabbing initial sensor readings...
+[20:02:49]:Ready!
+[20:02:49]:Sent STAY_ALIVE (0x0D) message
+[20:02:51]:Starting remote control!
+[20:02:52]:Stopping all motors
+[20:03:05]:Stopping all motors
+[20:03:21]:Starting session
+[20:03:21]:Press any key to connect...
+[20:03:21]:Attempting to connect...
+[20:03:26]:Connection established!
+[20:03:26]:Grabbing initial sensor readings...
+[20:03:26]:Ready!
+[20:03:26]:Sent STAY_ALIVE (0x0D) message
+[20:03:53]:Starting session
+[20:03:53]:Press any key to connect...
+[20:03:53]:Attempting to connect...
+[20:03:54]:Connection established!
+[20:03:54]:Grabbing initial sensor readings...
+[20:03:54]:Ready!
+[20:03:54]:Sent STAY_ALIVE (0x0D) message
+[20:03:57]:Starting left side autonomous control
+[20:03:58]:Switching to BLACK
+[20:03:58]:Switching to WHITE!
+[20:03:59]:Switching to BLACK
+[20:04:00]:Switching to WHITE!
+[20:04:01]:Switching to BLACK
+[20:04:02]:Switching to WHITE!
+[20:04:04]:Switching to BLACK
+[20:04:05]:Switching to WHITE!
+[20:04:06]:Switching to BLACK
+[20:04:08]:Switching to WHITE!
+[20:04:09]:Switching to BLACK
+[20:04:10]:Switching to WHITE!
+[20:04:12]:Switching to BLACK
+[20:04:13]:Switching to WHITE!
+[20:04:14]:Switching to BLACK
+[20:04:16]:Switching to WHITE!
+[20:04:17]:Switching to BLACK
+[20:04:19]:Switching to WHITE!
+[20:04:20]:Switching to BLACK
+[20:04:21]:Switching to WHITE!
+[20:04:22]:Switching to BLACK
+[20:04:24]:Switching to WHITE!
+[20:04:25]:Switching to BLACK
+[20:04:27]:Switching to WHITE!
+[20:04:28]:Switching to BLACK
+[20:04:30]:Switching to WHITE!
+[20:04:31]:Switching to BLACK
+[20:04:33]:Dispensing
+[20:04:33]:Switching to WHITE!
+[20:04:33]:Switching to BLACK
+[20:04:40]:Starting session
+[20:04:40]:Press any key to connect...
+[20:04:41]:Attempting to connect...
+[20:04:45]:Connection established!
+[20:04:45]:Grabbing initial sensor readings...
+[20:04:45]:Ready!
+[20:04:45]:Sent STAY_ALIVE (0x0D) message
+[20:04:48]:Starting session
+[20:04:48]:Press any key to connect...
+[20:04:50]:Attempting to connect...
+[20:04:56]:Connection established!
+[20:04:56]:Grabbing initial sensor readings...
+[20:04:56]:Ready!
+[20:04:56]:Sent STAY_ALIVE (0x0D) message
+[20:04:57]:Starting session
+[20:04:57]:Press any key to connect...
+[20:04:58]:Attempting to connect...
+[20:04:59]:Connection established!
+[20:04:59]:Grabbing initial sensor readings...
+[20:04:59]:Ready!
+[20:04:59]:Sent STAY_ALIVE (0x0D) message
+[20:05:03]:Starting remote control!
+[20:05:03]:Stopping all motors
+[20:05:27]:Exiting remote control.
+[20:05:28]:Starting left side autonomous control
+[20:05:30]:Switching to BLACK
+[20:05:30]:Switching to WHITE!
+[20:05:32]:Switching to BLACK
+[20:05:32]:Switching to WHITE!
+[20:05:33]:Switching to BLACK
+[20:05:33]:Switching to WHITE!
+[20:05:34]:Dispensing
+[20:05:34]:Switching to BLACK
+[20:05:34]:Switching to WHITE!
+[20:05:36]:Switching to BLACK
+[20:05:41]:Starting session
+[20:05:41]:Press any key to connect...
+[20:05:42]:Attempting to connect...
+[20:05:47]:Connection established!
+[20:05:47]:Grabbing initial sensor readings...
+[20:05:47]:Ready!
+[20:05:47]:Sent STAY_ALIVE (0x0D) message
+[20:05:49]:Starting session
+[20:05:49]:Press any key to connect...
+[20:05:50]:Attempting to connect...
+[20:05:51]:Connection established!
+[20:05:51]:Grabbing initial sensor readings...
+[20:05:51]:Ready!
+[20:05:51]:Sent STAY_ALIVE (0x0D) message
+[20:05:54]:Starting session
+[20:05:54]:Press any key to connect...
+[20:05:54]:Attempting to connect...
+[20:05:55]:Connection established!
+[20:05:55]:Grabbing initial sensor readings...
+[20:05:56]:Ready!
+[20:05:56]:Sent STAY_ALIVE (0x0D) message
+[20:05:57]:Starting remote control!
+[20:05:57]:Stopping all motors
+[20:06:37]:Starting session
+[20:06:37]:Press any key to connect...
+[20:06:37]:Attempting to connect...
+[20:06:39]:Connection established!
+[20:06:39]:Grabbing initial sensor readings...
+[20:06:39]:Ready!
+[20:06:39]:Sent STAY_ALIVE (0x0D) message
+[20:06:45]:Starting session
+[20:06:45]:Press any key to connect...
+[20:06:46]:Attempting to connect...
+[20:06:47]:Connection established!
+[20:06:47]:Grabbing initial sensor readings...
+[20:06:47]:Ready!
+[20:06:47]:Sent STAY_ALIVE (0x0D) message
+[20:06:50]:Starting session
+[20:06:50]:Press any key to connect...
+[20:06:50]:Attempting to connect...
+[20:06:51]:Connection established!
+[20:06:51]:Grabbing initial sensor readings...
+[20:06:52]:Ready!
+[20:06:52]:Sent STAY_ALIVE (0x0D) message
+[20:06:56]:Starting left side autonomous control
+[20:06:59]:Switching to BLACK
+[20:07:02]:Switching to WHITE!
+[20:07:04]:Switching to BLACK
+[20:07:05]:Switching to WHITE!
+[20:07:07]:Switching to BLACK
+[20:07:08]:Switching to WHITE!
+[20:07:10]:Switching to BLACK
+[20:07:11]:Switching to WHITE!
+[20:07:12]:Switching to BLACK
+[20:07:14]:Switching to WHITE!
+[20:07:16]:Switching to BLACK
+[20:07:17]:Switching to WHITE!
+[20:07:18]:Switching to BLACK
+[20:07:19]:Switching to WHITE!
+[20:07:20]:Switching to BLACK
+[20:07:22]:Switching to WHITE!
+[20:07:23]:Switching to BLACK
+[20:07:25]:Switching to WHITE!
+[20:07:26]:Switching to BLACK
+[20:07:28]:Switching to WHITE!
+[20:07:29]:Dispensing
+[20:07:29]:Switching to BLACK
+[20:07:29]:Switching to WHITE!
+[20:07:31]:Switching to BLACK
+[20:07:33]:Switching to WHITE!
+[20:07:37]:Switching to BLACK
+[20:07:43]:Switching to WHITE!
+[20:07:46]:Starting session
+[20:07:46]:Press any key to connect...
+[20:07:47]:Attempting to connect...
+[20:07:52]:Connection established!
+[20:07:52]:Grabbing initial sensor readings...
+[20:07:52]:Ready!
+[20:07:52]:Sent STAY_ALIVE (0x0D) message
+[20:07:54]:Starting remote control!
+[20:07:54]:Stopping all motors
+[20:08:52]:Sent STAY_ALIVE (0x0D) message
+[20:09:52]:Sent STAY_ALIVE (0x0D) message
+[20:10:22]:Starting session
+[20:10:22]:Press any key to connect...
+[20:10:22]:Attempting to connect...
+[20:10:22]:ERROR: failed to connect!
+[20:10:22]:Press any key to continue...
+[20:10:31]:Starting session
+[20:10:31]:Press any key to connect...
+[20:10:32]:Attempting to connect...
+[20:10:36]:Connection established!
+[20:10:36]:Grabbing initial sensor readings...
+[20:10:36]:Ready!
+[20:10:36]:Sent STAY_ALIVE (0x0D) message
+[20:10:39]:Starting left side autonomous control
+[20:10:41]:Switching to BLACK
+[20:10:42]:Switching to WHITE!
+[20:10:43]:Switching to BLACK
+[20:10:44]:Switching to WHITE!
+[20:10:44]:Switching to BLACK
+[20:10:46]:Switching to WHITE!
+[20:10:48]:Switching to BLACK
+[20:10:49]:Switching to WHITE!
+[20:10:50]:Switching to BLACK
+[20:10:52]:Switching to WHITE!
+[20:10:53]:Switching to BLACK
+[20:10:55]:Switching to WHITE!
+[20:10:56]:Switching to BLACK
+[20:10:58]:Switching to WHITE!
+[20:10:59]:Switching to BLACK
+[20:11:01]:Switching to WHITE!
+[20:11:02]:Switching to BLACK
+[20:11:04]:Switching to WHITE!
+[20:11:05]:Switching to BLACK
+[20:11:07]:Switching to WHITE!
+[20:11:08]:Switching to BLACK
+[20:11:10]:Switching to WHITE!
+[20:11:11]:Dispensing
+[20:11:11]:Switching to BLACK
+[20:11:11]:Switching to WHITE!
+[20:11:36]:Sent STAY_ALIVE (0x0D) message
+[20:11:40]:Switching to BLACK
+[20:11:40]:Switching to WHITE!
+[20:11:41]:Switching to BLACK
+[20:11:42]:Switching to WHITE!
+[20:11:42]:Switching to BLACK
+[20:11:43]:Switching to WHITE!
+[20:11:44]:Switching to BLACK
+[20:11:45]:Switching to WHITE!
+[20:11:46]:Switching to BLACK
+[20:11:47]:Switching to WHITE!
+[20:11:50]:Starting session
+[20:11:50]:Press any key to connect...
+[20:11:51]:Attempting to connect...
+[20:11:51]:ERROR: failed to connect!
+[20:11:51]:Press any key to continue...
+[20:11:52]:Starting session
+[20:11:52]:Press any key to connect...
+[20:11:53]:Attempting to connect...
+[20:11:58]:Connection established!
+[20:11:58]:Grabbing initial sensor readings...
+[20:11:58]:Ready!
+[20:11:58]:Sent STAY_ALIVE (0x0D) message
+[20:11:59]:Starting session
+[20:11:59]:Press any key to connect...
+[20:12:00]:Attempting to connect...
+[20:12:02]:Connection established!
+[20:12:02]:Grabbing initial sensor readings...
+[20:12:02]:Ready!
+[20:12:02]:Sent STAY_ALIVE (0x0D) message
+[20:12:03]:Starting remote control!
+[20:12:03]:Stopping all motors
+[20:12:50]:Starting session
+[20:12:50]:Press any key to connect...
+[20:12:50]:Attempting to connect...
+[20:12:52]:Connection established!
+[20:12:52]:Grabbing initial sensor readings...
+[20:12:52]:Ready!
+[20:12:52]:Sent STAY_ALIVE (0x0D) message
+[20:12:58]:Starting session
+[20:12:58]:Press any key to connect...
+[20:12:59]:Attempting to connect...
+[20:13:00]:Connection established!
+[20:13:00]:Grabbing initial sensor readings...
+[20:13:00]:Ready!
+[20:13:00]:Sent STAY_ALIVE (0x0D) message
+[20:13:02]:Starting left side autonomous control
+[20:13:03]:Switching to BLACK
+[20:13:04]:Switching to WHITE!
+[20:13:05]:Switching to BLACK
+[20:13:06]:Switching to WHITE!
+[20:13:08]:Switching to BLACK
+[20:13:09]:Switching to WHITE!
+[20:13:10]:Switching to BLACK
+[20:13:11]:Switching to WHITE!
+[20:13:12]:Switching to BLACK
+[20:13:14]:Switching to WHITE!
+[20:13:16]:Switching to BLACK
+[20:13:17]:Switching to WHITE!
+[20:13:18]:Switching to BLACK
+[20:13:20]:Switching to WHITE!
+[20:13:21]:Switching to BLACK
+[20:13:22]:Switching to WHITE!
+[20:13:23]:Switching to BLACK
+[20:13:25]:Switching to WHITE!
+[20:13:27]:Switching to BLACK
+[20:13:28]:Switching to WHITE!
+[20:13:29]:Switching to BLACK
+[20:13:31]:Switching to WHITE!
+[20:13:32]:Switching to BLACK
+[20:13:34]:Switching to WHITE!
+[20:13:35]:Switching to BLACK
+[20:13:36]:Switching to WHITE!
+[20:13:37]:Switching to BLACK
+[20:13:39]:Switching to WHITE!
+[20:13:40]:Dispensing
+[20:13:40]:Switching to BLACK
+[20:13:40]:Switching to WHITE!
+[20:13:50]:Switching to BLACK
+[20:13:53]:Switching to WHITE!
+[20:13:58]:Switching to BLACK
+[20:13:59]:Switching to WHITE!
+[20:14:00]:Switching to BLACK
+[20:14:00]:Sent STAY_ALIVE (0x0D) message
+[20:14:01]:Switching to WHITE!
+[20:14:13]:Starting session
+[20:14:13]:Press any key to connect...
+[20:14:13]:Attempting to connect...
+[20:14:15]:Connection established!
+[20:14:15]:Grabbing initial sensor readings...
+[20:14:15]:Ready!
+[20:14:15]:Sent STAY_ALIVE (0x0D) message
+[20:14:16]:Starting remote control!
+[20:14:16]:Stopping all motors
+[20:15:08]:Starting session
+[20:15:08]:Press any key to connect...
+[20:15:08]:Attempting to connect...
+[20:15:12]:Connection established!
+[20:15:12]:Grabbing initial sensor readings...
+[20:15:13]:Ready!
+[20:15:13]:Sent STAY_ALIVE (0x0D) message
+[20:15:22]:Starting left side autonomous control
+[20:15:25]:Switching to BLACK
+[20:15:28]:Switching to WHITE!
+[20:15:30]:Switching to BLACK
+[20:15:32]:Switching to WHITE!
+[20:15:34]:Switching to BLACK
+[20:15:36]:Switching to WHITE!
+[20:15:38]:Switching to BLACK
+[20:15:40]:Switching to WHITE!
+[20:15:41]:Switching to BLACK
+[20:15:43]:Switching to WHITE!
+[20:15:45]:Switching to BLACK
+[20:15:47]:Switching to WHITE!
+[20:15:49]:Switching to BLACK
+[20:15:50]:Switching to WHITE!
+[20:15:51]:Switching to BLACK
+[20:15:53]:Switching to WHITE!
+[20:15:54]:Switching to BLACK
+[20:15:56]:Switching to WHITE!
+[20:15:57]:Dispensing
+[20:15:57]:Switching to BLACK
+[20:15:57]:Switching to WHITE!
+[20:16:02]:Switching to WHITE
+[20:16:08]:Switching to BLACK!
+[20:16:10]:Switching to WHITE
+[20:16:11]:Switching to BLACK!
+[20:16:12]:Switching to WHITE
+[20:16:13]:Sent STAY_ALIVE (0x0D) message
+[20:16:13]:Switching to BLACK!
+[20:16:14]:Switching to WHITE
+[20:16:15]:Switching to BLACK!
+[20:16:16]:Switching to WHITE
+[20:16:17]:Switching to BLACK!
+[20:16:18]:Switching to WHITE
+[20:16:18]:Switching to BLACK!
+[20:16:20]:Switching to WHITE
+[20:16:21]:Switching to BLACK!
+[20:16:22]:Switching to WHITE
+[20:16:23]:Switching to BLACK!
+[20:16:23]:Switching to WHITE
+[20:16:24]:Switching to BLACK!
+[20:16:25]:Switching to WHITE
+[20:16:26]:Switching to BLACK!
+[20:16:27]:Switching to WHITE
+[20:16:28]:Switching to BLACK!
+[20:16:29]:Switching to WHITE
+[20:16:30]:Switching to BLACK!
+[20:16:31]:Switching to WHITE
+[20:16:32]:Switching to BLACK!
+[20:16:34]:Switching to WHITE
+[20:16:35]:Switching to BLACK!
+[20:16:36]:Switching to WHITE
+[20:16:36]:Switching to BLACK!
+[20:16:37]:Switching to WHITE
+[20:16:38]:Switching to BLACK!
+[20:16:39]:Switching to WHITE
+[20:16:39]:Switching to BLACK!
+[20:16:40]:Switching to WHITE
+[20:16:41]:Switching to BLACK!
+[20:16:41]:Switching to WHITE
+[20:16:42]:Switching to BLACK!
+[20:16:43]:Switching to WHITE
+[20:16:44]:Switching to BLACK!
+[20:16:45]:Switching to WHITE
+[20:16:47]:Starting session
+[20:16:47]:Press any key to connect...
+[20:16:47]:Attempting to connect...
+[20:16:52]:Connection established!
+[20:16:52]:Grabbing initial sensor readings...
+[20:16:53]:Ready!
+[20:16:53]:Sent STAY_ALIVE (0x0D) message
+[20:16:54]:Starting remote control!
+[20:16:55]:Stopping all motors
+[20:17:53]:Sent STAY_ALIVE (0x0D) message
+[20:18:53]:Sent STAY_ALIVE (0x0D) message
+[20:19:16]:Starting session
+[20:19:16]:Press any key to connect...
+[20:19:16]:Attempting to connect...
+[20:19:16]:ERROR: failed to connect!
+[20:19:16]:Press any key to continue...
+[20:19:21]:Starting session
+[20:19:21]:Press any key to connect...
+[20:19:22]:Attempting to connect...
+[20:19:26]:Connection established!
+[20:19:26]:Grabbing initial sensor readings...
+[20:19:26]:Ready!
+[20:19:26]:Sent STAY_ALIVE (0x0D) message
+[20:19:28]:Starting session
+[20:19:28]:Press any key to connect...
+[20:19:29]:Attempting to connect...
+[20:19:30]:Connection established!
+[20:19:30]:Grabbing initial sensor readings...
+[20:19:31]:Ready!
+[20:19:31]:Sent STAY_ALIVE (0x0D) message
+[20:19:31]:Starting remote control!
+[20:19:32]:Exiting remote control.
+[20:20:22]:Starting left side autonomous control
+[20:20:25]:Switching to BLACK
+[20:20:28]:Switching to WHITE!
+[20:20:29]:Switching to BLACK
+[20:20:31]:Sent STAY_ALIVE (0x0D) message
+[20:20:31]:Switching to WHITE!
+[20:20:32]:Switching to BLACK
+[20:20:33]:Switching to WHITE!
+[20:20:35]:Switching to BLACK
+[20:20:36]:Switching to WHITE!
+[20:20:37]:Switching to BLACK
+[20:20:40]:Switching to WHITE!
+[20:20:42]:Switching to BLACK
+[20:20:43]:Switching to WHITE!
+[20:20:45]:Switching to BLACK
+[20:20:46]:Switching to WHITE!
+[20:20:47]:Switching to BLACK
+[20:20:49]:Switching to WHITE!
+[20:20:50]:Switching to BLACK
+[20:20:51]:Switching to WHITE!
+[20:20:52]:Switching to BLACK
+[20:20:54]:Switching to WHITE!
+[20:20:56]:Switching to BLACK
+[20:20:58]:Switching to WHITE!
+[20:20:59]:Switching to BLACK
+[20:21:00]:Switching to WHITE!
+[20:21:01]:Switching to BLACK
+[20:21:02]:Switching to WHITE!
+[20:21:03]:Switching to BLACK
+[20:21:11]:Switching to WHITE!
+[20:21:15]:Switching to BLACK
+[20:21:31]:Sent STAY_ALIVE (0x0D) message
+[20:21:37]:Switching to WHITE!
+[20:21:39]:Switching to BLACK
+[20:21:39]:Switching to WHITE!
+[20:21:40]:Switching to BLACK
+[20:21:40]:Switching to WHITE!
+[20:21:40]:Switching to BLACK
+[20:21:41]:Switching to WHITE!
+[20:21:41]:Switching to BLACK
+[20:21:41]:Switching to WHITE!
+[20:21:41]:Switching to BLACK
+[20:21:41]:Switching to WHITE!
+[20:21:41]:Switching to BLACK
+[20:21:41]:Switching to WHITE!
+[20:21:41]:Switching to BLACK
+[20:21:41]:Switching to WHITE!
+[20:21:41]:Switching to BLACK
+[20:21:41]:Switching to WHITE!
+[20:21:41]:Switching to BLACK
+[20:21:41]:Switching to WHITE!
+[20:21:41]:Switching to BLACK
+[20:21:41]:Switching to WHITE!
+[20:21:41]:Switching to BLACK
+[20:21:41]:Switching to WHITE!
+[20:21:41]:Switching to BLACK
+[20:21:41]:Switching to WHITE!
+[20:21:41]:Switching to BLACK
+[20:21:41]:Switching to WHITE!
+[20:21:41]:Switching to BLACK
+[20:21:41]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:42]:Switching to BLACK
+[20:21:42]:Switching to WHITE!
+[20:21:43]:Switching to BLACK
+[20:21:43]:Switching to WHITE!
+[20:21:43]:Switching to BLACK
+[20:21:43]:Switching to WHITE!
+[20:21:43]:Switching to BLACK
+[20:21:43]:Switching to WHITE!
+[20:21:43]:Switching to BLACK
+[20:21:43]:Switching to WHITE!
+[20:21:43]:Switching to BLACK
+[20:21:43]:Switching to WHITE!
+[20:21:43]:Switching to BLACK
+[20:21:43]:Switching to WHITE!
+[20:21:43]:Switching to BLACK
+[20:21:43]:Switching to WHITE!
+[20:21:43]:Switching to BLACK
+[20:21:43]:Switching to WHITE!
+[20:21:43]:Switching to BLACK
+[20:21:43]:Switching to WHITE!
+[20:21:43]:Switching to BLACK
+[20:21:43]:Switching to WHITE!
+[20:21:43]:Switching to BLACK
+[20:21:43]:Switching to WHITE!
+[20:21:43]:Switching to BLACK
+[20:21:43]:Switching to WHITE!
+[20:21:43]:Switching to BLACK
+[20:21:43]:Switching to WHITE!
+[20:21:43]:Switching to BLACK
+[20:21:43]:Switching to WHITE!
+[20:21:43]:Switching to BLACK
+[20:21:43]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:44]:Switching to BLACK
+[20:21:44]:Switching to WHITE!
+[20:21:45]:Switching to BLACK
+[20:21:45]:Switching to WHITE!
+[20:21:45]:Switching to BLACK
+[20:21:45]:Switching to WHITE!
+[20:21:45]:Switching to BLACK
+[20:21:45]:Switching to WHITE!
+[20:21:45]:Switching to BLACK
+[20:21:45]:Switching to WHITE!
+[20:21:45]:Switching to BLACK
+[20:21:45]:Switching to WHITE!
+[20:21:45]:Switching to BLACK
+[20:21:45]:Switching to WHITE!
+[20:21:45]:Switching to BLACK
+[20:21:45]:Switching to WHITE!
+[20:21:45]:Switching to BLACK
+[20:21:45]:Switching to WHITE!
+[20:21:45]:Switching to BLACK
+[20:21:45]:Switching to WHITE!
+[20:21:45]:Switching to BLACK
+[20:21:45]:Switching to WHITE!
+[20:21:45]:Switching to BLACK
+[20:21:45]:Switching to WHITE!
+[20:21:45]:Switching to BLACK
+[20:21:45]:Switching to WHITE!
+[20:21:45]:Switching to BLACK
+[20:21:45]:Switching to WHITE!
+[20:21:45]:Switching to BLACK
+[20:21:45]:Switching to WHITE!
+[20:21:45]:Switching to BLACK
+[20:21:45]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:46]:Switching to BLACK
+[20:21:46]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:47]:Switching to BLACK
+[20:21:47]:Switching to WHITE!
+[20:21:48]:Switching to BLACK
+[20:21:48]:Switching to WHITE!
+[20:21:48]:Switching to BLACK
+[20:21:48]:Switching to WHITE!
+[20:21:48]:Switching to BLACK
+[20:21:48]:Switching to WHITE!
+[20:21:48]:Switching to BLACK
+[20:21:48]:Switching to WHITE!
+[20:21:48]:Switching to BLACK
+[20:21:48]:Switching to WHITE!
+[20:21:48]:Switching to BLACK
+[20:21:48]:Switching to WHITE!
+[20:21:48]:Switching to BLACK
+[20:21:48]:Switching to WHITE!
+[20:21:48]:Switching to BLACK
+[20:21:48]:Switching to WHITE!
+[20:21:48]:Switching to BLACK
+[20:21:48]:Switching to WHITE!
+[20:21:48]:Switching to BLACK
+[20:21:48]:Switching to WHITE!
+[20:21:48]:Switching to BLACK
+[20:21:48]:Switching to WHITE!
+[20:21:48]:Switching to BLACK
+[20:21:48]:Switching to WHITE!
+[20:21:48]:Switching to BLACK
+[20:21:48]:Switching to WHITE!
+[20:21:48]:Switching to BLACK
+[20:21:48]:Switching to WHITE!
+[20:21:48]:Switching to BLACK
+[20:21:48]:Switching to WHITE!
+[20:21:49]:Switching to BLACK
+[20:21:49]:Switching to WHITE!
+[20:21:49]:Switching to BLACK
+[20:21:49]:Switching to WHITE!
+[20:21:49]:Switching to BLACK
+[20:21:49]:Switching to WHITE!
+[20:21:49]:Switching to BLACK
+[20:21:49]:Switching to WHITE!
+[20:21:49]:Switching to BLACK
+[20:21:49]:Switching to WHITE!
+[20:21:49]:Switching to BLACK
+[20:21:49]:Switching to WHITE!
+[20:21:49]:Switching to BLACK
+[20:21:49]:Switching to WHITE!
+[20:21:49]:Switching to BLACK
+[20:21:49]:Switching to WHITE!
+[20:21:49]:Switching to BLACK
+[20:21:49]:Switching to WHITE!
+[20:21:49]:Switching to BLACK
+[20:21:49]:Switching to WHITE!
+[20:21:49]:Switching to BLACK
+[20:21:49]:Switching to WHITE!
+[20:21:49]:Switching to BLACK
+[20:21:49]:Switching to WHITE!
+[20:21:49]:Switching to BLACK
+[20:21:49]:Switching to WHITE!
+[20:21:49]:Switching to BLACK
+[20:21:49]:Switching to WHITE!
+[20:21:49]:Switching to BLACK
+[20:21:49]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:50]:Switching to BLACK
+[20:21:50]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:51]:Switching to BLACK
+[20:21:51]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:52]:Switching to BLACK
+[20:21:52]:Switching to WHITE!
+[20:21:53]:Switching to BLACK
+[20:21:53]:Switching to WHITE!
+[20:21:53]:Switching to BLACK
+[20:21:53]:Switching to WHITE!
+[20:21:53]:Switching to BLACK
+[20:21:53]:Switching to WHITE!
+[20:21:53]:Switching to BLACK
+[20:21:53]:Switching to WHITE!
+[20:21:53]:Switching to BLACK
+[20:21:53]:Switching to WHITE!
+[20:21:53]:Switching to BLACK
+[20:21:53]:Switching to WHITE!
+[20:21:53]:Switching to BLACK
+[20:21:53]:Switching to WHITE!
+[20:21:53]:Switching to BLACK
+[20:21:53]:Switching to WHITE!
+[20:21:53]:Switching to BLACK
+[20:21:53]:Switching to WHITE!
+[20:21:53]:Switching to BLACK
+[20:21:53]:Switching to WHITE!
+[20:21:53]:Switching to BLACK
+[20:21:53]:Switching to WHITE!
+[20:21:53]:Switching to BLACK
+[20:21:53]:Switching to WHITE!
+[20:21:53]:Switching to BLACK
+[20:21:53]:Switching to WHITE!
+[20:21:53]:Switching to BLACK
+[20:21:53]:Switching to WHITE!
+[20:21:53]:Switching to BLACK
+[20:21:53]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:54]:Switching to BLACK
+[20:21:54]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:55]:Switching to BLACK
+[20:21:55]:Switching to WHITE!
+[20:21:56]:Switching to BLACK
+[20:21:56]:Switching to WHITE!
+[20:21:56]:Switching to BLACK
+[20:21:56]:Switching to WHITE!
+[20:21:56]:Switching to BLACK
+[20:21:56]:Switching to WHITE!
+[20:21:56]:Switching to BLACK
+[20:21:56]:Switching to WHITE!
+[20:21:56]:Switching to BLACK
+[20:21:56]:Switching to WHITE!
+[20:21:56]:Switching to BLACK
+[20:21:56]:Switching to WHITE!
+[20:21:56]:Switching to BLACK
+[20:21:56]:Switching to WHITE!
+[20:21:56]:Switching to BLACK
+[20:21:56]:Switching to WHITE!
+[20:21:56]:Switching to BLACK
+[20:21:56]:Switching to WHITE!
+[20:21:56]:Switching to BLACK
+[20:21:56]:Switching to WHITE!
+[20:21:56]:Switching to BLACK
+[20:21:56]:Switching to WHITE!
+[20:21:56]:Switching to BLACK
+[20:21:56]:Switching to WHITE!
+[20:21:56]:Switching to BLACK
+[20:21:56]:Switching to WHITE!
+[20:21:56]:Switching to BLACK
+[20:21:56]:Switching to WHITE!
+[20:21:56]:Switching to BLACK
+[20:21:56]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:57]:Switching to BLACK
+[20:21:57]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:58]:Switching to BLACK
+[20:21:58]:Switching to WHITE!
+[20:21:59]:Switching to BLACK
+[20:21:59]:Switching to WHITE!
+[20:21:59]:Switching to BLACK
+[20:21:59]:Switching to WHITE!
+[20:21:59]:Switching to BLACK
+[20:21:59]:Switching to WHITE!
+[20:21:59]:Switching to BLACK
+[20:21:59]:Switching to WHITE!
+[20:21:59]:Switching to BLACK
+[20:21:59]:Switching to WHITE!
+[20:21:59]:Switching to BLACK
+[20:21:59]:Switching to WHITE!
+[20:21:59]:Switching to BLACK
+[20:21:59]:Switching to WHITE!
+[20:21:59]:Switching to BLACK
+[20:21:59]:Switching to WHITE!
+[20:21:59]:Switching to BLACK
+[20:21:59]:Switching to WHITE!
+[20:21:59]:Switching to BLACK
+[20:21:59]:Switching to WHITE!
+[20:21:59]:Switching to BLACK
+[20:21:59]:Switching to WHITE!
+[20:21:59]:Switching to BLACK
+[20:21:59]:Switching to WHITE!
+[20:21:59]:Switching to BLACK
+[20:21:59]:Switching to WHITE!
+[20:21:59]:Switching to BLACK
+[20:21:59]:Switching to WHITE!
+[20:21:59]:Switching to BLACK
+[20:21:59]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:00]:Switching to BLACK
+[20:22:00]:Switching to WHITE!
+[20:22:01]:Switching to BLACK
+[20:22:01]:Switching to WHITE!
+[20:22:01]:Switching to BLACK
+[20:22:01]:Switching to WHITE!
+[20:22:01]:Switching to BLACK
+[20:22:01]:Switching to WHITE!
+[20:22:01]:Switching to BLACK
+[20:22:01]:Switching to WHITE!
+[20:22:01]:Switching to BLACK
+[20:22:01]:Switching to WHITE!
+[20:22:01]:Switching to BLACK
+[20:22:01]:Switching to WHITE!
+[20:22:01]:Switching to BLACK
+[20:22:01]:Switching to WHITE!
+[20:22:01]:Switching to BLACK
+[20:22:01]:Switching to WHITE!
+[20:22:01]:Switching to BLACK
+[20:22:01]:Switching to WHITE!
+[20:22:01]:Switching to BLACK
+[20:22:01]:Switching to WHITE!
+[20:22:01]:Switching to BLACK
+[20:22:01]:Switching to WHITE!
+[20:22:01]:Switching to BLACK
+[20:22:01]:Switching to WHITE!
+[20:22:01]:Switching to BLACK
+[20:22:01]:Switching to WHITE!
+[20:22:01]:Switching to BLACK
+[20:22:01]:Switching to WHITE!
+[20:22:01]:Switching to BLACK
+[20:22:01]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:02]:Switching to BLACK
+[20:22:02]:Switching to WHITE!
+[20:22:03]:Switching to BLACK
+[20:22:03]:Switching to WHITE!
+[20:22:03]:Switching to BLACK
+[20:22:03]:Switching to WHITE!
+[20:22:03]:Switching to BLACK
+[20:22:03]:Switching to WHITE!
+[20:22:03]:Switching to BLACK
+[20:22:03]:Switching to WHITE!
+[20:22:03]:Switching to BLACK
+[20:22:03]:Switching to WHITE!
+[20:22:03]:Switching to BLACK
+[20:22:03]:Switching to WHITE!
+[20:22:03]:Switching to BLACK
+[20:22:03]:Switching to WHITE!
+[20:22:03]:Switching to BLACK
+[20:22:03]:Switching to WHITE!
+[20:22:03]:Switching to BLACK
+[20:22:03]:Switching to WHITE!
+[20:22:03]:Switching to BLACK
+[20:22:03]:Switching to WHITE!
+[20:22:03]:Switching to BLACK
+[20:22:03]:Switching to WHITE!
+[20:22:03]:Switching to BLACK
+[20:22:03]:Switching to WHITE!
+[20:22:03]:Switching to BLACK
+[20:22:03]:Switching to WHITE!
+[20:22:03]:Switching to BLACK
+[20:22:03]:Switching to WHITE!
+[20:22:03]:Switching to BLACK
+[20:22:03]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:04]:Switching to BLACK
+[20:22:04]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:05]:Switching to BLACK
+[20:22:05]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:06]:Switching to BLACK
+[20:22:06]:Switching to WHITE!
+[20:22:07]:Switching to BLACK
+[20:22:07]:Switching to WHITE!
+[20:22:07]:Switching to BLACK
+[20:22:07]:Switching to WHITE!
+[20:22:07]:Switching to BLACK
+[20:22:07]:Switching to WHITE!
+[20:22:07]:Switching to BLACK
+[20:22:07]:Switching to WHITE!
+[20:22:07]:Switching to BLACK
+[20:22:07]:Switching to WHITE!
+[20:22:07]:Switching to BLACK
+[20:22:07]:Switching to WHITE!
+[20:22:07]:Switching to BLACK
+[20:22:07]:Switching to WHITE!
+[20:22:07]:Switching to BLACK
+[20:22:07]:Switching to WHITE!
+[20:22:07]:Switching to BLACK
+[20:22:07]:Switching to WHITE!
+[20:22:07]:Switching to BLACK
+[20:22:07]:Switching to WHITE!
+[20:22:07]:Switching to BLACK
+[20:22:07]:Switching to WHITE!
+[20:22:07]:Switching to BLACK
+[20:22:07]:Switching to WHITE!
+[20:22:07]:Switching to BLACK
+[20:22:07]:Switching to WHITE!
+[20:22:07]:Switching to BLACK
+[20:22:07]:Switching to WHITE!
+[20:22:07]:Switching to BLACK
+[20:22:07]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:08]:Switching to BLACK
+[20:22:08]:Switching to WHITE!
+[20:22:09]:Switching to BLACK
+[20:22:09]:Switching to WHITE!
+[20:22:09]:Switching to BLACK
+[20:22:09]:Switching to WHITE!
+[20:22:09]:Switching to BLACK
+[20:22:09]:Switching to WHITE!
+[20:22:09]:Switching to BLACK
+[20:22:09]:Switching to WHITE!
+[20:22:09]:Switching to BLACK
+[20:22:09]:Switching to WHITE!
+[20:22:09]:Switching to BLACK
+[20:22:09]:Switching to WHITE!
+[20:22:09]:Switching to BLACK
+[20:22:09]:Switching to WHITE!
+[20:22:09]:Switching to BLACK
+[20:22:09]:Switching to WHITE!
+[20:22:09]:Switching to BLACK
+[20:22:09]:Switching to WHITE!
+[20:22:09]:Switching to BLACK
+[20:22:09]:Switching to WHITE!
+[20:22:09]:Switching to BLACK
+[20:22:09]:Switching to WHITE!
+[20:22:09]:Switching to BLACK
+[20:22:09]:Switching to WHITE!
+[20:22:09]:Switching to BLACK
+[20:22:09]:Switching to WHITE!
+[20:22:09]:Switching to BLACK
+[20:22:09]:Switching to WHITE!
+[20:22:09]:Switching to BLACK
+[20:22:09]:Switching to WHITE!
+[20:22:10]:Switching to BLACK
+[20:22:10]:Switching to WHITE!
+[20:22:10]:Switching to BLACK
+[20:22:10]:Switching to WHITE!
+[20:22:10]:Switching to BLACK
+[20:22:10]:Switching to WHITE!
+[20:22:10]:Switching to BLACK
+[20:22:10]:Switching to WHITE!
+[20:22:10]:Switching to BLACK
+[20:22:10]:Switching to WHITE!
+[20:22:11]:Starting session
+[20:22:11]:Press any key to connect...
+[20:22:12]:Attempting to connect...
+[20:22:13]:Connection established!
+[20:22:13]:Grabbing initial sensor readings...
+[20:22:13]:Ready!
+[20:22:13]:Sent STAY_ALIVE (0x0D) message
+[20:22:14]:Starting remote control!
+[20:22:15]:Stopping all motors
+[20:22:32]:Exiting remote control.
+[20:22:54]:Starting left side autonomous control
+[20:22:57]:Switching to BLACK
+[20:22:57]:Switching to WHITE!
+[20:22:58]:Switching to BLACK
+[20:22:59]:Switching to WHITE!
+[20:22:59]:Switching to BLACK
+[20:23:00]:Switching to WHITE!
+[20:23:01]:Switching to BLACK
+[20:23:02]:Switching to WHITE!
+[20:23:03]:Switching to BLACK
+[20:23:04]:Switching to WHITE!
+[20:23:06]:Switching to BLACK
+[20:23:07]:Switching to WHITE!
+[20:23:08]:Switching to BLACK
+[20:23:09]:Switching to WHITE!
+[20:23:09]:Switching to BLACK
+[20:23:12]:Switching to WHITE!
+[20:23:13]:Switching to BLACK
+[20:23:13]:Sent STAY_ALIVE (0x0D) message
+[20:23:15]:Switching to WHITE!
+[20:23:16]:Switching to BLACK
+[20:23:17]:Switching to WHITE!
+[20:23:19]:Switching to BLACK
+[20:23:20]:Switching to WHITE!
+[20:23:20]:Switching to BLACK
+[20:23:21]:Switching to WHITE!
+[20:23:22]:Switching to BLACK
+[20:23:23]:Switching to WHITE!
+[20:23:24]:Switching to BLACK
+[20:23:27]:Switching to WHITE!
+[20:23:31]:Starting session
+[20:23:31]:Press any key to connect...
+[20:23:31]:Attempting to connect...
+[20:23:36]:Connection established!
+[20:23:36]:Grabbing initial sensor readings...
+[20:23:36]:Ready!
+[20:23:36]:Sent STAY_ALIVE (0x0D) message
+[20:23:37]:Starting remote control!
+[20:23:37]:Stopping all motors
+[20:23:38]:Exiting remote control.
+[20:23:47]:Starting left side autonomous control
+[20:23:50]:Switching to BLACK
+[20:23:53]:Switching to WHITE!
+[20:23:55]:Switching to BLACK
+[20:23:56]:Switching to WHITE!
+[20:23:57]:Switching to BLACK
+[20:23:58]:Switching to WHITE!
+[20:23:59]:Switching to BLACK
+[20:24:00]:Switching to WHITE!
+[20:24:01]:Switching to BLACK
+[20:24:01]:Switching to WHITE!
+[20:24:02]:Switching to BLACK
+[20:24:03]:Switching to WHITE!
+[20:24:03]:Switching to BLACK
+[20:24:06]:Switching to WHITE!
+[20:24:08]:Switching to BLACK
+[20:24:09]:Switching to WHITE!
+[20:24:10]:Switching to BLACK
+[20:24:12]:Switching to WHITE!
+[20:24:13]:Switching to BLACK
+[20:24:14]:Switching to WHITE!
+[20:24:15]:Switching to BLACK
+[20:24:17]:Switching to WHITE!
+[20:24:18]:Switching to BLACK
+[20:24:19]:Switching to WHITE!
+[20:24:22]:Starting session
+[20:24:22]:Press any key to connect...
+[20:24:28]:Attempting to connect...
+[20:24:33]:Connection established!
+[20:24:33]:Grabbing initial sensor readings...
+[20:24:33]:Ready!
+[20:24:33]:Sent STAY_ALIVE (0x0D) message
+[20:24:35]:Starting remote control!
+[20:24:35]:Stopping all motors
+[20:24:52]:Starting session
+[20:24:52]:Press any key to connect...
+[20:24:52]:Attempting to connect...
+[20:24:57]:Connection established!
+[20:24:57]:Grabbing initial sensor readings...
+[20:24:58]:Ready!
+[20:24:58]:Sent STAY_ALIVE (0x0D) message
+[20:25:08]:Starting left side autonomous control
+[20:25:10]:Switching to BLACK
+[20:25:10]:Switching to WHITE!
+[20:25:11]:Switching to BLACK
+[20:25:12]:Switching to WHITE!
+[20:25:13]:Switching to BLACK
+[20:25:21]:Starting session
+[20:25:21]:Press any key to connect...
+[20:25:23]:Attempting to connect...
+[20:25:28]:Connection established!
+[20:25:28]:Grabbing initial sensor readings...
+[20:25:28]:Ready!
+[20:25:28]:Sent STAY_ALIVE (0x0D) message
+[20:25:29]:Starting remote control!
+[20:25:29]:Stopping all motors
+[20:25:42]:Starting session
+[20:25:42]:Press any key to connect...
+[20:25:42]:Attempting to connect...
+[20:25:47]:Connection established!
+[20:25:47]:Grabbing initial sensor readings...
+[20:25:48]:Ready!
+[20:25:48]:Sent STAY_ALIVE (0x0D) message
+[20:25:50]:Starting session
+[20:25:50]:Press any key to connect...
+[20:25:53]:Attempting to connect...
+[20:25:59]:Connection established!
+[20:25:59]:Grabbing initial sensor readings...
+[20:25:59]:Ready!
+[20:25:59]:Sent STAY_ALIVE (0x0D) message
+[20:26:01]:Starting session
+[20:26:01]:Press any key to connect...
+[20:26:01]:Attempting to connect...
+[20:26:03]:Connection established!
+[20:26:03]:Grabbing initial sensor readings...
+[20:26:03]:Ready!
+[20:26:03]:Sent STAY_ALIVE (0x0D) message
+[20:26:07]:Starting left side autonomous control
+[20:26:10]:Switching to BLACK
+[20:26:21]:Switching to WHITE!
+[20:26:22]:Switching to BLACK
+[20:26:24]:Switching to WHITE!
+[20:26:25]:Switching to BLACK
+[20:26:28]:Switching to WHITE!
+[20:26:29]:Switching to BLACK
+[20:26:35]:Starting session
+[20:26:35]:Press any key to connect...
+[20:26:35]:Attempting to connect...
+[20:26:36]:Connection established!
+[20:26:36]:Grabbing initial sensor readings...
+[20:26:36]:Ready!
+[20:26:36]:Sent STAY_ALIVE (0x0D) message
+[20:26:37]:Starting remote control!
+[20:26:38]:Stopping all motors
+[20:26:38]:Exiting remote control.
+[20:26:48]:Starting left side autonomous control
+[20:26:48]:Switching to BLACK
+[20:26:48]:Switching to WHITE!
+[20:26:49]:Switching to BLACK
+[20:26:50]:Switching to WHITE!
+[20:26:51]:Switching to BLACK
+[20:26:52]:Switching to WHITE!
+[20:26:53]:Switching to BLACK
+[20:26:54]:Switching to WHITE!
+[20:26:55]:Switching to BLACK
+[20:26:56]:Switching to WHITE!
+[20:26:57]:Switching to BLACK
+[20:26:57]:Switching to WHITE!
+[20:26:58]:Switching to BLACK
+[20:26:59]:Switching to WHITE!
+[20:27:00]:Switching to BLACK
+[20:27:03]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:04]:Switching to WHITE!
+[20:27:04]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:05]:Switching to WHITE!
+[20:27:05]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:06]:Switching to WHITE!
+[20:27:06]:Switching to BLACK
+[20:27:07]:Switching to WHITE!
+[20:27:07]:Switching to BLACK
+[20:27:07]:Switching to WHITE!
+[20:27:07]:Switching to BLACK
+[20:27:07]:Switching to WHITE!
+[20:27:07]:Switching to BLACK
+[20:27:07]:Switching to WHITE!
+[20:27:07]:Switching to BLACK
+[20:27:07]:Switching to WHITE!
+[20:27:07]:Switching to BLACK
+[20:27:07]:Switching to WHITE!
+[20:27:07]:Switching to BLACK
+[20:27:07]:Switching to WHITE!
+[20:27:07]:Switching to BLACK
+[20:27:07]:Switching to WHITE!
+[20:27:07]:Switching to BLACK
+[20:27:07]:Switching to WHITE!
+[20:27:07]:Switching to BLACK
+[20:27:07]:Switching to WHITE!
+[20:27:07]:Switching to BLACK
+[20:27:07]:Switching to WHITE!
+[20:27:07]:Switching to BLACK
+[20:27:07]:Switching to WHITE!
+[20:27:07]:Switching to BLACK
+[20:27:07]:Switching to WHITE!
+[20:27:07]:Switching to BLACK
+[20:27:07]:Switching to WHITE!
+[20:27:07]:Switching to BLACK
+[20:27:07]:Switching to WHITE!
+[20:27:07]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:08]:Switching to WHITE!
+[20:27:08]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:09]:Switching to WHITE!
+[20:27:09]:Switching to BLACK
+[20:27:10]:Switching to WHITE!
+[20:27:10]:Switching to BLACK
+[20:27:10]:Switching to WHITE!
+[20:27:10]:Switching to BLACK
+[20:27:10]:Switching to WHITE!
+[20:27:10]:Switching to BLACK
+[20:27:10]:Switching to WHITE!
+[20:27:10]:Switching to BLACK
+[20:27:10]:Switching to WHITE!
+[20:27:10]:Switching to BLACK
+[20:27:10]:Switching to WHITE!
+[20:27:10]:Switching to BLACK
+[20:27:10]:Switching to WHITE!
+[20:27:10]:Switching to BLACK
+[20:27:10]:Switching to WHITE!
+[20:27:10]:Switching to BLACK
+[20:27:10]:Switching to WHITE!
+[20:27:10]:Switching to BLACK
+[20:27:10]:Switching to WHITE!
+[20:27:10]:Switching to BLACK
+[20:27:10]:Switching to WHITE!
+[20:27:10]:Switching to BLACK
+[20:27:10]:Switching to WHITE!
+[20:27:10]:Switching to BLACK
+[20:27:10]:Switching to WHITE!
+[20:27:10]:Switching to BLACK
+[20:27:10]:Switching to WHITE!
+[20:27:10]:Switching to BLACK
+[20:27:10]:Switching to WHITE!
+[20:27:10]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:11]:Switching to WHITE!
+[20:27:11]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:12]:Switching to WHITE!
+[20:27:12]:Switching to BLACK
+[20:27:13]:Switching to WHITE!
+[20:27:13]:Switching to BLACK
+[20:27:13]:Switching to WHITE!
+[20:27:13]:Switching to BLACK
+[20:27:13]:Switching to WHITE!
+[20:27:13]:Switching to BLACK
+[20:27:13]:Switching to WHITE!
+[20:27:13]:Switching to BLACK
+[20:27:13]:Switching to WHITE!
+[20:27:13]:Switching to BLACK
+[20:27:13]:Switching to WHITE!
+[20:27:13]:Switching to BLACK
+[20:27:13]:Switching to WHITE!
+[20:27:13]:Switching to BLACK
+[20:27:13]:Switching to WHITE!
+[20:27:13]:Switching to BLACK
+[20:27:13]:Switching to WHITE!
+[20:27:13]:Switching to BLACK
+[20:27:13]:Switching to WHITE!
+[20:27:13]:Switching to BLACK
+[20:27:13]:Switching to WHITE!
+[20:27:13]:Switching to BLACK
+[20:27:13]:Switching to WHITE!
+[20:27:13]:Switching to BLACK
+[20:27:13]:Switching to WHITE!
+[20:27:13]:Switching to BLACK
+[20:27:13]:Switching to WHITE!
+[20:27:13]:Switching to BLACK
+[20:27:13]:Switching to WHITE!
+[20:27:13]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:14]:Switching to WHITE!
+[20:27:14]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:15]:Switching to WHITE!
+[20:27:15]:Switching to BLACK
+[20:27:16]:Switching to WHITE!
+[20:27:16]:Switching to BLACK
+[20:27:16]:Switching to WHITE!
+[20:27:16]:Switching to BLACK
+[20:27:16]:Switching to WHITE!
+[20:27:16]:Switching to BLACK
+[20:27:16]:Switching to WHITE!
+[20:27:16]:Switching to BLACK
+[20:27:16]:Switching to WHITE!
+[20:27:16]:Switching to BLACK
+[20:27:16]:Switching to WHITE!
+[20:27:16]:Switching to BLACK
+[20:27:16]:Switching to WHITE!
+[20:27:16]:Switching to BLACK
+[20:27:16]:Switching to WHITE!
+[20:27:16]:Switching to BLACK
+[20:27:16]:Switching to WHITE!
+[20:27:16]:Switching to BLACK
+[20:27:16]:Switching to WHITE!
+[20:27:16]:Switching to BLACK
+[20:27:16]:Switching to WHITE!
+[20:27:16]:Switching to BLACK
+[20:27:16]:Switching to WHITE!
+[20:27:16]:Switching to BLACK
+[20:27:16]:Switching to WHITE!
+[20:27:16]:Switching to BLACK
+[20:27:16]:Switching to WHITE!
+[20:27:16]:Switching to BLACK
+[20:27:16]:Switching to WHITE!
+[20:27:16]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:17]:Switching to WHITE!
+[20:27:17]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:18]:Switching to WHITE!
+[20:27:18]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:19]:Switching to WHITE!
+[20:27:19]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:20]:Switching to WHITE!
+[20:27:20]:Switching to BLACK
+[20:27:21]:Switching to WHITE!
+[20:27:21]:Switching to BLACK
+[20:27:21]:Switching to WHITE!
+[20:27:21]:Switching to BLACK
+[20:27:21]:Switching to WHITE!
+[20:27:21]:Switching to BLACK
+[20:27:21]:Switching to WHITE!
+[20:27:21]:Switching to BLACK
+[20:27:21]:Switching to WHITE!
+[20:27:21]:Switching to BLACK
+[20:27:21]:Switching to WHITE!
+[20:27:21]:Switching to BLACK
+[20:27:21]:Switching to WHITE!
+[20:27:21]:Switching to BLACK
+[20:27:21]:Switching to WHITE!
+[20:27:21]:Switching to BLACK
+[20:27:21]:Switching to WHITE!
+[20:27:21]:Switching to BLACK
+[20:27:21]:Switching to WHITE!
+[20:27:21]:Switching to BLACK
+[20:27:21]:Switching to WHITE!
+[20:27:21]:Switching to BLACK
+[20:27:21]:Switching to WHITE!
+[20:27:21]:Switching to BLACK
+[20:27:21]:Switching to WHITE!
+[20:27:21]:Switching to BLACK
+[20:27:21]:Switching to WHITE!
+[20:27:21]:Switching to BLACK
+[20:27:21]:Switching to WHITE!
+[20:27:21]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:22]:Switching to WHITE!
+[20:27:22]:Switching to BLACK
+[20:27:23]:Switching to WHITE!
+[20:27:23]:Switching to BLACK
+[20:27:23]:Switching to WHITE!
+[20:27:23]:Switching to BLACK
+[20:27:23]:Switching to WHITE!
+[20:27:23]:Switching to BLACK
+[20:27:23]:Switching to WHITE!
+[20:27:23]:Switching to BLACK
+[20:27:23]:Switching to WHITE!
+[20:27:23]:Switching to BLACK
+[20:27:23]:Switching to WHITE!
+[20:27:23]:Switching to BLACK
+[20:27:23]:Switching to WHITE!
+[20:27:23]:Switching to BLACK
+[20:27:23]:Switching to WHITE!
+[20:27:23]:Switching to BLACK
+[20:27:23]:Switching to WHITE!
+[20:27:23]:Switching to BLACK
+[20:27:23]:Switching to WHITE!
+[20:27:23]:Switching to BLACK
+[20:27:23]:Switching to WHITE!
+[20:27:23]:Switching to BLACK
+[20:27:23]:Switching to WHITE!
+[20:27:23]:Switching to BLACK
+[20:27:23]:Switching to WHITE!
+[20:27:23]:Switching to BLACK
+[20:27:23]:Switching to WHITE!
+[20:27:23]:Switching to BLACK
+[20:27:23]:Switching to WHITE!
+[20:27:23]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:24]:Switching to WHITE!
+[20:27:24]:Switching to BLACK
+[20:27:25]:Switching to WHITE!
+[20:27:25]:Switching to BLACK
+[20:27:25]:Switching to WHITE!
+[20:27:25]:Switching to BLACK
+[20:27:25]:Switching to WHITE!
+[20:27:25]:Switching to BLACK
+[20:27:25]:Switching to WHITE!
+[20:27:25]:Switching to BLACK
+[20:27:25]:Switching to WHITE!
+[20:27:25]:Switching to BLACK
+[20:27:25]:Switching to WHITE!
+[20:27:25]:Switching to BLACK
+[20:27:25]:Switching to WHITE!
+[20:27:25]:Switching to BLACK
+[20:27:25]:Switching to WHITE!
+[20:27:25]:Switching to BLACK
+[20:27:25]:Switching to WHITE!
+[20:27:25]:Switching to BLACK
+[20:27:25]:Switching to WHITE!
+[20:27:25]:Switching to BLACK
+[20:27:25]:Switching to WHITE!
+[20:27:25]:Switching to BLACK
+[20:27:25]:Switching to WHITE!
+[20:27:25]:Switching to BLACK
+[20:27:25]:Switching to WHITE!
+[20:27:25]:Switching to BLACK
+[20:27:25]:Switching to WHITE!
+[20:27:25]:Switching to BLACK
+[20:27:25]:Switching to WHITE!
+[20:27:25]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:26]:Switching to WHITE!
+[20:27:26]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:27]:Switching to WHITE!
+[20:27:27]:Switching to BLACK
+[20:27:28]:Switching to WHITE!
+[20:27:28]:Switching to BLACK
+[20:27:28]:Switching to WHITE!
+[20:27:28]:Switching to BLACK
+[20:27:28]:Switching to WHITE!
+[20:27:28]:Switching to BLACK
+[20:27:28]:Switching to WHITE!
+[20:27:28]:Switching to BLACK
+[20:27:28]:Switching to WHITE!
+[20:27:28]:Switching to BLACK
+[20:27:30]:Starting session
+[20:27:30]:Press any key to connect...
+[20:27:31]:Attempting to connect...
+[20:27:35]:Connection established!
+[20:27:35]:Grabbing initial sensor readings...
+[20:27:35]:Ready!
+[20:27:35]:Sent STAY_ALIVE (0x0D) message
+[20:27:37]:Starting session
+[20:27:37]:Press any key to connect...
+[20:27:37]:Attempting to connect...
+[20:27:38]:Connection established!
+[20:27:38]:Grabbing initial sensor readings...
+[20:27:39]:Ready!
+[20:27:39]:Sent STAY_ALIVE (0x0D) message
+[20:27:40]:Starting remote control!
+[20:27:40]:Exiting remote control.
+[20:27:53]:Starting left side autonomous control
+[20:27:53]:Switching to BLACK
+[20:27:53]:Switching to WHITE!
+[20:27:54]:Switching to BLACK
+[20:27:55]:Switching to WHITE!
+[20:27:56]:Switching to BLACK
+[20:27:57]:Switching to WHITE!
+[20:27:59]:Switching to BLACK
+[20:28:00]:Switching to WHITE!
+[20:28:01]:Switching to BLACK
+[20:28:02]:Switching to WHITE!
+[20:28:02]:Switching to BLACK
+[20:28:04]:Switching to WHITE!
+[20:28:05]:Switching to BLACK
+[20:28:05]:Switching to WHITE!
+[20:28:06]:Switching to BLACK
+[20:28:08]:Switching to WHITE!
+[20:28:10]:Switching to BLACK
+[20:28:11]:Switching to WHITE!
+[20:28:12]:Switching to BLACK
+[20:28:12]:Switching to WHITE!
+[20:28:13]:Switching to BLACK
+[20:28:14]:Switching to WHITE!
+[20:28:15]:Switching to BLACK
+[20:28:16]:Switching to WHITE!
+[20:28:16]:Switching to BLACK
+[20:28:17]:Switching to WHITE!
+[20:28:18]:Switching to BLACK
+[20:28:20]:Switching to WHITE!
+[20:28:21]:Switching to BLACK
+[20:28:23]:Switching to WHITE!
+[20:28:24]:Switching to BLACK
+[20:28:25]:Switching to WHITE!
+[20:28:26]:Switching to BLACK
+[20:28:27]:Switching to WHITE!
+[20:28:28]:Switching to BLACK
+[20:28:29]:Switching to WHITE!
+[20:28:30]:Switching to BLACK
+[20:28:31]:Switching to WHITE!
+[20:28:32]:Switching to BLACK
+[20:28:33]:Switching to WHITE!
+[20:28:34]:Switching to BLACK
+[20:28:35]:Switching to WHITE!
+[20:28:35]:Switching to BLACK
+[20:28:36]:Switching to WHITE!
+[20:28:38]:Starting session
+[20:28:38]:Press any key to connect...
+[20:28:39]:Attempting to connect...
+[20:28:40]:Connection established!
+[20:28:40]:Grabbing initial sensor readings...
+[20:28:40]:Ready!
+[20:28:40]:Sent STAY_ALIVE (0x0D) message
+[20:28:48]:Starting remote control!
+[20:28:48]:Stopping all motors
+[20:28:49]:Exiting remote control.
+[20:29:40]:Sent STAY_ALIVE (0x0D) message
+[20:29:55]:Starting session
+[20:29:55]:Press any key to connect...
+[20:29:55]:Attempting to connect...
+[20:30:00]:Connection established!
+[20:30:00]:Grabbing initial sensor readings...
+[20:30:00]:Ready!
+[20:30:00]:Sent STAY_ALIVE (0x0D) message
+[20:30:14]:Starting left side autonomous control
+[20:30:17]:Switching to BLACK
+[20:30:20]:Switching to WHITE!
+[20:30:22]:Switching to BLACK
+[20:30:24]:Switching to WHITE!
+[20:30:25]:Switching to BLACK
+[20:30:27]:Switching to WHITE!
+[20:30:28]:Switching to BLACK
+[20:30:29]:Switching to WHITE!
+[20:30:29]:Switching to BLACK
+[20:30:30]:Switching to WHITE!
+[20:30:31]:Switching to BLACK
+[20:30:33]:Switching to WHITE!
+[20:30:34]:Switching to BLACK
+[20:30:35]:Switching to WHITE!
+[20:30:36]:Switching to BLACK
+[20:30:37]:Switching to WHITE!
+[20:30:39]:Switching to BLACK
+[20:30:40]:Switching to WHITE!
+[20:30:41]:Switching to BLACK
+[20:30:43]:Switching to WHITE!
+[20:30:44]:Switching to BLACK
+[20:30:45]:Switching to WHITE!
+[20:30:46]:Switching to BLACK
+[20:30:48]:Switching to WHITE!
+[20:30:49]:Switching to BLACK
+[20:30:56]:Starting session
+[20:30:56]:Press any key to connect...
+[20:30:56]:Attempting to connect...
+[20:31:01]:Connection established!
+[20:31:01]:Grabbing initial sensor readings...
+[20:31:01]:Ready!
+[20:31:01]:Sent STAY_ALIVE (0x0D) message
+[20:31:03]:Starting session
+[20:31:03]:Press any key to connect...
+[20:31:07]:Attempting to connect...
+[20:31:13]:Connection established!
+[20:31:13]:Grabbing initial sensor readings...
+[20:31:13]:Ready!
+[20:31:13]:Sent STAY_ALIVE (0x0D) message
+[20:31:14]:Starting session
+[20:31:14]:Press any key to connect...
+[20:31:14]:Attempting to connect...
+[20:31:16]:Connection established!
+[20:31:16]:Grabbing initial sensor readings...
+[20:31:16]:Ready!
+[20:31:16]:Sent STAY_ALIVE (0x0D) message
+[20:31:17]:Starting remote control!
+[20:31:18]:Stopping all motors
+[20:31:21]:Starting session
+[20:31:21]:Press any key to connect...
+[20:31:22]:Attempting to connect...
+[20:31:27]:Connection established!
+[20:31:27]:Grabbing initial sensor readings...
+[20:31:27]:Ready!
+[20:31:27]:Sent STAY_ALIVE (0x0D) message
+[20:31:28]:Starting session
+[20:31:28]:Press any key to connect...
+[20:31:29]:Attempting to connect...
+[20:31:30]:Connection established!
+[20:31:30]:Grabbing initial sensor readings...
+[20:31:31]:Ready!
+[20:31:31]:Sent STAY_ALIVE (0x0D) message
+[20:31:37]:Starting left side autonomous control
+[20:31:40]:Switching to BLACK
+[20:31:41]:Switching to WHITE!
+[20:31:42]:Switching to BLACK
+[20:31:43]:Switching to WHITE!
+[20:31:44]:Switching to BLACK
+[20:31:45]:Switching to WHITE!
+[20:31:46]:Switching to BLACK
+[20:31:47]:Switching to WHITE!
+[20:31:47]:Switching to BLACK
+[20:31:48]:Switching to WHITE!
+[20:31:49]:Switching to BLACK
+[20:31:49]:Switching to WHITE!
+[20:31:50]:Switching to BLACK
+[20:31:52]:Switching to WHITE!
+[20:31:54]:Switching to BLACK
+[20:31:55]:Switching to WHITE!
+[20:31:56]:Switching to BLACK
+[20:31:57]:Switching to WHITE!
+[20:31:58]:Switching to BLACK
+[20:31:59]:Switching to WHITE!
+[20:32:00]:Switching to BLACK
+[20:32:01]:Switching to WHITE!
+[20:32:02]:Switching to BLACK
+[20:32:03]:Switching to WHITE!
+[20:32:04]:Switching to BLACK
+[20:32:05]:Switching to WHITE!
+[20:32:05]:Switching to BLACK
+[20:32:06]:Switching to WHITE!
+[20:32:06]:Switching to BLACK
+[20:32:07]:Switching to WHITE!
+[20:32:08]:Switching to BLACK
+[20:32:09]:Switching to WHITE!
+[20:32:11]:Starting session
+[20:32:11]:Press any key to connect...
+[20:32:12]:Attempting to connect...
+[20:32:13]:Connection established!
+[20:32:13]:Grabbing initial sensor readings...
+[20:32:13]:Ready!
+[20:32:13]:Sent STAY_ALIVE (0x0D) message
+[20:32:14]:Starting remote control!
+[20:32:15]:Stopping all motors
+[20:32:15]:Exiting remote control.
+[20:32:26]:Starting left side autonomous control
+[20:32:27]:Switching to BLACK
+[20:32:27]:Switching to WHITE!
+[20:32:28]:Switching to BLACK
+[20:32:29]:Switching to WHITE!
+[20:32:30]:Switching to BLACK
+[20:32:31]:Switching to WHITE!
+[20:32:32]:Switching to BLACK
+[20:32:33]:Switching to WHITE!
+[20:32:34]:Switching to BLACK
+[20:32:35]:Switching to WHITE!
+[20:32:36]:Switching to BLACK
+[20:32:38]:Switching to WHITE!
+[20:32:39]:Switching to BLACK
+[20:32:40]:Switching to WHITE!
+[20:32:41]:Switching to BLACK
+[20:32:42]:Switching to WHITE!
+[20:32:43]:Switching to BLACK
+[20:32:44]:Switching to WHITE!
+[20:32:45]:Switching to BLACK
+[20:32:45]:Switching to WHITE!
+[20:32:46]:Switching to BLACK
+[20:32:48]:Switching to WHITE!
+[20:32:50]:Switching to BLACK
+[20:32:51]:Switching to WHITE!
+[20:32:52]:Switching to BLACK
+[20:32:52]:Switching to WHITE!
+[20:32:53]:Switching to BLACK
+[20:32:54]:Switching to WHITE!
+[20:32:55]:Switching to BLACK
+[20:32:56]:Switching to WHITE!
+[20:32:56]:Switching to BLACK
+[20:32:57]:Switching to WHITE!
+[20:32:58]:Switching to BLACK
+[20:32:59]:Switching to WHITE!
+[20:32:59]:Switching to BLACK
+[20:33:00]:Switching to WHITE!
+[20:33:01]:Switching to BLACK
+[20:33:02]:Switching to WHITE!
+[20:33:02]:Switching to BLACK
+[20:33:03]:Switching to WHITE!
+[20:33:03]:Switching to BLACK
+[20:33:04]:Switching to WHITE!
+[20:33:06]:Starting session
+[20:33:06]:Press any key to connect...
+[20:33:06]:Attempting to connect...
+[20:33:08]:Connection established!
+[20:33:08]:Grabbing initial sensor readings...
+[20:33:08]:Ready!
+[20:33:08]:Sent STAY_ALIVE (0x0D) message
+[20:33:09]:Starting remote control!
+[20:33:10]:Stopping all motors
+[20:33:10]:Exiting remote control.
+[20:33:29]:Starting left side autonomous control
+[20:33:30]:Switching to BLACK
+[20:33:30]:Switching to WHITE!
+[20:33:31]:Switching to BLACK
+[20:33:32]:Switching to WHITE!
+[20:33:33]:Switching to BLACK
+[20:33:34]:Switching to WHITE!
+[20:33:35]:Switching to BLACK
+[20:33:36]:Switching to WHITE!
+[20:33:37]:Switching to BLACK
+[20:33:38]:Switching to WHITE!
+[20:33:39]:Switching to BLACK
+[20:33:40]:Switching to WHITE!
+[20:33:42]:Switching to BLACK
+[20:33:43]:Switching to WHITE!
+[20:33:44]:Switching to BLACK
+[20:33:45]:Switching to WHITE!
+[20:33:46]:Switching to BLACK
+[20:33:47]:Switching to WHITE!
+[20:33:47]:Switching to BLACK
+[20:33:48]:Switching to WHITE!
+[20:33:49]:Switching to BLACK
+[20:33:50]:Switching to WHITE!
+[20:33:51]:Switching to BLACK
+[20:33:52]:Switching to WHITE!
+[20:33:52]:Switching to BLACK
+[20:33:53]:Switching to WHITE!
+[20:33:55]:Switching to BLACK
+[20:33:56]:Switching to WHITE!
+[20:33:57]:Switching to BLACK
+[20:33:58]:Switching to WHITE!
+[20:34:00]:Switching to BLACK
+[20:34:01]:Switching to WHITE!
+[20:34:02]:Switching to BLACK
+[20:34:03]:Switching to WHITE!
+[20:34:04]:Switching to BLACK
+[20:34:06]:Switching to WHITE!
+[20:34:06]:Switching to BLACK
+[20:34:07]:Switching to WHITE!
+[20:34:08]:Sent STAY_ALIVE (0x0D) message
+[20:34:09]:Starting session
+[20:34:09]:Press any key to connect...
+[20:34:09]:Attempting to connect...
+[20:34:11]:Connection established!
+[20:34:11]:Grabbing initial sensor readings...
+[20:34:11]:Ready!
+[20:34:11]:Sent STAY_ALIVE (0x0D) message
+[20:34:12]:Starting remote control!
+[20:34:12]:Stopping all motors
+[20:35:11]:Sent STAY_ALIVE (0x0D) message
+[20:36:11]:Sent STAY_ALIVE (0x0D) message
+[20:37:11]:Sent STAY_ALIVE (0x0D) message
+[20:38:11]:Sent STAY_ALIVE (0x0D) message
+[20:39:11]:Sent STAY_ALIVE (0x0D) message
+[20:40:11]:Sent STAY_ALIVE (0x0D) message
+[20:41:11]:Sent STAY_ALIVE (0x0D) message
+[20:51:45]:Starting session
+[20:51:45]:Press any key to connect...
+[20:51:45]:Attempting to connect...
+[20:51:51]:ERROR: failed to connect!
+[20:51:51]:Press any key to continue...
+[20:52:20]:Starting session
+[20:52:20]:Press any key to connect...
+[20:52:21]:Attempting to connect...
+[20:52:23]:Connection established!
+[20:52:23]:Grabbing initial sensor readings...
+[20:52:23]:Ready!
+[20:52:23]:Sent STAY_ALIVE (0x0D) message
+[20:52:24]:Starting session
+[20:52:24]:Press any key to connect...
+[20:52:25]:Attempting to connect...
+[20:52:26]:Connection established!
+[20:52:26]:Grabbing initial sensor readings...
+[20:52:26]:Ready!
+[20:52:26]:Sent STAY_ALIVE (0x0D) message
+[20:52:27]:Starting remote control!
+[20:52:28]:Stopping all motors
+[20:52:30]:Stopping all motors
+[20:52:30]:Stopping all motors
+[20:52:32]:Stopping all motors
+[20:52:35]:Stopping all motors
+[20:52:35]:Stopping all motors
+[20:52:36]:Stopping all motors
+[20:52:36]:Stopping all motors
+[20:52:37]:Stopping all motors
+[20:52:37]:Exiting remote control.
+[20:53:35]:Starting session
+[20:53:35]:Press any key to connect...
+[20:53:36]:Attempting to connect...
+[20:53:38]:Connection established!
+[20:53:38]:Grabbing initial sensor readings...
+[20:53:39]:Ready!
+[20:53:39]:Sent STAY_ALIVE (0x0D) message
+[20:53:40]:Starting remote control!
+[20:53:40]:Stopping all motors
+[20:54:10]:Starting session
+[20:54:10]:Press any key to connect...
+[20:54:11]:Attempting to connect...
+[20:54:13]:Connection established!
+[20:54:13]:Grabbing initial sensor readings...
+[20:54:13]:Ready!
+[20:54:13]:Sent STAY_ALIVE (0x0D) message
+[20:54:14]:Starting remote control!
+[20:54:15]:Stopping all motors
+[20:54:16]:Exiting remote control.
+[20:54:33]:Starting remote control!
+[20:54:33]:Stopping all motors
+[20:54:33]:Stopping all motors
+[20:54:34]:Stopping all motors
+[20:54:34]:Stopping all motors
+[20:54:34]:Stopping all motors
+[20:54:34]:Stopping all motors
+[20:54:35]:Stopping all motors
+[20:54:35]:Stopping all motors
+[20:54:35]:Stopping all motors
+[20:54:39]:Stopping all motors
+[20:54:39]:Stopping all motors
+[20:54:39]:Stopping all motors
+[20:54:40]:Stopping all motors
+[20:54:43]:Exiting remote control.
+[20:55:13]:Sent STAY_ALIVE (0x0D) message
+[20:56:13]:Sent STAY_ALIVE (0x0D) message
+[20:57:13]:Sent STAY_ALIVE (0x0D) message
+[20:57:58]:Starting session
+[20:57:58]:Press any key to connect...
+[20:57:59]:Attempting to connect...
+[20:57:59]:ERROR: failed to connect!
+[20:57:59]:Press any key to continue...
+[20:59:37]:Starting session
+[20:59:37]:Press any key to connect...
+[20:59:37]:Attempting to connect...
+[20:59:39]:Connection established!
+[20:59:39]:Grabbing initial sensor readings...
+[20:59:39]:Ready!
+[20:59:39]:Sent STAY_ALIVE (0x0D) message
+[20:59:41]:Starting remote control!
+[20:59:42]:Stopping all motors
+[20:59:44]:Stopping all motors
+[20:59:45]:Stopping all motors
+[20:59:45]:Stopping all motors
+[20:59:45]:Stopping all motors
+[20:59:47]:Stopping all motors
+[20:59:48]:Stopping all motors
+[21:00:33]:Starting session
+[21:00:33]:Press any key to connect...
+[21:00:33]:Attempting to connect...
+[21:00:36]:Connection established!
+[21:00:36]:Grabbing initial sensor readings...
+[21:00:36]:Ready!
+[21:00:36]:Sent STAY_ALIVE (0x0D) message
+[21:00:58]:Starting session
+[21:00:58]:Press any key to connect...
+[21:00:58]:Attempting to connect...
+[21:01:00]:Connection established!
+[21:01:00]:Grabbing initial sensor readings...
+[21:01:00]:Ready!
+[21:01:00]:Sent STAY_ALIVE (0x0D) message
+[21:01:02]:Starting session
+[21:01:02]:Press any key to connect...
+[21:01:02]:Attempting to connect...
+[21:01:03]:Connection established!
+[21:01:03]:Grabbing initial sensor readings...
+[21:01:03]:Ready!
+[21:01:03]:Sent STAY_ALIVE (0x0D) message
+[21:01:04]:Starting remote control!
+[21:01:05]:Stopping all motors
+[21:02:03]:Sent STAY_ALIVE (0x0D) message
+[21:02:23]:Starting session
+[21:02:23]:Press any key to connect...
+[21:02:23]:Attempting to connect...
+[21:02:23]:ERROR: failed to connect!
+[21:02:23]:Press any key to continue...
+[21:02:49]:Starting session
+[21:02:49]:Press any key to connect...
+[21:02:49]:Attempting to connect...
+[21:02:51]:Connection established!
+[21:02:51]:Grabbing initial sensor readings...
+[21:02:51]:Ready!
+[21:02:51]:Sent STAY_ALIVE (0x0D) message
+[21:02:53]:Starting remote control!
+[21:02:53]:Stopping all motors
+[21:03:51]:Sent STAY_ALIVE (0x0D) message
+[21:04:45]:Starting session
+[21:04:45]:Press any key to connect...
+[21:04:45]:Attempting to connect...
+[21:04:48]:Connection established!
+[21:04:48]:Grabbing initial sensor readings...
+[21:04:48]:Ready!
+[21:04:48]:Sent STAY_ALIVE (0x0D) message
+[21:04:49]:Starting left side autonomous control
+[21:07:09]:Starting session
+[21:07:09]:Press any key to connect...
+[21:07:09]:Attempting to connect...
+[21:07:11]:Connection established!
+[21:07:11]:Grabbing initial sensor readings...
+[21:07:11]:Ready!
+[21:07:11]:Sent STAY_ALIVE (0x0D) message
+[21:07:12]:Starting remote control!
+[21:07:12]:Stopping all motors
+[21:07:30]:Exiting remote control.
+[21:08:55]:Starting session
+[21:08:55]:Press any key to connect...
+[21:08:56]:Attempting to connect...
+[21:08:57]:Connection established!
+[21:08:57]:Grabbing initial sensor readings...
+[21:08:58]:Ready!
+[21:08:58]:Sent STAY_ALIVE (0x0D) message
+[21:08:58]:Starting remote control!
+[21:08:59]:Stopping all motors
+[21:09:58]:Sent STAY_ALIVE (0x0D) message
+[21:10:58]:Sent STAY_ALIVE (0x0D) message
+[21:11:58]:Sent STAY_ALIVE (0x0D) message
+[21:12:58]:Sent STAY_ALIVE (0x0D) message
+[21:14:54]:Starting session
+[21:14:54]:Press any key to connect...
+[21:14:56]:Attempting to connect...
+[21:17:50]:Starting session
+[21:17:50]:Press any key to connect...
+[21:17:50]:Attempting to connect...
+[21:17:52]:Connection established!
+[21:17:52]:Grabbing initial sensor readings...
+[21:17:53]:Ready!
+[21:17:53]:Sent STAY_ALIVE (0x0D) message
+[21:17:55]:Starting session
+[21:17:55]:Press any key to connect...
+[21:17:55]:Attempting to connect...
+[21:17:57]:Connection established!
+[21:17:57]:Grabbing initial sensor readings...
+[21:17:57]:Ready!
+[21:17:57]:Sent STAY_ALIVE (0x0D) message
+[21:17:58]:Starting session
+[21:17:58]:Press any key to connect...
+[21:17:59]:Attempting to connect...
+[21:18:00]:Connection established!
+[21:18:00]:Grabbing initial sensor readings...
+[21:18:00]:Ready!
+[21:18:00]:Sent STAY_ALIVE (0x0D) message
+[21:18:01]:Starting left side autonomous control
+[21:18:09]:Switching to BLACK
+[21:18:09]:Switching to WHITE!
+[21:18:10]:Switching to BLACK
+[21:18:11]:Switching to WHITE!
+[21:18:14]:Starting session
+[21:18:14]:Press any key to connect...
+[21:18:25]:Attempting to connect...
+[21:18:28]:Connection established!
+[21:18:28]:Grabbing initial sensor readings...
+[21:18:28]:Ready!
+[21:18:28]:Sent STAY_ALIVE (0x0D) message
+[21:18:30]:Starting remote control!
+[21:18:31]:Stopping all motors
+[21:19:28]:Sent STAY_ALIVE (0x0D) message
+[21:20:28]:Sent STAY_ALIVE (0x0D) message
+[21:21:28]:Sent STAY_ALIVE (0x0D) message
+[21:22:28]:Sent STAY_ALIVE (0x0D) message
+[21:23:28]:Sent STAY_ALIVE (0x0D) message
+[21:25:15]:Starting session
+[21:25:15]:Press any key to connect...
+[21:25:15]:Attempting to connect...
+[21:25:18]:Connection established!
+[21:25:18]:Grabbing initial sensor readings...
+[21:25:18]:Ready!
+[21:25:18]:Sent STAY_ALIVE (0x0D) message
+[21:25:20]:Starting left side autonomous control
+[21:25:35]:Switching to BLACK
+[21:25:36]:Switching to WHITE!
+[21:25:36]:Switching to BLACK
+[21:25:36]:Switching to WHITE!
+[21:25:37]:Switching to BLACK
+[21:25:37]:Switching to WHITE!
+[21:25:37]:Switching to BLACK
+[21:25:37]:Switching to WHITE!
+[21:25:43]:Switching to BLACK
+[21:25:44]:Switching to WHITE!
+[21:25:44]:Switching to BLACK
+[21:25:44]:Switching to WHITE!
+[21:25:44]:Switching to BLACK
+[21:25:45]:Switching to WHITE!
+[21:26:18]:Sent STAY_ALIVE (0x0D) message
+[21:26:21]:Switching to BLACK
+[21:26:22]:Switching to WHITE!
+[21:26:22]:Switching to WHITE
+[21:26:22]:Switching to BLACK!
+[21:26:23]:Switching to WHITE
+[21:26:23]:Switching to BLACK!
+[21:26:23]:Switching to WHITE
+[21:26:23]:Switching to BLACK!
+[21:26:24]:Switching to WHITE
+[21:26:24]:Switching to BLACK!
+[21:26:24]:Switching to WHITE
+[21:26:24]:Switching to BLACK!
+[21:26:25]:Switching to WHITE
+[21:26:25]:Switching to BLACK!
+[21:26:26]:Switching to WHITE
+[21:26:26]:Switching to BLACK!
+[21:26:27]:Switching to WHITE
+[21:26:27]:Switching to BLACK!
+[21:26:27]:Switching to WHITE
+[21:26:56]:Switching to BLACK!
+[21:26:57]:Switching to WHITE
+[21:26:57]:Switching to BLACK!
+[21:26:59]:Switching to WHITE
+[21:27:18]:Sent STAY_ALIVE (0x0D) message
+[21:28:06]:Starting session
+[21:28:06]:Press any key to connect...
+[21:28:07]:Attempting to connect...
+[21:28:09]:Connection established!
+[21:28:09]:Grabbing initial sensor readings...
+[21:28:10]:Ready!
+[21:28:10]:Sent STAY_ALIVE (0x0D) message
+[21:28:11]:Starting session
+[21:28:11]:Press any key to connect...
+[21:28:11]:Attempting to connect...
+[21:28:13]:Connection established!
+[21:28:13]:Grabbing initial sensor readings...
+[21:28:13]:Ready!
+[21:28:13]:Sent STAY_ALIVE (0x0D) message
+[21:28:14]:Starting remote control!
+[21:28:14]:Stopping all motors
+[21:28:15]:Exiting remote control.
+[21:28:17]:Starting left side autonomous control
+[21:28:19]:Switching to BLACK
+[21:28:20]:Switching to WHITE!
+[21:29:05]:Starting session
+[21:29:05]:Press any key to connect...
+[21:29:06]:Attempting to connect...
+[21:29:08]:Connection established!
+[21:29:08]:Grabbing initial sensor readings...
+[21:29:08]:Ready!
+[21:29:08]:Sent STAY_ALIVE (0x0D) message
+[21:29:09]:Starting remote control!
+[21:29:10]:Stopping all motors
+[21:29:10]:Exiting remote control.
+[21:29:11]:Starting left side autonomous control
+[21:29:14]:Switching to BLACK
+[21:29:14]:Switching to WHITE!
+[21:30:08]:Sent STAY_ALIVE (0x0D) message
+[21:31:20]:Starting session
+[21:31:20]:Press any key to connect...
+[21:31:20]:Attempting to connect...
+[21:31:23]:Connection established!
+[21:31:23]:Grabbing initial sensor readings...
+[21:31:23]:Ready!
+[21:31:23]:Sent STAY_ALIVE (0x0D) message
+[21:31:24]:Starting remote control!
+[21:31:24]:Exiting remote control.
+[21:31:45]:Starting left side autonomous control
+[21:31:48]:Switching to BLACK
+[21:31:51]:Switching to WHITE!
+[21:31:52]:Switching to BLACK
+[21:31:54]:Switching to WHITE!
+[21:31:55]:Switching to BLACK
+[21:31:56]:Switching to WHITE!
+[21:31:56]:Switching to BLACK
+[21:31:57]:Switching to WHITE!
+[21:31:58]:Switching to BLACK
+[21:31:58]:Switching to WHITE!
+[21:31:59]:Switching to BLACK
+[21:32:00]:Switching to WHITE!
+[21:32:00]:Switching to BLACK
+[21:32:02]:Switching to WHITE!
+[21:32:03]:Switching to BLACK
+[21:32:04]:Switching to WHITE!
+[21:32:05]:Switching to BLACK
+[21:32:05]:Switching to WHITE!
+[21:32:06]:Switching to BLACK
+[21:32:06]:Switching to WHITE!
+[21:32:07]:Switching to BLACK
+[21:32:08]:Switching to WHITE!
+[21:32:08]:Switching to BLACK
+[21:32:09]:Switching to WHITE!
+[21:32:10]:Switching to BLACK
+[21:32:10]:Switching to WHITE!
+[21:32:11]:Switching to BLACK
+[21:32:12]:Switching to WHITE!
+[21:32:12]:TURNING!
+[21:32:15]:Switching to WHITE
+[21:32:17]:Switching to BLACK!
+[21:32:19]:Switching to WHITE
+[21:32:20]:Switching to BLACK!
+[21:32:21]:Switching to WHITE
+[21:32:22]:Switching to BLACK!
+[21:32:23]:Switching to WHITE
+[21:32:23]:Sent STAY_ALIVE (0x0D) message
+[21:32:24]:Switching to BLACK!
+[21:32:25]:Switching to WHITE
+[21:32:26]:Switching to BLACK!
+[21:32:27]:Switching to WHITE
+[21:32:27]:Switching to BLACK!
+[21:32:28]:Switching to WHITE
+[21:32:29]:Switching to BLACK!
+[21:32:30]:Switching to WHITE
+[21:32:31]:Switching to BLACK!
+[21:32:32]:Switching to WHITE
+[21:32:33]:Switching to BLACK!
+[21:32:34]:Switching to WHITE
+[21:32:35]:Switching to BLACK!
+[21:32:36]:Switching to WHITE
+[21:32:37]:Switching to BLACK!
+[21:32:40]:Switching to WHITE
+[21:32:41]:Switching to BLACK!
+[21:32:43]:Switching to WHITE
+[21:32:44]:Switching to BLACK!
+[21:32:45]:Switching to WHITE
+[21:32:47]:Switching to BLACK!
+[21:32:48]:Switching to WHITE
+[21:32:49]:Switching to BLACK!
+[21:32:50]:Switching to WHITE
+[21:32:51]:Switching to BLACK!
+[21:32:54]:Starting session
+[21:32:54]:Press any key to connect...
+[21:32:55]:Attempting to connect...
+[21:32:57]:Connection established!
+[21:32:57]:Grabbing initial sensor readings...
+[21:32:58]:Ready!
+[21:32:58]:Sent STAY_ALIVE (0x0D) message
+[21:32:58]:Starting remote control!
+[21:32:59]:Stopping all motors
+[21:33:58]:Sent STAY_ALIVE (0x0D) message
+[21:34:58]:Sent STAY_ALIVE (0x0D) message
+[21:35:58]:Sent STAY_ALIVE (0x0D) message
+[21:36:06]:Decreasing foward left speed
+[21:36:06]:Increasing foward right speed
+[21:36:32]:Starting session
+[21:36:32]:Press any key to connect...
+[21:36:32]:Attempting to connect...
+[21:36:35]:Connection established!
+[21:36:35]:Grabbing initial sensor readings...
+[21:36:35]:Ready!
+[21:36:35]:Sent STAY_ALIVE (0x0D) message
+[21:36:39]:Starting session
+[21:36:39]:Press any key to connect...
+[21:36:40]:Attempting to connect...
+[21:36:41]:Connection established!
+[21:36:41]:Grabbing initial sensor readings...
+[21:36:41]:Ready!
+[21:36:41]:Sent STAY_ALIVE (0x0D) message
+[21:36:44]:Starting left side autonomous control
+[21:36:45]:Switching to BLACK
+[21:36:45]:Switching to WHITE!
+[21:36:46]:Switching to BLACK
+[21:36:47]:Switching to WHITE!
+[21:36:48]:Switching to BLACK
+[21:36:49]:Switching to WHITE!
+[21:36:50]:Switching to BLACK
+[21:36:51]:Switching to WHITE!
+[21:36:52]:Switching to BLACK
+[21:36:53]:Switching to WHITE!
+[21:36:53]:Switching to BLACK
+[21:36:55]:Switching to WHITE!
+[21:36:56]:Switching to BLACK
+[21:36:58]:Switching to WHITE!
+[21:36:58]:Switching to BLACK
+[21:36:59]:Switching to WHITE!
+[21:37:00]:Switching to BLACK
+[21:37:01]:Switching to WHITE!
+[21:37:02]:Switching to BLACK
+[21:37:02]:Switching to WHITE!
+[21:37:03]:Switching to BLACK
+[21:37:03]:Switching to WHITE!
+[21:37:04]:Switching to BLACK
+[21:37:06]:Switching to WHITE!
+[21:37:08]:Switching to BLACK
+[21:37:10]:Switching to WHITE!
+[21:37:11]:Switching to BLACK
+[21:37:11]:Dispensing
+[21:37:11]:Switching to WHITE!
+[21:37:11]:Switching to BLACK
+[21:37:29]:Starting session
+[21:37:29]:Press any key to connect...
+[21:37:29]:Attempting to connect...
+[21:37:31]:Connection established!
+[21:37:31]:Grabbing initial sensor readings...
+[21:37:31]:Ready!
+[21:37:31]:Sent STAY_ALIVE (0x0D) message
+[21:37:33]:Starting remote control!
+[21:37:33]:Stopping all motors
+[21:37:35]:Requesting new sensor readings
+[21:37:35]:Requesting new sensor readings
+[21:37:36]:Requesting new sensor readings
+[21:37:40]:Requesting new sensor readings
+[21:37:41]:Requesting new sensor readings
+[21:37:41]:Requesting new sensor readings
+[21:37:51]:Stopping all motors
+[21:37:51]:Stopping all motors
+[21:37:52]:Stopping all motors
+[21:37:52]:Stopping all motors
+[21:37:52]:Stopping all motors
+[21:37:52]:Stopping all motors
+[21:37:52]:Stopping all motors
+[21:37:52]:Stopping all motors
+[21:37:53]:Stopping all motors
+[21:37:53]:Stopping all motors
+[21:37:53]:Stopping all motors
+[21:37:53]:Stopping all motors
+[21:37:54]:Stopping all motors
+[21:37:56]:Exiting remote control.
+[21:37:58]:Starting session
+[21:37:58]:Press any key to connect...
+[21:37:58]:Attempting to connect...
+[21:38:00]:Connection established!
+[21:38:00]:Grabbing initial sensor readings...
+[21:38:00]:Ready!
+[21:38:00]:Sent STAY_ALIVE (0x0D) message
+[21:38:08]:Starting left side autonomous control
+[21:38:10]:Switching to BLACK
+[21:38:10]:Switching to WHITE!
+[21:38:11]:Switching to BLACK
+[21:38:11]:Switching to WHITE!
+[21:38:12]:Switching to BLACK
+[21:38:13]:Switching to WHITE!
+[21:38:14]:Switching to BLACK
+[21:38:15]:Switching to WHITE!
+[21:38:16]:Switching to BLACK
+[21:38:18]:Switching to WHITE!
+[21:38:19]:Switching to BLACK
+[21:38:21]:Switching to WHITE!
+[21:38:22]:Switching to BLACK
+[21:38:22]:Switching to WHITE!
+[21:38:23]:Switching to BLACK
+[21:38:24]:Switching to WHITE!
+[21:38:25]:Switching to BLACK
+[21:38:26]:Switching to WHITE!
+[21:38:26]:Switching to BLACK
+[21:38:28]:Switching to WHITE!
+[21:38:29]:Switching to BLACK
+[21:38:30]:Switching to WHITE!
+[21:38:31]:Switching to BLACK
+[21:38:32]:Switching to WHITE!
+[21:38:33]:Switching to BLACK
+[21:38:34]:Switching to WHITE!
+[21:38:35]:Switching to BLACK
+[21:38:36]:Switching to WHITE!
+[21:38:37]:Switching to BLACK
+[21:38:38]:Switching to WHITE!
+[21:38:40]:Switching to BLACK
+[21:38:41]:Switching to WHITE!
+[21:38:42]:Switching to BLACK
+[21:38:45]:Dispensing
+[21:38:45]:Switching to WHITE!
+[21:38:45]:Switching to BLACK
+[21:38:53]:Dispensing
+[21:38:53]:Switching to WHITE!
+[21:38:53]:Switching to BLACK
+[21:38:53]:Switching to WHITE!
+[21:38:54]:Switching to BLACK
+[21:38:55]:Switching to WHITE!
+[21:38:55]:Switching to BLACK
+[21:38:56]:Switching to WHITE!
+[21:38:56]:Switching to BLACK
+[21:38:57]:Switching to WHITE!
+[21:38:57]:Switching to BLACK
+[21:38:58]:Switching to WHITE!
+[21:38:58]:Switching to BLACK
+[21:38:59]:Switching to WHITE!
+[21:38:59]:Switching to BLACK
+[21:38:59]:Switching to WHITE!
+[21:39:00]:Sent STAY_ALIVE (0x0D) message
+[21:39:00]:Switching to BLACK
+[21:39:00]:Switching to WHITE!
+[21:39:01]:Switching to BLACK
+[21:39:01]:Switching to WHITE!
+[21:39:02]:Switching to BLACK
+[21:39:02]:Switching to WHITE!
+[21:39:03]:Switching to BLACK
+[21:39:03]:Switching to WHITE!
+[21:39:04]:Switching to BLACK
+[21:39:04]:Switching to WHITE!
+[21:39:05]:Switching to BLACK
+[21:39:05]:Switching to WHITE!
+[21:39:06]:Switching to BLACK
+[21:39:06]:Switching to WHITE!
+[21:39:07]:Switching to BLACK
+[21:39:07]:Switching to WHITE!
+[21:39:08]:Switching to BLACK
+[21:39:08]:Switching to WHITE!
+[21:39:09]:Switching to BLACK
+[21:39:09]:Switching to WHITE!
+[21:39:10]:Switching to BLACK
+[21:39:10]:Switching to WHITE!
+[21:39:11]:Switching to BLACK
+[21:39:11]:Switching to WHITE!
+[21:39:15]:Switching to BLACK
+[21:39:20]:Switching to WHITE!
+[21:39:21]:Switching to BLACK
+[21:39:23]:Starting session
+[21:39:23]:Press any key to connect...
+[21:39:25]:Attempting to connect...
+[21:39:27]:Connection established!
+[21:39:27]:Grabbing initial sensor readings...
+[21:39:27]:Ready!
+[21:39:27]:Sent STAY_ALIVE (0x0D) message
+[21:39:29]:Starting session
+[21:39:29]:Press any key to connect...
+[21:39:29]:Attempting to connect...
+[21:39:30]:Connection established!
+[21:39:30]:Grabbing initial sensor readings...
+[21:39:31]:Ready!
+[21:39:31]:Sent STAY_ALIVE (0x0D) message
+[21:39:31]:Starting remote control!
+[21:39:32]:Stopping all motors
+[21:39:34]:Stopping all motors
+[21:39:34]:Stopping all motors
+[21:39:34]:Stopping all motors
+[21:39:34]:Stopping all motors
+[21:39:34]:Stopping all motors
+[21:39:35]:Stopping all motors
+[21:39:35]:Stopping all motors
+[21:39:35]:Stopping all motors
+[21:39:35]:Stopping all motors
+[21:39:36]:Stopping all motors
+[21:39:37]:Stopping all motors
+[21:39:37]:Stopping all motors
+[21:39:37]:Stopping all motors
+[21:39:38]:Stopping all motors
+[21:39:39]:Stopping all motors
+[21:39:46]:Exiting remote control.
+[21:39:47]:Starting left side autonomous control
+[21:39:48]:Switching to BLACK
+[21:39:48]:Switching to WHITE!
+[21:39:49]:Switching to BLACK
+[21:39:50]:Switching to WHITE!
+[21:39:50]:Switching to BLACK
+[21:39:51]:Switching to WHITE!
+[21:39:52]:Switching to BLACK
+[21:39:53]:Switching to WHITE!
+[21:39:53]:Switching to BLACK
+[21:39:54]:Switching to WHITE!
+[21:39:54]:Switching to BLACK
+[21:39:55]:Switching to WHITE!
+[21:39:56]:Switching to BLACK
+[21:39:57]:Switching to WHITE!
+[21:39:58]:Switching to BLACK
+[21:39:58]:Switching to WHITE!
+[21:39:59]:Switching to BLACK
+[21:40:01]:Switching to WHITE!
+[21:40:02]:Switching to BLACK
+[21:40:03]:Switching to WHITE!
+[21:40:03]:Switching to BLACK
+[21:40:04]:Switching to WHITE!
+[21:40:05]:Switching to BLACK
+[21:40:06]:Switching to WHITE!
+[21:40:07]:Switching to BLACK
+[21:40:07]:Switching to WHITE!
+[21:40:08]:Switching to BLACK
+[21:40:08]:Switching to WHITE!
+[21:40:09]:Switching to BLACK
+[21:40:10]:Switching to WHITE!
+[21:40:10]:Switching to BLACK
+[21:40:11]:Switching to WHITE!
+[21:40:12]:Switching to BLACK
+[21:40:15]:Switching to WHITE!
+[21:40:17]:Switching to BLACK
+[21:40:19]:Switching to WHITE!
+[21:40:20]:Switching to BLACK
+[21:40:22]:Switching to WHITE!
+[21:40:23]:Switching to BLACK
+[21:40:24]:Switching to WHITE!
+[21:40:24]:Switching to BLACK
+[21:40:25]:Switching to WHITE!
+[21:40:26]:Switching to BLACK
+[21:40:27]:Switching to WHITE!
+[21:40:29]:Switching to BLACK
+[21:40:30]:Switching to WHITE!
+[21:40:31]:Sent STAY_ALIVE (0x0D) message
+[21:40:32]:Switching to BLACK
+[21:40:32]:Dispensing
+[21:40:32]:Switching to WHITE!
+[21:40:32]:TURNING!
+[21:40:43]:Switching to WHITE
+[21:40:45]:Switching to BLACK!
+[21:40:46]:Switching to WHITE
+[21:40:47]:Switching to BLACK!
+[21:40:48]:Switching to WHITE
+[21:40:49]:Switching to BLACK!
+[21:40:50]:Switching to WHITE
+[21:40:51]:Switching to BLACK!
+[21:40:52]:Switching to WHITE
+[21:40:52]:Switching to BLACK!
+[21:40:53]:Switching to WHITE
+[21:40:54]:Switching to BLACK!
+[21:40:55]:Switching to WHITE
+[21:40:56]:Switching to BLACK!
+[21:40:56]:Switching to WHITE
+[21:40:57]:Switching to BLACK!
+[21:40:59]:Switching to WHITE
+[21:41:01]:Switching to BLACK!
+[21:41:02]:Switching to WHITE
+[21:41:03]:Switching to BLACK!
+[21:41:04]:Switching to WHITE
+[21:41:05]:Switching to BLACK!
+[21:41:06]:Switching to WHITE
+[21:41:07]:Switching to BLACK!
+[21:41:08]:Switching to WHITE
+[21:41:08]:Switching to BLACK!
+[21:41:09]:Switching to WHITE
+[21:41:10]:Switching to BLACK!
+[21:41:13]:Switching to WHITE
+[21:41:15]:Switching to BLACK!
+[21:41:16]:Switching to WHITE
+[21:41:16]:Switching to BLACK!
+[21:41:17]:Switching to WHITE
+[21:41:18]:Switching to BLACK!
+[21:41:18]:Switching to WHITE
+[21:41:19]:Switching to BLACK!
+[21:41:19]:Switching to WHITE
+[21:41:20]:Switching to BLACK!
+[21:41:21]:Switching to WHITE
+[21:41:21]:Switching to BLACK!
+[21:41:22]:Switching to WHITE
+[21:41:23]:Switching to BLACK!
+[21:41:24]:Switching to WHITE
+[21:41:24]:Switching to BLACK!
+[21:41:25]:Switching to WHITE
+[21:41:26]:Switching to BLACK!
+[21:41:27]:Switching to WHITE
+[21:41:28]:Starting session
+[21:41:28]:Press any key to connect...
+[21:41:30]:Attempting to connect...
+[21:41:32]:Connection established!
+[21:41:32]:Grabbing initial sensor readings...
+[21:41:32]:Ready!
+[21:41:32]:Sent STAY_ALIVE (0x0D) message
+[21:41:33]:Starting remote control!
+[21:41:33]:Stopping all motors
+[21:42:32]:Sent STAY_ALIVE (0x0D) message
+[21:43:32]:Sent STAY_ALIVE (0x0D) message
+[21:44:32]:Sent STAY_ALIVE (0x0D) message
+[21:45:07]:Starting session
+[21:45:07]:Press any key to connect...
+[21:45:08]:Attempting to connect...
+[21:45:12]:Connection established!
+[21:45:12]:Grabbing initial sensor readings...
+[21:45:12]:Ready!
+[21:45:12]:Sent STAY_ALIVE (0x0D) message
+[21:45:14]:Starting session
+[21:45:14]:Press any key to connect...
+[21:45:14]:Attempting to connect...
+[21:45:16]:Connection established!
+[21:45:16]:Grabbing initial sensor readings...
+[21:45:16]:Ready!
+[21:45:16]:Sent STAY_ALIVE (0x0D) message
+[21:45:19]:Starting left side autonomous control
+[21:45:20]:Switching to BLACK
+[21:45:20]:Switching to WHITE!
+[21:45:21]:Switching to BLACK
+[21:45:22]:Switching to WHITE!
+[21:45:22]:Switching to BLACK
+[21:45:23]:Switching to WHITE!
+[21:45:24]:Switching to BLACK
+[21:45:24]:Switching to WHITE!
+[21:45:25]:Switching to BLACK
+[21:45:26]:Switching to WHITE!
+[21:45:26]:Switching to BLACK
+[21:45:28]:Switching to WHITE!
+[21:45:29]:Switching to BLACK
+[21:45:30]:Switching to WHITE!
+[21:45:31]:Switching to BLACK
+[21:45:32]:Switching to WHITE!
+[21:45:34]:Switching to BLACK
+[21:45:35]:Switching to WHITE!
+[21:45:36]:Switching to BLACK
+[21:45:38]:Switching to WHITE!
+[21:45:39]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:40]:Switching to BLACK
+[21:45:40]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:41]:Switching to BLACK
+[21:45:41]:Switching to WHITE!
+[21:45:42]:Switching to BLACK
+[21:45:42]:Switching to WHITE!
+[21:45:42]:Switching to BLACK
+[21:45:42]:Switching to WHITE!
+[21:45:42]:Switching to BLACK
+[21:45:42]:Switching to WHITE!
+[21:45:42]:Switching to BLACK
+[21:45:42]:Switching to WHITE!
+[21:45:42]:Switching to BLACK
+[21:45:42]:Switching to WHITE!
+[21:45:42]:Switching to BLACK
+[21:45:42]:Switching to WHITE!
+[21:45:42]:Switching to BLACK
+[21:45:42]:Switching to WHITE!
+[21:45:42]:Switching to BLACK
+[21:45:42]:Switching to WHITE!
+[21:45:42]:Switching to BLACK
+[21:45:42]:Switching to WHITE!
+[21:45:42]:Switching to BLACK
+[21:45:42]:Switching to WHITE!
+[21:45:42]:Switching to BLACK
+[21:45:42]:Switching to WHITE!
+[21:45:42]:Switching to BLACK
+[21:45:42]:Switching to WHITE!
+[21:45:42]:Switching to BLACK
+[21:45:42]:Switching to WHITE!
+[21:45:42]:Switching to BLACK
+[21:45:42]:Switching to WHITE!
+[21:45:42]:Switching to BLACK
+[21:45:42]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:43]:Switching to BLACK
+[21:45:43]:Switching to WHITE!
+[21:45:44]:Switching to BLACK
+[21:45:44]:Switching to WHITE!
+[21:45:44]:Switching to BLACK
+[21:45:44]:Switching to WHITE!
+[21:45:44]:Switching to BLACK
+[21:45:44]:Switching to WHITE!
+[21:45:44]:Switching to BLACK
+[21:45:44]:Switching to WHITE!
+[21:45:44]:Switching to BLACK
+[21:45:44]:Switching to WHITE!
+[21:45:44]:Switching to BLACK
+[21:45:44]:Switching to WHITE!
+[21:45:44]:Switching to BLACK
+[21:45:44]:Switching to WHITE!
+[21:45:44]:Switching to BLACK
+[21:45:44]:Switching to WHITE!
+[21:45:44]:Switching to BLACK
+[21:45:44]:Switching to WHITE!
+[21:45:44]:Switching to BLACK
+[21:45:44]:Switching to WHITE!
+[21:45:44]:Switching to BLACK
+[21:45:44]:Switching to WHITE!
+[21:45:44]:Switching to BLACK
+[21:45:44]:Switching to WHITE!
+[21:45:44]:Switching to BLACK
+[21:45:44]:Switching to WHITE!
+[21:45:44]:Switching to BLACK
+[21:45:44]:Switching to WHITE!
+[21:45:44]:Switching to BLACK
+[21:45:44]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:45]:Switching to BLACK
+[21:45:45]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:46]:Switching to BLACK
+[21:45:46]:Switching to WHITE!
+[21:45:47]:Switching to BLACK
+[21:45:47]:Switching to WHITE!
+[21:45:47]:Switching to BLACK
+[21:45:47]:Switching to WHITE!
+[21:45:47]:Switching to BLACK
+[21:45:47]:Switching to WHITE!
+[21:45:47]:Switching to BLACK
+[21:45:47]:Switching to WHITE!
+[21:45:47]:Switching to BLACK
+[21:45:47]:Switching to WHITE!
+[21:45:47]:Switching to BLACK
+[21:45:47]:Switching to WHITE!
+[21:45:47]:Switching to BLACK
+[21:45:47]:Switching to WHITE!
+[21:45:47]:Switching to BLACK
+[21:45:47]:Switching to WHITE!
+[21:45:47]:Switching to BLACK
+[21:45:47]:Switching to WHITE!
+[21:45:47]:Switching to BLACK
+[21:45:47]:Switching to WHITE!
+[21:45:47]:Switching to BLACK
+[21:45:47]:Switching to WHITE!
+[21:45:47]:Switching to BLACK
+[21:45:47]:Switching to WHITE!
+[21:45:47]:Switching to BLACK
+[21:45:47]:Switching to WHITE!
+[21:45:47]:Switching to BLACK
+[21:45:47]:Switching to WHITE!
+[21:45:47]:Switching to BLACK
+[21:45:47]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:48]:Switching to BLACK
+[21:45:48]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:49]:Switching to BLACK
+[21:45:49]:Switching to WHITE!
+[21:45:50]:Switching to BLACK
+[21:45:50]:Switching to WHITE!
+[21:45:50]:Switching to BLACK
+[21:45:50]:Switching to WHITE!
+[21:45:50]:Switching to BLACK
+[21:45:50]:Switching to WHITE!
+[21:45:50]:Switching to BLACK
+[21:45:50]:Switching to WHITE!
+[21:45:50]:Switching to BLACK
+[21:45:50]:Switching to WHITE!
+[21:45:50]:Switching to BLACK
+[21:45:50]:Switching to WHITE!
+[21:45:50]:Switching to BLACK
+[21:45:50]:Switching to WHITE!
+[21:45:50]:Switching to BLACK
+[21:45:50]:Switching to WHITE!
+[21:45:50]:Switching to BLACK
+[21:45:50]:Switching to WHITE!
+[21:45:50]:Switching to BLACK
+[21:45:50]:Switching to WHITE!
+[21:45:50]:Switching to BLACK
+[21:45:50]:Switching to WHITE!
+[21:45:50]:Switching to BLACK
+[21:45:50]:Switching to WHITE!
+[21:45:50]:Switching to BLACK
+[21:45:50]:Switching to WHITE!
+[21:45:50]:Switching to BLACK
+[21:45:50]:Switching to WHITE!
+[21:45:50]:Switching to BLACK
+[21:45:50]:Switching to WHITE!
+[21:45:50]:Switching to BLACK
+[21:45:50]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:51]:Switching to BLACK
+[21:45:51]:Switching to WHITE!
+[21:45:52]:Switching to BLACK
+[21:45:52]:Switching to WHITE!
+[21:45:52]:Switching to BLACK
+[21:45:52]:Switching to WHITE!
+[21:45:52]:Switching to BLACK
+[21:45:52]:Switching to WHITE!
+[21:45:52]:Switching to BLACK
+[21:45:52]:Switching to WHITE!
+[21:45:52]:Switching to BLACK
+[21:45:52]:Switching to WHITE!
+[21:45:52]:Switching to BLACK
+[21:45:52]:Switching to WHITE!
+[21:45:52]:Switching to BLACK
+[21:45:52]:Switching to WHITE!
+[21:45:52]:Switching to BLACK
+[21:45:52]:Switching to WHITE!
+[21:45:52]:Switching to BLACK
+[21:45:52]:Switching to WHITE!
+[21:45:52]:Switching to BLACK
+[21:45:52]:Switching to WHITE!
+[21:45:52]:Switching to BLACK
+[21:45:52]:Switching to WHITE!
+[21:45:52]:Switching to BLACK
+[21:45:52]:Switching to WHITE!
+[21:45:52]:Switching to BLACK
+[21:45:52]:Switching to WHITE!
+[21:45:52]:Switching to BLACK
+[21:45:52]:Switching to WHITE!
+[21:45:52]:Switching to BLACK
+[21:45:52]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:53]:Switching to BLACK
+[21:45:53]:Switching to WHITE!
+[21:45:54]:Switching to BLACK
+[21:45:54]:Switching to WHITE!
+[21:45:54]:Switching to BLACK
+[21:45:54]:Switching to WHITE!
+[21:45:54]:Switching to BLACK
+[21:45:54]:Switching to WHITE!
+[21:45:54]:Switching to BLACK
+[21:45:54]:Switching to WHITE!
+[21:45:54]:Switching to BLACK
+[21:45:54]:Switching to WHITE!
+[21:45:54]:Switching to BLACK
+[21:45:54]:Switching to WHITE!
+[21:45:54]:Switching to BLACK
+[21:45:54]:Switching to WHITE!
+[21:45:54]:Switching to BLACK
+[21:45:54]:Switching to WHITE!
+[21:45:54]:Switching to BLACK
+[21:45:54]:Switching to WHITE!
+[21:45:54]:Switching to BLACK
+[21:45:54]:Switching to WHITE!
+[21:45:54]:Switching to BLACK
+[21:45:54]:Switching to WHITE!
+[21:45:54]:Switching to BLACK
+[21:45:54]:Switching to WHITE!
+[21:45:54]:Switching to BLACK
+[21:45:54]:Switching to WHITE!
+[21:45:54]:Switching to BLACK
+[21:45:54]:Switching to WHITE!
+[21:45:54]:Switching to BLACK
+[21:45:54]:Switching to WHITE!
+[21:45:55]:Switching to BLACK
+[21:45:55]:Switching to WHITE!
+[21:45:55]:Switching to BLACK
+[21:45:55]:Switching to WHITE!
+[21:45:55]:Switching to BLACK
+[21:45:55]:Switching to WHITE!
+[21:45:55]:Switching to BLACK
+[21:45:55]:Switching to WHITE!
+[21:45:55]:Switching to BLACK
+[21:45:55]:Switching to WHITE!
+[21:45:55]:Starting session
+[21:45:55]:Press any key to connect...
+[21:45:57]:Attempting to connect...
+[21:45:58]:Connection established!
+[21:45:58]:Grabbing initial sensor readings...
+[21:45:58]:Ready!
+[21:45:58]:Sent STAY_ALIVE (0x0D) message
+[21:46:00]:Starting remote control!
+[21:46:00]:Stopping all motors
+[21:46:01]:Exiting remote control.
+[21:46:10]:Starting left side autonomous control
+[21:46:12]:Switching to BLACK
+[21:46:12]:Switching to WHITE!
+[21:46:13]:Switching to BLACK
+[21:46:14]:Switching to WHITE!
+[21:46:15]:Switching to BLACK
+[21:46:16]:Switching to WHITE!
+[21:46:17]:Switching to BLACK
+[21:46:19]:Switching to WHITE!
+[21:46:20]:Switching to BLACK
+[21:46:21]:Switching to WHITE!
+[21:46:22]:Switching to BLACK
+[21:46:23]:Switching to WHITE!
+[21:46:24]:Switching to BLACK
+[21:46:25]:Switching to WHITE!
+[21:46:26]:Switching to BLACK
+[21:46:27]:Switching to WHITE!
+[21:46:28]:Switching to BLACK
+[21:46:30]:Switching to WHITE!
+[21:46:31]:Switching to BLACK
+[21:46:32]:Switching to WHITE!
+[21:46:33]:Switching to BLACK
+[21:46:34]:Switching to WHITE!
+[21:46:35]:Switching to BLACK
+[21:46:36]:Switching to WHITE!
+[21:46:37]:Switching to BLACK
+[21:46:38]:Switching to WHITE!
+[21:46:39]:Switching to BLACK
+[21:46:40]:Switching to WHITE!
+[21:46:42]:Switching to BLACK
+[21:46:43]:Dispensing
+[21:46:43]:Switching to WHITE!
+[21:46:43]:BACKING UP!
+[21:46:44]:TURNING!
+[21:46:44]:Switching to WHITE
+[21:46:48]:Switching to BLACK!
+[21:46:50]:Switching to WHITE
+[21:46:51]:Switching to BLACK!
+[21:46:52]:Switching to WHITE
+[21:46:53]:Switching to BLACK!
+[21:46:55]:Switching to WHITE
+[21:46:56]:Switching to BLACK!
+[21:46:57]:Switching to WHITE
+[21:46:58]:Switching to BLACK!
+[21:46:58]:Sent STAY_ALIVE (0x0D) message
+[21:46:58]:Switching to WHITE
+[21:46:59]:Switching to BLACK!
+[21:47:01]:Switching to WHITE
+[21:47:03]:Switching to BLACK!
+[21:47:04]:Switching to WHITE
+[21:47:05]:Switching to BLACK!
+[21:47:06]:Switching to WHITE
+[21:47:07]:Switching to BLACK!
+[21:47:08]:Switching to WHITE
+[21:47:09]:Switching to BLACK!
+[21:47:11]:Switching to WHITE
+[21:47:12]:Switching to BLACK!
+[21:47:12]:Switching to WHITE
+[21:47:13]:Switching to BLACK!
+[21:47:14]:Switching to WHITE
+[21:47:15]:Switching to BLACK!
+[21:47:16]:Switching to WHITE
+[21:47:17]:Switching to BLACK!
+[21:47:18]:Switching to WHITE
+[21:47:19]:Switching to BLACK!
+[21:47:20]:Switching to WHITE
+[21:47:21]:Switching to BLACK!
+[21:47:22]:Switching to WHITE
+[21:48:04]:Starting session
+[21:48:04]:Press any key to connect...
+[21:48:04]:Attempting to connect...
+[21:48:09]:Connection established!
+[21:48:09]:Grabbing initial sensor readings...
+[21:48:09]:Ready!
+[21:48:09]:Sent STAY_ALIVE (0x0D) message
+[21:48:10]:Starting remote control!
+[21:48:10]:Stopping all motors
+[21:48:11]:Exiting remote control.
+[21:48:26]:Starting remote control!
+[21:48:27]:Stopping all motors
+[21:48:27]:Stopping all motors
+[21:48:27]:Stopping all motors
+[21:48:27]:Stopping all motors
+[21:48:28]:Stopping all motors
+[21:48:28]:Stopping all motors
+[21:48:28]:Stopping all motors
+[21:48:28]:Stopping all motors
+[21:48:28]:Stopping all motors
+[21:48:28]:Stopping all motors
+[21:48:28]:Stopping all motors
+[21:48:29]:Stopping all motors
+[21:48:29]:Stopping all motors
+[21:48:29]:Stopping all motors
+[21:48:29]:Stopping all motors
+[21:48:30]:Stopping all motors
+[21:48:36]:Starting session
+[21:48:36]:Press any key to connect...
+[21:48:37]:Attempting to connect...
+[21:48:37]:ERROR: failed to connect!
+[21:48:37]:Press any key to continue...
+[21:48:39]:Starting session
+[21:48:39]:Press any key to connect...
+[21:48:39]:Attempting to connect...
+[21:48:44]:Connection established!
+[21:48:44]:Grabbing initial sensor readings...
+[21:48:44]:Ready!
+[21:48:44]:Sent STAY_ALIVE (0x0D) message
+[21:48:45]:Starting session
+[21:48:45]:Press any key to connect...
+[21:48:46]:Attempting to connect...
+[21:48:47]:Connection established!
+[21:48:47]:Grabbing initial sensor readings...
+[21:48:47]:Ready!
+[21:48:47]:Sent STAY_ALIVE (0x0D) message
+[21:48:49]:Starting session
+[21:48:49]:Press any key to connect...
+[21:48:49]:Attempting to connect...
+[21:48:50]:Connection established!
+[21:48:50]:Grabbing initial sensor readings...
+[21:48:50]:Ready!
+[21:48:50]:Sent STAY_ALIVE (0x0D) message
+[21:48:52]:Starting session
+[21:48:52]:Press any key to connect...
+[21:48:52]:Attempting to connect...
+[21:48:53]:Connection established!
+[21:48:53]:Grabbing initial sensor readings...
+[21:48:53]:Ready!
+[21:48:53]:Sent STAY_ALIVE (0x0D) message
+[21:48:55]:Starting left side autonomous control
+[21:48:58]:Switching to BLACK
+[21:49:01]:Switching to WHITE!
+[21:49:03]:Switching to BLACK
+[21:49:04]:Switching to WHITE!
+[21:49:05]:Switching to BLACK
+[21:49:06]:Switching to WHITE!
+[21:49:07]:Switching to BLACK
+[21:49:08]:Switching to WHITE!
+[21:49:09]:Switching to BLACK
+[21:49:10]:Switching to WHITE!
+[21:49:11]:Switching to BLACK
+[21:49:13]:Switching to WHITE!
+[21:49:14]:Switching to BLACK
+[21:49:15]:Switching to WHITE!
+[21:49:16]:Switching to BLACK
+[21:49:17]:Switching to WHITE!
+[21:49:18]:Switching to BLACK
+[21:49:19]:Switching to WHITE!
+[21:49:20]:Switching to BLACK
+[21:49:21]:Switching to WHITE!
+[21:49:22]:Switching to BLACK
+[21:49:23]:Switching to WHITE!
+[21:49:24]:Switching to BLACK
+[21:49:25]:Dispensing
+[21:49:25]:Switching to WHITE!
+[21:49:25]:BACKING UP!
+[21:49:26]:TURNING!
+[21:49:30]:Switching to WHITE
+[21:49:32]:Switching to BLACK!
+[21:49:33]:Switching to WHITE
+[21:49:34]:Switching to BLACK!
+[21:49:36]:Switching to WHITE
+[21:49:37]:Switching to BLACK!
+[21:49:38]:Switching to WHITE
+[21:49:39]:Switching to BLACK!
+[21:49:40]:Switching to WHITE
+[21:49:41]:Switching to BLACK!
+[21:49:42]:Switching to WHITE
+[21:49:43]:Switching to BLACK!
+[21:49:45]:Switching to WHITE
+[21:49:47]:Switching to BLACK!
+[21:49:48]:Switching to WHITE
+[21:49:49]:Switching to BLACK!
+[21:49:50]:Switching to WHITE
+[21:49:51]:Switching to BLACK!
+[21:49:53]:Switching to WHITE
+[21:49:53]:Sent STAY_ALIVE (0x0D) message
+[21:49:54]:Switching to BLACK!
+[21:49:55]:Switching to WHITE
+[21:49:55]:Switching to BLACK!
+[21:49:56]:Switching to WHITE
+[21:49:57]:Switching to BLACK!
+[21:49:58]:Switching to WHITE
+[21:49:59]:Switching to BLACK!
+[21:50:00]:Switching to WHITE
+[21:50:02]:Switching to BLACK!
+[21:50:03]:Switching to WHITE
+[21:50:04]:Switching to BLACK!
+[21:50:05]:Switching to WHITE
+[21:50:06]:Switching to BLACK!
+[21:50:06]:Switching to WHITE
+[21:50:07]:Switching to BLACK!
+[21:50:10]:Starting session
+[21:50:10]:Press any key to connect...
+[21:50:10]:Attempting to connect...
+[21:50:10]:ERROR: failed to connect!
+[21:50:10]:Press any key to continue...
+[21:50:12]:Starting session
+[21:50:12]:Press any key to connect...
+[21:50:13]:Attempting to connect...
+[21:50:17]:Connection established!
+[21:50:17]:Grabbing initial sensor readings...
+[21:50:17]:Ready!
+[21:50:17]:Sent STAY_ALIVE (0x0D) message
+[21:50:18]:Starting remote control!
+[21:50:19]:Exiting remote control.
+[21:50:52]:Starting left side autonomous control
+[21:50:53]:Switching to BLACK
+[21:50:54]:Switching to WHITE!
+[21:50:54]:Switching to BLACK
+[21:50:56]:Switching to WHITE!
+[21:50:57]:Switching to BLACK
+[21:50:58]:Switching to WHITE!
+[21:50:59]:Switching to BLACK
+[21:51:00]:Switching to WHITE!
+[21:51:01]:Switching to BLACK
+[21:51:03]:Switching to WHITE!
+[21:51:05]:Switching to BLACK
+[21:51:07]:Switching to WHITE!
+[21:51:08]:Switching to BLACK
+[21:51:09]:Switching to WHITE!
+[21:51:10]:Switching to BLACK
+[21:51:11]:Switching to WHITE!
+[21:51:12]:Switching to BLACK
+[21:51:14]:Switching to WHITE!
+[21:51:15]:Switching to BLACK
+[21:51:16]:Switching to WHITE!
+[21:51:17]:Switching to BLACK
+[21:51:17]:Sent STAY_ALIVE (0x0D) message
+[21:51:18]:Switching to WHITE!
+[21:51:18]:Switching to BLACK
+[21:51:19]:Switching to WHITE!
+[21:51:19]:Switching to BLACK
+[21:51:20]:Switching to WHITE!
+[21:51:21]:Switching to BLACK
+[21:51:23]:Switching to WHITE!
+[21:51:24]:Switching to BLACK
+[21:51:25]:Switching to WHITE!
+[21:51:26]:Switching to BLACK
+[21:51:27]:Dispensing
+[21:51:27]:Switching to WHITE!
+[21:51:27]:BACKING UP!
+[21:51:28]:TURNING!
+[21:51:31]:Switching to WHITE
+[21:51:33]:Switching to BLACK!
+[21:51:34]:Switching to WHITE
+[21:51:36]:Switching to BLACK!
+[21:51:37]:Switching to WHITE
+[21:51:38]:Switching to BLACK!
+[21:51:39]:Switching to WHITE
+[21:51:40]:Switching to BLACK!
+[21:51:42]:Switching to WHITE
+[21:51:42]:Switching to BLACK!
+[21:51:43]:Switching to WHITE
+[21:51:44]:Switching to BLACK!
+[21:51:45]:Switching to WHITE
+[21:51:46]:Switching to BLACK!
+[21:51:47]:Switching to WHITE
+[21:51:48]:Switching to BLACK!
+[21:51:49]:Switching to WHITE
+[21:51:51]:Switching to BLACK!
+[21:51:52]:Switching to WHITE
+[21:51:52]:Switching to BLACK!
+[21:51:54]:Switching to WHITE
+[21:51:55]:Switching to BLACK!
+[21:51:56]:Switching to WHITE
+[21:51:58]:Switching to BLACK!
+[21:51:59]:Switching to WHITE
+[21:52:00]:Switching to BLACK!
+[21:52:01]:Switching to WHITE
+[21:52:02]:Switching to BLACK!
+[21:52:03]:Switching to WHITE
+[21:52:05]:Starting session
+[21:52:05]:Press any key to connect...
+[21:52:07]:Attempting to connect...
+[21:52:12]:Connection established!
+[21:52:12]:Grabbing initial sensor readings...
+[21:52:12]:Ready!
+[21:52:12]:Sent STAY_ALIVE (0x0D) message
+[21:52:14]:Starting remote control!
+[21:52:15]:Exiting remote control.
+[21:52:52]:Starting left side autonomous control
+[21:52:55]:Switching to BLACK
+[21:52:57]:Switching to WHITE!
+[21:52:59]:Switching to BLACK
+[21:53:01]:Switching to WHITE!
+[21:53:03]:Switching to BLACK
+[21:53:04]:Switching to WHITE!
+[21:53:05]:Switching to BLACK
+[21:53:06]:Switching to WHITE!
+[21:53:07]:Switching to BLACK
+[21:53:09]:Switching to WHITE!
+[21:53:11]:Switching to BLACK
+[21:53:12]:Switching to WHITE!
+[21:53:12]:Sent STAY_ALIVE (0x0D) message
+[21:53:14]:Switching to BLACK
+[21:53:15]:Switching to WHITE!
+[21:53:16]:Switching to BLACK
+[21:53:17]:Switching to WHITE!
+[21:53:18]:Switching to BLACK
+[21:53:19]:Switching to WHITE!
+[21:53:20]:Switching to BLACK
+[21:53:22]:Switching to WHITE!
+[21:53:25]:Switching to BLACK
+[21:53:26]:Dispensing
+[21:53:26]:Switching to WHITE!
+[21:53:26]:BACKING UP!
+[21:53:27]:TURNING!
+[21:53:33]:Switching to WHITE
+[21:53:43]:Starting session
+[21:53:43]:Press any key to connect...
+[21:53:44]:Attempting to connect...
+[21:53:48]:Connection established!
+[21:53:48]:Grabbing initial sensor readings...
+[21:53:48]:Ready!
+[21:53:48]:Sent STAY_ALIVE (0x0D) message
+[21:53:51]:Starting session
+[21:53:51]:Press any key to connect...
+[21:53:53]:Attempting to connect...
+[21:53:58]:Connection established!
+[21:53:58]:Grabbing initial sensor readings...
+[21:53:59]:Ready!
+[21:53:59]:Sent STAY_ALIVE (0x0D) message
+[21:54:00]:Starting session
+[21:54:00]:Press any key to connect...
+[21:54:00]:Attempting to connect...
+[21:54:02]:Connection established!
+[21:54:02]:Grabbing initial sensor readings...
+[21:54:02]:Ready!
+[21:54:02]:Sent STAY_ALIVE (0x0D) message
+[21:54:04]:Starting session
+[21:54:04]:Press any key to connect...
+[21:54:04]:Attempting to connect...
+[21:54:06]:Connection established!
+[21:54:06]:Grabbing initial sensor readings...
+[21:54:06]:Ready!
+[21:54:06]:Sent STAY_ALIVE (0x0D) message
+[21:54:07]:Starting remote control!
+[21:54:07]:Exiting remote control.
+[21:54:55]:Starting left side autonomous control
+[21:54:58]:Switching to BLACK
+[21:55:00]:Switching to WHITE!
+[21:55:01]:Switching to BLACK
+[21:55:03]:Switching to WHITE!
+[21:55:04]:Switching to BLACK
+[21:55:05]:Switching to WHITE!
+[21:55:06]:Sent STAY_ALIVE (0x0D) message
+[21:55:06]:Switching to BLACK
+[21:55:07]:Switching to WHITE!
+[21:55:07]:Switching to BLACK
+[21:55:09]:Switching to WHITE!
+[21:55:10]:Switching to BLACK
+[21:55:11]:Switching to WHITE!
+[21:55:12]:Switching to BLACK
+[21:55:13]:Switching to WHITE!
+[21:55:14]:Switching to BLACK
+[21:55:15]:Switching to WHITE!
+[21:55:16]:Switching to BLACK
+[21:55:17]:Switching to WHITE!
+[21:55:18]:Switching to BLACK
+[21:55:18]:Switching to WHITE!
+[21:55:19]:Switching to BLACK
+[21:55:20]:Switching to WHITE!
+[21:55:21]:Switching to BLACK
+[21:55:22]:Dispensing
+[21:55:22]:Switching to WHITE!
+[21:55:22]:BACKING UP!
+[21:55:23]:TURNING!
+[21:55:23]:Switching to WHITE
+[21:55:28]:Switching to BLACK!
+[21:55:30]:Switching to WHITE
+[21:55:31]:Switching to BLACK!
+[21:55:33]:Switching to WHITE
+[21:55:35]:Switching to BLACK!
+[21:55:36]:Switching to WHITE
+[21:55:37]:Switching to BLACK!
+[21:55:38]:Switching to WHITE
+[21:55:39]:Switching to BLACK!
+[21:55:40]:Switching to WHITE
+[21:55:41]:Switching to BLACK!
+[21:55:43]:Switching to WHITE
+[21:55:44]:Switching to BLACK!
+[21:55:45]:Switching to WHITE
+[21:55:46]:Switching to BLACK!
+[21:55:47]:Switching to WHITE
+[21:55:48]:Switching to BLACK!
+[21:55:49]:Switching to WHITE
+[21:55:49]:Switching to BLACK!
+[21:55:50]:Switching to WHITE
+[21:55:51]:Switching to BLACK!
+[21:55:53]:Switching to WHITE
+[21:55:55]:Switching to BLACK!
+[21:55:56]:Switching to WHITE
+[21:55:57]:Switching to BLACK!
+[21:55:58]:Switching to WHITE
+[21:55:59]:Switching to BLACK!
+[21:56:00]:Switching to WHITE
+[21:56:01]:Switching to BLACK!
+[21:56:02]:Switching to WHITE
+[21:56:03]:Switching to BLACK!
+[21:56:04]:Starting session
+[21:56:04]:Press any key to connect...
+[21:56:05]:Attempting to connect...
+[21:56:07]:Connection established!
+[21:56:07]:Grabbing initial sensor readings...
+[21:56:07]:Ready!
+[21:56:07]:Sent STAY_ALIVE (0x0D) message
+[21:56:09]:Starting remote control!
+[21:56:09]:Exiting remote control.
+[21:57:07]:Sent STAY_ALIVE (0x0D) message
+[21:58:07]:Sent STAY_ALIVE (0x0D) message
+[21:59:26]:Starting session
+[21:59:26]:Press any key to connect...
+[21:59:26]:Attempting to connect...
+[21:59:31]:Connection established!
+[21:59:31]:Grabbing initial sensor readings...
+[21:59:31]:Ready!
+[21:59:31]:Sent STAY_ALIVE (0x0D) message
+[21:59:33]:Starting session
+[21:59:33]:Press any key to connect...
+[21:59:34]:Attempting to connect...
+[21:59:35]:Connection established!
+[21:59:35]:Grabbing initial sensor readings...
+[21:59:35]:Ready!
+[21:59:35]:Sent STAY_ALIVE (0x0D) message
+[21:59:37]:Starting left side autonomous control
+[21:59:38]:Switching to BLACK
+[21:59:38]:Switching to WHITE!
+[21:59:38]:Switching to BLACK
+[21:59:39]:Switching to WHITE!
+[21:59:44]:Switching to BLACK
+[21:59:45]:Switching to WHITE!
+[21:59:46]:Switching to BLACK
+[21:59:46]:Switching to WHITE!
+[21:59:46]:Switching to BLACK
+[21:59:47]:Switching to WHITE!
+[21:59:48]:Switching to BLACK
+[21:59:48]:Switching to WHITE!
+[21:59:49]:Switching to BLACK
+[21:59:49]:Switching to WHITE!
+[21:59:50]:Switching to BLACK
+[21:59:50]:Switching to WHITE!
+[21:59:51]:Switching to BLACK
+[21:59:51]:Switching to WHITE!
+[21:59:52]:Switching to BLACK
+[21:59:52]:Switching to WHITE!
+[22:00:02]:TIMER DONE! push sensor now active!
+[22:00:08]:Switching to BLACK
+[22:00:08]:Switching to WHITE!
+[22:00:09]:Switching to BLACK
+[22:00:09]:Switching to WHITE!
+[22:00:16]:Switching to BLACK
+[22:00:17]:Switching to WHITE!
+[22:00:17]:Switching to BLACK
+[22:00:18]:Switching to WHITE!
+[22:00:21]:Switching to BLACK
+[22:00:21]:Dispensing
+[22:00:21]:Switching to WHITE!
+[22:00:21]:BACKING UP!
+[22:00:22]:TURNING!
+[22:00:22]:Switching to WHITE
+[22:00:29]:Switching to BLACK!
+[22:00:29]:Switching to WHITE
+[22:00:30]:Switching to BLACK!
+[22:00:30]:Switching to WHITE
+[22:00:31]:Switching to BLACK!
+[22:00:31]:Switching to WHITE
+[22:00:32]:Switching to BLACK!
+[22:00:32]:Switching to WHITE
+[22:00:35]:Sent STAY_ALIVE (0x0D) message
+[22:00:38]:Switching to BLACK!
+[22:00:39]:Switching to WHITE
+[22:00:40]:Switching to BLACK!
+[22:00:40]:Switching to WHITE
+[22:00:43]:Switching to BLACK!
+[22:00:44]:Switching to WHITE
+[22:00:45]:Switching to BLACK!
+[22:00:45]:Switching to WHITE
+[22:00:45]:Switching to BLACK!
+[22:00:46]:Switching to WHITE
+[22:00:46]:Switching to BLACK!
+[22:00:47]:Switching to WHITE
+[22:00:48]:Switching to BLACK!
+[22:00:48]:Switching to WHITE
+[22:00:48]:Switching to BLACK!
+[22:00:49]:Switching to WHITE
+[22:00:49]:Switching to BLACK!
+[22:00:49]:Switching to WHITE
+[22:00:49]:Switching to BLACK!
+[22:00:49]:Switching to WHITE
+[22:00:52]:Switching to BLACK!
+[22:00:52]:Switching to WHITE
+[22:00:53]:Switching to BLACK!
+[22:00:53]:Switching to WHITE
+[22:00:54]:Switching to BLACK!
+[22:00:55]:Switching to WHITE
+[22:00:57]:Switching to BLACK!
+[22:00:59]:Starting session
+[22:00:59]:Press any key to connect...
+[22:00:59]:Attempting to connect...
+[22:01:00]:Connection established!
+[22:01:00]:Grabbing initial sensor readings...
+[22:01:01]:Ready!
+[22:01:01]:Sent STAY_ALIVE (0x0D) message
+[22:01:02]:Starting remote control!
+[22:01:02]:Exiting remote control.
+[22:02:01]:Sent STAY_ALIVE (0x0D) message

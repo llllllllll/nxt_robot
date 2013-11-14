@@ -65,8 +65,8 @@ SCR *alloc_SCR(NXT *nxt){
     scr->s1 = NXT_get_sensorstate(nxt,SENSOR_2);
     scr->s2 = NXT_get_sensorstate(nxt,SENSOR_3);
     scr->s3 = NXT_get_sensorstate(nxt,SENSOR_4);
-    //NXT_set_input_mode(nxt,SENSOR_1,LIGHT_ACTIVE,BOOLEAN_MODE,0,NULL);
-    //NXT_set_input_mode(nxt,SENSOR_4,REFLECTION,RAW_MODE,0,NULL);
+    NXT_set_input_mode(nxt,SENSOR_1,LIGHT_ACTIVE,BOOLEAN_MODE,0,NULL);
+    NXT_set_input_mode(nxt,SENSOR_2,SWITCH,RAW_MODE,0,NULL);
     SCR_writelnattr(scr,"Ready!",GREEN_PAIR | A_BOLD);
     pthread_create(&scr->stay_alive_thread,NULL,stay_alive_tf,scr);
     SCR_refresh(scr);
@@ -290,13 +290,13 @@ void SCR_handle_opts(SCR *scr){
 	case 1:
 	    SCR_writelnattr(scr,"Starting right side autonomous control",
 			    GREEN_PAIR);
-	    r_left(scr,scr->nxt);
+	    //r_right(scr,scr->nxt);
 	    //return;
 	    break;
 	case 2:
 	    SCR_writelnattr(scr,"Starting left side autonomous control",
 			    GREEN_PAIR);
-	    //r_right(this);
+	    r_left(scr,scr->nxt);
 	    //return;
 	    break;
 	}
