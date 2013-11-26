@@ -40,7 +40,7 @@ void r_remote(SCR *scr,NXT *nxt){
 	    scr->m2->run_state = RUNNING;
 	    scr->m2->tacho_count = 0;
 	    NXT_set_motorstate(nxt,scr->m2,0,NULL);
-	    while(scr->m2->tacho_count < 30){
+	    while(scr->m2->tacho_count < 80){
 		free(scr->m2);
 		scr->m2 = NXT_get_motorstate(nxt,MOTOR_C);
 	    }

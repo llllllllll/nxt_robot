@@ -47,9 +47,9 @@ SCR *alloc_SCR(NXT *nxt){
     getch();
     SCR_writelnattr(scr,"Attempting to connect...",DEFAULT_PAIR);
     if(NXT_connect(nxt,MAC_ADDRESS)){
-        SCR_writelnattr(scr,"ERROR: failed to connect!",
-				  RED_PAIR | A_BOLD);
-        SCR_writelnattr(scr,"Press any key to continue...",A_BOLD);
+	SCR_writelnattr(scr,"ERROR: failed to connect!",
+			RED_PAIR | A_BOLD);
+	SCR_writelnattr(scr,"Press any key to continue...",A_BOLD);
 	getch();
 	endwin();
 	free(scr);
@@ -60,7 +60,7 @@ SCR *alloc_SCR(NXT *nxt){
     scr->m2 = NXT_get_motorstate(nxt,MOTOR_C);
     SCR_writelnattr(scr,"Connection established!",GREEN_PAIR);
     SCR_writelnattr(scr,"Grabbing initial sensor readings...",
-			      DEFAULT_PAIR);
+		    DEFAULT_PAIR);
     scr->s0 = NXT_get_sensorstate(nxt,SENSOR_1);
     scr->s1 = NXT_get_sensorstate(nxt,SENSOR_2);
     scr->s2 = NXT_get_sensorstate(nxt,SENSOR_3);
@@ -290,14 +290,14 @@ void SCR_handle_opts(SCR *scr){
 	case 1:
 	    SCR_writelnattr(scr,"Starting right side autonomous control",
 			    GREEN_PAIR);
-	    //r_right(scr,scr->nxt);
-	    //return;
+	    r_right(scr,scr->nxt);
+	    return;
 	    break;
 	case 2:
 	    SCR_writelnattr(scr,"Starting left side autonomous control",
 			    GREEN_PAIR);
 	    r_left(scr,scr->nxt);
-	    //return;
+	    return;
 	    break;
 	}
 	break;
